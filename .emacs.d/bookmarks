@@ -1,0 +1,20 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-capture-last-stored-marker"
+ (filename . "g:/shuai-files/GTD/inbox.org")
+ (front-context-string . "* TODO make mone")
+ (rear-context-string . "10-07 周五 22:32]\n")
+ (position . 29121))
+("org-refile-last-stored"
+ (filename . "g:/emacs-notes/GTD/finished.org")
+ (front-context-string . "* DONE 找工作相关帖子总结")
+ (rear-context-string . "10-08 周六 12:13]\n")
+ (position . 60825))
+("org-capture-last-stored"
+ (filename . "g:/emacs-notes/GTD/inbox.org")
+ (front-context-string . "* TODO 《技术写作手册》 ")
+ (rear-context-string . "11-20 周日 22:51]\n")
+ (position . 39826))
+)

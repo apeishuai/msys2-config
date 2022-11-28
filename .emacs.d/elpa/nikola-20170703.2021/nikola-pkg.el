@@ -1,0 +1,2 @@
+;;; Generated package description from nikola-20170703.2021/nikola.el  -*- no-byte-compile: t -*-
+(define-package "nikola" "20170703.2021" "Simple wrapper for nikola" '((async "1.5") (emacs "24.3")) :commit "964715ac30943c9d6976999cad208dc60d09def0" :authors '((": drymer <drymer [ AT ] autistici.org>")) :maintainer '(": drymer <drymer [ AT ] autistici.org>") :keywords '(":" "nikola") :url ": https://git.daemons.it/drymer/nikola.el")

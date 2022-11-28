@@ -1,0 +1,128 @@
+exit
+echo $C_INCLUDE_PATH
+pwd
+exit
+gcc
+echo gcc
+enc
+env
+echo $path
+echo $PATH
+echo $C_INCLUDE_PATH
+CLEAR
+clear
+echo $LIBRARY_PATH
+exit
+yum installed
+exit
+yum list installed
+exit
+gcc
+echo $PATH
+cd /usr/local/bin
+grep gcc
+ls
+exit
+man gcc
+info gcc
+gcc help
+gcc --help
+gcc --help > xx.txt
+exit
+ls
+pwd
+gcc tool.c -o tool.o
+gcc tool.c -o tool.o -Wall
+gcc tool.c -o tool.o -Wall -l .
+gcc tool.c -o tool.o -Wall -l ../temp/
+gcc tool.c -o tool.o -Wall -I ../temp/
+ls
+exit
+gcc main.c -o a.o -Wall -I ../temp/
+ls
+./a.o 
+clear
+gcc main.c -o a.o -Wall -I ../temp/
+exit
+mkdir include
+ls
+exit
+ls
+mv tool.c include/
+mv tool.h include/
+clear
+ls
+exit
+gcc main.c -o a.o -Wall -I include/
+cd include/
+ls
+exit
+cd ..
+gcc main.c -o a.o -Wall -I include/
+gcc main.c -o a.o -w -I include/
+./a
+./a.o 
+clear
+exit
+cd temp/
+ls
+mkdir sr
+rm -rf sr
+mkdir src
+ls
+clear
+ls
+mv include/tool.c src/
+ls
+clear
+ls
+cd src
+ls
+exit
+cd temp/src/
+ls
+exit
+gcc -o a.o tool.c -Wall -I ../include/
+exit
+gcc -o a.o tool.c -Wall -I ../include/
+exit
+gcc -o a.o main.c -Wall -I ../include/
+gcc -o a.o main.c -Wall -I include/
+exit
+exit
+(print image-library-alist)
+print image-library-alist
+exit
+systemctl start mysql
+mysql
+systemctl stop mysql
+mysql
+ERROR 1045 (28000): Access denied for user 'shuai'@'localhost' (using password: NO)exit
+exit
+mysql
+systemctl start mysql
+mysql
+sudo mysql
+mysql --help
+exitbinary-mode                       FALSE
+exit
+mysql --help
+exitbinary-mode                       FALSE
+exit
+mysql --help
+exit
+tail /var/log/mysql/
+sudo tail /var/log/mysql.log
+exit
+cd /var/log
+ls
+mysql --help
+exit
+ls
+mv soft_install.sh Shell/
+mv LinuxBash01-服务器系统初始化配置.org Shell/
+exit
+git add 《设计规则\ 模块化的力量》.org 
+git commit -m "add file 《设计规则 模块化力量》,first commit"
+git push origin main
+exit
