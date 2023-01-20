@@ -1,0 +1,79 @@
+<img src="https://gw.alipayobjects.com/zos/k/hw/nKpxgp.jpg" width="800/">  
+<p><small>国庆去西双版纳玩了几天，主要任务就是吃各类 TOP 好吃的，封面图为那边网红咖啡婉泰，里面老挝咖啡用塑料袋装着，几天每次不重样的好喝。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="前端技术">前端技术</h2>
+<p><strong>在 VR 环境中编程</strong><br>
+<a href="https://blog.immersed.team/working-from-orbit-39bf95a6d385">https://blog.immersed.team/working-from-orbit-39bf95a6d385</a><br>
+真心觉得这样很潮流，不过可能容易头晕写 BUG。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-10-10/6cAyDl.png" width="600/"></p>
+<p><strong>字节跳动是如何落地微前端的</strong><br>
+<a href="https://juejin.cn/post/7016911648656982024">https://juejin.cn/post/7016911648656982024</a><br>
+看看字节怎么玩的。</p>
+<p><strong>分享一年以来的 Electron 开发经验</strong><br>
+<a href="https://juejin.cn/post/7016534471734198279">https://juejin.cn/post/7016534471734198279</a><br>
+也是字节的一篇关于 Electron 开发经验的梳理知识文章。</p>
+<p><strong>GoPlus：go+ 语言</strong><br>
+<a href="https://github.com/goplus/gop">https://github.com/goplus/gop</a><br>
+用于工程、STEM 教育和数据科学的 Go+语言。</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">a </span><span style="color: #FF7B72">:=</span><span style="color: #C9D1D9"> [x</span><span style="color: #FF7B72">*</span><span style="color: #C9D1D9">x </span><span style="color: #FF7B72">for</span><span style="color: #C9D1D9"> x </span><span style="color: #FF7B72">&#x3C;-</span><span style="color: #C9D1D9"> [</span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">7</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">11</span><span style="color: #C9D1D9">]]</span></span>
+<span class="line"><span style="color: #C9D1D9">b </span><span style="color: #FF7B72">:=</span><span style="color: #C9D1D9"> [x</span><span style="color: #FF7B72">*</span><span style="color: #C9D1D9">x </span><span style="color: #FF7B72">for</span><span style="color: #C9D1D9"> x </span><span style="color: #FF7B72">&#x3C;-</span><span style="color: #C9D1D9"> [</span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">7</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">11</span><span style="color: #C9D1D9">], x </span><span style="color: #FF7B72">></span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">]</span></span>
+<span class="line"><span style="color: #C9D1D9">c </span><span style="color: #FF7B72">:=</span><span style="color: #C9D1D9"> [i</span><span style="color: #FF7B72">+</span><span style="color: #C9D1D9">v </span><span style="color: #FF7B72">for</span><span style="color: #C9D1D9"> i, v </span><span style="color: #FF7B72">&#x3C;-</span><span style="color: #C9D1D9"> [</span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">7</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">11</span><span style="color: #C9D1D9">], i</span><span style="color: #FF7B72">%</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">==</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">]</span></span>
+<span class="line"><span style="color: #C9D1D9">d </span><span style="color: #FF7B72">:=</span><span style="color: #C9D1D9"> [k</span><span style="color: #FF7B72">+</span><span style="color: #A5D6FF">","</span><span style="color: #FF7B72">+</span><span style="color: #C9D1D9">s </span><span style="color: #FF7B72">for</span><span style="color: #C9D1D9"> k, s </span><span style="color: #FF7B72">&#x3C;-</span><span style="color: #C9D1D9"> {</span><span style="color: #A5D6FF">"Hello"</span><span style="color: #C9D1D9">: </span><span style="color: #A5D6FF">"xsw"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"Hi"</span><span style="color: #C9D1D9">: </span><span style="color: #A5D6FF">"Go+"</span><span style="color: #C9D1D9">}]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">arr </span><span style="color: #FF7B72">:=</span><span style="color: #C9D1D9"> [</span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">4</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">6</span><span style="color: #C9D1D9">]</span></span>
+<span class="line"><span style="color: #C9D1D9">e </span><span style="color: #FF7B72">:=</span><span style="color: #C9D1D9"> [[a, b] </span><span style="color: #FF7B72">for</span><span style="color: #C9D1D9"> a </span><span style="color: #FF7B72">&#x3C;-</span><span style="color: #C9D1D9"> arr, a </span><span style="color: #FF7B72">&#x3C;</span><span style="color: #C9D1D9"> b </span><span style="color: #FF7B72">for</span><span style="color: #C9D1D9"> b </span><span style="color: #FF7B72">&#x3C;-</span><span style="color: #C9D1D9"> arr, b </span><span style="color: #FF7B72">></span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">x </span><span style="color: #FF7B72">:=</span><span style="color: #C9D1D9"> {x: i </span><span style="color: #FF7B72">for</span><span style="color: #C9D1D9"> i, x </span><span style="color: #FF7B72">&#x3C;-</span><span style="color: #C9D1D9"> [</span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">7</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">11</span><span style="color: #C9D1D9">]}</span></span>
+<span class="line"><span style="color: #C9D1D9">y </span><span style="color: #FF7B72">:=</span><span style="color: #C9D1D9"> {x: i </span><span style="color: #FF7B72">for</span><span style="color: #C9D1D9"> i, x </span><span style="color: #FF7B72">&#x3C;-</span><span style="color: #C9D1D9"> [</span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">7</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">11</span><span style="color: #C9D1D9">], i</span><span style="color: #FF7B72">%</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">==</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">}</span></span>
+<span class="line"><span style="color: #C9D1D9">z </span><span style="color: #FF7B72">:=</span><span style="color: #C9D1D9"> {v: k </span><span style="color: #FF7B72">for</span><span style="color: #C9D1D9"> k, v </span><span style="color: #FF7B72">&#x3C;-</span><span style="color: #C9D1D9"> {</span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">: </span><span style="color: #A5D6FF">"Hello"</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">: </span><span style="color: #A5D6FF">"Hi"</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">: </span><span style="color: #A5D6FF">"xsw"</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">7</span><span style="color: #C9D1D9">: </span><span style="color: #A5D6FF">"Go+"</span><span style="color: #C9D1D9">}, k </span><span style="color: #FF7B72">></span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">}</span></span>
+<span class="line"></span></code></pre>
+<p><strong>说一说 Web 端侧 AI</strong><br>
+<a href="https://mp.weixin.qq.com/s/9PoFZVs7jiI992y6MWLqUQ">https://mp.weixin.qq.com/s/9PoFZVs7jiI992y6MWLqUQ</a><br>
+本文主要是给大家介绍什么是端智能，端智能的应用场景以及 Web 端侧实现 AI 的基本原理概念。</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>react-windows-ui：windows 效果的 React Ui 库</strong><br>
+<a href="https://github.com/virtualvivek/react-windows-ui">https://github.com/virtualvivek/react-windows-ui</a><br>
+效果很逼真，说不定哪天就用得上。<br>
+<imgs src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-10-10/QLVMji.png" width="600/"></imgs></p>
+<p><strong>graphics：几何形状集合</strong><br>
+<a href="https://tool.graphics/shapes">https://tool.graphics/shapes</a><br>
+很漂亮，顿时想到下次做 Logo 的时候有学习模仿的地方了。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-10-10/wbxFZU.png" width="600/"></p>
+<p><strong>用 VSCode 调试网页的 JS 代码有多香</strong><br>
+<a href="https://mp.weixin.qq.com/s/gA-ZEOPQ-IKFV_npo74E7Q">https://mp.weixin.qq.com/s/gA-ZEOPQ-IKFV_npo74E7Q</a><br>
+VSCode 也能调试浏览器上的的 JS 代码，还是比较香的，可是我用 webstorm（逃、、）</p>
+<p><strong>Dummy-Robot：超迷你机械臂机器人项目</strong><br>
+<a href="https://github.com/peng-zhihui/Dummy-Robot">https://github.com/peng-zhihui/Dummy-Robot</a><br>
+前几天超级火的那个机械臂项目的源码，看不懂还是直接看稚晖君的视频吧。<br>
+<a href="https://www.bilibili.com/video/BV12341117rG" target="_blank"><img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-10-10/3sDEAG.png" width="600/"></a></p>
+<p><strong>flipper：debugger iOS 和 Android 的工具</strong><br>
+<a href="https://github.com/facebook/flipper">https://github.com/facebook/flipper</a><br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-10-10/OOWL4f.png" width="600/"></p>
+<p><strong>uptime-kuma：一个潮流的自托管监视工具</strong><br>
+<a href="https://github.com/louislam/uptime-kuma">https://github.com/louislam/uptime-kuma</a><br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-10-10/bNdSQU.jpg" width="600/"></p>
+<p><strong>sharedb：实时协同数据 JS 库</strong><br>
+<a href="https://github.com/share/sharedb">https://github.com/share/sharedb</a><br>
+看下图你就知道是做什么的东西了。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-10-10/HcNgjk.gif" width="600/"></p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>“得物”为何成为潮流电商 TOP 产品？</strong><br>
+<a href="http://www.woshipm.com/evaluating/5154872.html">http://www.woshipm.com/evaluating/5154872.html</a><br>
+看看年轻潮流同学用的购物 App 独特之处。</p>
+<p><strong>有没有老哥一年四季一直喝凉水的？</strong><br>
+<a href="https://www.v2ex.com/t/806853">https://www.v2ex.com/t/806853</a><br>
+好吧，我还挺喜欢喝热茶的。</p>
+<p><strong>芯片制程分庭抗礼</strong><br>
+<a href="https://mp.weixin.qq.com/s/BZgZCJzSkC2aUBbwboJC-A">https://mp.weixin.qq.com/s/BZgZCJzSkC2aUBbwboJC-A</a><br>
+了解一些半导体行业的知识。</p>
+<p><strong>中国地产商为什么做不出环球影城、迪士尼？</strong><br>
+<a href="https://mp.weixin.qq.com/s/TqmOc1-Kl_Y5jIVO6hXNpA">https://mp.weixin.qq.com/s/TqmOc1-Kl_Y5jIVO6hXNpA</a><br>
+动机不纯粹，外行人管内行人，后期不投入，是中国地产商做不好主题公园的主要原因。</p>
+<p><strong>那些你应该说再见的 npm 祖传老库</strong><br>
+<a href="https://mp.weixin.qq.com/s/XC4VtYaWkN6frf0Y8LCeLQ">https://mp.weixin.qq.com/s/XC4VtYaWkN6frf0Y8LCeLQ</a><br>
+最近在响应 sindresorhus 大神的号召，陆续把一些类库升级为 ESM，期间重新审视 Egg 团队曾经沉淀下来的各种基础类库，也许需要说再见了，来自天猪。</p>
+<p><strong>搭建体系的模块依赖关系与 import maps</strong><br>
+<a href="https://mp.weixin.qq.com/s/UOIrQeQA06FyUHxHOMlhzQ">https://mp.weixin.qq.com/s/UOIrQeQA06FyUHxHOMlhzQ</a><br>
+步天讨论在搭建体系下，模块依赖关系的处理以及未来如何标准化的思考上。</p>

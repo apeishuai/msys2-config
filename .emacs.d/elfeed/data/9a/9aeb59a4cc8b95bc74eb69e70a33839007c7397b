@@ -1,0 +1,55 @@
+<img src="https://gw.alipayobjects.com/zos/k/hv/yNV9af.jpg" width="600/">  
+<p><small>照片摄于下雪那天西湖的小胖鸭，灵活小胖子的感觉。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="前端技术">前端技术</h2>
+<p><strong>从 WebGL 到 WebGPU，网页图形的全新时代</strong><br>
+<a href="https://mp.weixin.qq.com/s/4LfaNHP77s9n9SghucYoaA">https://mp.weixin.qq.com/s/4LfaNHP77s9n9SghucYoaA</a><br>
+贝壳找房同学在 GMTC 上演讲的文字稿。</p>
+<p><strong>浏览器的 AdBlock 坑死我了</strong><br>
+<a href="https://www.v2ex.com/t/824476">https://www.v2ex.com/t/824476</a><br>
+哈哈，这个笑死我了，写前端样式的时候一定要避开 ad 这个词。</p>
+<p><strong>看完了 2021 CSS 年度报告，学到了啥？</strong><br>
+<a href="https://mp.weixin.qq.com/s/BbH6IleqLly82Mqx_0W1IQ">https://mp.weixin.qq.com/s/BbH6IleqLly82Mqx_0W1IQ</a><br>
+其实很多时候我觉得写精细的 CSS 比写 JS 有趣。</p>
+<p><strong>DevTools 实现原理与性能分析实战</strong><br>
+<a href="https://mp.weixin.qq.com/s/H8iahg5WUOHXeRzvf0R01w">https://mp.weixin.qq.com/s/H8iahg5WUOHXeRzvf0R01w</a><br>
+通过分析 Chrome 的 DevTools 的技术实现，特别是在浏览器内核中的实现部分，来展示这个开发工具背后的秘密.</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>misbrands：世界上程序员最讨厌的贴纸</strong><br>
+<a href="https://github.com/mkrl/misbrands">https://github.com/mkrl/misbrands</a><br>
+打算淘宝打印一些出来，很喜欢。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-12-26/5UKPeQ.jpg" width="600/"></p>
+<p><strong>MarkText：开源的 markdown 编辑器</strong><br>
+<a href="https://github.com/marktext/marktext">https://github.com/marktext/marktext</a><br>
+typora 收费了，可以试试这个。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-12-26/3J85HA.png" width="600/"></p>
+<p><strong>OnlySwitch：菜单栏快捷操作</strong><br>
+<a href="https://github.com/jacklandrin/OnlySwitch">https://github.com/jacklandrin/OnlySwitch</a><br>
+收费版 OneSwitch 的开源替代版本，不好我更喜欢 OneSwitch。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-12-26/9ajDaA.png" width="230/"></p>
+<p><strong>PromiseKit：Promises for Swift &#x26; ObjC.</strong><br>
+<a href="https://github.com/mxcl/PromiseKit">https://github.com/mxcl/PromiseKit</a><br>
+这样写有一丝 JS 的感觉了。</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">firstly {</span></span>
+<span class="line"><span style="color: #C9D1D9">    Alamofire</span></span>
+<span class="line"><span style="color: #C9D1D9">        .</span><span style="color: #79C0FF">request</span><span style="color: #C9D1D9">(</span><span style="color: #A5D6FF">"http://example.com"</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">method</span><span style="color: #C9D1D9">: .post, </span><span style="color: #79C0FF">parameters</span><span style="color: #C9D1D9">: params)</span></span>
+<span class="line"><span style="color: #C9D1D9">        .</span><span style="color: #79C0FF">responseDecodable</span><span style="color: #C9D1D9">(Foo.</span><span style="color: #FF7B72">self</span><span style="color: #C9D1D9">)</span></span>
+<span class="line"><span style="color: #C9D1D9">}.done { foo </span><span style="color: #FF7B72">in</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #8B949E">//…</span></span>
+<span class="line"><span style="color: #C9D1D9">}.catch { error </span><span style="color: #FF7B72">in</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #8B949E">//…</span></span>
+<span class="line"><span style="color: #C9D1D9">}</span></span></code></pre>
+<p><strong>TDesign：腾讯开源的企业级设计体系</strong><br>
+<a href="https://tdesign.tencent.com/">https://tdesign.tencent.com/</a><br>
+有些意外为何三个技术栈都支持了。。</p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>2021 年中国游戏产业报告</strong><br>
+<a href="https://www.36kr.com/p/1529590053941640">https://www.36kr.com/p/1529590053941640</a><br>
+2021 年，中国游戏市场实际销售收入 2965.13 亿元，同比增长 6.40%，增幅比例较去年同比缩减近 15%。相比版号停发 9 个月的 2018 年 5.32%，仅高出大约一个百分点而已。2021 年游戏行业增速是仅小幅高于 2018 年的次低点。</p>
+<p><strong>世界卷王—从两个数据看韩国的现状</strong><br>
+<a href="https://zhuanlan.zhihu.com/p/444286151">https://zhuanlan.zhihu.com/p/444286151</a><br>
+韩国有 50%的六旬老人还需要继续工作，甚至在超过 70 岁的人中还有超过 30%需要继续工作。</p>
+<p><strong>日本半导体设备和材料为何那么强？</strong><br>
+<a href="https://mp.weixin.qq.com/s/ivClQYyK6y2MaT7lxnOjew">https://mp.weixin.qq.com/s/ivClQYyK6y2MaT7lxnOjew</a></p>

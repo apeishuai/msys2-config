@@ -1,0 +1,76 @@
+<img src="https://gw.alipayobjects.com/zos/k/q7/4gBaEY.jpg" width="800/">  
+<p><small>照片摄于西安小巷子里面的「治咖啡」，咖啡师将做咖啡当做作品的方式来弄，这杯橘子海很不错。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="前端技术">前端技术</h2>
+<p><strong>React 18 新特性之 startTransition</strong><br>
+<a href="https://mp.weixin.qq.com/s/JAFdq0BBu4rVAoPAdKWe8A">https://mp.weixin.qq.com/s/JAFdq0BBu4rVAoPAdKWe8A</a><br>
+React 18 作为 React 下一个大版本，为 React 添加了一个新的机制 Concurrent rendering，大幅提高了 React 的性能，推出了时间切片和任务优先级的概念。</p>
+<p><strong>Web 性能优化：控制关键请求的优先级</strong><br>
+<a href="https://mp.weixin.qq.com/s/P63LEMaXLMyWGYVdLiWxZw">https://mp.weixin.qq.com/s/P63LEMaXLMyWGYVdLiWxZw</a><br>
+字节同学翻译的一篇文章，讲的东西有深度，原来可以这么精准控制。</p>
+<p><strong>聊聊移动端安全加固</strong><br>
+<a href="https://mp.weixin.qq.com/s/yCB2R8QPWNp2lJrQD4l_hw">https://mp.weixin.qq.com/s/yCB2R8QPWNp2lJrQD4l_hw</a><br>
+携程这边关于手机 APP 端安全加固的一些经验。</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>promisio：Python 中 JS 风格异步编程</strong><br>
+<a href="https://github.com/miguelgrinberg/promisio">https://github.com/miguelgrinberg/promisio</a></p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #FF7B72">from</span><span style="color: #C9D1D9"> promisio </span><span style="color: #FF7B72">import</span><span style="color: #C9D1D9"> promisify</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #D2A8FF">@promisify</span></span>
+<span class="line"><span style="color: #FF7B72">async</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">def</span><span style="color: #C9D1D9"> </span><span style="color: #D2A8FF">f</span><span style="color: #C9D1D9">():</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #FF7B72">await</span><span style="color: #C9D1D9"> asyncio.sleep(</span><span style="color: #79C0FF">1</span><span style="color: #C9D1D9">)</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #FF7B72">return</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">42</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #D2A8FF">@promisify</span></span>
+<span class="line"><span style="color: #FF7B72">def</span><span style="color: #C9D1D9"> </span><span style="color: #D2A8FF">g</span><span style="color: #C9D1D9">(x):</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #FF7B72">return</span><span style="color: #C9D1D9"> x </span><span style="color: #FF7B72">*</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">2</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #FF7B72">async</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">def</span><span style="color: #C9D1D9"> </span><span style="color: #D2A8FF">main</span><span style="color: #C9D1D9">():</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #79C0FF">print</span><span style="color: #C9D1D9">(</span><span style="color: #FF7B72">await</span><span style="color: #C9D1D9"> f())  </span><span style="color: #8B949E"># prints 42</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #79C0FF">print</span><span style="color: #C9D1D9">(</span><span style="color: #FF7B72">await</span><span style="color: #C9D1D9"> g(</span><span style="color: #79C0FF">42</span><span style="color: #C9D1D9">))  </span><span style="color: #8B949E"># prints 84</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">    promise </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> f()  </span><span style="color: #8B949E"># runs function in the background without waiting</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #8B949E"># ... do other stuff here in parallel with f running</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #FF7B72">await</span><span style="color: #C9D1D9"> promise  </span><span style="color: #8B949E"># finally wait for f to complete</span></span>
+<span class="line"></span></code></pre>
+<p><strong>cyberwhistle：特斯拉卖的哨子</strong><br>
+<a href="https://shop.tesla.com/product/cyberwhistle">https://shop.tesla.com/product/cyberwhistle</a><br>
+官方的商品详情页面，还挺好看。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-12-05/X9e6IT.png" width="600/"></p>
+<p><strong>xLua：C#下 Lua 编程支持</strong><br>
+<a href="https://github.com/Tencent/xLua">https://github.com/Tencent/xLua</a><br>
+腾讯开源的，xLua 为 Unity、 .Net、 Mono 等 C#环境增加 Lua 脚本编程的能力，借助 xLua，这些 Lua 代码可以方便的和 C#相互调用。</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">using UnityEngine;</span></span>
+<span class="line"><span style="color: #C9D1D9">using XLua;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">namespace XLuaTest</span></span>
+<span class="line"><span style="color: #C9D1D9">{</span></span>
+<span class="line"><span style="color: #C9D1D9">    public class Helloworld : MonoBehaviour</span></span>
+<span class="line"><span style="color: #C9D1D9">    {</span></span>
+<span class="line"><span style="color: #C9D1D9">        </span><span style="color: #8B949E">// Use this for initialization</span></span>
+<span class="line"><span style="color: #C9D1D9">        </span><span style="color: #FF7B72">void</span><span style="color: #C9D1D9"> </span><span style="color: #D2A8FF">Start</span><span style="color: #C9D1D9">()</span></span>
+<span class="line"><span style="color: #C9D1D9">        {</span></span>
+<span class="line"><span style="color: #C9D1D9">            LuaEnv luaenv </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> new </span><span style="color: #D2A8FF">LuaEnv</span><span style="color: #C9D1D9">();</span></span>
+<span class="line"><span style="color: #C9D1D9">            luaenv.</span><span style="color: #D2A8FF">DoString</span><span style="color: #C9D1D9">(</span><span style="color: #A5D6FF">"CS.UnityEngine.Debug.Log('hello world')"</span><span style="color: #C9D1D9">);</span></span>
+<span class="line"><span style="color: #C9D1D9">            luaenv.</span><span style="color: #D2A8FF">Dispose</span><span style="color: #C9D1D9">();</span></span>
+<span class="line"><span style="color: #C9D1D9">        }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">        </span><span style="color: #8B949E">// Update is called once per frame</span></span>
+<span class="line"><span style="color: #C9D1D9">        </span><span style="color: #FF7B72">void</span><span style="color: #C9D1D9"> </span><span style="color: #D2A8FF">Update</span><span style="color: #C9D1D9">()</span></span>
+<span class="line"><span style="color: #C9D1D9">        {</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">        }</span></span>
+<span class="line"><span style="color: #C9D1D9">    }</span></span>
+<span class="line"><span style="color: #C9D1D9">}</span></span></code></pre>
+<p><strong>xtendui：tailwind 组件库</strong><br>
+<a href="https://xtendui.com/components/drop">https://xtendui.com/components/drop</a><br>
+设计比较舒服，可以看看。</p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>2021 十大收缩行业</strong><br>
+<a href="https://mp.weixin.qq.com/s/nes6gfaatI0_YYDWLFzZfQ">https://mp.weixin.qq.com/s/nes6gfaatI0_YYDWLFzZfQ</a><br>
+收缩了 84%的旅游业并不是最难受的，才屈居第四。</p>
+<p><strong>汽车芯片真的那么缺吗？</strong><br>
+<a href="https://mp.weixin.qq.com/s/2w7KvezFV136NkgZ_L9X8A">https://mp.weixin.qq.com/s/2w7KvezFV136NkgZ_L9X8A</a><br>
+是一个谜。</p>

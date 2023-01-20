@@ -1,0 +1,59 @@
+<img src="https://gw.alipayobjects.com/zos/k/59/itVs04.jpg" width="800/">  
+<p><small>封面图摄于长沙小巷里的天马牛肉饼，简直超级好吃，还可加辣椒，特别是做淘宝搭建的那群人要去吃吃 😂。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="前端技术">前端技术</h2>
+<p><strong>本地生活综合性需求图谱的构建及应用</strong><br>
+<a href="https://tech.meituan.com/2021/07/15/construction-and-application-of-lifestyle-general-needs-net.html">https://tech.meituan.com/2021/07/15/construction-and-application-of-lifestyle-general-needs-net.html</a><br>
+说实话，我很喜欢看美团技术的深度干货文章。</p>
+<p><strong>WKWebView 加载生命周期与代理方法剖析</strong><br>
+<a href="https://mp.weixin.qq.com/s/ZFui9IiMTWyLXGKZlbnzwQ">https://mp.weixin.qq.com/s/ZFui9IiMTWyLXGKZlbnzwQ</a><br>
+从客户端角度来看 WebView 开始加载一条请求，到页面完整呈现这一过程发生了什么？</p>
+<p><strong>分辨率、画素、像素、Pixel 到底什么是什么？</strong><br>
+<a href="https://blog.infolink.com.tw/2021/rediscover-pixel-dpi-ppi-and-pixel-density/">https://blog.infolink.com.tw/2021/rediscover-pixel-dpi-ppi-and-pixel-density/</a><br>
+台湾一个开发者写的，比较详细，值得一看。</p>
+<p><strong>字节跳动基于 Serverless 的前端研发模式升级</strong><br>
+<a href="https://mp.weixin.qq.com/s/J2fHm_mR7UE65q1vSQ9xpA">https://mp.weixin.qq.com/s/J2fHm_mR7UE65q1vSQ9xpA</a><br>
+王磊兄在 GMTC 上关于 Serverless 的分享文字版本，以及对应的 PPT 截图。</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>LyricsX：苹果音乐应用歌词插件</strong><br>
+<a href="https://github.com/ddddxxx/LyricsX">https://github.com/ddddxxx/LyricsX</a><br>
+假如你是和我一样的 Apple Music 的喜欢者，可以试试这个。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-07-18/2u7Eb0.png" width="600/"></p>
+<p><strong>Gray：Mac App 黑白模式定制</strong><br>
+<a href="https://github.com/zenangst/Gray">https://github.com/zenangst/Gray</a><br>
+比如说你想单独设置某个 App 是黑色的或者是明亮的。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-07-18/oAwCrU.png" width="600/"></p>
+<p><strong>vapor：用 swift 来写服务端</strong><br>
+<a href="https://github.com/vapor/vapor">https://github.com/vapor/vapor</a><br>
+代码看着很舒服，同时周边比我想象中多不少。</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #FF7B72">import</span><span style="color: #C9D1D9"> </span><span style="color: #FFA657">Vapor</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #FF7B72">let</span><span style="color: #C9D1D9"> app </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">try</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">Application</span><span style="color: #C9D1D9">(.</span><span style="color: #79C0FF">detect</span><span style="color: #C9D1D9">())</span></span>
+<span class="line"><span style="color: #FF7B72">defer</span><span style="color: #C9D1D9"> { app.</span><span style="color: #79C0FF">shutdown</span><span style="color: #C9D1D9">() }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">app.</span><span style="color: #79C0FF">get</span><span style="color: #C9D1D9">(</span><span style="color: #A5D6FF">"hello"</span><span style="color: #C9D1D9">) { req </span><span style="color: #FF7B72">in</span></span>
+<span class="line"><span style="color: #C9D1D9">    </span><span style="color: #FF7B72">return</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">"Hello, world."</span></span>
+<span class="line"><span style="color: #C9D1D9">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #FF7B72">try</span><span style="color: #C9D1D9"> app.</span><span style="color: #79C0FF">run</span><span style="color: #C9D1D9">()</span></span></code></pre>
+<p><strong>uBlock：低内存的广告拦截插件</strong><br>
+<a href="https://github.com/gorhill/uBlock">https://github.com/gorhill/uBlock</a><br>
+现在我的浏览器用这个，使用后很无感知，但是消耗不大。</p>
+<p><strong>锤子的 Markdown 主题真漂亮</strong><br>
+<a href="https://nihaojob.github.io/markdown-css-smartisan/examples/index.html">https://nihaojob.github.io/markdown-css-smartisan/examples/index.html</a><br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-07-18/LMGl6J.png" width="600/"></p>
+<h2 id="他山之石">他山之石</h2>
+<p><strong>Klee：用 C++ 实现数据驱动开发</strong><br>
+<a href="https://mp.weixin.qq.com/s/y2700SOPIvETJ-x2BC5q5w">https://mp.weixin.qq.com/s/y2700SOPIvETJ-x2BC5q5w</a><br>
+腾讯内部开源的一个客户端数据驱动库，用来保证代码的复用，可以从前端角度对比看看。</p>
+<p><strong>程序员可能必读书单推荐</strong><br>
+<a href="https://draveness.me//books-1">https://draveness.me//books-1</a><br>
+第一本推荐的是 SICP，哎，我买了，不过只看了一半啃不下去了，啥时候咬咬牙去看一看。</p>
+<p><strong>决定公司生死的前 18 个月，创始人该做什么</strong><br>
+<a href="https://mp.weixin.qq.com/s/MrXfdnav2tY7MWcSDqiMhw">https://mp.weixin.qq.com/s/MrXfdnav2tY7MWcSDqiMhw</a><br>
+要创建一家公司并使其安然度过前 18 个月，创业者需要避免哪些糟糕的错误，又应该做哪些事情？</p>
+<p><strong>太空旅游：怎么去，飞多高，玩什么</strong><br>
+<a href="https://www.huxiu.com/article/441909.html">https://www.huxiu.com/article/441909.html</a><br>
+不知 10 年后，会不会成为一种新的旅游方式。</p>

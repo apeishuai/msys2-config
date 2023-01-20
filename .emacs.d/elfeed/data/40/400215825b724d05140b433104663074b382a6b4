@@ -1,0 +1,49 @@
+<img src="https://gw.alipayobjects.com/zos/k/6k/YdPTai.jpg" width="800/">  
+<p><small>照片摄于西双版纳一寺庙里常规的祝福板子上发现的不常规的祝福，挺有爱。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="前端技术">前端技术</h2>
+<p><strong>Bracket pair colorization 10,000x faster</strong><br>
+<a href="https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization">https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization</a><br>
+VSCode 的彩色括号匹配的功能他们自己给重构了下，性能变得很牛逼，来看看怎么做的。</p>
+<p><strong>在浏览器控制台安装 npm 包</strong><br>
+<a href="https://segmentfault.com/a/1190000040875211">https://segmentfault.com/a/1190000040875211</a><br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-11-21/QmyyeF.png" width="600/"></p>
+<p><strong>美团搜索多业务商品排序探索与实践</strong><br>
+<a href="https://tech.meituan.com/2021/11/19/exploration-and-practice-of-multi-business-commodities-ranking-in-meituan-search.html">https://tech.meituan.com/2021/11/19/exploration-and-practice-of-multi-business-commodities-ranking-in-meituan-search.html</a><br>
+美团关于多业务商品搜索的经验。</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>TopNotch：隐藏新款 MBP 屏幕刘海</strong><br>
+<a href="https://topnotch.app/">https://topnotch.app/</a><br>
+可惜我没有机器，大概是这个样子，还是不错的。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-11-19/MXPfoO.gif" width="600/"></p>
+<p><strong>kalidokit：人体动作表情解读同步</strong><br>
+<a href="https://github.com/yeemachine/kalidokit">https://github.com/yeemachine/kalidokit</a><br>
+效果还是和牛逼的，真人测试。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-11-21/hFer5X.gif" width="600/"></p>
+<p><strong>xterm：把命令行搬到浏览器</strong><br>
+<a href="https://xtermjs.org/">https://xtermjs.org/</a><br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-11-19/HLytTi.png" width="600/"></p>
+<p><strong>microdiff：轻量快速的对比库</strong><br>
+<a href="https://github.com/AsyncBanana/microdiff">https://github.com/AsyncBanana/microdiff</a><br>
+看代码就知道作用了。</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #FF7B72">import</span><span style="color: #C9D1D9"> diff </span><span style="color: #FF7B72">from</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">'microdiff'</span><span style="color: #C9D1D9">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #FF7B72">const</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">obj1</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> {</span></span>
+<span class="line"><span style="color: #C9D1D9">  originalProperty: </span><span style="color: #79C0FF">true</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">};</span></span>
+<span class="line"><span style="color: #FF7B72">const</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">obj2</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> {</span></span>
+<span class="line"><span style="color: #C9D1D9">  originalProperty: </span><span style="color: #79C0FF">true</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">  newProperty: </span><span style="color: #A5D6FF">'new'</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">};</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">console.</span><span style="color: #D2A8FF">log</span><span style="color: #C9D1D9">(</span><span style="color: #D2A8FF">diff</span><span style="color: #C9D1D9">(obj1, obj2));</span></span>
+<span class="line"><span style="color: #8B949E">// [{type: "CREATE", path: ["newProperty"], value: "new"}]</span></span></code></pre>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>V2 上关于团队周五搞分享的讨论</strong><br>
+<a href="https://www.v2ex.com/t/815876">https://www.v2ex.com/t/815876</a><br>
+讨论不错，各种不同的观点。</p>
+<p><strong>2021 年 00 后生活方式洞察报告</strong><br>
+<a href="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-11-18/nEhBnT.pdf">https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-11-18/nEhBnT.pdf</a><br>
+腾讯整理的一个报告，一起来了解一下年轻人的生活方式、选择偏好与消费行为。</p>

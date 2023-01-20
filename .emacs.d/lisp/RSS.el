@@ -8,9 +8,12 @@
   (elfeed-org)
   (setq rmh-elfeed-org-files (list "~/.emacs.d/elfeed.org"))
   (setq elfeed-db-directory (expand-file-name "elfeed" user-emacs-directory))
+  (setq elfeed-curl-extra-arguments '("-xhttp://127.0.0.1:1082"))
   :bind
   ("C-x r" . elfeed)
   )
+
+
 
 ;;(add-hook 'emacs-startup-hook (lambda () (run-at-time 100 5 'elfeed-update)))
 (add-to-list 'evil-emacs-state-modes 'elfeed-search-mode)
@@ -33,6 +36,7 @@
 (require 'elfeed-db)
 (require 'elfeed-lib)
 (require 'elfeed-search)
+
 (defcustom elfeed-show-truncate-long-urls t
   "When non-nil, use an ellipsis to shorten very long displayed URLs."
   :group 'elfeed
@@ -46,12 +50,12 @@
 (defvar elfeed-show-entry t
   "The entry being displayed in this buffer.")
 
-;;(defcustom elfeed-show-entry-switch #'switch-to-buffer
-  ;;"Function used to display the feed entry buffer."
-  ;;:group 'elfeed
-  ;;:type '(choice (function-item switch-to-buffer)
-                 ;;(function-item pop-to-buffer)
-                 ;;unction))
+(defcustom elfeed-show-entry-switch #'switch-to-buffer
+  "Function used to display the feed entry buffer."
+  :group 'elfeed
+  :type '(choice (function-item switch-to-buffer)
+                 (function-item pop-to-buffer)
+                 function))
 
 (defcustom elfeed-show-entry-delete #'elfeed-kill-buffer
   "Function called when quitting from the elfeed-entry buffer.
@@ -259,6 +263,9 @@ The result depends on the value of `elfeed-show-unique-buffers'."
   (elfeed-kill-buffer)
   (elfeed)
   (elfeed-search-live-filter))
+
+
+
 
 (defun elfeed-show-visit (&optional use-generic-p)
   "Visit the current entry in your browser using `browse-url'.
@@ -492,6 +499,8 @@ Prompts for ENCLOSURE-INDEX when called interactively."
       (call-interactively 'shr-copy-url))))
 
 ;; Bookmarks
+
+
 
 ;;;###autoload
 (defun elfeed-show-bookmark-handler (record)

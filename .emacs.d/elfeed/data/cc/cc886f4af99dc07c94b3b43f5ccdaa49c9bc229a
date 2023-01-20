@@ -1,0 +1,44 @@
+<img src="https://gw.alipayobjects.com/zos/k/8k/121121212dasd.jpg" width="800/">
+<p><small>周末去吃桂雨加面，往山后走看到了这个，一个远处看很有感觉的建筑，查了查叫汤屋。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="前端技术">前端技术</h2>
+<p><strong>彻底搞懂 Webpack 的 sourcemap 配置原理</strong><br>
+<a href="https://mp.weixin.qq.com/s/0Sq9Z0i9Q3N0likFlZB0rQ">https://mp.weixin.qq.com/s/0Sq9Z0i9Q3N0likFlZB0rQ</a><br>
+不看之前，回忆一下 sourcemap 有几种配置。</p>
+<p><strong>如何根治 Script Error？</strong><br>
+<a href="https://mp.weixin.qq.com/s/lnvd8ii58jyR3u-aDvq_9A">https://mp.weixin.qq.com/s/lnvd8ii58jyR3u-aDvq_9A</a><br>
+淘宝同学的一篇文章。</p>
+<p><strong>Vite 约定式路由的最佳实践</strong><br>
+<a href="https://mp.weixin.qq.com/s/IGaUcYDIb4e3zGGi9jvdig">https://mp.weixin.qq.com/s/IGaUcYDIb4e3zGGi9jvdig</a><br>
+用 Next.js 约定式路由的思路在 Vite 中实现这一功能。</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>lizhi-app：李志音乐作品集 &#x26; 播放器 &#x26; 下载</strong><br>
+<a href="https://github.com/turkyden/lizhi-app">https://github.com/turkyden/lizhi-app</a><br>
+你认识南京市民李先生吗？<br>
+<img src="https://gw.alicdn.com/imgextra/i1/O1CN01VVAab71YzaSgI4qy5_!!6000000003130-2-tps-3016-1742.png" width="600/"></p>
+<p><strong>lotion：An open-source Notion UI built with Vue 3</strong><br>
+<a href="https://github.com/Dashibase/lotion">https://github.com/Dashibase/lotion</a><br>
+用 Vue 写的 Notion 样式的编辑器。<br>
+<img src="https://gw.alicdn.com/imgextra/i3/O1CN019LYUVg1b9K77uRLIu_!!6000000003422-2-tps-3062-1538.png" width="600/"></p>
+<p><strong>rembg：移除图片的背景</strong><br>
+<a href="https://github.com/danielgatis/rembg">https://github.com/danielgatis/rembg</a><br>
+Python 的一个工具，看下面图片就知道做啥的了。<br>
+<img src="https://gw.alicdn.com/imgextra/i2/O1CN01fnn97X1CHEYkfuoEa_!!6000000000055-2-tps-1310-656.png" width="600/"></p>
+<p><strong>iCSS：不止于 CSS</strong><br>
+<a href="https://github.com/chokcoco/iCSS">https://github.com/chokcoco/iCSS</a><br>
+写 CSS 的一些有趣技巧，可以看看，其实 CSS 才是前端的区别与其他岗位的神奇之处。</p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>忏悔 24 小时——关于微信被封禁，我想告诉你这些</strong><br>
+<a href="https://sspai.com/post/75353">https://sspai.com/post/75353</a><br>
+标题我感觉有些无关痛痒，不过内容可以看看。</p>
+<p><strong>对 Shopee 回收 Offer 事件的一些看法</strong><br>
+<a href="https://www.huxiu.com/article/647364.html">https://www.huxiu.com/article/647364.html</a><br>
+这个周末，Shopee 收回 Offer 的消息在脉脉、小红书、微信群等多个渠道发酵。不知道有多少人受到影响，但是人己经到了新加坡下了飞机带着家人突然收到 Cancel Offer 的消息还是有点狠。</p>
+<p><strong>当提前还贷遭遇银行各种“骚操作拦阻”</strong><br>
+<a href="https://www.huxiu.com/article/641686.html">https://www.huxiu.com/article/641686.html</a><br>
+“手上有余钱、找不到更好的投资渠道”“目前理财收益率不及房贷利率”“想提前结束还款或减轻还款压力”“不想为银行打工”等，是大家目前提前还房贷的主要原因。</p>
+<p><strong>专家“何不食肉糜”，该整治一下了</strong><br>
+<a href="https://www.huxiu.com/article/647304.html">https://www.huxiu.com/article/647304.html</a><br>
+这些年，专家群里无疑出现了许多“老鼠屎”，污名化了“专家”的清誉，也让专家的权威不再。</p>

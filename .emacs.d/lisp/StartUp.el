@@ -1,3 +1,11 @@
+;;proxy set
+(setq url-proxy-services
+   '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+     ("http" . "127.0.0.1:1082")
+     ("https" . "127.0.0.1:1082")))
+
+
+
 ;;picture-show
 (require 'org-download)
 (add-hook 'dired-mode-hook 'org-download-enable)
@@ -73,9 +81,11 @@ for the current buffer's file name, and the line number at point."
 (autoload 'ledger-mode "ledger-mode" "A major mode for Ledger" t)
 (add-to-list 'auto-mode-alist '("\\.ledger$" . ledger-mode))
 
+
 ;;open link using google-chrome
 (setq browse-url-generic-program
        (executable-find "google-chrome"))
+
 
 ;;winum (windows)
 (setq window-numbering-assign-func
@@ -94,11 +104,7 @@ for the current buffer's file name, and the line number at point."
 
 (global-display-line-numbers-mode t)
 
-;;自动保存
-(require 'auto-save)            ;; 加载自动保存模块
 
-(auto-save-enable)              ;; 开启自动保存功能
-;;(setq auto-save-slient t)       ;; 自动保存的时候静悄悄的， 不要打扰我
 
 
 ;;文本排序 读书列表
@@ -115,6 +121,9 @@ sort structed entry
   (sort-regexp-fields nil record-regexp key-regexp
                       (region-beginning)
                       (region-end))))
+
+
+
 
 
 

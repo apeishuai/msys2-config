@@ -189,8 +189,12 @@
 # 
 # alias cd=cd_func
 
+# custom soft
+
+
 # custom path
 export PATH=$PATH:/mingw64/bin/
+export PATH=$PATH:\E\:\/cmd\ tool/proxychains/
 export http_proxy="127.0.0.1:1082"
 
 

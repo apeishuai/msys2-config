@@ -1,0 +1,72 @@
+<img src="https://gw.alipayobjects.com/zos/k/6f/L3GWS7.jpg" width="600/">  
+<p><small>封面图摄于 mamala 家的牛排，挺不错的一家西餐厅，窗外风景极其不错，适合在有仪式感的日子去吃一次~ </small></p>
+<blockquote>
+<p><strong>记录每周看到的前端潮流技术，筛选后用接地气方式发布于此，关注此专栏可以及时收到更新~</strong></p>
+</blockquote>
+<h2 id="前端技术">前端技术</h2>
+<p><strong>JavaScript Debugger 原理揭秘</strong><br>
+<a href="https://juejin.cn/post/6961790494514872333">https://juejin.cn/post/6961790494514872333</a><br>
+代码写完会运行一下看下效果，开发的时候我们更多都是通过 debugger 来单步或断点运行，你知道它的原理吗？</p>
+<p><strong>携程火车票 Flutter 最佳实践</strong><br>
+<a href="https://mp.weixin.qq.com/s/VP6WEQkEel3W4tdo3ThYDw">https://mp.weixin.qq.com/s/VP6WEQkEel3W4tdo3ThYDw</a><br>
+原来携程也在弄 Flutter，将历史过程中一些经验沉淀还是很赞的。</p>
+<p><strong>聊聊 Deno 的那些事</strong><br>
+<a href="https://mp.weixin.qq.com/s/6tXZYQ8SBvIrhhsZEKVZqQ">https://mp.weixin.qq.com/s/6tXZYQ8SBvIrhhsZEKVZqQ</a><br>
+政采云前端关于 Deno 的介绍文章，很适合不懂的同学了解和练手。</p>
+<p><strong>算法平台在线服务体系的演进与实践</strong><br>
+<a href="https://tech.meituan.com/2021/05/13/turing-os-online-serving.html">https://tech.meituan.com/2021/05/13/turing-os-online-serving.html</a><br>
+美团技术的图灵平台功能和技术原理的介绍，很干货，值得一读。</p>
+<h2 id="开源资讯">开源资讯</h2>
+<p><strong>rust-raspberrypi-OS-tutorials：树莓派教程</strong><br>
+<a href="https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials">https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials</a><br>
+真心很潮流，有空很有必要去玩一玩这个东西。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/up/nE0b3w.gif" width="600/"></p>
+<p><strong>playground-macos：用前端实现 macOS’s GUI</strong><br>
+<a href="https://github.com/Renovamen/playground-macos">https://github.com/Renovamen/playground-macos</a><br>
+挺牛逼的，可访问 <a href="https://portfolio.zxh.io/">https://portfolio.zxh.io/</a> 查看。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/up/n4DvUm.gif" width="600/"></p>
+<p><strong>getx：Flutter 中的状态管理工具</strong><br>
+<a href="https://github.com/jonataslaw/getx/blob/master/README.zh-cn.md">https://github.com/jonataslaw/getx/blob/master/README.zh-cn.md</a><br>
+GetX 是 Flutter 上的一个轻量且强大的解决方案：高性能的状态管理、智能的依赖注入和便捷的路由管理。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/up/LRfwVQ.jpg" width="600/"></p>
+<p><strong>slidev：用 Markdown 来快速写 PPT</strong><br>
+<a href="https://github.com/slidevjs/slidev">https://github.com/slidevjs/slidev</a><br>
+写 ppt 很容易浪费太多事情，更好的内部表达方式应该是语雀，假如需要对外分享，但不想麻烦，可以试试 Anthony Fu 的新作品。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/up/gb7Xs7.gif" width="600/"></p>
+<p><strong>terminal-kit：命令行工具包</strong><br>
+<a href="https://github.com/cronvel/terminal-kit">https://github.com/cronvel/terminal-kit</a><br>
+可以用命令行工作写出类似这样的效果。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/79Qxn8/record.gif" width="600/"></p>
+<p><strong>zx：一个更好的写脚本的工具</strong><br>
+<a href="https://github.com/google/zx">https://github.com/google/zx</a></p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #8B949E">#!/usr/bin/env zx</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">await $</span><span style="color: #A5D6FF">`cat package.json </span><span style="color: #FF7B72">|</span><span style="color: #A5D6FF"> grep name`</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #79C0FF">let</span><span style="color: #C9D1D9"> branch = await $</span><span style="color: #A5D6FF">`git branch --show-current`</span></span>
+<span class="line"><span style="color: #C9D1D9">await $</span><span style="color: #A5D6FF">`dep deploy --branch=</span><span style="color: #C9D1D9">${branch}</span><span style="color: #A5D6FF">`</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C9D1D9">await Promise.all([</span></span>
+<span class="line"><span style="color: #C9D1D9">  $</span><span style="color: #A5D6FF">`sleep 1</span><span style="color: #FF7B72">;</span><span style="color: #A5D6FF"> </span><span style="color: #79C0FF">echo</span><span style="color: #A5D6FF"> 1`</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">  $</span><span style="color: #A5D6FF">`sleep 2</span><span style="color: #FF7B72">;</span><span style="color: #A5D6FF"> </span><span style="color: #79C0FF">echo</span><span style="color: #A5D6FF"> 2`</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">  $</span><span style="color: #A5D6FF">`sleep 3</span><span style="color: #FF7B72">;</span><span style="color: #A5D6FF"> </span><span style="color: #79C0FF">echo</span><span style="color: #A5D6FF"> 3`</span><span style="color: #C9D1D9">,</span></span>
+<span class="line"><span style="color: #C9D1D9">])</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #79C0FF">let</span><span style="color: #C9D1D9"> name = </span><span style="color: #A5D6FF">'foo bar'</span></span>
+<span class="line"><span style="color: #C9D1D9">await $</span><span style="color: #A5D6FF">`mkdir /tmp/</span><span style="color: #C9D1D9">${name}</span><span style="color: #A5D6FF">`</span></span></code></pre>
+<h2 id="他山之石">他山之石</h2>
+<p><strong>关于自由</strong><br>
+<a href="https://www.v2ex.com/t/775584?p=1">https://www.v2ex.com/t/775584?p=1</a>
+V2EX 上面关于自由的一个讨论，里面有几个观点值得一读，比知乎接地气。</p>
+<p><strong>Babel is used by millions, so why are we running out of money?</strong><br>
+<a href="https://babeljs.io/blog/2021/05/10/funding-update.html">https://babeljs.io/blog/2021/05/10/funding-update.html</a><br>
+Babel 被大家使用了数亿次，居然快没钱了，你敢信，吃个瓜（原作者吐槽维护者 Henry Zhu 拿钱不写代码，十几万刀的年薪去年只解决了 12 个 issue 和 29 个 PR…）。</p>
+<p><strong>96% of US users opt out of app tracking in iOS 14.5, analytics find</strong><br>
+<a href="https://arstechnica.com/gadgets/2021/05/96-of-us-users-opt-out-of-app-tracking-in-ios-14-5-analytics-find/">https://arstechnica.com/gadgets/2021/05/96-of-us-users-opt-out-of-app-tracking-in-ios-14-5-analytics-find/</a><br>
+ios 在 14.5 的时候做了限制跟踪的选择，当前美国有 96%都选择了拒绝 app 跟踪，不知中国用户数据如何，这个能力对于拉新下载类广告影响很大。</p>
+<p><strong>软件工程的最大难题</strong><br>
+<a href="http://www.ruanyifeng.com/blog/2021/05/scaling-problem.html">http://www.ruanyifeng.com/blog/2021/05/scaling-problem.html</a><br>
+阮一峰最近一篇关于软件工程由于人数增加后造成难题的文章，包括提供了不少团队解耦的方法。</p>
+<p><strong>从长征 5B 再入的新闻谈起</strong><br>
+<a href="https://mp.weixin.qq.com/s/Dx0lWSGRZGZIrA8pAkn2ug">https://mp.weixin.qq.com/s/Dx0lWSGRZGZIrA8pAkn2ug</a><br>
+一篇严肃的科普文，关于长征 5B（CZ-5B）火箭的非受控再入的问题解释。</p>

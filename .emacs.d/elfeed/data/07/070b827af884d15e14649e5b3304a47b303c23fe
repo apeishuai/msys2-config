@@ -1,0 +1,51 @@
+<img src="https://gw.alipayobjects.com/zos/k/qs/1.jpg" width="800/">
+<p><small>照片拍于某一次喝咖啡的一个二楼窗户边的一个册子，咖啡让你更有效率的完成蠢事，其实聪明事也可以的。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="技术思路">技术思路</h2>
+<p><strong>Web：你知道我这十几年是怎么过来的吗</strong><br>
+<a href="https://mp.weixin.qq.com/s/p4jM_dqQ09gXNp7cTRTvYw">https://mp.weixin.qq.com/s/p4jM_dqQ09gXNp7cTRTvYw</a><br>
+一起来看看从 2008 年谷歌浏览器诞生后的一些有趣的事情吧。</p>
+<p><strong>构建顺滑自然的 Flutter 页面</strong><br>
+<a href="https://mp.weixin.qq.com/s/6FLMcE67BCbXvnbFSRgHFg">https://mp.weixin.qq.com/s/6FLMcE67BCbXvnbFSRgHFg</a><br>
+闲鱼的 Flutter 实践的文章，可以了解一趴他们如何优化性能体验的。</p>
+<p><strong>如何用 JavaScript 实现一门编程语言 - AST</strong><br>
+<a href="https://mp.weixin.qq.com/s/JMl8LOsNYlttxO-KyVK-Vw">https://mp.weixin.qq.com/s/JMl8LOsNYlttxO-KyVK-Vw</a><br>
+该系列是 UglifyJS 作者本人所著，声称是简单的教程，但里面很多概念思考还是很值得学习。</p>
+<p><strong>How we lost 54k GitHub stars</strong><br>
+<a href="https://httpie.io/blog/stardust">https://httpie.io/blog/stardust</a><br>
+HTTPie 团队写的“我们是如何丢掉一个 54K Star 的仓库的”。</p>
+<p><strong>花一个小时，迅速了解 ES6~ES12 的全部特性</strong><br>
+<a href="https://juejin.cn/post/7068935394191998990">https://juejin.cn/post/7068935394191998990</a><br>
+有一种查漏补缺的感觉。</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>HowToLiveLonger：程序员延寿指南</strong><br>
+<a href="https://github.com/geekan/HowToLiveLonger">https://github.com/geekan/HowToLiveLonger</a><br>
+很科学的让你活的更久。</p>
+<p><strong>折腾了一个 Alfred 的皮肤</strong><br>
+<a href="https://gw.alipayobjects.com/os/k/1/Cosy_Dark.alfredappearance">https://gw.alipayobjects.com/os/k/1/Cosy_Dark.alfredappearance</a><br>
+上周随便折腾了一下，可以直接下载双击安装到 Alfred，效果这样。
+<img src="https://gw.alipayobjects.com/zos/k/zh/BNiHNj.jpg" width="600/"></p>
+<p><strong>Linux 下跨语言调用 C++实践</strong><br>
+<a href="https://tech.meituan.com/2022/04/21/cross-language-call.html">https://tech.meituan.com/2022/04/21/cross-language-call.html</a><br>
+美团尝试通过跨语言调用动态链接库的技术解决多语言调用问题，即开发一次基于 C++的 so，通过不同语言的链接层封装成不同语言的组件库，并投入到对应的生成过程。</p>
+<p><strong>Rust 程序设计语言</strong><br>
+<a href="https://rustwiki.org/zh-CN/book/">https://rustwiki.org/zh-CN/book/</a><br>
+有空可以学习一波，这个文档对于快速了解 Rust 的语法还是不错的。</p>
+<p><strong>dotown：任天堂开源的像素小图</strong><br>
+<a href="https://dotown.maeda-design-room.net/">https://dotown.maeda-design-room.net/</a><br>
+<img src="https://gw.alipayobjects.com/zos/k/gd/wYam77.jpg" width="600/"></p>
+<p><strong>iRingo：解锁完整的  Apple 功能和集成服务</strong><br>
+<a href="https://github.com/VirgilClyne/iRingo">https://github.com/VirgilClyne/iRingo</a><br>
+看起来有一定操作成本，不过假如之前弄过还是简单的。</p>
+<p><strong>Kap：开源的录屏工具</strong><br>
+<a href="https://github.com/wulkano/kap">https://github.com/wulkano/kap</a><br>
+居然是用 Web 技术弄得，整体 UI 还挺好看的。</p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>经济还好吗？</strong><br>
+<a href="https://mp.weixin.qq.com/s/wqian1HakNbz0mYp83W2Xw">https://mp.weixin.qq.com/s/wqian1HakNbz0mYp83W2Xw</a><br>
+经济数据，宏观上是数据，微观上是多少家庭的悲欢离合。</p>
+<p><strong>为什么大家都在怀念 2019 年</strong><br>
+<a href="https://mp.weixin.qq.com/s/bzYRRsay92tBJ9RCDZ0GMw">https://mp.weixin.qq.com/s/bzYRRsay92tBJ9RCDZ0GMw</a><br>
+2022 年，却有越来越多的人想要回到 2019。</p>

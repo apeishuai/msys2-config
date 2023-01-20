@@ -1,0 +1,46 @@
+<img src="https://gw.alipayobjects.com/zos/k/app2/SCR-20221015-wy0.png" width="900/">
+<p><small>国庆开电动车从杭州来回湖南，体验了一下自驾的乐趣，不急不赶，很幸运累计只堵了 40min，一次花费 9 小时开车 + 3 小时充电休息，景色整体还不错。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="技术文章">技术文章</h2>
+<p><strong>精读《State of CSS 2022》</strong><br>
+<a href="https://mp.weixin.qq.com/s/N33CBhVRwETgbtr3oSW-TA">https://mp.weixin.qq.com/s/N33CBhVRwETgbtr3oSW-TA</a><br>
+很多时候当你会很多 CSS 技巧的时候，你会觉得比 JS 要好玩。</p>
+<p><strong>激荡二十年：HTTP API 的变迁</strong><br>
+<a href="https://mp.weixin.qq.com/s/9TAYgS74yVdNmjduRycy4A">https://mp.weixin.qq.com/s/9TAYgS74yVdNmjduRycy4A</a><br>
+介绍的 API 的变迁，特指客户端和服务器之间运行的 HTTP API。</p>
+<p><strong>论文可视化配色简易指南</strong><br>
+<a href="https://sspai.com/post/75989">https://sspai.com/post/75989</a><br>
+总结了一些进行可视化绘图时选择颜色的注意事项，整理了一些工具和色彩合集，以供参考选择。</p>
+<p><strong>How we reduced our annual server costs by 80% — from $1M to $200k — by moving away from AWS</strong><br>
+<a href="https://levelup.gitconnected.com/how-we-reduced-our-annual-server-costs-by-80-from-1m-to-200k-by-moving-away-from-aws-2b98cbd21b46">https://levelup.gitconnected.com/how-we-reduced-our-annual-server-costs-by-80-from-1m-to-200k-by-moving-away-from-aws-2b98cbd21b46</a><br>
+我们如何通过迁移出 AWS，将每年的服务器成本降低 80%，从 100 万美元降至 20 万美元</p>
+<p><strong>QR codes 的工作原理是什么</strong><br>
+<a href="https://typefully.com/DanHollick/qr-codes-T7tLlNi">https://typefully.com/DanHollick/qr-codes-T7tLlNi</a><br>
+<img src="https://cdn.fliggy.com/upic/EF9y2K.jpg" width="600"></p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>codingfont：让你通过二分选择的方式选到最适合你的编程字体</strong><br>
+<a href="https://www.codingfont.com/">https://www.codingfont.com/</a><br>
+<img src="https://gw.alipayobjects.com/zos/k/xe/eK30XD.png" width="600"></p>
+<p><strong>Dracula UI：居然出组件库了</strong><br>
+<a href="https://ui.draculatheme.com/">https://ui.draculatheme.com/</a><br>
+用过 Dracula 主题的请举手，我曾经最喜欢的一个主题居然出组件库了，还挺漂亮的，此外有兴趣可以看这篇<a href="https://draculatheme.com/about">文章</a>来看看由来。<br>
+<img src="https://gw.alipayobjects.com/zos/k/22/KhQH6L.jpg" width="600"></p>
+<p><strong>learn-anything：你想学习什么告诉你怎么学</strong><br>
+<a href="https://learn-anything.xyz/">https://learn-anything.xyz/</a><br>
+比如说我想学习 web 开发，他会通过脑图拆解的方式告知你顺序。<br>
+<img src="https://gw.alipayobjects.com/zos/k/qt/Nch7iS.png" width="600"></p>
+<p><strong>mackup：保持应用程序设置同步</strong><br>
+<a href="https://github.com/lra/mackup">https://github.com/lra/mackup</a><br>
+支持 OS X/Linux 系统，对于换电脑迁移的同学保存功能设置的好方法。</p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>6 个视频，3 万粉丝，少数派作者是怎么运营 B 站的？</strong><br>
+<a href="https://sspai.com/post/75780">https://sspai.com/post/75780</a><br>
+这篇文章请收下我的膝盖，对于想做一个 UP 的同学可以看看。</p>
+<p><strong>子弹列车 Bullet Train</strong><br>
+<a href="https://movie.douban.com/subject/35118954/">https://movie.douban.com/subject/35118954/</a><br>
+国庆看了一下这个电影，最近看过的很不错的一个了，喜欢日本元素的不容错过。</p>
+<p><strong>适量喝咖啡对身体有哪些好处？</strong><br>
+<a href="https://www.zhihu.com/question/546343871">https://www.zhihu.com/question/546343871</a><br>
+想起脱口秀庞博说的“不上班，我永运都不知道世界上有一种东西叫冰美式，如果你不工作的话，你是吃不了这种苦的，太苦了，就拿这个提神，跟拿棍子直接抡我，有什么区别真是”。</p>

@@ -1,0 +1,52 @@
+<img src="https://gw.alipayobjects.com/zos/k/bv/IMG_1115.jpg" width="900/">
+<p><small>封面来源于周六径山花海的航拍图，风和日丽露营还是很舒服的。今天刚好是 1024 程序员节日，一直觉得日子过得还是需要有些仪式感才比较好，周末写了一个小彩蛋「<a href="https://tw93.netlify.app/"><strong>祝你 1024 节日快乐</strong></a>」，祝大家万事如意，以后写的代码都是你想写的代码。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="技术相关">技术相关</h2>
+<p><strong>The Future of the Web is on the Edge</strong><br>
+<a href="https://deno.com/blog/the-future-of-web-is-on-the-edge">https://deno.com/blog/the-future-of-web-is-on-the-edge</a><br>
+这个概念不错，很酷。</p>
+<p><strong>2022 Web 年鉴 — JavaScript</strong><br>
+<a href="https://mp.weixin.qq.com/s/cvdf4NPcOs25b2XHjoInrg">https://mp.weixin.qq.com/s/cvdf4NPcOs25b2XHjoInrg</a><br>
+一起来看看今年的 JavaScript 到底是什么样子。</p>
+<p><strong>A World-Class Code Playground with Sandpack</strong><br>
+<a href="https://www.joshwcomeau.com/react/next-level-playground/">https://www.joshwcomeau.com/react/next-level-playground/</a><br>
+看到标题第一感受是外国人怎么也喜欢吹牛逼，一看效果，还真不错，以后博客中可以嵌入代码运行了。<br>
+<img src="https://gw.alipayobjects.com/zos/k/0b/q8vquC.png" width="600/"></p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>helix：Vim 风格的后现代编辑器</strong><br>
+<a href="https://github.com/helix-editor/helix">https://github.com/helix-editor/helix</a><br>
+使用 Rust 开发的，喜欢 Vim 的同学强烈推荐试试看。<br>
+<img src="https://gw.alipayobjects.com/zos/k/j1/3hQpSO.jpg" width="600"></p>
+<p><strong>Textual：Python 下的 Text User Interface</strong><br>
+<a href="https://github.com/Textualize/textual">https://github.com/Textualize/textual</a><br>
+Textual 是一个 Python 的框架，用于在命令行中创建交互型的 UI 效果，很潮流，注意截图其实是一个命令行窗口。<br>
+<img src="https://gw.alipayobjects.com/zos/k/6r/HxuZHn.jpg" width="600/"></p>
+<p><strong>rust-course：Rust 语言圣经</strong><br>
+<a href="https://github.com/sunface/rust-course">https://github.com/sunface/rust-course</a><br>
+工作之余的第二语言来试试 Rust 吧，这个教程还不错。<br>
+<img src="https://gw.alipayobjects.com/zos/k/0s/T70eT4.jpg" width="600/"></p>
+<p><strong>wolfia：Turn your app into a link</strong><br>
+<a href="https://www.wolfia.com/">https://www.wolfia.com/</a><br>
+这个想法很神奇，别人都是将网页往 App 方向走，这个是你上传一个 APK，把你的应用放到虚拟机里面当做一个网页 URL 来使用。<br>
+<img src="https://gw.alipayobjects.com/zos/k/s7/FbHDI9.png" width="600/"></p>
+<p><strong>Gimli Tailwind：Chrome 调试 Tailwind 的扩展</strong><br>
+<a href="https://chrome.google.com/webstore/detail/gimli-tailwind/fojckembkmaoehhmkiomebhkcengcljl">https://chrome.google.com/webstore/detail/gimli-tailwind/fojckembkmaoehhmkiomebhkcengcljl</a><br>
+<img src="https://gw.alipayobjects.com/zos/k/0h/vigGks.png" width="600/"></p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>为什么现在越来越多的人不爱发朋友圈了？</strong><br>
+<a href="https://www.zhihu.com/question/310673334">https://www.zhihu.com/question/310673334</a><br>
+我好像最近也是也是，更喜欢和程序员工程师同学交流了。</p>
+<p><strong>Web3 咖啡馆见闻：狂热、暴富、落寞，欲望永不打烊</strong><br>
+<a href="https://www.huxiu.com/article/689609.html">https://www.huxiu.com/article/689609.html</a><br>
+期待 Web3 能够像之前 14 年左右的互联网那样火起来，比想象中要有趣不少，文字最后一句很妙。</p>
+<p><strong>Apple Watch Ultra 一个月体验，不极限运动买它值吗？</strong><br>
+<a href="https://www.huxiu.com/article/689181.html">https://www.huxiu.com/article/689181.html</a><br>
+李大锤的一个视频，有一说一 Ultra 是真的漂亮。</p>
+<p><strong>五十岁咸鱼翻身转码上岸</strong><br>
+<a href="https://www.1point3acres.com/bbs/thread-918311-1-1.html">https://www.1point3acres.com/bbs/thread-918311-1-1.html</a><br>
+我的天！50 岁在职半年自学这么多概念，一个月 leetcode300+海投 500+这执行力真的绝了！</p>
+<p><strong>我换上了 Wi-Fi 6，它用起来怎么样？</strong><br>
+<a href="https://sspai.com/post/76305">https://sspai.com/post/76305</a><br>
+好像我去年换上的就是 wifi6 千兆，一般 40m/s 的速度还是很爽的，而且没有想象中贵，但是带来的幸福感还是很足的。</p>

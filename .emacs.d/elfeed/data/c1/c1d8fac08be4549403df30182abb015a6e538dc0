@@ -1,0 +1,54 @@
+<img src="https://gw.alipayobjects.com/zos/k/10/MRNoEz.jpg" width="800/">  
+<p><small>封面图摄于周天去灵隐寺闲逛，拍的一张有意境的照片，心静、心诚、与世无争的感觉，录了小段 <a href="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-08-01/Ej8PSn.m4a">诵经声</a> 可用耳机调低音量听。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="前端技术">前端技术</h2>
+<p><strong>拖拽内容转移竟然还能这样玩！</strong><br>
+<a href="https://juejin.cn/post/6984587700951056414">https://juejin.cn/post/6984587700951056414</a><br>
+潮流开源中的，用于解释 Transmat 这个开源库的中文文章。</p>
+<p><strong>「后隐私」时代，个性化广告如何保护隐私？</strong><br>
+<a href="https://mp.weixin.qq.com/s/-QTjIN948k_da74EzXJyYw">https://mp.weixin.qq.com/s/-QTjIN948k_da74EzXJyYw</a><br>
+iOS 14 之后苹果对隐私这一块继续加强，包括最近的社会主义铁拳，弄商业化的同学可以看看。</p>
+<p><strong>深入理解 WKWebView（基础篇）—— 聊聊 cookie 管理那些事</strong><br>
+<a href="https://mp.weixin.qq.com/s/jZP2DsAa5OV91wdNMw39cA">https://mp.weixin.qq.com/s/jZP2DsAa5OV91wdNMw39cA</a><br>
+百度 App 技术这个文章我很喜欢，很有必要了解了解。</p>
+<p><strong>esModuleInterop 到底做了什么？</strong><br>
+<a href="https://zhuanlan.zhihu.com/p/148081795">https://zhuanlan.zhihu.com/p/148081795</a><br>
+这篇文章用于解释，为什么在 TS 里面会有<code>import * as React from 'react'</code>这种写法。</p>
+<p><strong>美团 App 页面视图可测性改造实践</strong><br>
+<a href="https://tech.meituan.com/2021/07/28/app-xraysdk.html">https://tech.meituan.com/2021/07/28/app-xraysdk.html</a><br>
+看看美团是怎么来做 UI 类的自动化测试的。</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>X-TRACK：开源 GPS 自行车码表</strong><br>
+<a href="https://github.com/FASTSHIFT/X-TRACK">https://github.com/FASTSHIFT/X-TRACK</a><br>
+只能说很潮流了，拥有可显示实时位置的离线地图，支持记录和显示实时轨迹以及导出标准 GPX 格式的轨迹文件，可以去看这个 <a href="https://www.bilibili.com/video/BV1GB4y1K7VV">B 站视频</a>。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-07-31/beDwj7.png" width="600/"></p>
+<p><strong>Transmat：谷歌开源的跨浏览器窗口数据共享</strong><br>
+<a href="https://google.github.io/transmat/">https://google.github.io/transmat/</a><br>
+使用了 DataTransfer 这个 API，使用拖放和复制粘贴的交互来简化 web 应用程序中的数据传输和接收，跨屏互联场景可以玩玩。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-07-26/DBPwcQ.gif" width="600/"></p>
+<p><strong>npmx：NPM 的高级 CLI</strong><br>
+<a href="https://github.com/terminal-junkies/npmx">https://github.com/terminal-junkies/npmx</a><br>
+一气呵成的使用 npm 搜索、运行、装包等事情，有兴趣同学可以搞一个 tnpmx 出来玩玩。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-07-29/jR8VCO.gif" width="600/"></p>
+<p><strong>KeyCastr：Mac 屏幕显示按键</strong><br>
+<a href="https://github.com/keycastr/keycastr">https://github.com/keycastr/keycastr</a><br>
+特别适合在演示的时候，你想看你屏幕的人知道你按了哪些快捷键，之前那篇「如何给代码找家」就用了这个。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-07-31/yvfJnr.png" width="600/"></p>
+<h2 id="看看其他">看看其他</h2>
+<p><strong>Chrome 扩展如何影响浏览器性能的？</strong><br>
+<a href="https://www.debugbear.com/blog/chrome-extension-performance-2021">https://www.debugbear.com/blog/chrome-extension-performance-2021</a><br>
+这个报告调查了 1000 种最流行的 Chrome 扩展如何影响浏览器性能和最终用户体验，PS 我 Edge 就 5 个扩展，其中 2 个还是自己搞的。</p>
+<p><strong>前端如何帮助业务发展</strong><br>
+<a href="https://zhuanlan.zhihu.com/p/62722892">https://zhuanlan.zhihu.com/p/62722892</a><br>
+原文标题里面有赋能这两个字，我不太喜欢，改成了帮助，不过文章还是写得不错的。</p>
+<p><strong>杨东平：中国教育内卷与课外培训机构扩张根源</strong><br>
+<a href="https://mp.weixin.qq.com/s/YbDdRqlYYKA3RG6UkWJheg">https://mp.weixin.qq.com/s/YbDdRqlYYKA3RG6UkWJheg</a><br>
+本文来自杨东平先生的一次演讲，对当前中国教育内卷的问题，有不少不能说的也说了，一起来看看实质，是一篇好文。</p>
+<p><strong>APP 弹窗何时休：你被这样骚扰过吗？</strong><br>
+<a href="https://mp.weixin.qq.com/s/6dPAF3oVt0gnZ1Eqo4bYKQ">https://mp.weixin.qq.com/s/6dPAF3oVt0gnZ1Eqo4bYKQ</a><br>
+蚂蚁这个事情真心做得好，从内网帖子看到了这个，去除弹窗的过程阻力其实很多的(毕竟，有弹窗跟没弹窗转化的效率可能相差 10 倍以上，那就意味着如果有弹窗，人家的 KPI 能以提高 10 倍的速度完成，你动了他的弹窗，人家的心情会好吗？)，给坚持的项目组点个赞。</p>
+<p><strong>分享一种茄子的美味做法</strong><br>
+<a href="https://www.v2ex.com/t/792632">https://www.v2ex.com/t/792632</a><br>
+我居然在 V2EX 上刷到了程序员教你做美味茄子！</p>

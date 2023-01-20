@@ -1,0 +1,45 @@
+<img src="https://gw.alipayobjects.com/zos/k/1g/0v2IK3.jpg" width="800/">  
+<p><small>照片摄于西双版纳中科院植物园长者植的一颗树，感觉 Exciting，相机曝光加 + 1s 记录下来。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="前端技术">前端技术</h2>
+<p><strong>一文打尽前端 Base64 编码知识</strong><br>
+<a href="https://mp.weixin.qq.com/s/Xc4v21d5qcbpMcSZF-N6AQ">https://mp.weixin.qq.com/s/Xc4v21d5qcbpMcSZF-N6AQ</a><br>
+详细介绍 Base64 的文章。</p>
+<p><strong>实现无感刷新 token 我是这样做的</strong><br>
+<a href="https://juejin.cn/post/6983582201690456071">https://juejin.cn/post/6983582201690456071</a><br>
+当 token 过期的时候，刷新 token,前端需要做到无感刷新 token,即刷 token 时要做到用户无感知，避免频繁登录。这个文章的思路还可以的。</p>
+<p><strong>2021 年当我们聊前端部署时，我们在聊什么</strong><br>
+<a href="https://juejin.cn/post/7017710911443959839">https://juejin.cn/post/7017710911443959839</a><br>
+字节前端讲了一下前端部署到访问全过程的实现。</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>cloc：很方便统计代码行数</strong><br>
+<a href="https://github.com/kentcdodds/cloc">https://github.com/kentcdodds/cloc</a><br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-10-13/NC64cr.png" width="600/"></p>
+<p><strong>codepen：一根用 css 画的数据线</strong><br>
+<a href="https://codepen.io/comehope/pen/RBjdzZ">https://codepen.io/comehope/pen/RBjdzZ</a><br>
+可能 95% 同学会用一张图片代替。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-10-13/rvpij6.png" width="600/"></p>
+<p><strong>appsmith：模型驱动低代码生成管理系系统</strong><br>
+<a href="https://github.com/appsmithorg/appsmith">https://github.com/appsmithorg/appsmith</a><br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-10-17/eg3E32.png" width="600/"></p>
+<p><strong>Github Readme 支持注脚了</strong><br>
+<a href="https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/">https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/</a><br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-10-16/RCNGbB.gif" width="600/"></p>
+<p><strong>MockingBird：实时语音克隆 - 中文/普通话</strong><br>
+<a href="https://github.com/babysor/MockingBird">https://github.com/babysor/MockingBird</a><br>
+5 秒内克隆您的声音并生成任意语音内容。</p>
+<p><strong>SwiftFormat：Xcode 中 swift 格式化扩展</strong><br>
+<a href="https://github.com/nicklockwood/SwiftFormat">https://github.com/nicklockwood/SwiftFormat</a><br>
+挺好用的，OC 也有一个类似的。</p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>走到岔路口的汽车芯片</strong><br>
+<a href="https://mp.weixin.qq.com/s/xbhYyxxE7xGjx2FZq4y9Lg">https://mp.weixin.qq.com/s/xbhYyxxE7xGjx2FZq4y9Lg</a><br>
+看看汽车芯片这个概念。</p>
+<p><strong>2021 年的互联网平台竞争版图</strong><br>
+<a href="https://mp.weixin.qq.com/s/HBX0LzY65cessaH5WmxdMA">https://mp.weixin.qq.com/s/HBX0LzY65cessaH5WmxdMA</a><br>
+互联网平台按照用户属性划分的“五个圈子”。</p>
+<p><strong>为什么很可能会死，他们也要参加“鱿鱼游戏”？</strong><br>
+<a href="https://www.huxiu.com/article/464319.html">https://www.huxiu.com/article/464319.html</a><br>
+刚出来就追完了，超级不错。</p>

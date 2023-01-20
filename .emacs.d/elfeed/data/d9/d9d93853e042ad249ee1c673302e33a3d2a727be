@@ -1,0 +1,1 @@
+RT suzuha ⚡🌙<br>reminder<br><br>suzuha ⚡🌙: SGX is not viable for implementing transactional privacy or sequencing semantics in order to avert MEV for DEXes, for the same reason it's not viable as a consensus mechanism<br><br>all that's required to extract MEV is to break *one* SGX enclave<br>

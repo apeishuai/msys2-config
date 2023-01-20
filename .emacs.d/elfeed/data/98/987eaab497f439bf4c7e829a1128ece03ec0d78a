@@ -1,0 +1,54 @@
+<img src="https://gw.alipayobjects.com/zos/k/zn/yPL9km.jpg" width="900">
+<p><small>封面来源于周六去西湖玩的路上碰到树上的松鼠，用吃的可以诱骗这个小家伙下来，还挺可爱。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="技术相关">技术相关</h2>
+<p><strong>iOS 灵动岛开发实践</strong><br>
+<a href="https://juejin.cn/post/7153236337074634788">https://juejin.cn/post/7153236337074634788</a><br>
+看看客户端如何来写灵动岛，其实对于前端有一定输入的。</p>
+<p><strong>深入理解函数式编程</strong><br>
+<a href="https://tech.meituan.com/2022/10/13/dive-into-functional-programming-01.html">https://tech.meituan.com/2022/10/13/dive-into-functional-programming-01.html</a><br>
+函数式编程喜欢的人很喜欢，不喜欢的人感觉一般般，大家都有美好的未来。</p>
+<p><strong>精读《迭代器 Iterable》</strong><br>
+<a href="https://mp.weixin.qq.com/s/rP1hMGi_CiPQfdSPydL4bw">https://mp.weixin.qq.com/s/rP1hMGi_CiPQfdSPydL4bw</a><br>
+这次精读的文章是 Iterables 与 Iteration protocols，按照为什么需要迭代器、迭代器是如何设计的，我们还能怎么利用迭代器展开来讲。</p>
+<p><strong>11 Features in Node.js 18 you need to try</strong><br>
+<a href="https://nodesource.com/blog/11-features-nodeJS-18-to-try">https://nodesource.com/blog/11-features-nodeJS-18-to-try</a><br>
+Node18 的 11 个特性你应该试一试。</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>vChewing-macOS：开源的威注音输入法</strong><br>
+<a href="https://github.com/vChewing/vChewing-macOS">https://github.com/vChewing/vChewing-macOS</a><br>
+有一些中文程序员很喜欢折腾文字的表达，输入法，这种很纯粹的东西，佩服。<br>
+<img src="https://cdn.fliggy.com/upic/cEKZKX.jpg" width="600"></p>
+<p><strong>Inject：Swift 应用开发时候热更新</strong><br>
+<a href="https://github.com/krzysztofzablocki/Inject">https://github.com/krzysztofzablocki/Inject</a><br>
+看完那个演示效果，我直接尖叫，这样开发 swift 的同学能方便不少。<br>
+<img src="https://cdn.fliggy.com/upic/oiGVfK.gif" width="600"></p>
+<p><strong>Trix：一个富文本编辑器</strong><br>
+<a href="https://trix-editor.org/">https://trix-editor.org/</a><br>
+看了看编辑效果，还是很不错的。<br>
+<img src="https://gw.alipayobjects.com/zos/k/gj/iudSIc.png" width="600"></p>
+<p><strong>Mac Mouse Fix：优化你的鼠标使用体验</strong><br>
+<a href="https://mousefix.org/">https://mousefix.org/</a><br>
+看 Demo 效果，在切换和滚动的时候做了不少优化，可惜我的 Mac 不用鼠标。<br>
+<img src="https://cdn.fliggy.com/upic/95JbxO.gif" width="600"></p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>十分钟之内，如何通过细节来判断一家咖啡馆是好是坏？</strong><br>
+<a href="https://www.zhihu.com/question/31130090/answer/2741095384">https://www.zhihu.com/question/31130090/answer/2741095384</a><br>
+如何迅速判断一家咖啡店是否靠谱，尽可能降低试错成本呢？</p>
+<p><strong>iPhone 屏幕好在哪？OLED 次像素渲染深度解析</strong><br>
+<a href="https://sspai.com/post/76773">https://sspai.com/post/76773</a><br>
+其实我也觉得苹果的屏幕一直看着很舒服的样子，这篇少数派文章居然很技术派。</p>
+<p><strong>重新认识 LCD 显示器</strong><br>
+<a href="https://sspai.com/post/76509">https://sspai.com/post/76509</a><br>
+接上篇文章，有兴趣可以接着看。</p>
+<p><strong>年轻人的第一篇染发及洗护指南</strong><br>
+<a href="https://sspai.com/prime/story/hair-dye-tutorial">https://sspai.com/prime/story/hair-dye-tutorial</a><br>
+这篇文章居然从头发的材质结构到染发的原理给你说的明明白白了。</p>
+<p><strong>亲历 Meta 万人大裁员</strong><br>
+<a href="https://www.huxiu.com/article/712188.html">https://www.huxiu.com/article/712188.html</a><br>
+的确是这几天 meta 裁员文章里，最详实的一篇了，不过对于扎克伯格公开承认自己预判失误其实在国内相比还是很少见的。</p>
+<p><strong>许路：造了一艘能开的古代帆船</strong><br>
+<a href="https://mp.weixin.qq.com/s/6kOdAljOqSe1dQP73c4TBQ">https://mp.weixin.qq.com/s/6kOdAljOqSe1dQP73c4TBQ</a><br>
+很有趣的样子，顺风顺水顺人意。</p>

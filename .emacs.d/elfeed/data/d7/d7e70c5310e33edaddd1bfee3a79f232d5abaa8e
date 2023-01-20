@@ -1,0 +1,229 @@
+<p data-pid="-eJIj4e-">正在前面的基础上：</p><a href="https://zhuanlan.zhihu.com/p/452935875" data-draft-node="block" data-draft-type="link-card" class="internal">迦非喵：Win11+CMake+vscode编译运行hdf5示例代码</a><p data-pid="anXaVu3o">这里继续重构：</p><p data-pid="6-4jDbNn">CMakeLists.txt</p><div class="highlight"><pre><code class="language-cmake"><span class="nb">cmake_minimum_required</span><span class="p">(</span><span class="s">VERSION</span> <span class="s">3.24</span><span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">project</span> <span class="p">(</span> <span class="s">testprj</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">PRJ_COMPILE_FEATURES</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">PRJ_LIBRARIES</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">PRJ_INCLUDE_DIRS</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_COMPILE_FEATURES</span> <span class="s">cxx_std_20</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">find_package</span><span class="p">(</span><span class="s">HDF5</span> <span class="s">REQUIRED</span><span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">if</span> <span class="p">(</span> <span class="s">HDF5_FOUND</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span>    <span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_LIBRARIES</span> <span class="o">${</span><span class="nv">HDF5_LIBRARIES</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span>    <span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_INCLUDE_DIRS</span> <span class="o">${</span><span class="nv">HDF5_INCLUDE_DIRS</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">endif</span> <span class="p">()</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">add_executable</span><span class="p">(</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span> 
+    <span class="s">main.cpp</span>
+<span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">target_include_directories</span> <span class="p">(</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span>
+    <span class="s">PRIVATE</span> 
+        <span class="o">${</span><span class="nv">PRJ_INCLUDE_DIRS</span><span class="o">}</span>
+<span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">target_link_libraries</span><span class="p">(</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span> 
+    <span class="s">PRIVATE</span> 
+        <span class="o">${</span><span class="nv">PRJ_LIBRARIES</span><span class="o">}</span>
+<span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">target_compile_features</span> <span class="p">(</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span> 
+<span class="s">PRIVATE</span> 
+<span class="o">${</span><span class="nv">PRJ_COMPILE_FEATURES</span><span class="o">}</span>
+<span class="p">)</span><span class="err">
+</span></code></pre></div><p data-pid="qo7izzLn">main.cpp</p><div class="highlight"><pre><code class="language-cpp"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;hdf5.h&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="c1">// Constants
+</span><span class="c1"></span><span class="k">const</span> <span class="kt">char</span> <span class="n">saveFilePath</span><span class="p">[]</span> <span class="o">=</span> <span class="s">"test.h5"</span><span class="p">;</span>
+<span class="k">const</span> <span class="n">hsize_t</span> <span class="n">ndims</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+<span class="k">const</span> <span class="n">hsize_t</span> <span class="n">ncols</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span> <span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span> <span class="n">argv</span> <span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// Create a hdf5 file
+</span><span class="c1"></span>    <span class="n">hid_t</span> <span class="n">file</span> <span class="o">=</span> <span class="n">H5Fcreate</span><span class="p">(</span><span class="n">saveFilePath</span><span class="p">,</span> <span class="n">H5F_ACC_TRUNC</span><span class="p">,</span> <span class="n">H5P_DEFAULT</span><span class="p">,</span> <span class="n">H5P_DEFAULT</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- File created"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// Create a 2D dataspace
+</span><span class="c1"></span>    <span class="c1">// The size of the first dimension is unlimited (initially 0)
+</span><span class="c1"></span>    <span class="c1">// The size of the second dimension is fixed
+</span><span class="c1"></span>    <span class="n">hsize_t</span> <span class="n">dims</span><span class="p">[</span><span class="n">ndims</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="n">ncols</span><span class="p">};</span>
+    <span class="n">hsize_t</span> <span class="n">max_dims</span><span class="p">[</span><span class="n">ndims</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="n">H5S_UNLIMITED</span><span class="p">,</span> <span class="n">ncols</span><span class="p">};</span>
+    <span class="n">hid_t</span> <span class="n">file_space</span> <span class="o">=</span> <span class="n">H5Screate_simple</span><span class="p">(</span><span class="n">ndims</span><span class="p">,</span> <span class="n">dims</span><span class="p">,</span> <span class="n">max_dims</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- Dataspace created"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// Create a dataset creation property list
+</span><span class="c1"></span>    <span class="c1">// The layout of the dataset have to be chunked when using unlimited dimensions
+</span><span class="c1"></span>    <span class="n">hid_t</span> <span class="n">plist</span> <span class="o">=</span> <span class="n">H5Pcreate</span><span class="p">(</span><span class="n">H5P_DATASET_CREATE</span><span class="p">);</span>
+    <span class="n">H5Pset_layout</span><span class="p">(</span><span class="n">plist</span><span class="p">,</span> <span class="n">H5D_CHUNKED</span><span class="p">);</span>
+    <span class="c1">// The choice of the chunk size affects performances
+</span><span class="c1"></span>    <span class="c1">// This is a toy example so we will choose one line
+</span><span class="c1"></span>    <span class="n">hsize_t</span> <span class="n">chunk_dims</span><span class="p">[</span><span class="n">ndims</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="n">ncols</span><span class="p">};</span>
+    <span class="n">H5Pset_chunk</span><span class="p">(</span><span class="n">plist</span><span class="p">,</span> <span class="n">ndims</span><span class="p">,</span> <span class="n">chunk_dims</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- Property list created"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// Create the dataset 'dset1'
+</span><span class="c1"></span>    <span class="n">hid_t</span> <span class="n">dset</span> <span class="o">=</span> <span class="n">H5Dcreate</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="s">"dset1"</span><span class="p">,</span> <span class="n">H5T_NATIVE_FLOAT</span><span class="p">,</span> <span class="n">file_space</span><span class="p">,</span> <span class="n">H5P_DEFAULT</span><span class="p">,</span> <span class="n">plist</span><span class="p">,</span> <span class="n">H5P_DEFAULT</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- Dataset 'dset1' created"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// Close resources
+</span><span class="c1"></span>    <span class="n">H5Pclose</span><span class="p">(</span><span class="n">plist</span><span class="p">);</span>
+    <span class="n">H5Sclose</span><span class="p">(</span><span class="n">file_space</span><span class="p">);</span>
+    <span class="c1">// We don't need the file dataspace anymore because when the dataset will be extended,
+</span><span class="c1"></span>    <span class="c1">// we will have to grab the updated file dataspace anyway
+</span><span class="c1"></span>
+    <span class="c1">// We will now append two buffers to the end of the datset
+</span><span class="c1"></span>    <span class="c1">// The first one will be two lines long
+</span><span class="c1"></span>    <span class="c1">// The second one will be three lines long
+</span><span class="c1"></span>
+    <span class="c1">// ## First buffer
+</span><span class="c1"></span>
+    <span class="c1">// Create 2D buffer (contigous in memory, row major order)
+</span><span class="c1"></span>    <span class="c1">// We will allocate enough memory to store 3 lines, so we can reuse the buffer
+</span><span class="c1"></span>    <span class="n">hsize_t</span> <span class="n">nlines</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+    <span class="kt">float</span> <span class="o">*</span><span class="n">buffer</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">float</span><span class="p">[</span><span class="n">nlines</span> <span class="o">*</span> <span class="n">ncols</span><span class="p">];</span>
+    <span class="c1">// Let us create an array of pointers so we can use the b[i][j] notation
+</span><span class="c1"></span>    <span class="c1">// instead of buffer[i * ncols + j]
+</span><span class="c1"></span>    <span class="kt">float</span> <span class="o">**</span><span class="n">b</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">float</span><span class="o">*</span><span class="p">[</span><span class="n">nlines</span><span class="p">];</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">hsize_t</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">nlines</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">b</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">buffer</span><span class="p">[</span><span class="n">i</span> <span class="o">*</span> <span class="n">ncols</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Initial values in buffer to be written in the dataset
+</span><span class="c1"></span>    <span class="n">b</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.1</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.2</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.4</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.5</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
+
+    <span class="c1">// Create a memory dataspace to indicate the size of our buffer
+</span><span class="c1"></span>    <span class="c1">// Remember the first buffer is only two lines long
+</span><span class="c1"></span>    <span class="n">dims</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="n">dims</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">ncols</span><span class="p">;</span>
+    <span class="n">hid_t</span> <span class="n">mem_space</span> <span class="o">=</span> <span class="n">H5Screate_simple</span><span class="p">(</span><span class="n">ndims</span><span class="p">,</span> <span class="n">dims</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- Memory dataspace created"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// Extend dataset
+</span><span class="c1"></span>    <span class="c1">// We set the initial size of the dataset to 0x3, we thus need to extend it first
+</span><span class="c1"></span>    <span class="c1">// Note that we extend the dataset itself, not its dataspace
+</span><span class="c1"></span>    <span class="c1">// Remember the first buffer is only two lines long
+</span><span class="c1"></span>    <span class="n">dims</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="n">dims</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">ncols</span><span class="p">;</span>
+    <span class="n">H5Dset_extent</span><span class="p">(</span><span class="n">dset</span><span class="p">,</span> <span class="n">dims</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- Dataset extended"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// Select hyperslab on file dataset
+</span><span class="c1"></span>    <span class="n">file_space</span> <span class="o">=</span> <span class="n">H5Dget_space</span><span class="p">(</span><span class="n">dset</span><span class="p">);</span>
+    <span class="n">hsize_t</span> <span class="n">start</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">};</span>
+    <span class="n">hsize_t</span> <span class="n">count</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="n">ncols</span><span class="p">};</span>
+    <span class="n">H5Sselect_hyperslab</span><span class="p">(</span><span class="n">file_space</span><span class="p">,</span> <span class="n">H5S_SELECT_SET</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">,</span> <span class="n">count</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- First hyperslab selected"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// Write buffer to dataset
+</span><span class="c1"></span>    <span class="c1">// mem_space and file_space should now have the same number of elements selected
+</span><span class="c1"></span>    <span class="c1">// note that buffer and &amp;b[0][0] are equivalent
+</span><span class="c1"></span>    <span class="n">H5Dwrite</span><span class="p">(</span><span class="n">dset</span><span class="p">,</span> <span class="n">H5T_NATIVE_FLOAT</span><span class="p">,</span> <span class="n">mem_space</span><span class="p">,</span> <span class="n">file_space</span><span class="p">,</span> <span class="n">H5P_DEFAULT</span><span class="p">,</span> <span class="n">buffer</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- First buffer written"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    
+    <span class="c1">// We can now close the file dataspace
+</span><span class="c1"></span>    <span class="c1">// We could close the memory dataspace and create a new one,
+</span><span class="c1"></span>    <span class="c1">// but we will simply update its size
+</span><span class="c1"></span>    <span class="n">H5Sclose</span><span class="p">(</span><span class="n">file_space</span><span class="p">);</span>
+
+    <span class="c1">// ## Second buffer
+</span><span class="c1"></span>
+    <span class="c1">// New values in buffer to be appended to the dataset
+</span><span class="c1"></span>    <span class="n">b</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.1</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.2</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.3</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.4</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.5</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.6</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.7</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.8</span><span class="p">;</span>
+    <span class="n">b</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.9</span><span class="p">;</span>
+
+    <span class="c1">// Resize the memory dataspace to indicate the new size of our buffer
+</span><span class="c1"></span>    <span class="c1">// The second buffer is three lines long
+</span><span class="c1"></span>    <span class="n">dims</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+    <span class="n">dims</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">ncols</span><span class="p">;</span>
+    <span class="n">H5Sset_extent_simple</span><span class="p">(</span><span class="n">mem_space</span><span class="p">,</span> <span class="n">ndims</span><span class="p">,</span> <span class="n">dims</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- Memory dataspace resized"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// Extend dataset
+</span><span class="c1"></span>    <span class="c1">// Note that in this simple example, we know that 2 + 3 = 5
+</span><span class="c1"></span>    <span class="c1">// In general, you could read the current extent from the file dataspace
+</span><span class="c1"></span>    <span class="c1">// and add the desired number of lines to it
+</span><span class="c1"></span>    <span class="n">dims</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+    <span class="n">dims</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">ncols</span><span class="p">;</span>
+    <span class="n">H5Dset_extent</span><span class="p">(</span><span class="n">dset</span><span class="p">,</span> <span class="n">dims</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- Dataset extended"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// Select hyperslab on file dataset
+</span><span class="c1"></span>    <span class="c1">// Again in this simple example, we know that 0 + 2 = 2
+</span><span class="c1"></span>    <span class="c1">// In general, you could read the current extent from the file dataspace
+</span><span class="c1"></span>    <span class="c1">// The second buffer is three lines long
+</span><span class="c1"></span>    <span class="n">file_space</span> <span class="o">=</span> <span class="n">H5Dget_space</span><span class="p">(</span><span class="n">dset</span><span class="p">);</span>
+    <span class="n">start</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="n">start</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">count</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+    <span class="n">count</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">ncols</span><span class="p">;</span>
+    <span class="n">H5Sselect_hyperslab</span><span class="p">(</span><span class="n">file_space</span><span class="p">,</span> <span class="n">H5S_SELECT_SET</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">,</span> <span class="n">count</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- Second hyperslab selected"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// Append buffer to dataset
+</span><span class="c1"></span>    <span class="n">H5Dwrite</span><span class="p">(</span><span class="n">dset</span><span class="p">,</span> <span class="n">H5T_NATIVE_FLOAT</span><span class="p">,</span> <span class="n">mem_space</span><span class="p">,</span> <span class="n">file_space</span><span class="p">,</span> <span class="n">H5P_DEFAULT</span><span class="p">,</span> <span class="n">buffer</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- Second buffer written"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// Close resources
+</span><span class="c1"></span>    <span class="k">delete</span><span class="p">[]</span> <span class="n">b</span><span class="p">;</span>
+    <span class="k">delete</span><span class="p">[]</span> <span class="n">buffer</span><span class="p">;</span>
+    <span class="n">H5Sclose</span><span class="p">(</span><span class="n">file_space</span><span class="p">);</span>
+    <span class="n">H5Sclose</span><span class="p">(</span><span class="n">mem_space</span><span class="p">);</span>
+    <span class="n">H5Dclose</span><span class="p">(</span><span class="n">dset</span><span class="p">);</span>
+    <span class="n">H5Fclose</span><span class="p">(</span><span class="n">file</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"- Resources released"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p data-pid="5OYdYgNj">windows11+powershell</p><p data-pid="_AJpZs5E">cmake ..</p><div class="highlight"><pre><code class="language-text">PS D:\work\hdf5_work\ModernHDF5\codes\simple\02\build&gt; cmake ..
+-- Building for: Visual Studio 17 2022
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22621.
+-- The C compiler identification is MSVC 19.33.31630.0
+-- The CXX compiler identification is MSVC 19.33.31630.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found HDF5: hdf5::hdf5-shared (found version "1.13.2")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/work/hdf5_work/ModernHDF5/codes/simple/02/build</code></pre></div><p data-pid="b30is_B5">cmake --build .</p><div class="highlight"><pre><code class="language-text">PS D:\work\hdf5_work\ModernHDF5\codes\simple\02\build&gt; cmake --build .
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  Checking Build System
+  Building Custom Rule D:/work/hdf5_work/ModernHDF5/codes/simple/02/CMakeLists.txt
+  main.cpp
+  testprj.vcxproj -&gt; D:\work\hdf5_work\ModernHDF5\codes\simple\02\build\Debug\testprj.exe
+  Building Custom Rule D:/work/hdf5_work/ModernHDF5/codes/simple/02/CMakeLists.txt</code></pre></div><p data-pid="CkZhlqCW"> .\Debug\testprj.exe</p><div class="highlight"><pre><code class="language-text">PS D:\work\hdf5_work\ModernHDF5\codes\simple\02\build&gt; .\Debug\testprj.exe
+- File created
+- Dataspace created
+- Property list created
+- Dataset 'dset1' created
+- Memory dataspace created
+- Dataset extended
+- First hyperslab selected
+- First buffer written
+- Memory dataspace resized
+- Dataset extended
+- Second hyperslab selected
+- Second buffer written
+- Resources released</code></pre></div><p data-pid="iQO8ifnB">产生test.h5文件</p><figure data-size="normal"><img src="https://pic3.zhimg.com/v2-78a9e05e861532ee9b45108989f42d5a_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="377" data-rawheight="305" class="content_image" referrerpolicy="no-referrer"></figure><p data-pid="B5vbyhpt">使用HDFViewApp-3.2.0打开test.h5文件</p><figure data-size="normal"><img src="https://pic2.zhimg.com/v2-e4691e3ddb7a18b434ea7964b248e7f9_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="504" data-rawheight="168" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-e4691e3ddb7a18b434ea7964b248e7f9_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="0pnb28KR">有：</p><figure data-size="normal"><img src="https://pic2.zhimg.com/v2-6db9d3f8f1e5e618210c43dddf9c2e01_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="786" data-rawheight="338" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-6db9d3f8f1e5e618210c43dddf9c2e01_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="j5x6xY6g">双击dset1，有：</p><figure data-size="normal"><img src="https://pic4.zhimg.com/v2-aac024976c4cdb0ac3b3126d77b75a47_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="468" data-rawheight="290" class="origin_image zh-lightbox-thumb" data-original="https://pic4.zhimg.com/v2-aac024976c4cdb0ac3b3126d77b75a47_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="d5OrE52P">可见两次数据</p><figure data-size="normal"><img src="https://pic1.zhimg.com/v2-b64d5b25dc4703a18b21b6bfec4179e4_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="792" data-rawheight="178" class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-b64d5b25dc4703a18b21b6bfec4179e4_r.jpg" referrerpolicy="no-referrer"></figure><figure data-size="normal"><img src="https://pic3.zhimg.com/v2-b5b65c0e35dedabdbd4ee8dd6d3289f2_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="782" data-rawheight="302" class="origin_image zh-lightbox-thumb" data-original="https://pic3.zhimg.com/v2-b5b65c0e35dedabdbd4ee8dd6d3289f2_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="7UnTzfjV">合并到一起。</p><p data-pid="G_EnOo_m">代码上传至：</p><a href="https://github.com/eric2003/ModernHDF5/tree/main/codes/simple/02" data-draft-node="block" data-draft-type="link-card" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">https://</span><span class="visible">github.com/eric2003/Mod</span><span class="invisible">ernHDF5/tree/main/codes/simple/02</span><span class="ellipsis"></span></a><p data-pid="hsad9DuL">为便于检索，文章收录于：</p><a href="https://zhuanlan.zhihu.com/p/452874893" data-draft-node="block" data-draft-type="link-card" class="internal">迦非喵：CGNS和hdf5编译链接相关文章链接整理（不定期更新）</a><p></p>

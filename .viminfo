@@ -15,7 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1669604564,,"wq"
+|2,0,1674210771,,"wq"
 :q
 |2,0,1669039156,,"q"
 
@@ -30,12 +30,12 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	export PATH=$PATH:/e\:/Snipaste-2.7.3-Beta-x64/
-|3,0,0,1,1,0,1668314144,"export PATH=$PATH:/e\\:/Snipaste-2.7.3-Beta-x64/"
-""1	LINE	0
+""0	LINE	0
+	export PATH=$PATH:/mingw64/bin/
+|3,1,0,1,1,0,1669707599,"export PATH=$PATH:/mingw64/bin/"
+"1	LINE	0
 	
-|3,1,1,1,1,0,1669375563,""
+|3,0,1,1,1,0,1669375563,""
 "2	LINE	0
 	export PATH=$PATH:/e\:/Snipaste-2.7.3-Beta-x64/
 |3,0,2,1,1,0,1668090030,"export PATH=$PATH:/e\\:/Snipaste-2.7.3-Beta-x64/"
@@ -44,230 +44,243 @@ $
 |3,0,3,1,1,0,1668089771,"export PATH=$PATH:/mingw64/bi/"
 
 # File marks:
-'0  1  0  ~/.gitconfig
-|4,48,1,0,1669604564,"~/.gitconfig"
-'1  1  10  /g/emacs-notes/Computer_science/test/test.h
-|4,49,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
-'2  5  0  /g/emacs-notes/Computer_science/test/test.cpp
-|4,50,5,0,1669375597,"/g/emacs-notes/Computer_science/test/test.cpp"
-'3  1  0  /etc/localtime
-|4,51,1,0,1669039156,"/etc/localtime"
-'4  17  18  /mingw64
-|4,52,17,18,1668314149,"/mingw64"
-'5  194  32  ~/.bashrc
-|4,53,194,32,1668259943,"~/.bashrc"
-'6  1  507  ~/.ssh/id_rsa.pub
-|4,54,1,507,1668090721,"~/.ssh/id_rsa.pub"
-'7  193  13  ~/.bashrc
-|4,55,193,13,1668090136,"~/.bashrc"
-'8  193  13  ~/.bashrc
-|4,56,193,13,1668090136,"~/.bashrc"
-'9  195  0  ~/.bashrc
-|4,57,195,0,1668090032,"~/.bashrc"
+'0  1  0  ~/.bashrc
+|4,48,1,0,1674210772,"~/.bashrc"
+'1  193  0  ~/.bashrc
+|4,49,193,0,1674210636,"~/.bashrc"
+'2  193  0  ~/.bashrc
+|4,50,193,0,1674210636,"~/.bashrc"
+'3  197  27  ~/.bashrc
+|4,51,197,27,1669707707,"~/.bashrc"
+'4  194  27  ~/.bashrc
+|4,52,194,27,1669707707,"~/.bashrc"
+'5  197  27  ~/.bashrc
+|4,53,197,27,1669707707,"~/.bashrc"
+'6  194  27  ~/.bashrc
+|4,54,194,27,1669707707,"~/.bashrc"
+'7  197  22  ~/.bashrc
+|4,55,197,22,1669707694,"~/.bashrc"
+'8  194  22  ~/.bashrc
+|4,56,194,22,1669707694,"~/.bashrc"
+'9  197  22  ~/.bashrc
+|4,57,197,22,1669707694,"~/.bashrc"
 
 # Jumplist (newest first):
+-'  1  0  ~/.bashrc
+|4,39,1,0,1674210772,"~/.bashrc"
+-'  193  0  ~/.bashrc
+|4,39,193,0,1674210761,"~/.bashrc"
+-'  193  0  ~/.bashrc
+|4,39,193,0,1674210636,"~/.bashrc"
+-'  194  1  ~/.bashrc
+|4,39,194,1,1674210633,"~/.bashrc"
+-'  194  1  ~/.bashrc
+|4,39,194,1,1674210633,"~/.bashrc"
+-'  197  27  ~/.bashrc
+|4,39,197,27,1674210611,"~/.bashrc"
+-'  197  27  ~/.bashrc
+|4,39,197,27,1674210611,"~/.bashrc"
+-'  194  27  ~/.bashrc
+|4,39,194,27,1669707707,"~/.bashrc"
+-'  194  22  ~/.bashrc
+|4,39,194,22,1669707694,"~/.bashrc"
+-'  194  17  ~/.bashrc
+|4,39,194,17,1669707636,"~/.bashrc"
+-'  198  32  ~/.bashrc
+|4,39,198,32,1669707579,"~/.bashrc"
+-'  195  32  ~/.bashrc
+|4,39,195,32,1669707579,"~/.bashrc"
+-'  198  32  ~/.bashrc
+|4,39,198,32,1669707579,"~/.bashrc"
+-'  195  32  ~/.bashrc
+|4,39,195,32,1669707579,"~/.bashrc"
+-'  195  32  ~/.bashrc
+|4,39,195,32,1669707579,"~/.bashrc"
+-'  195  32  ~/.bashrc
+|4,39,195,32,1669707579,"~/.bashrc"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1669604564,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1669604564,"~/.gitconfig"
 -'  1  10  /g/emacs-notes/Computer_science/test/test.h
 |4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
 -'  1  10  /g/emacs-notes/Computer_science/test/test.h
 |4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
--'  5  0  /g/emacs-notes/Computer_science/test/test.cpp
-|4,39,5,0,1669375597,"/g/emacs-notes/Computer_science/test/test.cpp"
--'  5  0  /g/emacs-notes/Computer_science/test/test.cpp
-|4,39,5,0,1669375597,"/g/emacs-notes/Computer_science/test/test.cpp"
--'  5  0  /g/emacs-notes/Computer_science/test/test.cpp
-|4,39,5,0,1669375597,"/g/emacs-notes/Computer_science/test/test.cpp"
--'  5  0  /g/emacs-notes/Computer_science/test/test.cpp
-|4,39,5,0,1669375597,"/g/emacs-notes/Computer_science/test/test.cpp"
--'  1  0  /g/emacs-notes/Computer_science/test/test.cpp
-|4,39,1,0,1669375536,"/g/emacs-notes/Computer_science/test/test.cpp"
--'  1  0  /g/emacs-notes/Computer_science/test/test.cpp
-|4,39,1,0,1669375536,"/g/emacs-notes/Computer_science/test/test.cpp"
--'  1  0  /g/emacs-notes/Computer_science/test/test.cpp
-|4,39,1,0,1669375536,"/g/emacs-notes/Computer_science/test/test.cpp"
--'  1  0  /g/emacs-notes/Computer_science/test/test.cpp
-|4,39,1,0,1669375536,"/g/emacs-notes/Computer_science/test/test.cpp"
--'  1  0  /etc/localtime
-|4,39,1,0,1669039156,"/etc/localtime"
--'  1  0  /etc/localtime
-|4,39,1,0,1669039156,"/etc/localtime"
--'  1  0  /etc/localtime
-|4,39,1,0,1669039156,"/etc/localtime"
--'  1  0  /etc/localtime
-|4,39,1,0,1669039156,"/etc/localtime"
--'  1  0  /etc/localtime
-|4,39,1,0,1669039156,"/etc/localtime"
--'  1  0  /etc/localtime
-|4,39,1,0,1669039156,"/etc/localtime"
--'  1  0  /etc/localtime
-|4,39,1,0,1669039156,"/etc/localtime"
--'  1  0  /etc/localtime
-|4,39,1,0,1669039156,"/etc/localtime"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  17  18  /mingw64
-|4,39,17,18,1668314149,"/mingw64"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  194  32  ~/.bashrc
-|4,39,194,32,1668259943,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  193  13  ~/.bashrc
-|4,39,193,13,1668259897,"~/.bashrc"
--'  1  507  ~/.ssh/id_rsa.pub
-|4,39,1,507,1668090721,"~/.ssh/id_rsa.pub"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
+-'  1  10  /g/emacs-notes/Computer_science/test/test.h
+|4,39,1,10,1669375616,"/g/emacs-notes/Computer_science/test/test.h"
 
 # History of marks within files (newest to oldest):
+
+> ~/.bashrc
+	*	1674210769	0
+	"	1	0
+	.	194	0
+	+	195	12
+	+	196	31
+	+	199	0
+	+	196	31
+	+	198	32
+	+	197	27
+	+	192	13
+	+	194	0
 
 > ~/.gitconfig
 	*	1669604561	0
@@ -299,17 +312,6 @@ $
 > /etc/localtime
 	*	1669039152	0
 	"	1	0
-
-> ~/.bashrc
-	*	1668259941	0
-	"	194	32
-	^	194	33
-	.	194	32
-	+	192	12
-	+	193	31
-	+	195	0
-	+	193	31
-	+	194	32
 
 > ~/.ssh/id_rsa.pub
 	*	1668090720	0

@@ -1,0 +1,44 @@
+<img src="https://gw.alipayobjects.com/zos/k/sg/IMG_9301%2525202.jpg" width="800/">
+<p><small>照片拍于端午去湖州玩了 3 天，休闲休闲，爬了一个很久的山看了看全貌，整体而言浙江很多小城市的布局都很整齐的样子。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="开发技术">开发技术</h2>
+<p><strong>两行 CSS 可提高 7x 渲染性能</strong><br>
+<a href="https://dev.to/mnathani/two-lines-of-css-that-boosts-7x-rendering-performance-4mjd">https://dev.to/mnathani/two-lines-of-css-that-boosts-7x-rendering-performance-4mjd</a><br>
+云里雾里的感觉，没有说太清楚为何，不过可以拿着最新浏览器试试。</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9"> {</span></span>
+<span class="line"><span style="color: #C9D1D9">  </span><span style="color: #79C0FF">content-visibility</span><span style="color: #C9D1D9">: </span><span style="color: #79C0FF">auto</span><span style="color: #C9D1D9">;</span></span>
+<span class="line"><span style="color: #C9D1D9">  </span><span style="color: #79C0FF">contain-intrinsic-size</span><span style="color: #C9D1D9">: </span><span style="color: #79C0FF">1</span><span style="color: #FF7B72">px</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">5000</span><span style="color: #FF7B72">px</span><span style="color: #C9D1D9">;</span></span>
+<span class="line"><span style="color: #C9D1D9">}</span></span></code></pre>
+<p><strong>携程机票前端 Svelte 生产实践</strong><br>
+<a href="https://mp.weixin.qq.com/s/QWwb8PXtdJJUKyicHRmBkw">https://mp.weixin.qq.com/s/QWwb8PXtdJJUKyicHRmBkw</a><br>
+最终最终为了体积小和用户体验。</p>
+<p><strong>最被低估的浏览器功能和 API 是什么？</strong><br>
+<a href="https://dev.to/sherrydays/what-are-the-most-underrated-browser-features-and-apis-m19">https://dev.to/sherrydays/what-are-the-most-underrated-browser-features-and-apis-m19</a><br>
+哈哈有很多很不错的很潮流的 API 其实你不知道，还在想方设法实现。</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>LxgwWenKai：超级好看的中文字体</strong><br>
+<a href="https://github.com/lxgw/LxgwWenKai">https://github.com/lxgw/LxgwWenKai</a><br>
+找了很久比较舒服的中文字体，终于看到了这个，很漂亮和有灵性。<br>
+<img src="https://gw.alipayobjects.com/zos/k/ld/216tkN.jpg" width="652" style="margin-left:-26px;margin-bottom:-26px"></p>
+<p><strong>Feather：一套比较好看的 ICON 库</strong><br>
+<a href="https://feathericons.com/?ref=producthunt">https://feathericons.com/?ref=producthunt</a><br>
+简单干净的样子，还是 SVG。<br>
+<img src="https://gw.alipayobjects.com/zos/k/8c/pgM6j0.jpg" width="600/"></p>
+<p><strong>mitmproxy2swagger：自动逆向工程 REST API</strong><br>
+<a href="https://mp.weixin.qq.com/s/nocVsOWQkyKkSDfH1nWd9Q">https://mp.weixin.qq.com/s/nocVsOWQkyKkSDfH1nWd9Q</a><br>
+<img src="https://gw.alipayobjects.com/zos/k/z2/4eKkDK.jpg" width="600/"></p>
+<p><strong>A Programmer’s Guide to English</strong><br>
+<a href="https://a-programmers-guide-to-english.harryyu.me/">https://a-programmers-guide-to-english.harryyu.me/</a><br>
+专为程序员编写的英语学习指南。</p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>侵略的第一百天，俄罗斯经济现状如何？</strong><br>
+<a href="https://twitter.com/KooPeben/status/1533345555510079488">https://twitter.com/KooPeben/status/1533345555510079488</a><br>
+一个推文，分析这有史以来最严酷的经济制裁，对俄罗斯和战局究竟有什么影响，不容乐观。</p>
+<p><strong>HumanSystemOptimization：健康学习到 150 岁</strong><br>
+<a href="https://github.com/zijie0/HumanSystemOptimization">https://github.com/zijie0/HumanSystemOptimization</a><br>
+其实我个人不是很赞同将一篇文章进行 github 开源的方式，不过这篇文章还行。</p>
+<p><strong>给自行车装上倒车雷达和行车记录仪</strong><br>
+<a href="https://sspai.com/post/73521">https://sspai.com/post/73521</a><br>
+还比较潮流的。</p>

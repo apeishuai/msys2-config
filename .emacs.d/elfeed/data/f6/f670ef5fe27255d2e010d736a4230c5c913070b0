@@ -1,0 +1,45 @@
+<img src="https://gw.alipayobjects.com/zos/k/3x/pCP92Q.jpg" width="800/">  
+<p><small>照片摄于去西安出差晚上回酒店在车内图中随手拍的一张钟楼图，大学毕业 6 年后的再次回到西安。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="前端技术">前端技术</h2>
+<p><strong>Sketch 插件开发指南</strong><br>
+<a href="https://mp.weixin.qq.com/s/NLyCKEuTEiVMXMrHVDcvHQ">https://mp.weixin.qq.com/s/NLyCKEuTEiVMXMrHVDcvHQ</a><br>
+来看看前端如何写一个 Sketch 插件，偏基础知识的介绍。</p>
+<p><strong>美团外卖终端容器无关化研发框架</strong><br>
+<a href="https://tech.meituan.com/2021/11/11/meituan-waimai-containerless-framework.html">https://tech.meituan.com/2021/11/11/meituan-waimai-containerless-framework.html</a><br>
+偏思考过程，突然觉得美团技术喜欢画大图。</p>
+<p><strong>美团跨端一体化富文本管理技术实践</strong><br>
+<a href="https://tech.meituan.com/2021/11/25/page-webide-thrift.html">https://tech.meituan.com/2021/11/25/page-webide-thrift.html</a><br>
+看看美团这边跨端一体化富文本管理平台是怎么做的，不过前面显得比较大，后面看完感觉有些前期，可以当做思路了解。</p>
+<p><strong>Bundling Your Node.js Express App with esbuild</strong><br>
+<a href="https://devtails.medium.com/bundling-your-node-js-express-app-with-esbuild-5aecc36c5047">https://devtails.medium.com/bundling-your-node-js-express-app-with-esbuild-5aecc36c5047</a><br>
+作者给了一个简单案例说明如何使用 esbuild 给 Node Express 编译。</p>
+<h2 id="潮流资讯">潮流资讯</h2>
+<p><strong>Fleet：jetbrains 对标 VScode 的产品</strong><br>
+<a href="https://blog.jetbrains.com/zh-hans/blog/2021/11/29/fleet/">https://blog.jetbrains.com/zh-hans/blog/2021/11/29/fleet/</a><br>
+尖叫、牛逼，预览版申请中，好想试试看。<a href="https://www.jetbrains.com/zh-cn/fleet/">官网</a>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-11-29/zGoj07.jpg" width="600/"></p>
+<p><strong>automa：自动帮你做事情的 Chrome 插件</strong><br>
+<a href="https://github.com/Kholid060/automa">https://github.com/Kholid060/automa</a><br>
+有些重复的事情可以交给它，我测试了下还挺好用。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-11-29/w8UBN1.gif" width="600/"></p>
+<p><strong>casaos：一个不错的开源家庭云系统</strong><br>
+<a href="https://www.casaos.io/">https://www.casaos.io/</a><br>
+<img src="https://gw.alipayobjects.com/zos/k/tysiel/20211129203340.png" width="600/"></p>
+<p><strong>LunarVim：一个 IDE layer For Neovim</strong><br>
+<a href="https://github.com/LunarVim/LunarVim">https://github.com/LunarVim/LunarVim</a><br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-11-29/Gnxfh3.png" width="600/"></p>
+<p><strong>NUWA：用于视觉合成的统一 3D Transformer 管道</strong><br>
+<a href="https://github.com/microsoft/NUWA">https://github.com/microsoft/NUWA</a><br>
+巨硬很厉害，可见这篇<a href="https://arxiv.org/abs/2111.12417">论文</a>。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-11-29/KavLJW.gif" width="600/"></p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>古代艺术画或者雕塑活在今天是什么样子</strong><br>
+<a href="https://mossandfog.com/artist-imagines-what-famous-historical-figures-would-look-like-today/">https://mossandfog.com/artist-imagines-what-famous-historical-figures-would-look-like-today/</a><br>
+娱乐一下，还挺好看。<br>
+<img src="https://qpluspicture.oss-cn-beijing.aliyuncs.com/2021-11-29/UM1zHp.png" width="600/"></p>
+<p><strong>突破用户中心设计的视野局限性</strong><br>
+<a href="http://www.woshipm.com/user-research/5231618.html">http://www.woshipm.com/user-research/5231618.html</a><br>
+从设计师视角来看问题。</p>

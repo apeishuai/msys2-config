@@ -1,0 +1,47 @@
+<img src="https://gw.alipayobjects.com/zos/k/o7/9.png" width="800">
+<p><small>封面来源于周末由于小区被封在家做饭，炒的拿手的香辣虾做夜宵，不能出门只能聊以慰藉了，预计周二应该就解了。</small></p>
+<blockquote>
+<p><strong>记录每周看到的接地气的前端潮流技术，筛选后发布于此，觉得不错可关注此专栏，方便获取更新通知</strong></p>
+</blockquote>
+<h2 id="技术相关">技术相关</h2>
+<p><strong>🤖 普通人如何不被 OpenAI 取代？</strong><br>
+<a href="https://tw93.fun/2022-12-04/openai.html">https://tw93.fun/2022-12-04/openai.html</a><br>
+周末试了试 OpenAI 的一些功能，通过主题来记录一下使用场景，发现了不少他强于普通人的地方，那么我们怎么在认知和能力方面不被他取代呢？<br>
+<img src="https://gw.alipayobjects.com/zos/k/ov/1kfpig.jpg" width="800/"></p>
+<p><strong>ChatGPT: Optimizing Language Models for Dialogue</strong><br>
+<a href="https://openai.com/blog/chatgpt/">https://openai.com/blog/chatgpt/</a><br>
+接上文，这是上周出现的一个可以说“划时代”的 AI 能力 ChatGPT，一查 OpenAI 是马斯克 15 年创建了，也就不觉得奇怪了。</p>
+<p><strong>除了 filter 还有什么置灰网站的方式？</strong><br>
+<a href="https://mp.weixin.qq.com/s/pwXyZ-MAemaBhlPC6KM0hA">https://mp.weixin.qq.com/s/pwXyZ-MAemaBhlPC6KM0hA</a><br>
+全站置灰是非常简单的事情，大部分前端同学都知道，仅仅需要使用一行 CSS，就能实现全站置灰的方式。但只置灰首屏的诉求该如何实现呢？</p>
+<h2 id="潮流开源">潮流开源</h2>
+<p><strong>Pake 支持命令行一键打包了</strong><br>
+<a href="https://github.com/tw93/Pake">https://github.com/tw93/Pake</a><br>
+推荐一个很简单用 Rust 打包网页生成桌面 App 的工具叫做 Pake，默认打包了微信读书、极简 Twitter、YouTube、Flomo 等，在最近一群开发者的贡献下，支持了 Mac/Windows/Linux ，提供了一个很方便的命令行，可一键打包自定义网页成很小的 App，内测中欢迎试用～<br>
+<img src="https://cdn.fliggy.com/upic/5HolOl.gif" width="800"></p>
+<p><strong>Qwerty Learner：适合程序员的英语单词肌肉记忆锻炼好工具</strong><br>
+<a href="https://qwerty.kaiyi.cool/">https://qwerty.kaiyi.cool/</a><br>
+内置了 4/6 级/托福/雅思等专业英语，也有编程中常用英语等词库，支持速度、正确率、音标、默写等功能，周末打包成了支持 Mac/Window/Linux 小应用，体验不错，可去 Github <a href="https://github.com/tw93/Pake">下载</a>
+<img src="https://cdn.fliggy.com/upic/Azjwra.gif" width="800"></p>
+<p><strong>later：Save all your Mac apps for later with one click</strong><br>
+<a href="https://github.com/alyssaxuu/later">https://github.com/alyssaxuu/later</a><br>
+一款简单的 Mac 应用程序，可轻松清除和恢复你的 MAC 应用工作区。<br>
+<img src="https://cdn.fliggy.com/upic/xNuQNh.gif" width="800/"></p>
+<p><strong>BHTwitter：Awesome tweak for Twitter</strong><br>
+<a href="https://github.com/BandarHL/BHTwitter">https://github.com/BandarHL/BHTwitter</a><br>
+推特的精彩调整，包括视频下载、自定义底栏、视频缩放、字体调整等等，看起来很牛逼的样子。<br>
+<img src="https://cdn.fliggy.com/upic/PMqegz.png" width="800"></p>
+<h2 id="随便看看">随便看看</h2>
+<p><strong>钟文泽感染新冠奥密克戎后</strong><br>
+<a href="https://www.youtube.com/watch?v=IfUOwQvke9g">https://www.youtube.com/watch?v=IfUOwQvke9g</a><br>
+钟文泽感染新冠奥密克戎后，有关描述，以及需要常备的东西，可以一看。</p>
+<p><strong>中国特色社会主义如何探路而来 - 读《筚路维艰》</strong><br>
+<a href="https://blog.devtang.com/2022/12/03/five-choices-on-the-road-book-summary/">https://blog.devtang.com/2022/12/03/five-choices-on-the-road-book-summary/</a><br>
+唐巧的一篇读书笔记。</p>
+<p><strong>每周最少工作 40 小时，算不算“高强度”？</strong><br>
+<a href="https://www.huxiu.com/article/731828.html">https://www.huxiu.com/article/731828.html</a><br>
+马斯克所称的“长时间的高强度工作”到底指什么？与美国其他行业相比，或与中国互联网行业比起来算“硬核”吗？本期核真录将试图回答以上问题。</p>
+<p><strong>每期一个惊讶的代码效果：Glassmorphism Creative Cloud App Redesign</strong><br>
+<a href="https://codepen.io/TurkAysenur/pen/ZEpxeYm">https://codepen.io/TurkAysenur/pen/ZEpxeYm</a><br>
+第三期推荐的效果是昨天看到的一个「Glassmorphism Creative Cloud App Redesign」，很适合一些高级的管理后台的设计参考，让更加有 B 格一些，普通的系统更推荐直接用通用化的方式来弄。看了看这一块代码，可以很方便的 Copy 到你现有框架中进行无缝使用。<br>
+<img src="https://cdn.fliggy.com/upic/l0MiQ0.gif" width="800"></p>

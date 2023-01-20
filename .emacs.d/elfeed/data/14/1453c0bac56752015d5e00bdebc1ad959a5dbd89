@@ -1,0 +1,152 @@
+<p data-pid="FWQb8EtF">在前面的基础上：</p><a href="https://zhuanlan.zhihu.com/p/403750502" data-draft-node="block" data-draft-type="link-card" class="internal">迦非喵：CMake+IMGUI实现最简单的窗口界面</a><p data-pid="Pm4_lBto">这里进一步重构：</p><p data-pid="1NLk5Dtt">CMakeLists.txt：</p><div class="highlight"><pre><code class="language-cmake"><span class="nb">cmake_minimum_required</span> <span class="p">(</span> <span class="s">VERSION</span> <span class="s">3.15</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">project</span> <span class="p">(</span> <span class="s">IMGUI_Test</span> <span class="s">LANGUAGES</span> <span class="s">CXX</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">find_package</span> <span class="p">(</span> <span class="s">OpenGL</span> <span class="s">REQUIRED</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">PRJ_INC_LIST</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">PRJ_SRC_LIST</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">PRJ_LIBRARIES</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">PRJ_INCLUDE_DIRS</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">GLFW_HOME</span> <span class="s2">"d:/software/GLFW"</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">GLAD_HOME</span> <span class="s2">"d:/software/glad"</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">IMGUI_HOME</span> <span class="s2">"d:/software/imgui"</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">GLFW_INC</span> <span class="s2">"${GLFW_HOME}/include"</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">GLFW_LIB</span> <span class="s2">"${GLFW_HOME}/lib/glfw3dll.lib"</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">IMGUI_INC</span> <span class="s2">"${IMGUI_HOME}/include"</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">IMGUI_SRC</span> <span class="s2">"${IMGUI_HOME}/src"</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">IMGUI_BACKEND</span> <span class="s2">"${IMGUI_HOME}/backends"</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">file</span> <span class="p">(</span> <span class="s">GLOB</span> <span class="s">root_header_files</span> <span class="s2">"${CMAKE_CURRENT_SOURCE_DIR}/*.h"</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">file</span> <span class="p">(</span> <span class="s">GLOB</span> <span class="s">root_src_files</span> <span class="s2">"${CMAKE_CURRENT_SOURCE_DIR}/*.cpp"</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">file</span> <span class="p">(</span> <span class="s">GLOB</span> <span class="s">imgui_header_files</span> <span class="s2">"${IMGUI_INC}/*.h"</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">file</span> <span class="p">(</span> <span class="s">GLOB</span> <span class="s">imgui_src_files</span> <span class="s2">"${IMGUI_SRC}/*.cpp"</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">imgui_header_files</span> <span class="s2">"${IMGUI_BACKEND}/imgui_impl_opengl3_loader.h"</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">imgui_header_files</span> <span class="s2">"${IMGUI_BACKEND}/imgui_impl_opengl3.h"</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">imgui_header_files</span> <span class="s2">"${IMGUI_BACKEND}/imgui_impl_glfw.h"</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">imgui_src_files</span> <span class="s2">"${IMGUI_BACKEND}/imgui_impl_opengl3.cpp"</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">imgui_src_files</span> <span class="s2">"${IMGUI_BACKEND}/imgui_impl_glfw.cpp"</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_INCLUDE_DIRS</span> <span class="s">.</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_INCLUDE_DIRS</span> <span class="o">${</span><span class="nv">GLFW_INC</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_INCLUDE_DIRS</span> <span class="o">${</span><span class="nv">IMGUI_INC</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_INCLUDE_DIRS</span> <span class="o">${</span><span class="nv">IMGUI_BACKEND</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_INC_LIST</span> <span class="o">${</span><span class="nv">root_header_files</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_INC_LIST</span> <span class="o">${</span><span class="nv">imgui_header_files</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_SRC_LIST</span> <span class="o">${</span><span class="nv">root_src_files</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_SRC_LIST</span> <span class="o">${</span><span class="nv">imgui_src_files</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_LIBRARIES</span> <span class="o">${</span><span class="nv">GLFW_LIB</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_LIBRARIES</span> <span class="o">${</span><span class="nv">OPENGL_LIBRARIES</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">add_executable</span> <span class="p">(</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span> <span class="o">${</span><span class="nv">PRJ_SRC_LIST</span><span class="o">}</span> <span class="o">${</span><span class="nv">PRJ_INC_LIST</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">target_include_directories</span> <span class="p">(</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span>
+<span class="s">PRIVATE</span> 
+        <span class="o">${</span><span class="nv">PRJ_INCLUDE_DIRS</span><span class="o">}</span>
+<span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">target_link_libraries</span> <span class="p">(</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span> 
+    <span class="s">PRIVATE</span> 
+        <span class="o">${</span><span class="nv">PRJ_LIBRARIES</span><span class="o">}</span>
+<span class="p">)</span><span class="err">
+</span></code></pre></div><p data-pid="xxOm6y4k">test.cpp:</p><div class="highlight"><pre><code class="language-cpp"><span class="cp">#include</span> <span class="cpf">"imgui.h"</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">"imgui_impl_glfw.h"</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">"imgui_impl_opengl3.h"</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;GLFW/glfw3.h&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span> <span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span><span class="o">**</span> <span class="n">argv</span> <span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span> <span class="o">!</span><span class="n">glfwInit</span><span class="p">()</span> <span class="p">)</span>
+        <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+
+    <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span> <span class="n">glsl_version</span> <span class="o">=</span> <span class="s">"#version 130"</span><span class="p">;</span>
+
+    <span class="n">GLFWwindow</span> <span class="o">*</span> <span class="n">window</span> <span class="o">=</span> <span class="n">glfwCreateWindow</span><span class="p">(</span><span class="mi">1280</span><span class="p">,</span> <span class="mi">720</span><span class="p">,</span> <span class="s">"OneFLOW GLFW+OpenGL3 test"</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span> <span class="n">window</span> <span class="o">==</span> <span class="nb">NULL</span> <span class="p">)</span>
+        <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="n">glfwMakeContextCurrent</span><span class="p">(</span> <span class="n">window</span> <span class="p">);</span>
+    <span class="n">glfwSwapInterval</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span> <span class="c1">// Enable vsync
+</span><span class="c1"></span>
+    <span class="n">ImGui</span><span class="o">::</span><span class="n">CreateContext</span><span class="p">();</span>
+    
+    <span class="n">ImGui_ImplGlfw_InitForOpenGL</span><span class="p">(</span> <span class="n">window</span><span class="p">,</span> <span class="nb">true</span> <span class="p">);</span>
+    <span class="n">ImGui_ImplOpenGL3_Init</span><span class="p">(</span><span class="n">glsl_version</span><span class="p">);</span>
+
+    <span class="k">while</span> <span class="p">(</span> <span class="o">!</span><span class="n">glfwWindowShouldClose</span><span class="p">(</span> <span class="n">window</span> <span class="p">)</span> <span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">glfwPollEvents</span><span class="p">();</span>
+
+        <span class="n">ImGui_ImplOpenGL3_NewFrame</span><span class="p">();</span>
+        <span class="n">ImGui_ImplGlfw_NewFrame</span><span class="p">();</span>
+
+        <span class="n">ImGui</span><span class="o">::</span><span class="n">NewFrame</span><span class="p">();</span>
+
+        <span class="n">ImGui</span><span class="o">::</span><span class="n">Begin</span><span class="p">(</span> <span class="s">"Hello, world!"</span> <span class="p">);</span>
+        <span class="n">ImGui</span><span class="o">::</span><span class="n">Text</span><span class="p">(</span> <span class="s">"This is OneFLOW test."</span> <span class="p">);</span>
+        <span class="n">ImGui</span><span class="o">::</span><span class="n">End</span><span class="p">();</span>
+
+        <span class="c1">// Rendering
+</span><span class="c1"></span>        <span class="n">ImGui</span><span class="o">::</span><span class="n">Render</span><span class="p">();</span>
+        <span class="kt">int</span> <span class="n">display_w</span><span class="p">,</span> <span class="n">display_h</span><span class="p">;</span>
+        <span class="n">glfwGetFramebufferSize</span><span class="p">(</span><span class="n">window</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">display_w</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">display_h</span><span class="p">);</span>
+        <span class="n">glViewport</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">display_w</span><span class="p">,</span> <span class="n">display_h</span><span class="p">);</span>
+
+        <span class="n">ImVec4</span> <span class="n">clear_color</span> <span class="o">=</span> <span class="n">ImVec4</span><span class="p">(</span><span class="mf">0.45f</span><span class="p">,</span> <span class="mf">0.55f</span><span class="p">,</span> <span class="mf">0.60f</span><span class="p">,</span> <span class="mf">1.00f</span><span class="p">);</span>
+        <span class="n">glClearColor</span><span class="p">(</span><span class="n">clear_color</span><span class="p">.</span><span class="n">x</span> <span class="o">*</span> <span class="n">clear_color</span><span class="p">.</span><span class="n">w</span><span class="p">,</span> <span class="n">clear_color</span><span class="p">.</span><span class="n">y</span> <span class="o">*</span> <span class="n">clear_color</span><span class="p">.</span><span class="n">w</span><span class="p">,</span> <span class="n">clear_color</span><span class="p">.</span><span class="n">z</span> <span class="o">*</span> <span class="n">clear_color</span><span class="p">.</span><span class="n">w</span><span class="p">,</span> <span class="n">clear_color</span><span class="p">.</span><span class="n">w</span><span class="p">);</span>
+        <span class="n">glClear</span><span class="p">(</span><span class="n">GL_COLOR_BUFFER_BIT</span><span class="p">);</span>
+        <span class="n">ImGui_ImplOpenGL3_RenderDrawData</span><span class="p">(</span><span class="n">ImGui</span><span class="o">::</span><span class="n">GetDrawData</span><span class="p">());</span>
+
+        <span class="n">glfwSwapBuffers</span><span class="p">(</span><span class="n">window</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="n">ImGui_ImplOpenGL3_Shutdown</span><span class="p">();</span>
+    <span class="n">ImGui_ImplGlfw_Shutdown</span><span class="p">();</span>
+    <span class="n">ImGui</span><span class="o">::</span><span class="n">DestroyContext</span><span class="p">();</span>
+
+    <span class="n">glfwDestroyWindow</span><span class="p">(</span> <span class="n">window</span> <span class="p">);</span>
+    <span class="n">glfwTerminate</span><span class="p">();</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p data-pid="3q8w59L1">即</p><figure data-size="normal"><img src="https://pic1.zhimg.com/v2-f5614e42e7025407d9daa2afaa6a19d0_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="312" data-rawheight="160" class="content_image" referrerpolicy="no-referrer"></figure><p data-pid="Jvgdgny6">win11+powershell：</p><p data-pid="tADJYFCz">打开vscode</p><div class="highlight"><pre><code class="language-text">PS C:\Users\eric&gt; cd d:\work\imgui_work\testimguivscode\
+PS D:\work\imgui_work\testimguivscode&gt; code .</code></pre></div><p data-pid="O2yZJK0v">此时vscode左下角状态栏为：</p><figure data-size="normal"><img src="https://pic3.zhimg.com/v2-151af4b683d0c933c8acb22ccef23d8e_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="885" data-rawheight="39" class="origin_image zh-lightbox-thumb" data-original="https://pic3.zhimg.com/v2-151af4b683d0c933c8acb22ccef23d8e_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="cUpGCnH8">Ctrl+shift+P</p><p data-pid="NAV3HjRQ">输入：</p><p data-pid="oaSyRmyP">cmake:configure</p><p data-pid="hDX_EKxS">有：</p><figure data-size="normal"><img src="https://pic2.zhimg.com/v2-e147e61955c222bc109757ea9f0a5ea5_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="715" data-rawheight="362" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-e147e61955c222bc109757ea9f0a5ea5_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="ygnaG4AL">即：</p><div class="highlight"><pre><code class="language-text">[main] Configuring folder: testimguivscode 
+[proc] Executing command: "C:\Program Files\CMake\bin\cmake.EXE" --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -Sd:/work/imgui_work/testimguivscode -Bd:/work/imgui_work/testimguivscode/build -G "Visual Studio 17 2022" -T host=x64 -A x64
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22621.
+[cmake] -- The CXX compiler identification is MSVC 19.33.31630.0
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Found OpenGL: opengl32   
+[cmake] -- Configuring done
+[cmake] -- Generating done
+[cmake] -- Build files have been written to: D:/work/imgui_work/testimguivscode/build
+[visual-studio] Patch Windows SDK path from C:\Program Files (x86)\Windows Kits\10\bin\x64 to C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64 for C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat</code></pre></div><p data-pid="bxR07r6F">build</p><figure data-size="normal"><img src="https://pic4.zhimg.com/v2-c646adeb00ca13fedb9a3714f7296c27_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="329" data-rawheight="119" class="content_image" referrerpolicy="no-referrer"></figure><figure data-size="normal"><img src="https://pic2.zhimg.com/v2-0a214526c3bd5cf5dfc978e347cbf52d_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="890" data-rawheight="395" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-0a214526c3bd5cf5dfc978e347cbf52d_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="64gNGWZ7">即：</p><div class="highlight"><pre><code class="language-text">[main] Building folder: testimguivscode 
+[build] Starting build
+[proc] Executing command: "C:\Program Files\CMake\bin\cmake.EXE" --build d:/work/imgui_work/testimguivscode/build --config Debug --target ALL_BUILD -j 18 --
+[build] MSBuild version 17.3.1+2badb37d1 for .NET Framework
+[build]   Checking Build System
+[build]   Building Custom Rule D:/work/imgui_work/testimguivscode/CMakeLists.txt
+[build]   test.cpp
+[build]   imgui.cpp
+[build]   imgui_demo.cpp
+[build]   imgui_draw.cpp
+[build]   imgui_tables.cpp
+[build]   imgui_widgets.cpp
+[build]   imgui_impl_opengl3.cpp
+[build]   imgui_impl_glfw.cpp
+[build]   正在生成代码...
+[build]   IMGUI_Test.vcxproj -&gt; D:\work\imgui_work\testimguivscode\build\Debug\IMGUI_Test.exe
+[build]   Building Custom Rule D:/work/imgui_work/testimguivscode/CMakeLists.txt
+[build] Build finished with exit code 0</code></pre></div><p data-pid="a_4l9EgD">运行：</p><figure data-size="normal"><img src="https://pic3.zhimg.com/v2-0fca91f47c680e832f9b6c130a99045a_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="376" data-rawheight="68" class="content_image" referrerpolicy="no-referrer"></figure><p data-pid="xP3I1fJD">有：</p><figure data-size="normal"><img src="https://pic1.zhimg.com/v2-4f2c661a9252df90ca9e4ee9c541e4a0_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="868" data-rawheight="211" class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-4f2c661a9252df90ca9e4ee9c541e4a0_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="USgDrvm2">没用界面产生，此时从目录双击运行，有：</p><figure data-size="normal"><img src="https://pic1.zhimg.com/v2-e6aae12856a3fbe35eb5707be47c6624_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="338" data-rawheight="143" class="content_image" referrerpolicy="no-referrer"></figure><figure data-size="normal"><img src="https://pic1.zhimg.com/v2-d0400d2ebe7c93bc482d8ebc736f0508_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="604" data-rawheight="240" class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-d0400d2ebe7c93bc482d8ebc736f0508_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="51bcbwhX">glfw3.dll位置如下：</p><figure data-size="normal"><img src="https://pic1.zhimg.com/v2-98cfa89d9bc6b336094ada37b0769b34_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="305" data-rawheight="104" class="content_image" referrerpolicy="no-referrer"></figure><p data-pid="Was9vXEo">在vscode terminal中输入：</p><div class="highlight"><pre><code class="language-text">$env:path += ";d:\software\GLFW\bin\"</code></pre></div><p data-pid="N5mxMs1M">即：</p><figure data-size="normal"><img src="https://pic3.zhimg.com/v2-9bddb68b6f8191a31f8768d977a281b2_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="857" data-rawheight="272" class="origin_image zh-lightbox-thumb" data-original="https://pic3.zhimg.com/v2-9bddb68b6f8191a31f8768d977a281b2_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="IDGG48Bf">再次运行有：</p><figure data-size="normal"><img src="https://pic3.zhimg.com/v2-77162c653c280c50f3515a425b3cda46_b.png" data-caption="" data-size="normal" data-rawwidth="146" data-rawheight="69" class="content_image" referrerpolicy="no-referrer"></figure><figure data-size="normal"><img src="https://pic4.zhimg.com/v2-526bcd8c39b06357db70c27648d9e767_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="484" data-rawheight="380" class="origin_image zh-lightbox-thumb" data-original="https://pic4.zhimg.com/v2-526bcd8c39b06357db70c27648d9e767_r.jpg" referrerpolicy="no-referrer"></figure><p></p>

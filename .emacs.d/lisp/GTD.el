@@ -167,13 +167,41 @@
 
 (setq org-agenda-files (list (concat org-directory "inbox.org")
 			     (concat org-directory "next.org")
+			     ;;(concat org-directory "archive_kaoyan.org")
 			     (concat org-directory "projects.org")
 			     (concat org-directory "finished.org")
-			     
+			     (concat org-directory "Ref.org")
 			     (concat org-directory "Someday_Maybe.org")
 			     (concat org-directory "agenda.org")
 			     (concat org-directory "Trash.org")
 			     ))
+
+;; count tags (see John's answer)  //debug
+(defun get-tag-counts ()
+  (interactive)
+  (let ((all-tags '()))
+    (org-map-entries
+     (lambda ()
+       (let ((tag-string (car (last (org-agenda-files)))))
+     (when tag-string  
+       (setq all-tags
+         (append all-tags (split-string tag-string ":" t)))))))
+
+    ;; now get counts
+    (cl-loop for tag in (seq-uniq all-tags)
+	  collect (cons tag (cl-count tag all-tags :* 'string=)))))
+
+;; wrap get-tag-counts in an interactive function
+(defun create-tag-counts-buffer ()
+  (interactive)
+    (let
+        ((tags (get-tag-counts)) (b (get-buffer-create "*Org Tag Count*")))
+      (dolist (tag tags) (insert (car tag)) (insert "\n")) (display-buffer b)))
+
+
+
+
+
 
 ;;Capture
 (setq org-capture-templates

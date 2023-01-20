@@ -1,0 +1,24 @@
+<p data-pid="_CrTOXL7">在前面的基础上：</p><a href="https://zhuanlan.zhihu.com/p/525118575" data-draft-node="block" data-draft-type="link-card" class="internal">迦非喵：CFD_Julia NS2D_PseudoSpectral_23_Rule简单测试</a><p data-pid="YqXCq4ep">这里继续重构：</p><figure data-size="normal"><img src="https://pic1.zhimg.com/v2-f594962756341ac448a5a39edda03528_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="337" data-rawheight="125" class="content_image" referrerpolicy="no-referrer"></figure><p data-pid="u41wIgiR">删除Manifest.toml+Project.toml</p><p data-pid="TLlcpehn">有：</p><figure data-size="normal"><img src="https://pic2.zhimg.com/v2-8ef983bfe706cba34ae0f622ed90a4c1_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="290" data-rawheight="102" class="content_image" referrerpolicy="no-referrer"></figure><p data-pid="QsciNcNN">windows11+powershell</p><p data-pid="Zs30fo6p">键入命令</p><div class="highlight"><pre><code class="language-text">julia
+using Pkg
+Pkg.update()</code></pre></div><p data-pid="acrSvR7L">有：</p><div class="highlight"><pre><code class="language-text">PS C:\Users\eric&gt; julia
+               _
+   _       _ _(_)_     |  Documentation: https://docs.julialang.org
+  (_)     | (_) (_)    |
+   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
+  | | | | | | |/ _` |  |
+  | | |_| | | | (_| |  |  Version 1.8.3 (2022-11-14)
+ _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
+|__/                   |
+
+julia&gt; using Pkg
+
+julia&gt; Pkg.update()
+┌ Warning: could not download https://pkg.julialang.org/registries
+│   exception = HTTP/1.1 301 CN southeast internal redirect trigger (Failed to connect to cn-southeast.pkg.juliacn.com port 443 after 21111 ms: Timed out) while requesting https://pkg.julialang.org/registries
+└ @ Pkg.Registry C:\workdir\usr\share\julia\stdlib\v1.8\Pkg\src\Registry\Registry.jl:68
+    Updating registry at `C:\Users\eric\.julia\registries\General`
+    Updating git-repo `https://github.com/JuliaRegistries/General.git`
+  No Changes to `C:\Users\eric\.julia\environments\v1.8\Project.toml`
+  No Changes to `C:\Users\eric\.julia\environments\v1.8\Manifest.toml`
+
+julia&gt;</code></pre></div><p data-pid="ADxUfPsP">此时，重新生成了Manifest.toml和Project.toml</p><figure data-size="normal"><img src="https://pic3.zhimg.com/v2-7a7ae91dfa0a94ee6c736baf68caf1a6_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="359" data-rawheight="139" class="content_image" referrerpolicy="no-referrer"></figure><p data-pid="WzG8HHtD">为便于检索，文章收录于：</p><a href="https://zhuanlan.zhihu.com/p/523584688" data-draft-node="block" data-draft-type="link-card" class="internal">迦非喵：CFD_Julia系列链接整理</a><p></p>

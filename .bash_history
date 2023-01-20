@@ -1,182 +1,3 @@
-pacman -Ss gnome-screenshot
-clear
-pacman -Ss gnome
-pacman -Ss screen
-pacman -Ss screenshot
-mtn
-screenshot
-clear
-pacman -S mingw-w64-x86_64-mtn
-cler
-clear
-pacman -S kazam
-pacman -Ss kazam
-pacman -Ss scrot
-clear
-pacman -Ss flameshot
-pacman -Ss shot
-clear
-find
-grep
-clear
-gcc
-clear
-ls
-ls -a
-clear
-emacs
-clear
-emacs
-clear
-emacs
-clear
-pacman -S find
-pacman -Ss find
-pacman -Ss grep
-pacman -S grep
-grep
-clear
-pacman -S 
-pacman -S  findutils
-find
-clear
-emacs
-emacs
-clear
-ls
-ls -a
-clear
-ls -a
-ls -al
-vi .bashrc 
-clear
-emacs
-emacsclientw.exe -n -c --a ""
-zsh
-emacs 
-emacs
-emacs --daemon
-emacsclientw.exe -c
-clear
-emacsclientw.exe -c
-emacsclientw.exe -c
-clear
-emacs --daemon --debug-init
-clear
-emacs --daemon --debug-init
-emacs -c
-emacsclientw 0c
-emacsclientw -c
-emacsclientw
-emacsclientw
-emacsclientw --help
-emacsclientw -c
-emacsclientw -c
-emacsclient -a ""
-emacsclient -a ""
-clear
-emacsclient -a ""
-emacsclientw -c
-emacsclientw -c
-emacsclientw -c
-clear
-emacsclientw -c
-emacs -c
-clear
-emacsclientw.exe %1
-clear
-emacsclientw.exe %1
-clear
-emacsclientw.exe %1
-emacsclientw.exe %1
-emacsclientw.exe %1
-clear
-emacsclientw.exe %c
-emacsclientw.exe -c
-clear
-emacsclientw.exe xx
-emacsclientw.exe -n -c -a ""
-clear
-emacsclientw.exe --create-frame --no-wait --alternate-editor runemacs.exe --server-file E:\MSYS2\home\shuai\.emacs.d\server\server
-clear
-emacsclientw.exe %1
-clear
-emacsclientw.exe %1
-clear
-emacsclientw -c
-emacsclientw -c "%1"
-ls
-mv 项目-sylar服务器.org ../../../workspace/
-exit
-i_view64
-i_view64 /capture=4
-i_view64 /capture=4
-exit
-i_view64
-i_view64
-clear
-snipaste snip
-nikola
-echo $PATH
-clear
-echo $PATH
-getenv
-clear
-printenv
-env
-clear
-set
-clear
-vi .bashrc 
-vim .bashrc
-source .bashrc 
-snipaste snip -o
-source .bashrc 
-vim .bashrc
-source .bashrc 
-snipaste snip -o clipboard
-snipaste snip -o clipboard
-clear
-vim .bashrc
-echo $PATH
-vim .bashrc
-source .bashrc 
-snipaste snip -o clipboard
-clear
-vim .bashrc
-source .bashrc 
-snipaste snip -o clipboard
-vim .bashrc
-source .bashrc 
-snipaste snip -o clipboard
-clear
-echo $PATH
-clear
-vim .bashrc
-source .bashrc 
-snipaste snip -o clipboard
-vim .bashrc
-ls
-ls -a
-cd ..
-ls
-cd shuai/
-ls
-cd ../../
-ls
-cd mingw64
-clear
-emacs
-emacs
-emacs
-emacs
-snipaste snip -o clipboard
-snipaste
-snipaste snip
-nikola
-clear
-cd g:
-cd shuai-files/
 cd ..
 ls
 cd wxf\`s\ blog/
@@ -498,3 +319,183 @@ mkdir Mannual
 exit
 mv Tool/make.org Mannual/
 exit
+mkdir inbox
+exit
+ls
+mv * inbox/
+exit
+cd inbox/
+mv win-bash.org linux-bash.org ../
+exit
+ls
+ls -a
+ls -al
+git clone git@github.com:apeishuai/msys2-config.git
+ls
+rm -rf msys2-config/
+clear
+ls
+ls -al
+git init
+ls
+ls -al
+clear
+git remote -add pb git@github.com:apeishuai/msys2-config.git
+git remote add pb git@github.com:apeishuai/msys2-config.git
+git remote -v
+ls
+ls -al
+git add people-list.db 
+git commit -m "test1"
+git push origin
+git push pb master
+clear
+git add .
+git commit -m "init 20221128"
+git push pb master
+clear
+mv cmd-wmic.org Mannual/
+exit
+mkdir Ref
+exit
+cd ../Computer_science/
+cd OperatingSystem/
+mc 《鸟哥的Linux私房菜》.org ../../Reference/
+ls
+exit
+parted
+cd g；
+cd g:
+cd emacs-notes/
+clear
+ls
+git add .
+git commit -m "20221128 refresh"
+git push pb master
+git remote -v
+git push pb master
+git push pb master
+clear
+ls
+clear
+ls
+ls -a
+vi .gitconfig 
+vim .gitconfig 
+clear
+ls
+ls -a
+cd ../
+ls
+cd ..
+ls
+clear
+ls
+emacs
+emacs
+clear
+emacs
+emacs
+emacs
+xelatex  \\nonstopmode\\input 02.tex
+exit
+xelatex  \\nonstopmode\\input 02.tex
+exit
+xelatex  \\nonstopmode\\input 02.tex
+exit
+pdflatex  \\nonstopmode\\input 02.tex
+exit
+xelatex  \\nonstopmode\\input 02.tex
+exit
+xelatex  \\nonstopmode\\input 02.tex
+exit
+zsh
+mkdir xuchun 
+mv 202* xuchun
+exit
+mv *.org xuchun/
+exit
+mv 1-* ref* ../
+ls
+cd xuchun/
+mv 1-* ref* ../
+exit
+ls
+mv 《* 01* ../ 
+exit
+cd ..
+mv pinescript.org ../Articles/
+cd ../Articles/
+exi
+exit
+mkdir images
+mv *.png images
+exit
+cd ../../work/
+mv 《* ref/ 
+ls
+mv 人力* 商业* ref/ 
+exit
+mc 生产力提升/* ref/ 
+exit
+mkdir inbox
+exit
+mv Z* 考研* inbox/ 
+exit
+mv *.png Articles/images/ 
+exit
+mv *ng Articles/images/ 
+ mv Articles/*png Articles/images/ 
+exit
+mv *org~
+rm *~
+cd Articles/
+rm *org~ 
+exit
+MMM１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１ｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂ］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　］
+ｅｘｉｔ
+emacs
+clear
+cd hg:
+cd g:
+clear
+ls
+cd emacs-notes/
+cd  ..
+cd wxf\`s\ blog/
+nikola build
+nikola github_deploy
+clear
+cd gl
+cd g:
+cd eamcs
+cd emacs-notes/
+clear
+ls
+git remote -v
+git add .
+clear
+xelatex  \\nonstopmode\\input \二\次\函\数\与\二\元\一\次\方\程.tex
+exit
+ls
+mv 2021-09-20_22-09-05_screenshot.png ../images/ 
+exit
+mv * ../images/ 
+mv *png ../images/ 
+cd g:/emacs-notes/Reference/
+ls
+cd 基本要素/
+mv *png ../images/ 
+exit
+emacs
+clear
+mkdir new
+exit
+mkdir ref
+exit
+emacs
+clear
+ls
+sqlite3 people-list.db 
+clear
+            

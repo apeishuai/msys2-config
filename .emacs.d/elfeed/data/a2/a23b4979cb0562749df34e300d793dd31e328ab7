@@ -1,0 +1,82 @@
+
+<p>这个站点是我在 08 年来到北京实习后，自己跟着网络上的教程买了虚拟主机，请别人帮忙注册的域名，然后搭建起来的，算来已经有些时日了。</p>
+
+
+
+<p>7 月 9 日，突然收到了一封 Jetpack 发来的邮件，通知我的站点已经 down 了，无法正常访问了。当时我自己尝试着访问了一下，发现确实无法访问了，当时想着反正也没啥人访问，自己最近也没啥写字的冲动，先那样吧。</p>
+
+
+
+<p>然后 Zapier 隔一天给我发一封邮件，提示我站点好像没法访问了。鸵鸟最终实在是不好意思了，尝试排查一下吧。</p>
+
+
+
+<p>程序员大法第一步，重启服务器。重启之后，依然未恢复，查看进程列表发现，php-fpm 正常，nginx 未正常启动，那么就看一下错误信息吧。</p>
+
+
+
+<p>执行命令</p>
+
+
+
+<pre class="wp-block-code"><code>journalctl -u nginx</code></pre>
+
+
+
+<p>然后我就看到这个这样的一个错误</p>
+
+
+
+<pre class="wp-block-code"><code>nginx: &#91;emerg] unknown directive "&lt;IfModule" in /var/www/vhosts/www.7dot9.com/public/.htaccess:5</code></pre>
+
+
+
+<p>然后我就搜索了一圈，各种折腾，最终还是没能把问题解决，甚至向我的老哥们耀华发出了求救，不过可能耀华小哥哥当时也比较忙，未能自己上手（原来每次迁移或者遇到问题，基本上我都是直接丢给他，最后我只需要通过 Web 终端登录就好了），仅仅是提供了一个思路，我参考了这个思路搞了一番还是未遂。当时我就放弃了，接着当了一周的鸵鸟。</p>
+
+
+
+<p>然后好心的 Zapier 依然每天给我发一封邮件提醒我「你的站点挂了噢，亲」，鸵鸟不好意思了。最终选择了一个周一的大早上来到办公室后，再次撸起袖子，这回我换了一个思路。我的想法是这样的，这个 WordPress 站点是一个动态的 CMS 系统，所有需要持久化的文章内容都在 MySQL 数据库中，所有上传的图片文件都在指定文件目录下，其他的就一个数据库配置是动态的，剩下的插件和主题啥的，我可以完全放弃不要了。这样一来，我的思路就清楚了，我可以完全把这当成一个全新的站点来配置。</p>
+
+
+
+<p>为了验证我这个想法是合理的，我先把自己的站点目录 /var/www/vhosts/www.7dot9.com/public 压缩打包后下载到了我的本地，确认我的站点当前使用的 WordPress 版本是 5.9.3-zh_CN 版本后，我就从 WordPress 的中文官方站点下载了其原始版本的 ZIP 包，解压之后，我用 Beyond Compare 对这两个目录进行了对比（选择文件内容对比模式），发现确实如果所说，也就几个配置配置相关的文件内容有实质性的区别，和 uploads 目录内容需要迁移，plugins 和 themes 目录我们暂且可以先不用理会。</p>
+
+
+
+<p>那么接下来，就是在 VPS 上先下载 WordPress 5.9.3 版本，解压到指定目录，然后将配置文件 wp-config.php 和 uploads 目录的内容迁移到新解压的 WordPress 目录下，这一步完成后，就需要确认 nginx 的配置是否正确指向了这个新的目录。</p>
+
+
+
+<p>然后我就打开了 /etc/nginx/nginx.conf 这个文件，读到里头的内容，除了部分由 Let&#8217;s Encrypt 的 certbot 自动生成的跟 SSL 证书相关的配置之外，都是一些通用的 nginx 配置项，其中关键的两行内容，应该就是这个了。</p>
+
+
+
+<pre class="wp-block-code"><code>include /etc/nginx/conf.d/*.conf;
+include /etc/nginx/sites-enabled/*;</code></pre>
+
+
+
+<p>然后我看了一眼 conf.d 目录下，没有任何配置文件，sites-enabled 目录下就有我老哥们耀华同学帮忙配置好的名为 www.7dot9.com 的配置文件。本次 nginx 服务无法正常启动，正式因为 nginx 启动时加载配置文件时，在处理 www.7dot9.com 这个配置文件中的这一行内容</p>
+
+
+
+<pre class="wp-block-code"><code>include /var/www/vhosts/www.7dot9.com/public/.htaccess;</code></pre>
+
+
+
+<p>最终在加载这个原来的 wordpress 目录下的 .htaccess 文件的时候出现了错误 [emerg] unknown directive &#8220;&lt;IfModule&#8221; in /var/www/vhosts/www.7dot9.com/public/.htaccess:5，具体原因我也不是很懂，但是搜索了一圈之后，发现这个文件好像是早前的 Apache Server 使用的，现在我使用的已经是 nginx 了，实际上可能已经不太需要这个文件了，所以我的想法就是完全按照 <a rel="noreferrer noopener" href="https://www.nginx.com/resources/wiki/start/topics/recipes/wordpress/" target="_blank">nginx 官方针对 wordpress 出的配置教程</a>来设置我自己站点的配置。所以我就先将原来的配置给备份了，直接将 nginx 官方教程中的配置拷贝了一份，命名为 www.7dot9.com，依然放在 /etc/nginx/sites-enabled/ 目录下。但是启动后还是无法正常访问，然后仔细排查，发现其中有一处需要修改，那就是上游 php 应用服务器的配置，需要修改为我的 VPS 上运行的 fpm 的 sock 如下</p>
+
+
+
+<pre class="wp-block-code"><code>upstream php {
+        server unix:/run/php/php7.4-fpm.sock;
+        server 127.0.0.1:9000;
+}</code></pre>
+
+
+
+<p>到这里之后，整个站点就能启动起来了，能通过 wp-admin 入口登录到 wordpress 后台了。登录成功后随意点进一篇文章查看，会发现提示缺少相关主题文件的错误，这里直接将当前应用的主题修改为当前新的 wordpress 中默认打包的主题，然后再重试访问，一切如常。</p>
+
+
+
+<p>开心了一下，然后再找到自己原来使用的主题，再安装应用一下，就恢复如前了，不愧为世界上最流行的 CMS，<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f44d.png" alt="👍" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
