@@ -1,50 +1,3 @@
-cd ..
-ls
-cd wxf\`s\ blog/
-clear
-ls
-nikola build
-nikola serve --browser
-clear
-nikola github_deploy
-ls -a
-clear
-git remote -v
-ls -al ~/.ssh
-cd ~
-ls
-ssh-keygen -t rsa -C "whswhswhs66@gmail.com"
-ls 
-cd .ssh/
-ls
-vi id_rsa.pub 
-vim id_rsa.pub 
-emacs id_rsa.pub 
-notepad id_rsa.pub 
-clear
-cd g:
-cd wxf\`s\ blog/
-clear
-ls
-nikola github_deploy
-git config --global user.email "whswhswhs66@gmail.com"
-git config --global user.name "apeishuai"
-nikola github_deploy
-clear
-ls
-clear
-cd ..
-ls
-clear
-ls
-cd shuai-files/
-ls
-cd ..
-clear
-ls
-mkdir test
-git init
-ls
 rm -rg .git/
 clear
 ls
@@ -498,4 +451,50 @@ clear
 ls
 sqlite3 people-list.db 
 clear
-            
+            clear
+ls
+git add .
+ls
+ls -al
+vi .bashrc 
+vim .bashrc
+pacman
+pacman -S vim
+pacman -S vi
+pacman -S vim -y
+pacman -S vim -Y
+pacman -S vim --y
+pacman -S vim -y -y
+vim .bashrc 
+ls -al
+clear
+git add .
+git commit -m "20230120"
+git push pb master
+cd .emacs.d/
+ls
+clear
+cd ..
+clear
+cd g:
+ls
+clear
+cd emacs-notes/
+git add .
+git commit -m "20230120"
+git push pb master
+cd ../wxf\`s\ blog/
+clear
+git add .
+git commit -m "20230120"
+git push pb master
+clear
+ls
+cd ..
+ls
+clear
+ls
+clear
+cd tex/
+ls
+clear
