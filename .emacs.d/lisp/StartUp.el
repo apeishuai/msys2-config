@@ -4,6 +4,7 @@
      ("http" . "127.0.0.1:1082")
      ("https" . "127.0.0.1:1082")))
 
+(setq warning-minimum-level :emergency)
 
 
 ;;picture-show

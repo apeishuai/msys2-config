@@ -1,0 +1,91 @@
+<p data-pid="ciJpXf3I"> 在前面的基础上：</p><a href="https://zhuanlan.zhihu.com/p/599660610" data-draft-node="block" data-draft-type="link-card" class="internal">迦非喵：CMake+VS2022+vcpkg+H5get_libversion版本冲突问题</a><p data-pid="ZFoW5j6O">这里继续重构：</p><p data-pid="oE2BXMC3">某些情况下，如果调用HDF5动态库，出错信息为：</p><div class="highlight"><pre><code class="language-text">Warning! ***HDF5 library version mismatched error***
+The HDF5 header files used to compile this application do not match
+the version used by the HDF5 library to which this application is linked.
+Data corruption or segmentation faults may occur if the application continues.
+This can happen when an application was compiled by one version of HDF5 but
+linked with a different version of static or shared HDF5 library.
+You should recompile the application or check your shared library related
+settings such as 'LD_LIBRARY_PATH'.
+You can, at your own risk, disable this warning by setting the environment
+variable 'HDF5_DISABLE_VERSION_CHECK' to a value of '1'.
+Setting it to 2 or higher will suppress the warning messages totally.
+Headers are 1.12.2, library is 1.14.0</code></pre></div><p data-pid="nOHduR00">具体类似：</p><figure data-size="normal"><img src="https://pic1.zhimg.com/v2-96673f0027b0d6d144273e6acd58a304_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="656" data-rawheight="498" class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-96673f0027b0d6d144273e6acd58a304_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="_NIepDFq">一种可能的原因是因为编译使用HDF5动态库的项目时，头文件的HDF5路径和动态库的不匹配。</p><p data-pid="vG7A7os0">这种情况是因为机器上存在多个版本的HDF5动态库。在windows11下面，如果安装了vcpkg，并且安装了vs2022等编译环境，会优先查找vcpkg的路径，这是即使在CMake里面手动指定了头文件路径还是无效。</p><p data-pid="2GO_OpAl">此时，需要参考文章</p><a href="https://zhuanlan.zhihu.com/p/599660610" data-draft-node="block" data-draft-type="link-card" class="internal">迦非喵：CMake+VS2022+vcpkg+H5get_libversion版本冲突问题</a><p data-pid="iclR9eMK">的做法：</p><figure data-size="normal"><img src="https://pic2.zhimg.com/v2-b29054c4445c40af265a5a7b025a718d_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="492" data-rawheight="177" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-b29054c4445c40af265a5a7b025a718d_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="Ib7Q66fc">使用命令解除vcpkg与Visual Studio开发环境的集成：</p><div class="highlight"><pre><code class="language-text">vcpkg integrate remove</code></pre></div><p data-pid="topjox9i">重新编译使用HDF5的动态库（不是HDF5库本身），有：</p><figure data-size="normal"><img src="https://pic2.zhimg.com/v2-b92b925a367ac5142ca33e31e8b306b9_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="581" data-rawheight="398" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-b92b925a367ac5142ca33e31e8b306b9_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="1BIlU9UO">具体为（部分）：</p><div class="highlight"><pre><code class="language-text">Elapsed time in nanoseconds: 100 ns
+Elapsed time in microseconds: 0 mus
+Elapsed time in milliseconds: 0 ms
+Elapsed time in seconds: 0 sec
+   nBoco        = 2
+**************************************************************
+   CGNS File Index = 1
+   CGNS File Version = 4.3000
+   CGNS Precision = 64
+   CGNS File Type = 2 FileTypeName = CG_FILE_HDF5
+**************************************************************
+ baseId = 1 baseName = Base1
+** Dumping CGNS Grid In Base 1
+   Dumping CGNS Family Specified BC
+   numberOfCgnsZones       = 1
+
+==&gt;iZone = 0 numberOfCgnsZones = 1
+   The Zone Type is Unstructured Zone
+   Zone Id = 1
+   CGNS Zone Name = Zone1
+   numberOfCgnsSections = 2
+   Dumping Cgns Section Data......
+
+--&gt;iSection     = 0 numberOfCgnsSections = 2
+   Section Name = BAR_2
+   Section Type = BAR_2
+   startId, endId = 1 1638400
+   nbndry, iparentflag = 0 0
+--&gt;iSection     = 1 numberOfCgnsSections = 2
+   Section Name = NODE
+   Section Type = NODE
+   startId, endId = 1638401 1638402
+   nbndry, iparentflag = 0 0
+   nBoco        = 2
+
+--&gt;iBoco  = 0 nBoco = 2
+   CGNS Bc_Double_Id              = 0.0000
+   CGNS pointSetType              = 2
+   CGNS nElements                 = 1
+   CGNS normalListSize            = 0
+   CGNS normalDataType            = 0
+   CGNS nDataSets                 = 0
+   CGNS normalIndex               = 0 0 0
+   CGNS GridConnType              = 0
+   CGNS Boundary Name             = LeftOutFlow
+   CGNS Boundary Condition Name   = BCOutflow
+   CGNS PointSet Type Name        = PointList
+   CGNS Bc Id = 1
+   CGNS Grid Location Name        = CellCenter
+   CGNS Boundary Element's Number = 1
+   1638401
+
+--&gt;iBoco  = 1 nBoco = 2
+   CGNS Bc_Double_Id              = 0.0000
+   CGNS pointSetType              = 2
+   CGNS nElements                 = 1
+   CGNS normalListSize            = 0
+   CGNS normalDataType            = 0
+   CGNS nDataSets                 = 0
+   CGNS normalIndex               = 0 0 0
+   CGNS GridConnType              = 0
+   CGNS Boundary Name             = RightOutFlow
+   CGNS Boundary Condition Name   = BCOutflow
+   CGNS PointSet Type Name        = PointList
+   CGNS Bc Id = 2
+   CGNS Grid Location Name        = CellCenter
+   CGNS Boundary Element's Number = 1
+   1638402
+   nConn        = 0
+   n1to1        = 0
+   this-&gt;nCoor = 3
+   coorName = X dataType = 4 indexCoor = 1
+   coorName = Y dataType = 4 indexCoor = 2
+   coorName = Z dataType = 4 indexCoor = 3
+ nFaces = 1638401
+ nTraditionalBc = 2
+ iBoco = 0  BCTypeName = BCOutflow
+ nFinalBcFace = 1 bcType = 13
+ iBoco = 1  BCTypeName = BCOutflow
+ nFinalBcFace = 1 bcType = 13</code></pre></div><p data-pid="7srml44I">可见，问题得以解决。</p><p data-pid="hpuiPYfN">当然，vcpkg只是导致出错的其中一种可能的原因，其它的一些情况可以在网上搜索一下，或者可以参考：</p><a href="https://zhuanlan.zhihu.com/p/453235642" data-draft-node="block" data-draft-type="link-card" class="internal">迦非喵：HDF5库版本不匹配错误（HDF5 library version mismatched error）</a><p data-pid="dJGhrxOa">为便于检索，文章收录于：</p><a href="https://zhuanlan.zhihu.com/p/452874893" data-draft-node="block" data-draft-type="link-card" class="internal">迦非喵：CGNS和hdf5编译链接相关文章链接整理（不定期更新）</a><p></p>

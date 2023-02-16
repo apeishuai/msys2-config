@@ -1,0 +1,23 @@
+
+<p>我的 Mac 是 MacBook M1Max，最近几个月频繁遇到耳机音量正常，自带音箱音量很低，完全无法听清的偶发问题。重启 Mac 后就会完全恢复正常。</p>
+
+
+
+<span id="more-27285"></span>
+
+
+
+<p>后来，我发现有时候遇到这种问题，可以在活动监视器 activity monitor 的 CPU 任务列表里面找到 coreaudiod 进程，然后双击得到<strong>详情页面</strong>，选择<strong>退出</strong>，然后选择<strong>强制退出</strong>即可。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="528" src="https://codechina.org/wp-content/uploads/2023/01/截屏2023-01-18-23.37.35-1024x528.png" alt="" class="wp-image-27287" srcset="https://codechina.org/wp-content/uploads/2023/01/截屏2023-01-18-23.37.35-1024x528.png 1024w, https://codechina.org/wp-content/uploads/2023/01/截屏2023-01-18-23.37.35-300x155.png 300w, https://codechina.org/wp-content/uploads/2023/01/截屏2023-01-18-23.37.35-768x396.png 768w, https://codechina.org/wp-content/uploads/2023/01/截屏2023-01-18-23.37.35-1536x791.png 1536w, https://codechina.org/wp-content/uploads/2023/01/截屏2023-01-18-23.37.35-1200x618.png 1200w, https://codechina.org/wp-content/uploads/2023/01/截屏2023-01-18-23.37.35.png 1700w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">详情页面</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="544" height="652" src="https://codechina.org/wp-content/uploads/2023/01/截屏2023-01-18-23.37.49.png" alt="" class="wp-image-27288" srcset="https://codechina.org/wp-content/uploads/2023/01/截屏2023-01-18-23.37.49.png 544w, https://codechina.org/wp-content/uploads/2023/01/截屏2023-01-18-23.37.49-250x300.png 250w" sizes="(max-width: 544px) 100vw, 544px" /><figcaption class="wp-element-caption">退出选项</figcaption></figure>
+
+
+
+<p>一般这样操作后，音箱的音量就正常了。</p>
+<p><a rel="nofollow" href="https://codechina.org/2023/01/coreaudiod/">Mac自带音箱音量过低的解决方法一例</a>最先出现在<a rel="nofollow" href="https://codechina.org">Tinyfool的个人网站</a>。</p>

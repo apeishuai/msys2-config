@@ -1,71 +1,3 @@
-rm -rg .git/
-clear
-ls
-cd test/
-git init
-git remote add git@github.com:apeishuai/dde.git
-git remote add pb git@github.com:apeishuai/dde.git
-git remote -v
-touch 1.txt
-git add 1.txt 
-git commit -m "de"
-git push origin
-git push pb
-git branc
-git push pb master
-git push pb main
-git push pb master
-git remote -v
-git fetch pb
-clear
-git remote -v
-git push pb
-git push --set-upstream pb master
-ls
-ls -a
-rm .git/
-rm -rf .git/
-rm 1.txt 
-clear
-git clone git@github.com:apeishuai/dde.git
-cd ~
-clear
-ls
-ls -a
-rm -rf .ssh/
-clear
-ssh-keygen -t ed25519 -C "whswhswhs66@gmail.com"
-cd .ssh/
-ls
-notepad id_ed25519
-notepad id_ed25519.pub 
-cd ..
-rm -rf .ssh/
-ssh-keygen -t rsa -b 4096 -C "whswhswhs66@gmail.com"
-notepad .ssh/id_rsa.pub 
-clear
-cd g:test
-ls
-ls a
-ls -a
-git clone git@github.com:apeishuai/dde.git
-ssh -T git@github.com
-ssh -T git@github.com
-cleat
-clear
-ssh -T git@github.com
-clear
-clear
-clear
-clear
-clear
-ls
-clear
-clear
-ls
-ls -a
-clear
-ssh -T git@github.com
 clear
 clear
 clear
@@ -498,3 +430,71 @@ clear
 cd tex/
 ls
 clear
+pacman -R mingw-w64-clang-x86_64-emacs
+pacman -S mingw-w64-clang-x86_64-emacs
+emacs
+pacman -R mingw-w64-clang-x86_64-emacs
+pacman -S mingw-w64-x86_64-emacs
+emacs
+clear
+ls -al
+cd .emacs.d/
+ls
+ls a-l
+ls -al
+cd ..
+ls -al
+clear
+pacman -Ss emacs
+clear
+ls -al
+vim .bashrc 
+clear
+ls
+ls -al
+git clone git@github.com:apeishuai/msys2-config.git
+git clone git@github.com:apeishuai/msys2-config.git
+git clone git@github.com:apeishuai/msys2-config.git
+git clone git@github.com:apeishuai/msys2-config.git
+git clone git@github.com:apeishuai/msys2-config.git
+emacs
+clear
+emacs
+clear
+emacs
+ls -al
+vi .bashrc
+vim .bashrc
+cd ../../
+ls
+cd mingw64/bi
+cd mingw64/bin
+ls
+cd ~
+emacs
+clear
+ls
+ls -al
+snipaste snip -o
+snipaste snip -o xx/.png
+snipaste snip -o xx.png
+clear
+snipaste 
+snipaste  snip
+snipaste snip
+snipaste snip
+snipaste snip
+cd g:
+cd emacs-notes/
+clear
+git add .
+git commit -m "PC M first fresh"
+clear
+git remote -v
+git push origin master
+clear
+emacs
+mkdir work_journal
+exit
+emacs
+emacs

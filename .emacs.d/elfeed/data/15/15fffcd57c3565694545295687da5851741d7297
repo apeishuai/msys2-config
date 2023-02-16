@@ -1,0 +1,119 @@
+<p data-pid="YRiLMxbK">在前面的基础上：</p><p data-pid="EC7D0x7h">这里继续重构：</p><p data-pid="B4wJ1zqW">CMakeLists.txt</p><div class="highlight"><pre><code class="language-cmake"><span class="nb">cmake_minimum_required</span><span class="p">(</span><span class="s">VERSION</span> <span class="s">3.24</span><span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">project</span> <span class="p">(</span> <span class="s">testprj</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">PRJ_COMPILE_FEATURES</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">PRJ_LIBRARIES</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">set</span> <span class="p">(</span> <span class="s">PRJ_INCLUDE_DIRS</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_COMPILE_FEATURES</span> <span class="s">cxx_std_20</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">find_package</span><span class="p">(</span><span class="s">HDF5</span> <span class="s">REQUIRED</span><span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">if</span> <span class="p">(</span> <span class="s">HDF5_FOUND</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span>    <span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_LIBRARIES</span> <span class="o">${</span><span class="nv">HDF5_LIBRARIES</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span>    <span class="nb">list</span> <span class="p">(</span> <span class="s">APPEND</span> <span class="s">PRJ_INCLUDE_DIRS</span> <span class="o">${</span><span class="nv">HDF5_INCLUDE_DIRS</span><span class="o">}</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">endif</span> <span class="p">()</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">message</span> <span class="p">(</span> <span class="s">STATUS</span> <span class="s2">"HDF5_INCLUDE_DIRS = ${HDF5_INCLUDE_DIRS}"</span> <span class="p">)</span><span class="err">
+</span><span class="err"></span><span class="nb">message</span> <span class="p">(</span> <span class="s">STATUS</span> <span class="s2">"HDF5_LIBRARIES = ${HDF5_LIBRARIES}"</span> <span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">add_executable</span><span class="p">(</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span> 
+    <span class="s">main.cpp</span>
+<span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">target_include_directories</span> <span class="p">(</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span>
+    <span class="s">PRIVATE</span> 
+        <span class="o">${</span><span class="nv">PRJ_INCLUDE_DIRS</span><span class="o">}</span>
+<span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">target_link_libraries</span><span class="p">(</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span> 
+    <span class="s">PRIVATE</span> 
+        <span class="o">${</span><span class="nv">PRJ_LIBRARIES</span><span class="o">}</span>
+<span class="p">)</span><span class="err">
+</span><span class="err">
+</span><span class="err"></span><span class="nb">target_compile_features</span> <span class="p">(</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span> 
+<span class="s">PRIVATE</span> 
+<span class="o">${</span><span class="nv">PRJ_COMPILE_FEATURES</span><span class="o">}</span>
+<span class="p">)</span><span class="err">
+</span><span class="err">
+</span></code></pre></div><p data-pid="DfxG5Gac">main.cpp</p><div class="highlight"><pre><code class="language-cpp"><span class="cp">#include</span> <span class="cpf">"hdf5.h"</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span> <span class="p">(</span> <span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span> <span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">unsigned</span> <span class="n">majnum</span><span class="p">,</span> <span class="n">minnum</span><span class="p">,</span> <span class="n">relnum</span><span class="p">;</span>
+    <span class="n">H5get_libversion</span> <span class="p">(</span><span class="o">&amp;</span><span class="n">majnum</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">minnum</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">relnum</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"majnum = "</span> <span class="o">&lt;&lt;</span> <span class="n">majnum</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"minnum = "</span> <span class="o">&lt;&lt;</span> <span class="n">minnum</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"relnum = "</span> <span class="o">&lt;&lt;</span> <span class="n">relnum</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p data-pid="_oET4pJy">windows11+powershell</p><div class="highlight"><pre><code class="language-text">PS C:\dev\vcpkg&gt; .\vcpkg.exe integrate install
+Applied user-wide integration for this vcpkg root.
+
+All MSBuild C++ projects can now #include any installed libraries.
+Linking will be handled automatically.
+Installing new libraries will make them instantly available.
+
+CMake projects should use: "-DCMAKE_TOOLCHAIN_FILE=C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake"</code></pre></div><p data-pid="-xzbR3Xp">cd d:\work\hdf5_work\ModernHDF5\codes\H5get_libversion\02\build\</p><p data-pid="7qyR4krg">$env:HDF5_DIR = "c:/dev/HDF_Group/HDF5/1.10.9/cmake/"</p><p data-pid="lP3KzrsQ">$env:path += ";C:/dev/HDF_Group/HDF5/1.10.9/bin/"</p><p data-pid="nWIJosFN">有：</p><div class="highlight"><pre><code class="language-text">PS D:\work\hdf5_work\ModernHDF5\codes\H5get_libversion\02\build&gt; $env:HDF5_DIR = "c:/dev/HDF_Group/HDF5/1.10.9/cmake/"
+PS D:\work\hdf5_work\ModernHDF5\codes\H5get_libversion\02\build&gt; $env:path += ";C:/dev/HDF_Group/HDF5/1.10.9/bin/"</code></pre></div><p data-pid="oLyjYBXA">cmake ..</p><div class="highlight"><pre><code class="language-text">PS D:\work\hdf5_work\ModernHDF5\codes\H5get_libversion\02\build&gt; cmake ..
+-- Building for: Visual Studio 17 2022
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22621.
+-- The C compiler identification is MSVC 19.33.31630.0
+-- The CXX compiler identification is MSVC 19.33.31630.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found HDF5: hdf5::hdf5-shared (found version "1.10.9")
+-- HDF5_INCLUDE_DIRS = C:/dev/HDF_Group/HDF5/1.10.9/include
+-- HDF5_LIBRARIES = hdf5::hdf5-shared
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/work/hdf5_work/ModernHDF5/codes/H5get_libversion/02/build</code></pre></div><p data-pid="1_J2gf0C">cmake --build .</p><div class="highlight"><pre><code class="language-text">PS D:\work\hdf5_work\ModernHDF5\codes\H5get_libversion\02\build&gt; cmake --build .
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  Checking Build System
+  Building Custom Rule D:/work/hdf5_work/ModernHDF5/codes/H5get_libversion/02/CMakeLists.txt
+  main.cpp
+  testprj.vcxproj -&gt; D:\work\hdf5_work\ModernHDF5\codes\H5get_libversion\02\build\Debug\testprj.exe
+  Building Custom Rule D:/work/hdf5_work/ModernHDF5/codes/H5get_libversion/02/CMakeLists.txt</code></pre></div><p data-pid="FZhFPF73"> .\Debug\testprj.exe</p><div class="highlight"><pre><code class="language-text">PS D:\work\hdf5_work\ModernHDF5\codes\H5get_libversion\02\build&gt; .\Debug\testprj.exe
+majnum = 1
+minnum = 12
+relnum = 2</code></pre></div><p data-pid="qsEeWZg9">可见，结果并不是1.10.9</p><p data-pid="BMZd3Ouj">即</p><figure data-size="normal"><img src="https://pic4.zhimg.com/v2-d8eaf2b9706a95ca11f6274a6f752903_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="404" data-rawheight="133" class="content_image" referrerpolicy="no-referrer"></figure><p data-pid="N7fcRvD_">这是因为vcpkg优先调用了头文件（vcpkg目录下的hdf5）</p><p data-pid="yIirl6YS">打开test.prj有：</p><figure data-size="normal"><img src="https://pic4.zhimg.com/v2-85ed01ef6920a600a85621101bd76d3b_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="610" data-rawheight="332" class="origin_image zh-lightbox-thumb" data-original="https://pic4.zhimg.com/v2-85ed01ef6920a600a85621101bd76d3b_r.jpg" referrerpolicy="no-referrer"></figure><figure data-size="normal"><img src="https://pic2.zhimg.com/v2-b14b22f2382c360e01fa88990808b57d_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="708" data-rawheight="369" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-b14b22f2382c360e01fa88990808b57d_r.jpg" referrerpolicy="no-referrer"></figure><figure data-size="normal"><img src="https://pic2.zhimg.com/v2-1f3e9171e68921956d48d5fd92601cb5_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="546" data-rawheight="342" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-1f3e9171e68921956d48d5fd92601cb5_r.jpg" referrerpolicy="no-referrer"></figure><p class="ztext-empty-paragraph"><br></p><p data-pid="UGvHTQob">可见这个H5public.h路径为：</p><p data-pid="JeJH9InH">c:\dev\vcpkg\installed\x64-windows\include\H5public.h</p><p data-pid="rk8FdFtZ">即：</p><figure data-size="normal"><img src="https://pic1.zhimg.com/v2-3fe1c0ca785e81fb9b0a9918c2385da8_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="621" data-rawheight="246" class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-3fe1c0ca785e81fb9b0a9918c2385da8_r.jpg" referrerpolicy="no-referrer"></figure><p data-pid="dUedd2J7">此时需要</p><p data-pid="GOI644tz">.\vcpkg.exe integrate remove</p><div class="highlight"><pre><code class="language-text">PS C:\dev\vcpkg&gt; .\vcpkg.exe integrate remove
+User-wide integration was removed</code></pre></div><p data-pid="5UO7flya">删除中间文件并重新构建，有：</p><p data-pid="JFw_puMo">cmake ..</p><div class="highlight"><pre><code class="language-text">PS D:\work\hdf5_work\ModernHDF5\codes\H5get_libversion\02\build&gt; cmake ..
+-- Building for: Visual Studio 17 2022
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22621.
+-- The C compiler identification is MSVC 19.33.31630.0
+-- The CXX compiler identification is MSVC 19.33.31630.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found HDF5: hdf5::hdf5-shared (found version "1.10.9")
+-- HDF5_INCLUDE_DIRS = C:/dev/HDF_Group/HDF5/1.10.9/include
+-- HDF5_LIBRARIES = hdf5::hdf5-shared
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/work/hdf5_work/ModernHDF5/codes/H5get_libversion/02/build</code></pre></div><p data-pid="3l_Nxl3x">cmake --build .</p><div class="highlight"><pre><code class="language-text">PS D:\work\hdf5_work\ModernHDF5\codes\H5get_libversion\02\build&gt; cmake --build .
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  Checking Build System
+  Building Custom Rule D:/work/hdf5_work/ModernHDF5/codes/H5get_libversion/02/CMakeLists.txt
+  main.cpp
+  testprj.vcxproj -&gt; D:\work\hdf5_work\ModernHDF5\codes\H5get_libversion\02\build\Debug\testprj.exe
+  Building Custom Rule D:/work/hdf5_work/ModernHDF5/codes/H5get_libversion/02/CMakeLists.txt</code></pre></div><p data-pid="q4QIQrYl"> .\Debug\testprj.exe</p><div class="highlight"><pre><code class="language-text">PS D:\work\hdf5_work\ModernHDF5\codes\H5get_libversion\02\build&gt; .\Debug\testprj.exe
+majnum = 1
+minnum = 10
+relnum = 9</code></pre></div><p data-pid="tFhWy9qD">为便于检索，文章收录于：</p><a href="https://zhuanlan.zhihu.com/p/452874893" data-draft-node="block" data-draft-type="link-card" class="internal">迦非喵：CGNS和hdf5编译链接相关文章链接整理（不定期更新）</a><p></p>

@@ -165,14 +165,17 @@
 		       (concat org-directory "finished.org")
 		       (concat org-directory "projects.org")))
 
-(setq org-agenda-files (list (concat org-directory "inbox.org")
+(setq org-agenda-files (list
+			(concat org-directory "Mointer.org")
+			(concat org-directory "inbox.org")
 			     (concat org-directory "next.org")
 			     ;;(concat org-directory "archive_kaoyan.org")
 			     (concat org-directory "projects.org")
-			     (concat org-directory "finished.org")
 			     (concat org-directory "Ref.org")
 			     (concat org-directory "Someday_Maybe.org")
 			     (concat org-directory "agenda.org")
+			     (concat org-directory "finished.org")
+			     (concat org-directory "archive.org")
 			     (concat org-directory "Trash.org")
 			     ))
 
