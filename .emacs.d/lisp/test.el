@@ -1,3 +1,22 @@
+(defun display-remaining-time ()
+  "Display the remaining time of today in the Emacs window."
+  (interactive)
+  (let* ((now (decode-time))
+         (hours (nth 2 now))
+         (minutes (nth 1 now))
+         (seconds (nth 0 now))
+         (remaining-seconds (- (* (- 24 hours)
+                                  3600)
+                               (+ (* 60 minutes)
+                                  seconds))))
+    (message "Remaining time of today: %d hours %d minutes %d seconds"
+             (/ remaining-seconds 3600)
+             (mod (/ remaining-seconds 60) 60)
+             (mod remaining-seconds 60))))
+
+(global-set-key (kbd "C-c t") 'display-remaining-time)
+
+
 
 (defun recip (n)
   (pcase n

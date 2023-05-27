@@ -1,3 +1,9 @@
 [user]
 	email = whswhswhs66@gmail.com
 	name = apeishuai
+[safe]
+	directory = /github/workspace
+	directory = /github/workspace
+	directory = /github/workspace
+[http "https://github.com"]
+	proxy = socks5://127.0.0.1:1081

@@ -10,22 +10,55 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/whswhswhs
+
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1674272713,,"wq"
+|2,0,1684747436,,"wq"
 :q
-|2,0,1674272711,,"q"
+|2,0,1684747264,,"q"
+:weq
+|2,0,1683114358,,"weq"
+:qall
+|2,0,1679807557,,"qall"
+:'<,'>q
+|2,0,1679802806,,"'<,'>q"
+:qw
+|2,0,1679800246,,"qw"
+:q!
+|2,0,1679799835,,"q!"
+:Wq
+|2,0,1679636231,,"Wq"
+:w3q
+|2,0,1679496547,,"w3q"
+:ew
+|2,0,1677939265,,"ew"
 :q!'
 |2,0,1674272706,,"q!'"
 :!q
 |2,0,1674272700,,"!q"
 
 # Search String History (newest to oldest):
+?/whswhswhs
+|2,1,1681255578,47,"whswhswhs"
+?/github
+|2,1,1681255537,47,"github"
+?/f-string
+|2,1,1679807277,47,"f-string"
+?/path
+|2,1,1679717482,47,"path"
+?/out
+|2,1,1679717320,47,"out"
+?/input
+|2,1,1679715881,47,"input"
 ? @$
-|2,1,1668314122,,"@$"
+|2,1,1679625498,,"@$"
+?/mjpeg
+|2,1,1679128677,47,"mjpeg"
 
 # Expression History (newest to oldest):
 
@@ -34,298 +67,1316 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	export PATH=$PATH:/mingw64/bin/
-|3,1,0,1,1,0,1669707599,"export PATH=$PATH:/mingw64/bin/"
-"1	LINE	0
+"0	LINE	0
+	$adapter = Get-NetAdapter | Where-Object {$_.Name -eq "WLAN"} | Select-Object -First 1
+|3,0,0,1,1,0,1684747277,"$adapter = Get-NetAdapter | Where-Object {$_.Name -eq \"WLAN\"} | Select-Object -First 1"
+""1	LINE	0
 	
-|3,0,1,1,1,0,1669375563,""
+|3,1,1,1,1,0,1684747435,""
 "2	LINE	0
-	export PATH=$PATH:/e\:/Snipaste-2.7.3-Beta-x64/
-|3,0,2,1,1,0,1668090030,"export PATH=$PATH:/e\\:/Snipaste-2.7.3-Beta-x64/"
+	
+|3,0,2,1,1,0,1684747434,""
 "3	LINE	0
-	export PATH=$PATH:/mingw64/bi/
-|3,0,3,1,1,0,1668089771,"export PATH=$PATH:/mingw64/bi/"
+	
+|3,0,3,1,1,0,1684747433,""
+"4	LINE	0
+	这将使PowerShell 使用 UTF-8 编码来处理所有的输入和输出，从而避免乱码问题。
+|3,0,4,1,1,0,1684747433,"这将使PowerShell 使用 UTF-8 编码来处理所有的输入和输出，从而避免乱码问题。"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1684747432,""
+"6	LINE	0
+	```
+|3,0,6,1,1,0,1684747432,"```"
+"7	LINE	0
+	
+|3,0,7,1,1,0,1684747286,""
+"8	LINE	0
+	
+|3,0,8,1,1,0,1684741788,""
+"9	LINE	0
+	
+|3,0,9,1,1,0,1684741788,""
+"-	CHAR	0
+	]
+|3,0,36,0,1,0,1682344741,"]"
 
 # File marks:
-'0  36  3  ~/.emacs.d/lisp/StartUp.el
-|4,48,36,3,1674272713,"~/.emacs.d/lisp/StartUp.el"
-'1  195  12  ~/.bashrc
-|4,49,195,12,1674272449,"~/.bashrc"
-'2  1  0  ~/.bashrc
-|4,50,1,0,1674210772,"~/.bashrc"
-'3  1  0  ~/.bashrc
-|4,51,1,0,1674210772,"~/.bashrc"
-'4  193  0  ~/.bashrc
-|4,52,193,0,1674210636,"~/.bashrc"
-'5  193  0  ~/.bashrc
-|4,53,193,0,1674210636,"~/.bashrc"
-'6  193  0  ~/.bashrc
-|4,54,193,0,1674210636,"~/.bashrc"
-'7  193  0  ~/.bashrc
-|4,55,193,0,1674210636,"~/.bashrc"
-'8  197  27  ~/.bashrc
-|4,56,197,27,1669707707,"~/.bashrc"
-'9  194  27  ~/.bashrc
-|4,57,194,27,1669707707,"~/.bashrc"
+'0  4  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,48,4,0,1684747436,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+'1  1  64  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,49,1,64,1684747337,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+'2  1  64  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,50,1,64,1684747337,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+'3  1  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,51,1,3,1684747278,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+'4  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
+|4,52,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
+'5  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,53,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+'6  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,54,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+'7  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,55,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+'8  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,56,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+'9  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,57,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
 
 # Jumplist (newest first):
--'  36  3  ~/.emacs.d/lisp/StartUp.el
-|4,39,36,3,1674272713,"~/.emacs.d/lisp/StartUp.el"
--'  1  0  ~/.emacs.d/lisp/StartUp.el
-|4,39,1,0,1674272619,"~/.emacs.d/lisp/StartUp.el"
--'  195  12  ~/.bashrc
-|4,39,195,12,1674272449,"~/.bashrc"
--'  195  12  ~/.bashrc
-|4,39,195,12,1674272449,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1674272432,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1674272432,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1674210772,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1674210772,"~/.bashrc"
--'  193  0  ~/.bashrc
-|4,39,193,0,1674210761,"~/.bashrc"
--'  193  0  ~/.bashrc
-|4,39,193,0,1674210761,"~/.bashrc"
--'  193  0  ~/.bashrc
-|4,39,193,0,1674210761,"~/.bashrc"
--'  193  0  ~/.bashrc
-|4,39,193,0,1674210761,"~/.bashrc"
--'  193  0  ~/.bashrc
-|4,39,193,0,1674210636,"~/.bashrc"
--'  193  0  ~/.bashrc
-|4,39,193,0,1674210636,"~/.bashrc"
--'  194  1  ~/.bashrc
-|4,39,194,1,1674210633,"~/.bashrc"
--'  194  1  ~/.bashrc
-|4,39,194,1,1674210633,"~/.bashrc"
--'  194  1  ~/.bashrc
-|4,39,194,1,1674210633,"~/.bashrc"
--'  194  1  ~/.bashrc
-|4,39,194,1,1674210633,"~/.bashrc"
--'  194  1  ~/.bashrc
-|4,39,194,1,1674210633,"~/.bashrc"
--'  194  1  ~/.bashrc
-|4,39,194,1,1674210633,"~/.bashrc"
--'  197  27  ~/.bashrc
-|4,39,197,27,1674210611,"~/.bashrc"
--'  197  27  ~/.bashrc
-|4,39,197,27,1674210611,"~/.bashrc"
--'  197  27  ~/.bashrc
-|4,39,197,27,1674210611,"~/.bashrc"
--'  197  27  ~/.bashrc
-|4,39,197,27,1674210611,"~/.bashrc"
--'  197  27  ~/.bashrc
-|4,39,197,27,1674210611,"~/.bashrc"
--'  197  27  ~/.bashrc
-|4,39,197,27,1674210611,"~/.bashrc"
--'  194  27  ~/.bashrc
-|4,39,194,27,1669707707,"~/.bashrc"
--'  194  27  ~/.bashrc
-|4,39,194,27,1669707707,"~/.bashrc"
--'  194  22  ~/.bashrc
-|4,39,194,22,1669707694,"~/.bashrc"
--'  194  22  ~/.bashrc
-|4,39,194,22,1669707694,"~/.bashrc"
--'  194  17  ~/.bashrc
-|4,39,194,17,1669707636,"~/.bashrc"
--'  194  17  ~/.bashrc
-|4,39,194,17,1669707636,"~/.bashrc"
--'  198  32  ~/.bashrc
-|4,39,198,32,1669707579,"~/.bashrc"
--'  198  32  ~/.bashrc
-|4,39,198,32,1669707579,"~/.bashrc"
--'  195  32  ~/.bashrc
-|4,39,195,32,1669707579,"~/.bashrc"
--'  198  32  ~/.bashrc
-|4,39,198,32,1669707579,"~/.bashrc"
--'  195  32  ~/.bashrc
-|4,39,195,32,1669707579,"~/.bashrc"
--'  195  32  ~/.bashrc
-|4,39,195,32,1669707579,"~/.bashrc"
--'  195  32  ~/.bashrc
-|4,39,195,32,1669707579,"~/.bashrc"
--'  198  32  ~/.bashrc
-|4,39,198,32,1669707579,"~/.bashrc"
--'  198  32  ~/.bashrc
-|4,39,198,32,1669707579,"~/.bashrc"
--'  195  32  ~/.bashrc
-|4,39,195,32,1669707579,"~/.bashrc"
--'  198  32  ~/.bashrc
-|4,39,198,32,1669707579,"~/.bashrc"
--'  195  32  ~/.bashrc
-|4,39,195,32,1669707579,"~/.bashrc"
--'  195  32  ~/.bashrc
-|4,39,195,32,1669707579,"~/.bashrc"
--'  195  32  ~/.bashrc
-|4,39,195,32,1669707579,"~/.bashrc"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1669604564,"~/.gitconfig"
+-'  4  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,39,4,0,1684747436,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+-'  1  64  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,39,1,64,1684747423,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+-'  1  64  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,39,1,64,1684747337,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+-'  1  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,3,1684747278,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,3,1684747278,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,3,1684747278,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,3,1684747278,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747271,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747271,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747271,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747271,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
+|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
+|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
+|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
+|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
+|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
+|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
+|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
+|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,39,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,39,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,39,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
+|4,39,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  4  0  /g/emacs-notes/Shell/windows/说明.org
+|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
 
 # History of marks within files (newest to oldest):
 
-> ~/.emacs.d/lisp/StartUp.el
-	*	1674272711	0
-	"	36	3
-	.	36	3
-	+	30	24
-	+	36	3
-	+	30	24
-	+	36	3
+> /g/emacs-notes/Shell/windows/set_ethernet.ps1
+	*	1684747436	0
+	"	4	0
+	.	4	0
+	+	1	0
+	+	4	20
+	+	1	64
+	+	4	0
+	+	2	0
+	+	2	99
+	+	2	0
+	+	4	0
 
-> ~/.bashrc
-	*	1674272437	0
-	"	195	12
-	.	194	0
-	+	195	12
-	+	196	31
-	+	199	0
-	+	196	31
-	+	198	32
-	+	197	27
-	+	192	13
-	+	194	0
+> /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
+	*	1684747277	0
+	"	1	3
+
+> /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
+	*	1684747263	0
+	"	1	0
+
+> /g/emacs-notes/Shell/windows/说明.org
+	*	1684742017	0
+	"	4	0
+	^	3	40
+	.	3	40
+	+	1	0
+	+	4	0
+	+	1	57
+	+	6	0
+	+	2	109
+	+	3	40
+
+> /g/emacs-notes/Shell/windows/test_ipv4.ps1
+	*	1684737991	0
+	"	12	20
+	^	12	21
+	.	12	20
+	+	12	20
+
+> /g/emacs-notes/Shell/windows/ser_ipv4_auto.ps1
+	*	1684737856	0
+	"	3	0
+	^	20	1
+	.	3	0
+	+	3	20
+	+	3	0
+	+	20	0
+	+	3	0
+
+> /g/emacs-notes/Shell/windows/set_ipv4_manual.ps1
+	*	1684736400	0
+	"	14	0
+	^	6	33
+	.	6	33
+	+	17	84
+	+	1	130
+	+	6	60
+	+	14	1
+	+	3	25
+	+	4	27
+	+	5	29
+	+	6	32
+	+	1	59
+	+	3	25
+	+	4	27
+	+	5	29
+	+	6	33
+
+> /g/emacs-notes/Shell/windows/set_ipv4.bat
+	*	1684735515	0
+	"	8	45
+	^	4	30
+	.	5	30
+	+	8	160
+	+	8	56
+	+	3	26
+	+	4	28
+	+	5	20
+	+	6	32
+	+	3	26
+	+	5	30
+
+> /g/emacs-notes/Shell/windows/chg-env-var.sh
+	*	1684721898	0
+	"	33	0
+	.	33	0
+	+	28	0
+	+	55	0
+	+	5	2
+	+	33	0
+	+	24	20
+	+	58	0
+	+	59	13
+	+	33	0
+
+> /g/emacs-notes/Shell/windows/main-init.sh
+	*	1684721689	0
+	"	5	0
+	^	7	9
+	.	7	8
+	+	1	11
+	+	2	11
+	+	2	0
+	+	1	11
+	+	4	25
+	+	1	0
+	+	4	2
+	+	13	0
+	+	4	16
+	+	3	29
+	+	9	19
+	+	10	8
+	+	13	0
+	+	5	0
+	+	6	11
+	+	7	8
+
+> /g/wxf-blog/generate_index.py
+	*	1683342162	0
+	"	28	33
+	^	28	34
+	.	28	33
+	+	28	33
+
+> /g/wxf-blog/.github/workflow/generate_index.yml
+	*	1683342131	0
+	"	19	26
+	^	25	54
+	.	25	53
+	+	25	53
+
+> /g/apeishuai/.github/workflows/main.yml
+	*	1683114358	0
+	"	13	21
+	^	13	22
+	.	13	21
+	+	8	38
+	+	8	0
+	+	12	0
+	+	11	0
+	+	12	0
+	+	9	30
+	+	13	21
+
+> /g/apeishuai/.travis.yml
+	*	1682400243	0
+	"	1	0
+
+> /g/emacs-notes/wang/demo01.py
+	*	1682377868	0
+	"	15	0
+	^	13	12
+	.	13	11
+	+	16	26
+	+	17	9
+	+	2	86
+	+	7	16
+	+	7	4
+	+	7	0
+	+	4	24
+	+	7	15
+	+	2	6
+	+	7	0
+	+	4	21
+	+	6	22
+	+	4	15
+	+	6	14
+	+	3	14
+	+	5	10
+	+	8	1
+	+	9	11
+	+	14	8
+	+	9	10
+	+	14	0
+	+	10	12
+	+	11	12
+	+	12	12
+	+	13	11
+
+> /g/spaishuai-blog/.github/workflows/main.yml
+	*	1682302110	0
+	"	13	21
+	^	13	22
+	.	13	21
+	+	13	21
+
+> /g/emacs-notes/xx.txt
+	*	1682063996	0
+	"	3	0
+
+> /g/wxf practice space/a.c
+	*	1681828408	0
+	"	22	0
+	^	22	0
+	.	21	0
+	+	21	0
+
+> /g/apeishuai/2.txt
+	*	1681431560	0
+	"	1	0
+
+> /g/emacs-notes/Shell/vedio-download/get_name_list_to_excel.sh
+	*	1681394613	0
+	"	16	0
+	^	4	34
+	.	4	33
+	+	4	33
+
+> /g/apeishuai/conf.py
+	*	1681255736	0
+	"	1397	35
 
 > ~/.gitconfig
-	*	1669604561	0
+	*	1681255197	0
 	"	1	0
 
-> /g/emacs-notes/Computer_science/test/test.h
-	*	1669375615	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	1	10
+> ~/internetpack/1.txt
+	*	1680586183	0
+	"	249	73
 
-> /g/emacs-notes/Computer_science/test/test.cpp
-	*	1669375594	0
-	"	5	0
-	^	4	20
-	.	4	19
-	+	1	16
-	+	7	1
-	+	10	0
-	+	7	1
+> /g/emacs-notes/Shell/windows/command-install.sh
+	*	1680493567	0
+	"	22	28
+	^	8	28
+	.	8	27
+	+	1	13
+	+	1	0
+	+	1	4
+	+	1	0
+	+	27	3
+	+	1	0
+	+	9	16
+	+	9	0
+	+	5	0
+	+	9	0
+	+	5	15
 	+	9	9
+	+	5	15
+	+	6	35
+	+	9	0
+	+	6	27
+	+	7	11
+	+	8	27
+
+> ~/.bashrc
+	*	1680491966	0
+	"	208	0
+	^	207	1
+	.	207	0
+	+	195	12
+	+	196	31
+	+	200	0
+	+	196	31
+	+	199	32
+	+	198	27
+	+	192	13
+	+	194	0
+	+	197	0
+	+	196	1
+	+	197	42
+	+	210	0
+	+	202	18
+	+	204	18
+	+	205	0
+	+	206	39
+	+	207	0
+	+	207	30
+	+	203	15
+	+	204	17
+	+	207	0
+
+> /g/emacs-notes/Shell/test.sh
+	*	1680096404	0
+	"	1	0
+	^	4	40
+	.	4	39
+	+	8	85
+	+	4	39
+
+> /g/emacs-notes/Shell/vedio-download/convert_2_pdf.org
+	*	1680095705	0
+	"	14	3
+
+> /g/emacs-notes/Shell/vedio-download/y_srt_down.sh
+	*	1680095429	0
+	"	14	57
+
+> /g/emacs-notes/Shell/vedio-download/vedio_2_pic.sh
+	*	1680094830	0
+	"	17	3
+	^	4	24
+	.	4	0
+	+	1	0
+	+	17	3
+	+	1	0
+	+	16	167
+	+	1	0
+	+	16	32
+	+	16	30
+	+	16	167
+	+	16	114
+	+	1	0
+	+	4	0
+	+	4	23
+	+	4	0
+
+> /g/emacs-notes/Shell/vedio-download/bilibili-down.sh
+	*	1680059823	0
+	"	10	51
+	^	7	55
+	.	1	0
+	+	1	41
+	+	1	65
+	+	1	0
+	+	1	73
+	+	1	0
+	+	1	29
+	+	1	28
+	+	1	0
+	+	1	2
+	+	1	0
+	+	1	89
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	77
+	+	1	0
+	+	1	11
+	+	1	0
+	+	1	11
+	+	10	51
+	+	1	0
+
+> /g/emacs-notes/Shell/vedio-download/main.sh
+	*	1680056379	0
+	"	5	9
+	^	5	8
+	.	5	9
+	+	1	0
+	+	3	45
+	+	7	0
+	+	4	18
+	+	5	9
+
+> /g/wxf practice space/log_test/spdlog_test.cpp
+	*	1679905436	0
+	"	2	9
+	^	2	10
+	.	2	10
+	+	28	0
+	+	2	10
+
+> /g/workspace/项目-sylar服务器.org
+	*	1679891395	0
+	"	29	0
+
+> /g/emacs-notes/Shell/vedio-download/test.py
+	*	1679807555	0
+	"	35	120
+	^	17	21
+	.	17	20
+	+	1	85
+	+	1	9
+	+	56	0
+	+	17	19
+	+	17	108
+	+	17	20
+
+> /g/emacs-notes/Shell/vedio-download/test.sh
+	*	1679805893	0
+	"	2	0
+	^	2	0
+	.	1	11
+	+	1	11
+
+> /g/emacs-notes/Shell/windows/org-protocol.reg
+	*	1679803559	0
+	"	4	3
+
+> /g/emacs-notes/Shell/windows/chg-reg.sh
+	*	1679803546	0
+	"	1	0
+	^	4	155
+	.	1	0
+	+	1	45
+	+	1	11
+	+	1	3
+	+	1	0
+	+	1	11
+	+	1	15
+	+	1	0
+	+	4	154
+	+	1	0
+
+> /g/emacs-notes/Shell/windows/test.sh
+	*	1679803489	0
+	"	2	0
+	.	3	0
+	+	1	19
+	+	1	27
+	+	1	63
+	+	1	0
+	+	1	58
+	+	1	57
+	+	1	58
+	+	1	57
+	+	1	142
+	+	1	70
+	+	1	0
+	+	3	154
+	+	1	0
+	+	3	138
+	+	3	0
+
+> /g/emacs-notes/Shell/windows/test.bash
+	*	1679802927	0
+	"	1	0
+	^	10	57
+	.	10	56
+	+	24	29
+	+	1	56
+	+	1	0
+	+	1	134
+	+	1	0
+	+	1	11
+	+	10	56
+
+> /g/emacs-notes/Shell/windows/print_hardware_info.sh
+	*	1679801762	0
+	"	8	236
+	^	8	237
+	.	8	236
+	+	1	7
+	+	1	6
+	+	1	0
+	+	1	11
+	+	20	33
+	+	14	29
+	+	20	21
+	+	15	0
+	+	22	0
+	+	20	21
+	+	15	0
+	+	10	0
+	+	10	11
+	+	22	0
+	+	16	0
+	+	20	33
+	+	10	23
 	+	8	0
 	+	10	0
-	+	8	18
-	+	2	17
-	+	4	19
+	+	8	236
 
-> /etc/localtime
-	*	1669039152	0
+> /g/emacs-notes/Shell/windows/Chg-Env-variable.sh
+	*	1679800246	0
+	"	5	8
+	^	5	9
+	.	5	8
+	+	1	20
+	+	1	11
+	+	1	21
+	+	1	0
+	+	1	27
+	+	1	0
+	+	1	16
+	+	1	20
+	+	1	11
+	+	35	0
+	+	7	0
+	+	7	13
+	+	6	0
+	+	7	9
+	+	35	25
+	+	35	0
+	+	35	9
+	+	35	0
+	+	67	0
+	+	68	41
+	+	42	0
+	+	68	0
+	+	35	0
+	+	7	0
+	+	35	0
+	+	42	0
+	+	40	0
+	+	42	0
+	+	37	0
+	+	40	0
+	+	55	22
+	+	37	2
+	+	38	2
+	+	4	0
+	+	6	2
+	+	6	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	14	0
+	+	14	35
+	+	16	2
+	+	17	2
+	+	18	2
+	+	19	0
+	+	22	0
+	+	42	0
+	+	37	2
+	+	38	2
+	+	35	88
+	+	4	0
+	+	6	2
+	+	6	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	14	35
+	+	16	2
+	+	17	0
+	+	18	2
+	+	19	0
+	+	22	0
+	+	63	9
+	+	18	11
+	+	14	0
+	+	14	35
+	+	6	0
+	+	4	14
+	+	7	0
+	+	5	2
+	+	18	11
+	+	5	12
+	+	35	0
+	+	33	0
+	+	39	9
+	+	5	8
+
+> ~/main-init.sh
+	*	1679798315	0
 	"	1	0
 
-> ~/.ssh/id_rsa.pub
-	*	1668090720	0
-	"	1	507
+> /g/emacs-notes/Shell/soft_install.sh
+	*	1679798192	0
+	"	67	0
+	.	47	0
+	+	47	0
+
+> /g/emacs-notes/Shell/org-protocol.reg
+	*	1679798157	0
+	"	9	0
+
+> /g/emacs-notes/Shell/org-protocol-handler.bat
+	*	1679798125	0
+	"	5	86
+	.	1	0
+	+	1	0
+
+> /g/emacs-notes/Shell/windows/1.txt
+	*	1679796952	0
+	"	334	0
+
+> /g/emacs-notes/Shell/windows/list-msys-commands.sh
+	*	1679796896	0
+	"	21	62
+	^	21	63
+	.	21	62
+	+	1	11
+	+	21	62
+
+> /g/emacs-notes/Shell/windows/lsi
+	*	1679796844	0
+	"	1	0
+
+> /g/emacs-notes/Shell/windows/Env-command-statistic.sh
+	*	1679796766	0
+	"	9	15
+	^	9	16
+	.	9	15
+	+	9	15
+
+> /g/emacs-notes/Shell/windows/WinConf-pacMan.sh
+	*	1679796578	0
+	"	12	9
+	^	12	10
+	.	12	9
+	+	3	18
+	+	3	0
+	+	3	16
+	+	3	0
+	+	3	15
+	+	3	0
+	+	3	14
+	+	19	3
+	+	3	0
+	+	5	0
+	+	6	0
+	+	7	16
+	+	7	0
+	+	12	9
+
+> /g/emacs-notes/Shell/org-protocol_new.reg
+	*	1679796188	0
+	"	1	0
+
+> /g/emacs-notes/Shell/windows/windows_config_init.sh
+	*	1679795850	0
+	"	13	23
+
+> /g/emacs-notes/Shell/windows_internet/port_scan.sh
+	*	1679795422	0
+	"	25	3
+	^	25	4
+	.	25	3
+	+	25	3
+
+> /g/emacs-notes/Shell/windows_internet/port_sacn.sh
+	*	1679795301	0
+	"	1	0
+
+> /g/emacs-notes/Shell/windows_internet/port_using.sh
+	*	1679795226	0
+	"	18	0
+	^	21	4
+	.	21	3
+	+	21	3
+
+> /g/emacs-notes/Shell/windows_config_init.sh
+	*	1679795069	0
+	"	13	19
+	^	13	31
+	.	13	30
+	+	13	30
+
+> /g/emacs-notes/Shell/vedio2pic.sh
+	*	1679794777	0
+	"	1	44
+	^	1	143
+	.	1	0
+	+	1	0
+	+	1	142
+	+	1	0
+
+> /g/emacs-notes/Shell/pic
+	*	1679794760	0
+	"	1	0
+
+> /c/Users/dell/Desktop/pic/11.txt
+	*	1679718184	0
+	"	31	19
+
+> /c/Users/dell/Desktop/pic/22.txt
+	*	1679716121	0
+	"	46	0
+	^	46	0
+	.	45	6
+	+	45	6
+
+> /g/emacs-notes/Shell/history_file
+	*	1679714413	0
+	"	593	0
+
+> /c/Users/dell/Desktop/pic/ghostscript.log
+	*	1679713866	0
+	"	2	0
+
+> /g/emacs-notes/Shell/org_2_pdf.sh
+	*	1679656071	0
+	"	21	3
+	^	25	46
+	.	1	0
+	+	1	45
+	+	1	9
+	+	1	44
+	+	1	25
+	+	1	0
+	+	25	45
+	+	1	0
+
+> /g/emacs-notes/Shell/vtt_to_org.sh
+	*	1679637869	0
+	"	15	4
+	^	15	5
+	.	15	4
+	+	1	34
+	+	1	37
+	+	1	38
+	+	1	11
+	+	20	3
+	+	4	22
+	+	22	3
+	+	14	46
+	+	18	13
+	+	22	0
+	+	12	46
+	+	13	0
+	+	19	0
+	+	15	4
+
+> /g/emacs-notes/Shell/rename.sh
+	*	1679637196	0
+	"	10	44
+	^	10	45
+	.	10	44
+	+	1	11
+	+	22	3
+	+	4	33
+	+	4	10
+	+	2	11
+	+	15	3
+	+	1	0
+	+	15	3
+	+	14	3
+	+	4	23
+	+	15	20
+	+	10	0
+	+	10	44
+
+> /g/emacs-notes/Shell/y_srt_down.sh
+	*	1679636897	0
+	"	15	95
+	^	15	96
+	.	15	96
+	+	7	34
+	+	15	96
+
+> /g/emacs-notes/Shell/refresh.bat
+	*	1679636211	0
+	"	4	0
+
+> /g/emacs-notes/Shell/srt_to_org.sh
+	*	1679635827	0
+	"	4	34
+	^	4	35
+	.	4	35
+	+	4	35
+
+> /g/emacs-notes/Shell/.bashrc
+	*	1679633326	0
+	"	1	0
+
+> ~/emacs_backtrace.txt
+	*	1679631166	0
+	"	56	0
+
+> /g/emacs-notes/Shell/y-
+	*	1679627978	0
+	"	1	0
+
+> /g/emacs-notes/Shell/org-protocol
+	*	1679625607	0
+	"	1	0
+
+> /g/emacs-notes/Shell/command-line-record.org
+	*	1679625562	0
+	"	32	0
+
+> /g/emacs-notes/Shell/myscript.sh
+	*	1679625539	0
+	"	1	0
+
+> /g/emacs-notes/Shell/1.org
+	*	1679587204	0
+	"	4	0
+	^	4	0
+	.	3	10
+	+	3	10
+
+> /g/emacs-notes/Shell/convertpdf.sh
+	*	1679586281	0
+	"	19	5
+	^	28	6
+	.	28	5
+	+	28	5
+
+> /g/emacs-notes/Shell/Port_wechat.sh
+	*	1679541076	0
+	"	8	7
+	^	19	54
+	.	19	53
+	+	1	53
+	+	1	11
+	+	19	53
+
+> /g/emacs-notes/Shell/excel_rename_filename.sh
+	*	1679498350	0
+	"	12	6
+	^	12	7
+	.	12	7
+	+	9	3
+	+	4	33
+	+	4	0
+	+	5	35
+	+	5	11
+	+	9	21
+	+	9	0
+	+	9	1
+	+	9	0
+	+	9	1
+	+	9	3
+	+	9	1
+	+	9	3
+	+	9	1
+	+	9	0
+	+	9	3
+	+	9	0
+	+	6	0
+	+	5	0
+	+	4	10
+	+	8	15
+	+	9	15
+	+	9	0
+	+	10	3
+	+	9	0
+	+	10	30
+	+	10	49
+	+	10	46
+	+	10	0
+	+	10	18
+	+	10	46
+	+	10	14
+	+	10	0
+	+	35	3
+	+	10	0
+	+	26	40
+	+	10	0
+	+	13	0
+	+	12	39
+	+	12	7
+
+> /g/emacs-notes/Shell/excel_
+	*	1679496315	0
+	"	1	0
+
+> /g/emacs-notes/Shell/get_name_list_to_excel.sh
+	*	1679496305	0
+	"	18	70
+	^	18	71
+	.	18	70
+	+	18	70
+
+> /g/emacs-notes/Shell/get_name_list.sh
+	*	1679496214	0
+	"	4	24
+	^	18	100
+	.	18	99
+	+	6	0
+	+	18	89
+	+	18	90
+	+	18	99
+
+> /g/emacs-notes/Shell/geyt
+	*	1679495180	0
+	"	1	0
+
+> /g/emacs-notes/Shell/get_name_list.org
+	*	1679495161	0
+	"	2	0
+
+> /g/emacs-notes/Shell/delete_after_num.sh
+	*	1679494973	0
+	"	29	0
+	^	26	4
+	.	29	0
+	+	30	3
+	+	30	11
+	+	30	0
+	+	4	33
+	+	4	45
+	+	5	0
+	+	29	0
+	+	29	3
+	+	30	0
+	+	29	0
+	+	27	0
+	+	26	3
+	+	29	0
+
+> /g/emacs-notes/Shell/re
+	*	1679494585	0
+	"	1	0
+
+> /g/emacs-notes/Shell/srt_to_txt.sh
+	*	1679494313	0
+	"	4	0
+	^	22	6
+	.	22	5
+	+	23	0
+	+	22	5
+
+> /g/emacs-notes/Computer_science/Shell/ysrtdown.sh
+	*	1679489821	0
+	"	10	56
+	^	10	57
+	.	11	0
+	+	10	122
+	+	5	0
+	+	4	122
+	+	5	0
+	+	4	123
+	+	5	0
+	+	10	57
+	+	10	91
+	+	10	75
+	+	10	91
+	+	10	57
+	+	11	0
+
+> /g/emacs-notes/Computer_science/Shell/srt_to_txt.sh
+	*	1679489385	0
+	"	4	45
+	^	4	46
+	.	4	46
+	+	1	11
+	+	25	3
+	+	4	35
+	+	13	0
+	+	15	0
+	+	13	0
+	+	13	21
+	+	14	41
+	+	13	0
+	+	19	0
+	+	20	38
+	+	22	29
+	+	21	37
+	+	4	46
+
+> /g/emacs-notes/Computer_science/Shell/youtube_srt_downlaod.sh
+	*	1679489307	0
+	"	5	122
+	^	5	123
+	.	5	122
+	+	2	11
+	+	11	123
+	+	12	0
+	+	14	32
+	+	11	57
+	+	11	90
+	+	14	0
+	+	11	57
+	+	11	90
+	+	12	0
+	+	11	57
+	+	5	122
+
+> /g/awesome-nextjs-notion-blog/site.config.js
+	*	1679319225	0
+	"	22	0
+
+> /c/Users/dell/Desktop/1.txt
+	*	1679128701	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/assembly/test.o
+	*	1679111476	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/make_test/main.c
+	*	1677944307	0
+	"	7	13
+	^	7	14
+	.	7	13
+	+	5	1
+	+	7	16
+	+	3	0
+	+	1	18
+	+	3	0
+	+	2	14
+	+	6	15
+	+	7	13
+
+> /g/emacs-notes/Computer_science/make_test/main.
+	*	1677944296	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/make_test/bar.c
+	*	1677944288	0
+	"	3	3
+	^	3	4
+	.	3	3
+	+	1	14
+	+	2	1
+	+	3	3
+
+> /g/emacs-notes/Computer_science/make_test/include/bar.h
+	*	1677944250	0
+	"	1	14
+	^	1	15
+	.	1	14
+	+	1	0
+	+	2	0
+	+	1	14
+
+> /g/emacs-notes/Computer_science/make_test/include
+	*	1677944168	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/make_test/Makefile
+	*	1677944140	0
+	"	30	1
+	^	27	38
+	.	11	0
+	+	6	11
+	+	3	5
+	+	3	6
+	+	5	0
+	+	4	0
+	+	1	4
+	+	3	4
+	+	8	0
+	+	30	21
+	+	3	0
+	+	5	0
+	+	1	0
+	+	3	0
+	+	4	1
+	+	5	0
+	+	6	1
+	+	1	7
+	+	9	6
+	+	1	25
+	+	9	28
+	+	10	0
+	+	16	16
+	+	20	20
+	+	27	37
+	+	19	0
+	+	10	0
+	+	11	17
+	+	20	0
+	+	27	28
+	+	18	20
+	+	27	37
+	+	11	0
+
+> /g/emacs-notes/Computer_science/make_test/bar.h
+	*	1677941817	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+
+> /g/emacs-notes/Computer_science/make_test/foo.c
+	*	1677941226	0
+	"	3	9
+	^	3	10
+	.	3	9
+	+	1	14
+	+	2	1
+	+	3	9

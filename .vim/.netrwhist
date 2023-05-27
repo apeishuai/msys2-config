@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/g/emacs-notes/Shell/Excel_VBA_Macro'
+let g:netrw_dirhist_4='/c/Users/dell/Desktop/1'
+let g:netrw_dirhist_3='/g/workspace/cmake'
+let g:netrw_dirhist_2='/g/projects/tinyhttpd/samples'
 let g:netrw_dirhist_1='/mingw64'

@@ -24,6 +24,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(org-agenda-files
+   '("g:/emacs-notes/GTD/Mointer.org" "g:/emacs-notes/GTD/inbox.org" "g:/emacs-notes/GTD/projects.org" "g:/emacs-notes/GTD/Ref.org" "g:/emacs-notes/GTD/Someday_Maybe.org" "g:/emacs-notes/GTD/agenda.org" "g:/emacs-notes/GTD/finished.org" "g:/emacs-notes/GTD/archive.org" "g:/emacs-notes/GTD/Trash.org"))
  '(warning-suppress-log-types '(((unlock-file)) ((unlock-file))))
  '(warning-suppress-types '(((unlock-file)))))
 (custom-set-faces

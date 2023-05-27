@@ -1,500 +1,500 @@
 clear
+ls
+./configure 
 clear
+ls
+cmake
+pacman -S cmake
+cmake
+clea
+rls
 clear
+ls
+vim INSTALL
+./configure 
+clear
+ls
+vim configure
+clear
+./configure 
+clear
+ls
+vim config.guess 
+clear
+ls
+clear
+ls
 cd g:
-cd wxf\`s\ blog/
+cd emacs-notes/Computer_science/make_test/
 clear
-;ls
 ls
 clear
-nikola new_page
-cd posts/
 ls
-ls -al
-nikola new_post
+mkdir INCLUDE
+clear
+mv INCLUDE/ include
 ls
 clear
+ls
+rm -rf INCLUDE/
+clear
+'ls
+clear
+touch ionclude
+touch include
+tm -rf ionclude 
+rm -tf ino
+ls
+clear
+ls
+mkdir lib
+clear
+vim Makefile 
+clear
+ls
+mv bar.h include 
+clear
+ls
+make
+vim Makefile 
+ls
+vim Makefile 
+clear
+gcc -o main.o -c main.c
+gcc -o main.o -c main.c -I
+gcc -o main.o -c main.c -I./inlcude
+gcc -I help
+gcc -I --help
+gcc  --help
+gcc -I -h
+clear
+gcc -h
+gcc --h
+clear
+vim Makefile 
+ls
+gcc -o main.o -c main.c -I./include
+gcc -o main.o -c main.c -I../include
+gcc -o main.o -c main.c -I ../include
+gcc -o main.o -c main.c -I ../make_test/include
+gcc -I
+gcc -I ./include
+cleare
 clear
 clear
-pdflatex  \\nonstopmode\\input \高\等\数\学.tex
+ls
+vim Makefile 
+clear
+make
+ls
+rcd include 
+cd in
+ls
+vim include 
+clear
+ls
+rm include 
+rm -rf ionclude 
+ckear
+clear
+ls
+mkdir include 
+clear
+ls
+cd incluj
+cd include/
+touch bar.h
+vim bar.h 
+clear
+ls
+vim ../main.c 
+vim ../bar.c 
+vim bar.h 
+clear
+cd ..
+make
+vim bar.c 
+c;lear
+cl;ear
+clear
+ls
+vim main.
+vim main.c
+clear
+make
+./my_program.exe
+clear
+ls
+mkdir src
+clear
+ls
+mkdir test
+clear
+ls
+mkdir build
+mkdir bi
+mkdir bin
+ckear
+clear
+ls
+clear
+ls
+rm -rf bi
+clear
+clear
+cd ..
+clea
+rls
+clear
+ls
+clear
+emacs
+emacs
+clear
+clear
+clear
+g++
+gcc
+c;lear
+clear
+ls
+mkdir archive
+ls
+mv 电气符号.org archive/
 exit
-xelatex  \\nonstopmode\\input \高\等\数\学.tex
+ls
+mv ref/电工符号大全.org archive/
 exit
-cd g:
-cd wxf\`s\ blog/
-cd posts/
-nikola build
-clear
-nikola serve --browser
-clear
-nikola serve --browser
-nikola github_deploy
+emacs
 clear
 clear
+emacs
 clear
-cd ../../emacs-notes/
 clear
-ls
-cd life/
-ls
+emacs
+emacs
+emacs
+emacs
 clear
-ls
-ledger -f cashjournal.ledger bal ^Assets ^Lia* -e 2022/11/12
-ledger -f cashjournal.ledger bal ^Assets ^Lia* --effective -e 2022/11/12
+traccar
 clear
-ledger -f cashjournal.ledger bal ^Assets ^Lia* --effective -e 2022/11/12
+netstat -aonnetstat -aon
 clear
-ledger -f cashjournal.ledger bal ^Assets ^Lia* --effective -e 2022/11/12
+netstat -ab
+netstat -ab > 1.txt
+netstat -ab > tcpdetect.txt
 clear
-ledger -f cashjournal.ledger bal ^Assets ^Lia* --effective -e 2022/11/12
+netstat -aonnetstat -aon
 clear
-ledger -f cashjournal.ledger bal ^Assets ^Lia* --effective -e 2022/11/12
+netstat -aonnetstat -aon
 clear
-ledger reg ^Expense -f cashjournal.ledger -b 2022/11/01 -e 2022/11/11
-ledger bal ^Expense -f cashjournal.ledger -b 2022/11/01 -e 2022/11/11
-ledger bal ^Expense -f cashjournal.ledger -b 2022/11/01 -e 2022/11/11
-ledger -f cashjournal.ledger bal ^Assets ^Lia* --effective -e 2022/11/12
-clear
-wc
-wc "swww"
-wc --help
-ls
-clear
-ls
-echo "base input/output" | wc
-clear
-sumatrapdf
-SumatraPDF
-E:/SumatraPDF/SumatraPDF.exe
-e:/SumatraPDF/SumatraPDF.exe
-e:\SumatraPDF\SumatraPDF.exe
-clear
-ping www.google.com
-clear
-ping www.baidu.com
-ping www.google.com
- clear
-ping www.google.com
-ping www.github.com
-ping www.github.com
-ping www.github.com
-vi ~/.bashrc
-vim ~/.bashrc
-source ~/.bashrc 
-clear
-ping www.google.com
-clear
-sumatra
-SumatraPDf
-clear
-sumtrapdf
-clear
-cd ~
-ls
-ls -al
-find -name "msys2.ini"
-clear
-ls -a
-pwd
-cd /
-ls
-clear
-ls
-vim mingw64
-clear
-cd ~
-pacman
-pacman -Ss masm
-pacman -Ss nasm
-pacman -S mingw-w64-x86_64-nasm
-pacman -S mingw-w64-x86_64-nasm
-clear
-pacman -S nasm
-pacman -Ss nasm
-pacman -S mingw-w64-x86_64-nasm
-pacman -S mingw-w64-x86_64-nasm
-pacman -S nasm
-ls
-clear
-pacman -Ss vim
-pacman -S vim
-pacman -Ss nasm
-pacman -Ss nasm
-pacman -Ss nasm
+netstat -ab
+mv 脑科学.org  ../
+exit
+EMACS
+emacs
+pscman -S nasm
 pacman -S nasm
-nasm
 clear
-as
+nasm
 cd g:
-cd emacs-notes/Computer_science/
+cd emacs-notes/Computer_science/assembly/
+clear
+ls
+clear
+ls
+nasm -f elf test.asm 
+nasm -f elf test.asm 
+clear
+ls
+gcc -m32 -o test test.o
+clear
+ls
+clear
+nasm -f elf test.asm 
+nasm -f elf test.asm 
+ls
+gcc -m32 -o test test.o
+ls
+clear
+vim test.o
+clear
+ld
+c;lear
+clear
+clear
+pacman -S ffmpeg
+clear
+clear
+ls
+ffmpeg
+clear
+pwd
+cd C:\Users\dell\Desktop
+cd "C:\Users\dell\Desktop"
+vim 1
+vim 1.txt 
+clear
+cd 1
+ffmpeg -i "C:\Users\dell\Desktop\1\1.mp4" -vf "thumbnail,scale=1920:1080" -q:v 1 -frames:v 30 "C:\Users\dell\Desktop\1\picture\output_%03d.jpg"
+ffmpeg
+tshark
+pacman -S tshark
+pacman -Ss tshark
+pacman -Ss Tshark
+tshark
+tshark
+clear
+clear
+tshark
+tshark -v
+emacs
+emacs
+sed
+tr
+clear
+cd g:
+cd emacs-notes/
+clear
 ks
 ls
-cd Programming/
-cd assembly/
-clear
-ls
-as exit.s -o exit.o
-ls 
-ld exit.o -o exit
-./exit
-ls
-clear
-ls
-./exut
-./exit
-clear
-./exit
-echo $?
-clear
-clear
-as maximum.s -o maximum.0
-as maximum.s -o maximum.o
-as maximum.s -o maximum.o
-as maximum.s -o maximum.o
-as maximum.s -o maximum.o
-clear
-as maximum.s -o maximum.o
-as maximum.s -o maximum.o
-as maximum.s -o maximum.o
-clear
-ld maximum.o -o maximum
-ls -al | find -name "max*"
-rm maximum.s~
-clear
-ls -al | find -name "max*"
-clear
-ls -al | find -name "max*"
-as maximum.s -o maximum.o
-ld maximum.o -o maximum
-ld maximum.o -o maximum -fPIC
-ld maximum.o -o maximum -fPIC -shared
-ld maximum.o -o maximum -fPIC
-ld maximum.o -o maximum -fPIC -shared
-clear
-as maximum.s -o maximum.o
-clear
-as maximum.s -o maximum.o
-ld maximum.o -o maximum
-xprop | tail -5
-clear
- ls 职业*
-ls
-exit
-mv B-职业-* ../work/
-exit
-ls
-mv 2021新职业教育行业分析.pdf 其他/
-exit
-cd ..
-cd ..
-ls
-mv 1.txt Computer_science/Tool/make.txt
-exit
-mkdir test
-exit
-ls 
-mr -rf test/
-exit
-clear
-cls
 cd Computer_science/
-mkdir test
-exit
-mkdir Mannual
-exit
-mv Tool/make.org Mannual/
-exit
-mkdir inbox
-exit
 ls
-mv * inbox/
-exit
-cd inbox/
-mv win-bash.org linux-bash.org ../
-exit
-ls
-ls -a
-ls -al
-git clone git@github.com:apeishuai/msys2-config.git
-ls
-rm -rf msys2-config/
+cd Shell/
 clear
 ls
-ls -al
-git init
+touch srt_to_txt.sh
+vim srt_to_txt.sh 
+clear
+ls
+chmod +x srt_to_txt.sh 
+./srt_to_txt.sh 
+vim srt_to_txt.sh 
+clear
+./srt_to_txt.sh 
+vim srt_to_txt.sh 
+./srt_to_txt.sh 
+vim srt_to_txt.sh 
+clear
+./srt_to_txt.sh 
+clear
+ls
+clear
+pwd
 ls
 ls -al
-clear
-git remote -add pb git@github.com:apeishuai/msys2-config.git
-git remote add pb git@github.com:apeishuai/msys2-config.git
-git remote -v
-ls
-ls -al
-git add people-list.db 
-git commit -m "test1"
-git push origin
-git push pb master
-clear
-git add .
-git commit -m "init 20221128"
-git push pb master
-clear
-mv cmd-wmic.org Mannual/
-exit
-mkdir Ref
-exit
-cd ../Computer_science/
-cd OperatingSystem/
-mc 《鸟哥的Linux私房菜》.org ../../Reference/
-ls
-exit
-parted
-cd g；
-cd g:
-cd emacs-notes/
-clear
-ls
-git add .
-git commit -m "20221128 refresh"
-git push pb master
-git remote -v
-git push pb master
-git push pb master
-clear
-ls
-clear
-ls
-ls -a
-vi .gitconfig 
-vim .gitconfig 
-clear
-ls
-ls -a
-cd ../
-ls
-cd ..
-ls
-clear
-ls
-emacs
-emacs
-clear
-emacs
-emacs
-emacs
-xelatex  \\nonstopmode\\input 02.tex
-exit
-xelatex  \\nonstopmode\\input 02.tex
-exit
-xelatex  \\nonstopmode\\input 02.tex
-exit
-pdflatex  \\nonstopmode\\input 02.tex
-exit
-xelatex  \\nonstopmode\\input 02.tex
-exit
-xelatex  \\nonstopmode\\input 02.tex
-exit
-zsh
-mkdir xuchun 
-mv 202* xuchun
-exit
-mv *.org xuchun/
-exit
-mv 1-* ref* ../
-ls
-cd xuchun/
-mv 1-* ref* ../
-exit
-ls
-mv 《* 01* ../ 
-exit
-cd ..
-mv pinescript.org ../Articles/
-cd ../Articles/
-exi
-exit
-mkdir images
-mv *.png images
-exit
-cd ../../work/
-mv 《* ref/ 
-ls
-mv 人力* 商业* ref/ 
-exit
-mc 生产力提升/* ref/ 
-exit
-mkdir inbox
-exit
-mv Z* 考研* inbox/ 
-exit
-mv *.png Articles/images/ 
-exit
-mv *ng Articles/images/ 
- mv Articles/*png Articles/images/ 
-exit
-mv *org~
-rm *~
-cd Articles/
-rm *org~ 
-exit
-MMM１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１１ｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂｂ］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］］　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　］
-ｅｘｉｔ
-emacs
-clear
-cd hg:
-cd g:
-clear
-ls
-cd emacs-notes/
-cd  ..
-cd wxf\`s\ blog/
-nikola build
-nikola github_deploy
-clear
-cd gl
-cd g:
-cd eamcs
-cd emacs-notes/
-clear
-ls
-git remote -v
-git add .
-clear
-xelatex  \\nonstopmode\\input \二\次\函\数\与\二\元\一\次\方\程.tex
-exit
-ls
-mv 2021-09-20_22-09-05_screenshot.png ../images/ 
-exit
-mv * ../images/ 
-mv *png ../images/ 
-cd g:/emacs-notes/Reference/
-ls
-cd 基本要素/
-mv *png ../images/ 
-exit
-emacs
-clear
-mkdir new
-exit
-mkdir ref
-exit
-emacs
-clear
-ls
-sqlite3 people-list.db 
-clear
-            clear
-ls
-git add .
-ls
-ls -al
-vi .bashrc 
-vim .bashrc
-pacman
-pacman -S vim
-pacman -S vi
-pacman -S vim -y
-pacman -S vim -Y
-pacman -S vim --y
-pacman -S vim -y -y
-vim .bashrc 
-ls -al
-clear
-git add .
-git commit -m "20230120"
-git push pb master
-cd .emacs.d/
-ls
 clear
 cd ..
 clear
-cd g:
 ls
 clear
-cd emacs-notes/
-git add .
-git commit -m "20230120"
-git push pb master
-cd ../wxf\`s\ blog/
-clear
-git add .
-git commit -m "20230120"
-git push pb master
+lear
 clear
 ls
+./srt_to_txt.sh 
+clear
+lds
+ls
+vim srt_to_txt.sh t
+clear
+./srt_to_txt.sh 
+clear
+vim srt_to_txt.sh t
+clear
+ls
+vim srt_to_txt.sh t
+clear
+clear
+clear
+pacman -S wget
+wget
+wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+wget https://yt-dl.org/downloads/latest/youtube-dl -O ~/youtube-dl
+clear
+youtube-dl
+ls
+wget https://yt-dl.org/downloads/latest/youtube-dl -O d:/youtube-dl
+cd d:
+ls
+cd youtube-dl
+cd d:
+ls
+mkdir youtube-dl
+ls -al
+cd youtube-dl
+rm youtube-dl 
+mkdir youtube-dl
+cd youtube-dl/
+wget https://yt-dl.org/downloads/latest/youtube-dl
+ls
+clear
+./youtube-dl
 cd ..
-ls
-clear
-ls
-clear
-cd tex/
-ls
-clear
-pacman -R mingw-w64-clang-x86_64-emacs
-pacman -S mingw-w64-clang-x86_64-emacs
-emacs
-pacman -R mingw-w64-clang-x86_64-emacs
-pacman -S mingw-w64-x86_64-emacs
-emacs
-clear
-ls -al
-cd .emacs.d/
-ls
-ls a-l
-ls -al
-cd ..
-ls -al
-clear
-pacman -Ss emacs
-clear
-ls -al
-vim .bashrc 
-clear
-ls
-ls -al
-git clone git@github.com:apeishuai/msys2-config.git
-git clone git@github.com:apeishuai/msys2-config.git
-git clone git@github.com:apeishuai/msys2-config.git
-git clone git@github.com:apeishuai/msys2-config.git
-git clone git@github.com:apeishuai/msys2-config.git
-emacs
-clear
-emacs
-clear
-emacs
-ls -al
-vi .bashrc
-vim .bashrc
-cd ../../
-ls
-cd mingw64/bi
-cd mingw64/bin
-ls
 cd ~
-emacs
+clear
+youtube-dl
+youtbe-dl
+clear
+youtube-dl
+cd g:
+cd emacs-notes/
+cd Computer_science/
+cd Shell/
+clear
+ls
+clear
+ls
+ls
+vim youtube_srt_downlaod.sh
+clear
+ls
+chmod +x youtube_srt_downlaod.sh 
+./youtube_srt_download.sh
+la
+ls
+clear
+ls
+./srt_to_txt.sh 
+vim srt_to_txt.sh 
+clear
+./srt_to_txt.sh 
 clear
 ls
 ls -al
-snipaste snip -o
-snipaste snip -o xx/.png
-snipaste snip -o xx.png
+chmod +x
+chmod +x youtube_srt_downlaod.sh 
+ls -al
 clear
-snipaste 
-snipaste  snip
-snipaste snip
-snipaste snip
-snipaste snip
+ls
+mv youtube_srt_downlaod.sh ysrtdown.sh
+chmod -x ysrtdown.sh 
+clear
+ls
+ls -al
+chmod -x ysrtdown.sh 
+ls -al
+cd ~
+clear
+ls
+ls
 cd g:
 cd emacs-notes/
+cd Computer_science/
+cd Shell/
+clear
+ls
+chmod -x ysrtdown.sh 
+ls -al
+chmod +x ysrtdown.sh 
+ls -al
+chmod +x ysrtdown.sh 
+ls -al
+clear
+chmod +x ysrtdown.sh 
+ls -al
+rm ysrtdown.sh 
+clear
+vim ysrtdown.sh
+clear
+ls
+ls -al
+./srt_to_txt.sh 
+./ysrtdown.sh 
+clear
+vim ysrtdown.sh 
+clear
+./ysrtdown.sh 
+youtube-dl -U
+clear
+youtube-dl -i --write-sub --sub-lang $sub_lang --output "D:/%(title)s.%(ext)s" --skip-download "https://www.youtube.com/watch?v=ufsIA5NARIo&list=PLPNW_gerXa4Pc8S2qoUQc5e8Ir97RLuVW&ab_channel=AndrewHuberman"
+xclear
+clear
+youtube-dl -i --proxy 127.0.0.1:1081  --write-sub --sub-lang $sub_lang --output "D:/%(title)s.%(ext)s" --skip-download "https://www.youtube.com/watch?v=ufsIA5NARIo&list=PLPNW_gerXa4Pc8S2qoUQc5e8Ir97RLuVW&ab_channel=AndrewHuberman"
+youtube-dl -i --proxy 127.0.0.1:1081  --write-sub --sub-lang $sub_lang --output "D:/" --skip-download "https://www.youtube.com/watch?v=ufsIA5NARIo&list=PLPNW_gerXa4Pc8S2qoUQc5e8Ir97RLuVW&ab_channel=AndrewHuberman"
+youtube-dl -i --proxy 127.0.0.1:1081  --write-sub --sub-lang $sub_lang  --skip-download "https://www.youtube.com/watch?v=ufsIA5NARIo&list=PLPNW_gerXa4Pc8S2qoUQc5e8Ir97RLuVW&ab_channel=AndrewHuberman"
+clear
+youtube-dl --write-sub --sub-lang en https://www.youtube.com/watch?v=pq6WHJzOkno&ab_channel=AndrewHuberman
+youtube-dl --write-sub --sub-lang en “https://www.youtube.com/watch?v=pq6WHJzOkno&ab_channel=AndrewHuberman”
+ls
+youtube-dl --write-sub --sub-lang en "https://www.youtube.com/watch?v=pq6WHJzOkno&ab_channel=AndrewHuberman"
+ls
+clear
+youtube-dl --write-auto-sub --skip-download https://www.youtube.com/@paulharveyarchives
+youtube-dl --write-auto-sub --skip-download https://www.youtube.com/@paulharveyarchives
+clear
+wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O D:/yt-dlp
+yt-dlp
+yt-dlp
+cd d:
+ls
+clear
+ls
+cd g:
+ls
+git clone git@github.com:apeishuai/awesome-nextjs-notion-blog.git
+ls
+cd awesome-nextjs-notion-blog/
+ls
+clear
+ls
+vim site.config.js 
 clear
 git add .
-git commit -m "PC M first fresh"
-clear
+git commit -m "init"
 git remote -v
 git push origin master
+git push origin main
+tarn
+yarn
+ls
+pacman -S yarn
+pip install yarn
+clear
+npm
+pacman -S npm
+pacman -Ss npm
+clear
+yarn
+clear
+pacman -S scoop
+cclear
+clear
+clear
+clear
+ls
+clear
+cd c:
+cd Users/
+cd dell
+cd Desktop/
+cd windows_amd64/
+clear
+ls
+./sunny.exe 
+cd g:
+clear
+cd emacs-notes/Shell/
+clear
+ls
+vim Port_wechat.sh
+clear
+ls
+./Port_wechat.sh 
+vim Port_wechat.sh 
+./Port_wechat.sh 
+vim Port_wechat.sh 
+#!/bin/bash
+# 查找微信客户端进程的 PID
+wechat_pid=$(ps -ef | grep WeChat | grep -v grep | awk '{print $2}')
+if [ -z "$wechat_pid" ]; then   echo "微信客户端未运行";   exit 1; fi
+clear
+ps -ef
+clear
+tshark
+clear
 clear
 emacs
-mkdir work_journal
-exit
-emacs
-emacs
+pyton
+python 
+pip install pywin32
+clear

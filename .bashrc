@@ -193,9 +193,19 @@
 
 
 # custom path
-export PATH=$PATH:/mingw64/bin/
+# export PATH=$PATH:/mingw64/bin/
+export PATH=$PATH:\C\:\/msys64\mingw64/bin/
 export PATH=$PATH:\E\:\/cmd\ tool/proxychains/
 export http_proxy="127.0.0.1:1082"
+
+
+# Set history size
+HISTSIZE=1000000
+HISTFILESIZE=1000000
+
+PROMPT_COMMAND="history -a; history -n"
+HISTFILE="g:/emacs-notes/Shell/history_file"
+
 
 
 
