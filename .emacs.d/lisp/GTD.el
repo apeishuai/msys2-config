@@ -157,7 +157,8 @@
 
 ;;---------------basic config----
 (when (memq window-system '(w32))
-  (setq org-directory "g:/emacs-notes/GTD/")
+  (setq org-agenda-files (directory-files "g:/emacs-notes/GTD/" t "\\.org$"))
+  ;;(setq org-directory "g:/emacs-notes/GTD/")
   )
 
 (setq time-scan-files (list
@@ -165,20 +166,21 @@
 		       (concat org-directory "finished.org")
 		       (concat org-directory "projects.org")))
 
-(setq org-agenda-files (list
-			(concat org-directory "Mointer.org")
-			(concat org-directory "inbox.org")
-			     ;;(concat org-directory "next.org")
+
+;;(setq org-agenda-files (list
+			;;(concat org-directory "Mointer.org")
+			;;(concat org-directory "inbox.org")
+			     ;;;;(concat org-directory "next.org")
 			     ;;(concat org-directory "archive_kaoyan.org")
-			     (concat org-directory "projects.org")
-			     (concat org-directory "Ref.org")
-			     (concat org-directory "Someday_Maybe.org")
-			     (concat org-directory "agenda.org")
-			     (concat org-directory "tmp.org")
-			     (concat org-directory "finished.org")
-			     (concat org-directory "archive.org")
-			     (concat org-directory "Trash.org")
-			     ))
+			     ;;(concat org-directory "projects.org")
+			     ;;(concat org-directory "Ref.org")
+			     ;;(concat org-directory "Someday_Maybe.org")
+			     ;;(concat org-directory "agenda.org")
+			     ;;(concat org-directory "tmp.org")
+			     ;;(concat org-directory "finished.org")
+			     ;;(concat org-directory "archive.org")
+			     ;;(concat org-directory "Trash.org")
+			     ;;))
 
 ;; count tags (see John's answer)  //debug
 (defun get-tag-counts ()
