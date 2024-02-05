@@ -10,24 +10,6 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 (use-package ivy
   :ensure t)
 

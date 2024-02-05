@@ -11,38 +11,116 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/whswhswhs
+~MSle0~/23
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1684747436,,"wq"
-:q
-|2,0,1684747264,,"q"
+|2,0,1703658261,,"wq"
 :weq
-|2,0,1683114358,,"weq"
+|2,0,1703657854,,"weq"
+:q
+|2,0,1703651934,,"q"
+:QW
+|2,0,1703220457,,"QW"
+:WQ
+|2,0,1703220455,,"WQ"
+:.,.+1wq
+|2,0,1703219738,,".,.+1wq"
+:!q
+|2,0,1703147382,,"!q"
+:"wq
+|2,0,1702642247,,"\"wq"
+:qw
+|2,0,1702451542,,"qw"
+:.wq
+|2,0,1702445248,,".wq"
+:2wq
+|2,0,1702190851,,"2wq"
+:w
+|2,0,1702004897,,"w"
+:q!
+|2,0,1699952863,,"q!"
+:we
+|2,0,1699622580,,"we"
+:ewq
+|2,0,1699622506,,"ewq"
+:Wq
+|2,0,1699618659,,"Wq"
+:wq3
+|2,0,1694215124,,"wq3"
+:1
+|2,0,1694214996,,"1"
+:wsqa
+|2,0,1694214501,,"wsqa"
+:ew
+|2,0,1694078796,,"ew"
+:setnum
+|2,0,1693974534,,"setnum"
+:setnumber
+|2,0,1693974531,,"setnumber"
+:wqe
+|2,0,1693893533,,"wqe"
+:wwq
+|2,0,1693884680,,"wwq"
+:q1
+|2,0,1689241370,,"q1"
+:'<,'>q
+|2,0,1689103826,,"'<,'>q"
+:!1
+|2,0,1688354757,,"!1"
 :qall
 |2,0,1679807557,,"qall"
-:'<,'>q
-|2,0,1679802806,,"'<,'>q"
-:qw
-|2,0,1679800246,,"qw"
-:q!
-|2,0,1679799835,,"q!"
-:Wq
-|2,0,1679636231,,"Wq"
 :w3q
 |2,0,1679496547,,"w3q"
-:ew
-|2,0,1677939265,,"ew"
 :q!'
 |2,0,1674272706,,"q!'"
-:!q
-|2,0,1674272700,,"!q"
 
 # Search String History (newest to oldest):
+?/23
+|2,1,1703655582,47,"23"
+? \<这种关注于事后奖励的想法实际上会让事情更糟糕\>
+|2,1,1703220969,,"\\<这种关注于事后奖励的想法实际上会让事情更糟糕\\>"
+? \<只要我们越来越多的深度参与一件事情\>
+|2,1,1703220916,,"\\<只要我们越来越多的深度参与一件事情\\>"
+?/start
+|2,1,1703152439,47,"start"
+? @$
+|2,1,1703139766,,"@$"
+?/cover
+|2,1,1702450123,47,"cover"
+?/EOF
+|2,1,1698591952,47,"EOF"
+?/return
+|2,1,1694076478,47,"return"
+?/txt_aga
+|2,1,1693996496,47,"txt_aga"
+?/bout
+|2,1,1693996078,47,"bout"
+?/Let
+|2,1,1693996060,47,"Let"
+?/let
+|2,1,1693996056,47,"let"
+?/weight
+|2,1,1693996037,47,"weight"
+?/br
+|2,1,1691332497,47,"br"
+? \<PLAYLIST_URL\>
+|2,1,1689409052,,"\\<PLAYLIST_URL\\>"
+?/template
+|2,1,1689241353,47,"template"
+?/output
+|2,1,1689241342,47,"output"
+?/term
+|2,1,1688354924,47,"term"
+?/theme
+|2,1,1688354606,47,"theme"
+?/themes
+|2,1,1688354599,47,"themes"
+?/music
+|2,1,1688353669,47,"music"
 ?/whswhswhs
 |2,1,1681255578,47,"whswhswhs"
 ?/github
@@ -55,8 +133,6 @@ $
 |2,1,1679717320,47,"out"
 ?/input
 |2,1,1679715881,47,"input"
-? @$
-|2,1,1679625498,,"@$"
 ?/mjpeg
 |2,1,1679128677,47,"mjpeg"
 
@@ -68,1315 +144,1872 @@ $
 
 # Registers:
 "0	LINE	0
-	$adapter = Get-NetAdapter | Where-Object {$_.Name -eq "WLAN"} | Select-Object -First 1
-|3,0,0,1,1,0,1684747277,"$adapter = Get-NetAdapter | Where-Object {$_.Name -eq \"WLAN\"} | Select-Object -First 1"
+	2023/12/22  [社交浅思考](/resource/社交浅思考/)
+|3,0,0,1,1,0,1703589203,"2023/12/22  [社交浅思考](/resource/社交浅思考/)"
 ""1	LINE	0
 	
-|3,1,1,1,1,0,1684747435,""
+|3,1,1,1,1,0,1703657385,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1684747434,""
+|3,0,2,1,1,0,1703657385,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1684747433,""
+|3,0,3,1,1,0,1703657384,""
 "4	LINE	0
-	这将使PowerShell 使用 UTF-8 编码来处理所有的输入和输出，从而避免乱码问题。
-|3,0,4,1,1,0,1684747433,"这将使PowerShell 使用 UTF-8 编码来处理所有的输入和输出，从而避免乱码问题。"
+	
+|3,0,4,1,1,0,1703656592,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1684747432,""
+|3,0,5,1,1,0,1703656591,""
 "6	LINE	0
-	```
-|3,0,6,1,1,0,1684747432,"```"
-"7	LINE	0
 	
-|3,0,7,1,1,0,1684747286,""
+|3,0,6,1,1,0,1703656591,""
+"7	CHAR	0
+	100/3(60/h(4单)+20/h(2单)+20/h(2单))，
+	
+|3,0,7,0,2,0,1703642756,"100/3(60/h(4单)+20/h(2单)+20/h(2单))，",""
 "8	LINE	0
-	
-|3,0,8,1,1,0,1684741788,""
+	vue/react\
+|3,0,8,1,1,0,1703591543,"vue/react\\"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1684741788,""
+	网络编程
+|3,0,9,1,1,0,1703591446,"网络编程"
+"w	CHAR	0
+	)
+|3,0,32,0,1,0,1693974476,")"
 "-	CHAR	0
-	]
-|3,0,36,0,1,0,1682344741,"]"
+	，
+|3,0,36,0,1,0,1703288564,"，"
 
 # File marks:
-'0  4  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,48,4,0,1684747436,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
-'1  1  64  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,49,1,64,1684747337,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
-'2  1  64  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,50,1,64,1684747337,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
-'3  1  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,51,1,3,1684747278,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
-'4  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
-|4,52,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
-'5  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,53,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
-'6  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,54,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
-'7  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,55,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
-'8  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,56,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
-'9  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,57,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+'0  64  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,48,64,0,1703658261,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+'1  60  26  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,49,60,26,1703657950,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+'2  60  26  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,50,60,26,1703657950,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+'3  59  314  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,51,59,314,1703657897,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+'4  59  314  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,52,59,314,1703657897,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+'5  59  314  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,53,59,314,1703657897,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+'6  59  314  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,54,59,314,1703657897,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+'7  59  281  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,55,59,281,1703657856,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+'8  59  281  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,56,59,281,1703657856,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+'9  59  281  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,57,59,281,1703657856,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
 
 # Jumplist (newest first):
--'  4  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,39,4,0,1684747436,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
--'  1  64  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,39,1,64,1684747423,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
--'  1  64  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,39,1,64,1684747337,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
--'  1  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,3,1684747278,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,3,1684747278,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,3,1684747278,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,3,1684747278,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747271,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747271,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747271,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747271,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
-|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
-|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
-|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
-|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
-|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
-|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
-|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
-|4,39,1,0,1684747264,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a"
--'  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,39,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,39,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,39,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ethernet.ps1
-|4,39,1,0,1684747250,"/g/emacs-notes/Shell/windows/set_ethernet.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  8  3  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,8,3,1684747113,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  1  0  /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-|4,39,1,0,1684747112,"/g/emacs-notes/Shell/windows/set_ipv4_auto.ps1"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
--'  4  0  /g/emacs-notes/Shell/windows/说明.org
-|4,39,4,0,1684742018,"/g/emacs-notes/Shell/windows/说明.org"
+-'  64  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,64,0,1703658261,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  60  26  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,60,26,1703657988,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  60  26  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,60,26,1703657950,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  59  314  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,59,314,1703657933,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  59  314  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,59,314,1703657933,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  59  314  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,59,314,1703657897,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  59  281  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,59,281,1703657856,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  59  215  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,59,215,1703657815,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  65  8  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,65,8,1703657751,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  62  8  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,62,8,1703657751,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  62  8  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,62,8,1703657751,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  62  8  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,62,8,1703657751,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  62  8  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,62,8,1703657751,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  62  8  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,62,8,1703657399,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  60  170  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,60,170,1703657235,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  60  170  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,60,170,1703657235,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  60  170  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,60,170,1703657235,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  60  170  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,60,170,1703657235,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  60  170  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,60,170,1703657231,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  61  1  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,61,1,1703657185,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  61  1  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,61,1,1703657185,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  61  1  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,61,1,1703657185,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  61  1  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,61,1,1703657185,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  61  1  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,61,1,1703657185,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  61  1  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,61,1,1703657185,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  61  1  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,61,1,1703657180,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  39  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,39,0,1703657007,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  39  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,39,0,1703657007,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  39  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,39,0,1703657007,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  39  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,39,0,1703657007,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  39  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,39,0,1703657007,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  39  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,39,0,1703657007,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  39  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,39,0,1703657007,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  39  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,39,0,1703657007,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  39  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,39,0,1703656993,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  55  72  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,55,72,1703656922,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  55  72  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,55,72,1703656922,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  55  72  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,55,72,1703656922,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  55  72  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,55,72,1703656922,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  55  72  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,55,72,1703656922,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  55  72  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,55,72,1703656922,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  55  72  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,55,72,1703656922,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  55  72  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,55,72,1703656922,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  55  72  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,55,72,1703656922,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  55  72  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,55,72,1703656915,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  59  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,59,23,1703656702,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  59  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,59,23,1703656702,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  59  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,59,23,1703656702,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  59  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,59,23,1703656702,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  59  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,59,23,1703656702,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  58  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,58,23,1703656700,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  58  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,58,23,1703656700,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  58  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,58,23,1703656700,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  58  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,58,23,1703656700,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  58  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,58,23,1703656700,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  58  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,58,23,1703656700,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  58  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,58,23,1703656700,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  58  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,58,23,1703656700,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  58  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,58,23,1703656700,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  58  23  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,58,23,1703656700,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656601,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656601,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656601,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656601,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656601,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656601,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656601,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656601,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656601,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656601,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656601,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656596,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656581,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  15  0  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,15,0,1703656576,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656508,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  53  17  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,53,17,1703656482,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
+-'  46  68  /g/wxf`s blog/content/posts/《我在北京送快递》.md
+|4,39,46,68,1703656424,"/g/wxf`s blog/content/posts/《我在北京送快递》.md"
 
 # History of marks within files (newest to oldest):
 
-> /g/emacs-notes/Shell/windows/set_ethernet.ps1
-	*	1684747436	0
-	"	4	0
-	.	4	0
-	+	1	0
-	+	4	20
-	+	1	64
-	+	4	0
-	+	2	0
-	+	2	99
-	+	2	0
-	+	4	0
-
-> /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1
-	*	1684747277	0
-	"	1	3
-
-> /g/emacs-notes/Shell/windows/set_ipv4_auto.ps1_ipv4_a
-	*	1684747263	0
-	"	1	0
-
-> /g/emacs-notes/Shell/windows/说明.org
-	*	1684742017	0
-	"	4	0
-	^	3	40
-	.	3	40
-	+	1	0
-	+	4	0
-	+	1	57
-	+	6	0
-	+	2	109
-	+	3	40
-
-> /g/emacs-notes/Shell/windows/test_ipv4.ps1
-	*	1684737991	0
-	"	12	20
-	^	12	21
-	.	12	20
-	+	12	20
-
-> /g/emacs-notes/Shell/windows/ser_ipv4_auto.ps1
-	*	1684737856	0
-	"	3	0
-	^	20	1
-	.	3	0
-	+	3	20
-	+	3	0
-	+	20	0
-	+	3	0
-
-> /g/emacs-notes/Shell/windows/set_ipv4_manual.ps1
-	*	1684736400	0
-	"	14	0
-	^	6	33
-	.	6	33
-	+	17	84
-	+	1	130
-	+	6	60
-	+	14	1
-	+	3	25
-	+	4	27
-	+	5	29
-	+	6	32
-	+	1	59
-	+	3	25
-	+	4	27
-	+	5	29
-	+	6	33
-
-> /g/emacs-notes/Shell/windows/set_ipv4.bat
-	*	1684735515	0
-	"	8	45
-	^	4	30
-	.	5	30
-	+	8	160
-	+	8	56
-	+	3	26
-	+	4	28
-	+	5	20
-	+	6	32
-	+	3	26
-	+	5	30
-
-> /g/emacs-notes/Shell/windows/chg-env-var.sh
-	*	1684721898	0
-	"	33	0
-	.	33	0
+> /g/wxf`s blog/content/posts/《我在北京送快递》.md
+	*	1703658260	0
+	"	64	0
+	^	63	132
+	.	63	131
+	+	18	72
+	+	19	91
+	+	20	100
+	+	21	67
+	+	22	52
+	+	23	66
+	+	24	5
+	+	25	59
+	+	26	18
+	+	27	98
+	+	28	59
+	+	28	112
+	+	30	154
+	+	31	86
+	+	32	42
+	+	33	34
+	+	34	97
+	+	35	82
+	+	36	95
+	+	37	72
+	+	38	49
+	+	39	21
+	+	40	48
+	+	41	55
+	+	42	46
+	+	43	113
+	+	44	74
+	+	45	83
+	+	45	153
+	+	47	107
+	+	48	34
+	+	49	53
+	+	50	116
+	+	51	22
+	+	52	29
+	+	53	11
+	+	54	33
+	+	55	73
+	+	17	15
+	+	35	82
+	+	35	0
+	+	36	0
+	+	36	98
+	+	24	0
+	+	26	0
+	+	28	63
 	+	28	0
-	+	55	0
-	+	5	2
-	+	33	0
-	+	24	20
-	+	58	0
-	+	59	13
-	+	33	0
-
-> /g/emacs-notes/Shell/windows/main-init.sh
-	*	1684721689	0
-	"	5	0
-	^	7	9
-	.	7	8
-	+	1	11
-	+	2	11
-	+	2	0
-	+	1	11
-	+	4	25
-	+	1	0
-	+	4	2
-	+	13	0
-	+	4	16
-	+	3	29
-	+	9	19
-	+	10	8
-	+	13	0
-	+	5	0
-	+	6	11
-	+	7	8
-
-> /g/wxf-blog/generate_index.py
-	*	1683342162	0
-	"	28	33
-	^	28	34
-	.	28	33
-	+	28	33
-
-> /g/wxf-blog/.github/workflow/generate_index.yml
-	*	1683342131	0
-	"	19	26
-	^	25	54
-	.	25	53
-	+	25	53
-
-> /g/apeishuai/.github/workflows/main.yml
-	*	1683114358	0
-	"	13	21
-	^	13	22
-	.	13	21
-	+	8	38
-	+	8	0
-	+	12	0
-	+	11	0
-	+	12	0
-	+	9	30
-	+	13	21
-
-> /g/apeishuai/.travis.yml
-	*	1682400243	0
-	"	1	0
-
-> /g/emacs-notes/wang/demo01.py
-	*	1682377868	0
-	"	15	0
-	^	13	12
-	.	13	11
-	+	16	26
-	+	17	9
-	+	2	86
-	+	7	16
-	+	7	4
-	+	7	0
-	+	4	24
-	+	7	15
-	+	2	6
-	+	7	0
-	+	4	21
-	+	6	22
-	+	4	15
-	+	6	14
-	+	3	14
-	+	5	10
-	+	8	1
-	+	9	11
-	+	14	8
-	+	9	10
-	+	14	0
-	+	10	12
-	+	11	12
-	+	12	12
-	+	13	11
-
-> /g/spaishuai-blog/.github/workflows/main.yml
-	*	1682302110	0
-	"	13	21
-	^	13	22
-	.	13	21
-	+	13	21
-
-> /g/emacs-notes/xx.txt
-	*	1682063996	0
-	"	3	0
-
-> /g/wxf practice space/a.c
-	*	1681828408	0
-	"	22	0
-	^	22	0
-	.	21	0
-	+	21	0
-
-> /g/apeishuai/2.txt
-	*	1681431560	0
-	"	1	0
-
-> /g/emacs-notes/Shell/vedio-download/get_name_list_to_excel.sh
-	*	1681394613	0
-	"	16	0
-	^	4	34
-	.	4	33
-	+	4	33
-
-> /g/apeishuai/conf.py
-	*	1681255736	0
-	"	1397	35
-
-> ~/.gitconfig
-	*	1681255197	0
-	"	1	0
-
-> ~/internetpack/1.txt
-	*	1680586183	0
-	"	249	73
-
-> /g/emacs-notes/Shell/windows/command-install.sh
-	*	1680493567	0
-	"	22	28
-	^	8	28
-	.	8	27
-	+	1	13
-	+	1	0
-	+	1	4
-	+	1	0
-	+	27	3
-	+	1	0
-	+	9	16
-	+	9	0
-	+	5	0
-	+	9	0
-	+	5	15
-	+	9	9
-	+	5	15
-	+	6	35
-	+	9	0
-	+	6	27
-	+	7	11
-	+	8	27
-
-> ~/.bashrc
-	*	1680491966	0
-	"	208	0
-	^	207	1
-	.	207	0
-	+	195	12
-	+	196	31
-	+	200	0
-	+	196	31
-	+	199	32
-	+	198	27
-	+	192	13
-	+	194	0
-	+	197	0
-	+	196	1
-	+	197	42
-	+	210	0
-	+	202	18
-	+	204	18
-	+	205	0
-	+	206	39
-	+	207	0
-	+	207	30
-	+	203	15
-	+	204	17
-	+	207	0
-
-> /g/emacs-notes/Shell/test.sh
-	*	1680096404	0
-	"	1	0
-	^	4	40
-	.	4	39
-	+	8	85
-	+	4	39
-
-> /g/emacs-notes/Shell/vedio-download/convert_2_pdf.org
-	*	1680095705	0
-	"	14	3
-
-> /g/emacs-notes/Shell/vedio-download/y_srt_down.sh
-	*	1680095429	0
-	"	14	57
-
-> /g/emacs-notes/Shell/vedio-download/vedio_2_pic.sh
-	*	1680094830	0
-	"	17	3
-	^	4	24
-	.	4	0
-	+	1	0
-	+	17	3
-	+	1	0
-	+	16	167
-	+	1	0
-	+	16	32
-	+	16	30
-	+	16	167
-	+	16	114
-	+	1	0
-	+	4	0
-	+	4	23
-	+	4	0
-
-> /g/emacs-notes/Shell/vedio-download/bilibili-down.sh
-	*	1680059823	0
-	"	10	51
-	^	7	55
-	.	1	0
-	+	1	41
-	+	1	65
-	+	1	0
-	+	1	73
-	+	1	0
-	+	1	29
-	+	1	28
-	+	1	0
-	+	1	2
-	+	1	0
-	+	1	89
-	+	1	0
-	+	1	1
-	+	1	0
-	+	1	1
-	+	1	0
-	+	1	77
-	+	1	0
-	+	1	11
-	+	1	0
-	+	1	11
-	+	10	51
-	+	1	0
-
-> /g/emacs-notes/Shell/vedio-download/main.sh
-	*	1680056379	0
-	"	5	9
-	^	5	8
-	.	5	9
-	+	1	0
-	+	3	45
-	+	7	0
-	+	4	18
-	+	5	9
-
-> /g/wxf practice space/log_test/spdlog_test.cpp
-	*	1679905436	0
-	"	2	9
-	^	2	10
-	.	2	10
-	+	28	0
-	+	2	10
-
-> /g/workspace/项目-sylar服务器.org
-	*	1679891395	0
-	"	29	0
-
-> /g/emacs-notes/Shell/vedio-download/test.py
-	*	1679807555	0
-	"	35	120
-	^	17	21
-	.	17	20
-	+	1	85
-	+	1	9
-	+	56	0
-	+	17	19
-	+	17	108
-	+	17	20
-
-> /g/emacs-notes/Shell/vedio-download/test.sh
-	*	1679805893	0
-	"	2	0
-	^	2	0
-	.	1	11
-	+	1	11
-
-> /g/emacs-notes/Shell/windows/org-protocol.reg
-	*	1679803559	0
-	"	4	3
-
-> /g/emacs-notes/Shell/windows/chg-reg.sh
-	*	1679803546	0
-	"	1	0
-	^	4	155
-	.	1	0
-	+	1	45
-	+	1	11
-	+	1	3
-	+	1	0
-	+	1	11
-	+	1	15
-	+	1	0
-	+	4	154
-	+	1	0
-
-> /g/emacs-notes/Shell/windows/test.sh
-	*	1679803489	0
-	"	2	0
-	.	3	0
-	+	1	19
-	+	1	27
-	+	1	63
-	+	1	0
-	+	1	58
-	+	1	57
-	+	1	58
-	+	1	57
-	+	1	142
-	+	1	70
-	+	1	0
-	+	3	154
-	+	1	0
-	+	3	138
-	+	3	0
-
-> /g/emacs-notes/Shell/windows/test.bash
-	*	1679802927	0
-	"	1	0
-	^	10	57
-	.	10	56
-	+	24	29
-	+	1	56
-	+	1	0
-	+	1	134
-	+	1	0
-	+	1	11
-	+	10	56
-
-> /g/emacs-notes/Shell/windows/print_hardware_info.sh
-	*	1679801762	0
-	"	8	236
-	^	8	237
-	.	8	236
-	+	1	7
-	+	1	6
-	+	1	0
-	+	1	11
-	+	20	33
-	+	14	29
-	+	20	21
-	+	15	0
-	+	22	0
-	+	20	21
-	+	15	0
-	+	10	0
-	+	10	11
-	+	22	0
-	+	16	0
-	+	20	33
-	+	10	23
-	+	8	0
-	+	10	0
-	+	8	236
-
-> /g/emacs-notes/Shell/windows/Chg-Env-variable.sh
-	*	1679800246	0
-	"	5	8
-	^	5	9
-	.	5	8
-	+	1	20
-	+	1	11
-	+	1	21
-	+	1	0
-	+	1	27
-	+	1	0
-	+	1	16
-	+	1	20
-	+	1	11
-	+	35	0
-	+	7	0
-	+	7	13
-	+	6	0
-	+	7	9
-	+	35	25
-	+	35	0
-	+	35	9
-	+	35	0
-	+	67	0
-	+	68	41
-	+	42	0
-	+	68	0
-	+	35	0
-	+	7	0
-	+	35	0
-	+	42	0
-	+	40	0
-	+	42	0
-	+	37	0
-	+	40	0
-	+	55	22
-	+	37	2
-	+	38	2
-	+	4	0
-	+	6	2
-	+	6	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	14	0
-	+	14	35
-	+	16	2
-	+	17	2
-	+	18	2
-	+	19	0
-	+	22	0
-	+	42	0
-	+	37	2
-	+	38	2
-	+	35	88
-	+	4	0
-	+	6	2
-	+	6	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	14	35
-	+	16	2
-	+	17	0
-	+	18	2
-	+	19	0
-	+	22	0
-	+	63	9
-	+	18	11
-	+	14	0
-	+	14	35
-	+	6	0
-	+	4	14
-	+	7	0
-	+	5	2
-	+	18	11
-	+	5	12
-	+	35	0
-	+	33	0
-	+	39	9
-	+	5	8
-
-> ~/main-init.sh
-	*	1679798315	0
-	"	1	0
-
-> /g/emacs-notes/Shell/soft_install.sh
-	*	1679798192	0
-	"	67	0
-	.	47	0
-	+	47	0
-
-> /g/emacs-notes/Shell/org-protocol.reg
-	*	1679798157	0
-	"	9	0
-
-> /g/emacs-notes/Shell/org-protocol-handler.bat
-	*	1679798125	0
-	"	5	86
-	.	1	0
-	+	1	0
-
-> /g/emacs-notes/Shell/windows/1.txt
-	*	1679796952	0
-	"	334	0
-
-> /g/emacs-notes/Shell/windows/list-msys-commands.sh
-	*	1679796896	0
-	"	21	62
-	^	21	63
-	.	21	62
-	+	1	11
-	+	21	62
-
-> /g/emacs-notes/Shell/windows/lsi
-	*	1679796844	0
-	"	1	0
-
-> /g/emacs-notes/Shell/windows/Env-command-statistic.sh
-	*	1679796766	0
-	"	9	15
-	^	9	16
-	.	9	15
-	+	9	15
-
-> /g/emacs-notes/Shell/windows/WinConf-pacMan.sh
-	*	1679796578	0
-	"	12	9
-	^	12	10
-	.	12	9
-	+	3	18
-	+	3	0
-	+	3	16
-	+	3	0
-	+	3	15
-	+	3	0
-	+	3	14
-	+	19	3
-	+	3	0
-	+	5	0
-	+	6	0
-	+	7	16
-	+	7	0
-	+	12	9
-
-> /g/emacs-notes/Shell/org-protocol_new.reg
-	*	1679796188	0
-	"	1	0
-
-> /g/emacs-notes/Shell/windows/windows_config_init.sh
-	*	1679795850	0
-	"	13	23
-
-> /g/emacs-notes/Shell/windows_internet/port_scan.sh
-	*	1679795422	0
-	"	25	3
-	^	25	4
-	.	25	3
-	+	25	3
-
-> /g/emacs-notes/Shell/windows_internet/port_sacn.sh
-	*	1679795301	0
-	"	1	0
-
-> /g/emacs-notes/Shell/windows_internet/port_using.sh
-	*	1679795226	0
-	"	18	0
-	^	21	4
-	.	21	3
-	+	21	3
-
-> /g/emacs-notes/Shell/windows_config_init.sh
-	*	1679795069	0
-	"	13	19
-	^	13	31
-	.	13	30
-	+	13	30
-
-> /g/emacs-notes/Shell/vedio2pic.sh
-	*	1679794777	0
-	"	1	44
-	^	1	143
-	.	1	0
-	+	1	0
-	+	1	142
-	+	1	0
-
-> /g/emacs-notes/Shell/pic
-	*	1679794760	0
-	"	1	0
-
-> /c/Users/dell/Desktop/pic/11.txt
-	*	1679718184	0
-	"	31	19
-
-> /c/Users/dell/Desktop/pic/22.txt
-	*	1679716121	0
-	"	46	0
-	^	46	0
-	.	45	6
-	+	45	6
-
-> /g/emacs-notes/Shell/history_file
-	*	1679714413	0
-	"	593	0
-
-> /c/Users/dell/Desktop/pic/ghostscript.log
-	*	1679713866	0
-	"	2	0
-
-> /g/emacs-notes/Shell/org_2_pdf.sh
-	*	1679656071	0
-	"	21	3
-	^	25	46
-	.	1	0
-	+	1	45
-	+	1	9
-	+	1	44
-	+	1	25
-	+	1	0
-	+	25	45
-	+	1	0
-
-> /g/emacs-notes/Shell/vtt_to_org.sh
-	*	1679637869	0
-	"	15	4
-	^	15	5
-	.	15	4
-	+	1	34
-	+	1	37
-	+	1	38
-	+	1	11
-	+	20	3
-	+	4	22
-	+	22	3
-	+	14	46
-	+	18	13
-	+	22	0
-	+	12	46
-	+	13	0
-	+	19	0
-	+	15	4
-
-> /g/emacs-notes/Shell/rename.sh
-	*	1679637196	0
-	"	10	44
-	^	10	45
-	.	10	44
-	+	1	11
-	+	22	3
-	+	4	33
-	+	4	10
-	+	2	11
-	+	15	3
-	+	1	0
-	+	15	3
-	+	14	3
-	+	4	23
-	+	15	20
-	+	10	0
-	+	10	44
-
-> /g/emacs-notes/Shell/y_srt_down.sh
-	*	1679636897	0
-	"	15	95
-	^	15	96
-	.	15	96
-	+	7	34
-	+	15	96
-
-> /g/emacs-notes/Shell/refresh.bat
-	*	1679636211	0
-	"	4	0
-
-> /g/emacs-notes/Shell/srt_to_org.sh
-	*	1679635827	0
-	"	4	34
-	^	4	35
-	.	4	35
-	+	4	35
-
-> /g/emacs-notes/Shell/.bashrc
-	*	1679633326	0
-	"	1	0
-
-> ~/emacs_backtrace.txt
-	*	1679631166	0
-	"	56	0
-
-> /g/emacs-notes/Shell/y-
-	*	1679627978	0
-	"	1	0
-
-> /g/emacs-notes/Shell/org-protocol
-	*	1679625607	0
-	"	1	0
-
-> /g/emacs-notes/Shell/command-line-record.org
-	*	1679625562	0
-	"	32	0
-
-> /g/emacs-notes/Shell/myscript.sh
-	*	1679625539	0
-	"	1	0
-
-> /g/emacs-notes/Shell/1.org
-	*	1679587204	0
-	"	4	0
-	^	4	0
-	.	3	10
-	+	3	10
-
-> /g/emacs-notes/Shell/convertpdf.sh
-	*	1679586281	0
-	"	19	5
-	^	28	6
-	.	28	5
-	+	28	5
-
-> /g/emacs-notes/Shell/Port_wechat.sh
-	*	1679541076	0
-	"	8	7
-	^	19	54
-	.	19	53
-	+	1	53
-	+	1	11
-	+	19	53
-
-> /g/emacs-notes/Shell/excel_rename_filename.sh
-	*	1679498350	0
-	"	12	6
-	^	12	7
-	.	12	7
-	+	9	3
-	+	4	33
-	+	4	0
-	+	5	35
-	+	5	11
-	+	9	21
-	+	9	0
-	+	9	1
-	+	9	0
-	+	9	1
-	+	9	3
-	+	9	1
-	+	9	3
-	+	9	1
-	+	9	0
-	+	9	3
-	+	9	0
-	+	6	0
-	+	5	0
-	+	4	10
-	+	8	15
-	+	9	15
-	+	9	0
-	+	10	3
-	+	9	0
-	+	10	30
-	+	10	49
-	+	10	46
-	+	10	0
-	+	10	18
-	+	10	46
-	+	10	14
-	+	10	0
-	+	35	3
-	+	10	0
-	+	26	40
-	+	10	0
-	+	13	0
-	+	12	39
-	+	12	7
-
-> /g/emacs-notes/Shell/excel_
-	*	1679496315	0
-	"	1	0
-
-> /g/emacs-notes/Shell/get_name_list_to_excel.sh
-	*	1679496305	0
-	"	18	70
-	^	18	71
-	.	18	70
-	+	18	70
-
-> /g/emacs-notes/Shell/get_name_list.sh
-	*	1679496214	0
-	"	4	24
-	^	18	100
-	.	18	99
-	+	6	0
-	+	18	89
-	+	18	90
-	+	18	99
-
-> /g/emacs-notes/Shell/geyt
-	*	1679495180	0
-	"	1	0
-
-> /g/emacs-notes/Shell/get_name_list.org
-	*	1679495161	0
-	"	2	0
-
-> /g/emacs-notes/Shell/delete_after_num.sh
-	*	1679494973	0
-	"	29	0
-	^	26	4
-	.	29	0
-	+	30	3
-	+	30	11
-	+	30	0
-	+	4	33
-	+	4	45
-	+	5	0
-	+	29	0
-	+	29	3
-	+	30	0
-	+	29	0
+	+	33	37
+	+	42	49
+	+	45	87
+	+	45	83
+	+	45	0
+	+	51	0
+	+	53	14
+	+	49	0
+	+	14	61
+	+	27	99
 	+	27	0
-	+	26	3
-	+	29	0
+	+	27	106
+	+	31	90
+	+	15	40
+	+	46	15
+	+	50	58
+	+	57	0
+	+	14	61
+	+	55	72
+	+	57	0
+	+	58	1
+	+	44	2
+	+	59	83
+	+	56	151
+	+	55	72
+	+	58	14
+	+	39	0
+	+	60	2
+	+	59	100
+	+	64	1
+	+	60	167
+	+	64	62
+	+	68	0
+	+	64	103
+	+	65	8
+	+	68	0
+	+	67	0
+	+	68	0
+	+	66	0
+	+	59	314
+	+	60	26
+	+	64	0
+	+	63	1
+	+	64	0
+	+	63	8
+	+	61	97
+	+	61	11
+	+	63	32
+	+	63	0
+	+	62	119
+	+	63	0
+	+	64	0
+	+	63	131
 
-> /g/emacs-notes/Shell/re
-	*	1679494585	0
-	"	1	0
+> /g/wxf`s blog/content/resource/职业考察log.md
+	*	1703651932	0
+	"	21	0
+	^	20	24
+	.	20	23
+	+	35	30
+	+	36	108
+	+	35	30
+	+	36	158
+	+	30	12
+	+	30	3
+	+	33	0
+	+	31	185
+	+	32	138
+	+	32	0
+	+	32	183
+	+	30	22
+	+	28	201
+	+	15	54
+	+	11	182
+	+	12	177
+	+	16	165
+	+	10	9
+	+	12	177
+	+	31	286
+	+	32	171
+	+	39	125
+	+	41	123
+	+	41	6
+	+	42	55
+	+	41	60
+	+	18	22
+	+	23	24
+	+	19	229
+	+	19	235
+	+	24	31
+	+	42	45
+	+	8	39
+	+	24	69
+	+	15	59
+	+	26	0
+	+	19	235
+	+	25	64
+	+	20	15
+	+	19	277
+	+	20	23
 
-> /g/emacs-notes/Shell/srt_to_txt.sh
-	*	1679494313	0
-	"	4	0
-	^	22	6
-	.	22	5
-	+	23	0
-	+	22	5
+> /g/wxf`s blog/content/resource/个人技术栈追踪.md
+	*	1703591731	0
+	"	9	209
+	^	9	212
+	.	9	209
+	+	7	189
+	+	10	0
+	+	11	10
+	+	11	17
+	+	12	28
+	+	16	0
+	+	20	6
+	+	18	7
+	+	20	8
+	+	15	15
+	+	11	19
+	+	11	20
+	+	11	22
+	+	17	74
+	+	9	209
 
-> /g/emacs-notes/Computer_science/Shell/ysrtdown.sh
-	*	1679489821	0
-	"	10	56
-	^	10	57
-	.	11	0
-	+	10	122
+> /g/wxf`s blog/content/project/index.md
+	*	1703589256	0
+	"	19	71
+	^	19	72
+	.	19	71
+	+	2	8
+	+	6	0
 	+	5	0
-	+	4	122
-	+	5	0
-	+	4	123
-	+	5	0
-	+	10	57
-	+	10	91
-	+	10	75
-	+	10	91
-	+	10	57
-	+	11	0
-
-> /g/emacs-notes/Computer_science/Shell/srt_to_txt.sh
-	*	1679489385	0
-	"	4	45
-	^	4	46
-	.	4	46
-	+	1	11
-	+	25	3
-	+	4	35
-	+	13	0
-	+	15	0
-	+	13	0
-	+	13	21
-	+	14	41
-	+	13	0
-	+	19	0
-	+	20	38
-	+	22	29
-	+	21	37
-	+	4	46
-
-> /g/emacs-notes/Computer_science/Shell/youtube_srt_downlaod.sh
-	*	1679489307	0
-	"	5	122
-	^	5	123
-	.	5	122
-	+	2	11
-	+	11	123
-	+	12	0
-	+	14	32
-	+	11	57
-	+	11	90
-	+	14	0
-	+	11	57
-	+	11	90
-	+	12	0
-	+	11	57
-	+	5	122
-
-> /g/awesome-nextjs-notion-blog/site.config.js
-	*	1679319225	0
-	"	22	0
-
-> /c/Users/dell/Desktop/1.txt
-	*	1679128701	0
-	"	1	0
-
-> /g/emacs-notes/Computer_science/assembly/test.o
-	*	1679111476	0
-	"	1	0
-
-> /g/emacs-notes/Computer_science/make_test/main.c
-	*	1677944307	0
-	"	7	13
-	^	7	14
-	.	7	13
-	+	5	1
+	+	6	15
 	+	7	16
+	+	8	28
+	+	22	58
+	+	21	59
+	+	22	8
+	+	21	59
+	+	22	0
+	+	23	57
+	+	22	8
+	+	30	35
+	+	26	128
+	+	41	28
+	+	15	5
+	+	19	38
+	+	18	59
+	+	21	0
+	+	23	0
+	+	20	9
+	+	19	71
+
+> /g/recoll index/project/botlib/cJSON.c
+	*	1703297532	0
+	"	663	0
+
+> /g/recoll index/project/botlib/mybot.c
+	*	1703297481	0
+	"	50	5
+
+> /g/recoll index/project/botlib/Makefile
+	*	1703297427	0
+	"	2	0
+
+> /g/recoll index/project/botlib/README.md
+	*	1703297252	0
+	"	2	0
+
+> /g/wxf`s blog/content/resource/社交浅思考.md
+	*	1703290601	0
+	"	36	51
+	^	36	52
+	.	36	51
+	+	11	126
+	+	11	202
+	+	13	75
+	+	14	3
+	+	11	201
+	+	21	25
+	+	21	24
+	+	22	0
+	+	22	24
+	+	14	1649
+	+	14	317
+	+	14	522
+	+	15	412
+	+	16	717
+	+	14	378
+	+	14	525
+	+	14	377
+	+	14	525
+	+	14	317
+	+	14	316
+	+	16	144
+	+	16	309
+	+	21	24
+	+	22	199
+	+	22	0
+	+	22	307
+	+	22	200
+	+	22	311
+	+	40	90
+	+	24	44
+	+	22	199
+	+	27	5
+	+	25	11
+	+	27	9
+	+	39	0
+	+	27	9
+	+	27	553
+	+	40	0
+	+	27	8
+	+	39	0
+	+	28	30
+	+	21	14
+	+	10	11
+	+	28	120
+	+	40	0
+	+	30	9
+	+	38	6
+	+	28	123
+	+	14	0
+	+	29	10
+	+	32	363
+	+	29	14
+	+	28	126
+	+	30	9
+	+	32	366
+	+	38	9
+	+	32	370
+	+	38	0
+	+	30	9
+	+	33	0
+	+	34	23
+	+	35	141
+	+	35	179
+	+	36	0
+	+	36	48
+	+	35	179
+	+	34	23
+	+	36	51
+
+> /g/wxf`s blog/content/posts/和胡老师对话.md
+	*	1703255021	0
+	"	10	105
+	^	10	106
+	.	10	105
+	+	10	105
+
+> /g/emacs-notes/Computer_science/demo_c/x.c
+	*	1703152740	0
+	"	27	0
+	^	24	26
+	.	24	25
+	+	1	18
+	+	24	7
+	+	24	0
+	+	5	0
+	+	24	17
+	+	24	0
+	+	5	26
+	+	5	28
+	+	20	0
+	+	5	18
+	+	20	0
+	+	23	0
+	+	24	0
+	+	6	17
+	+	7	25
+	+	20	0
+	+	24	24
+	+	27	0
+	+	9	21
+	+	10	2
+	+	18	0
+	+	11	41
+	+	18	0
+	+	5	0
+	+	11	53
+	+	13	33
+	+	16	2
+	+	14	28
+	+	15	10
+	+	16	3
+	+	17	24
+	+	19	14
+	+	5	0
+	+	2	0
+	+	5	0
 	+	3	0
+	+	20	1
+	+	25	25
+	+	26	15
+	+	27	0
+	+	26	23
+	+	6	8
+	+	2	17
+	+	24	25
+
+> /g/emacs-notes/Computer_science/demo_c/data_structure/xx_x.c
+	*	1703152515	0
+	"	25	18
+	^	25	19
+	.	25	18
+	+	1	18
+	+	40	7
+	+	41	0
+	+	22	26
+	+	37	0
+	+	23	31
+	+	26	21
+	+	28	22
+	+	36	0
+	+	29	62
+	+	35	24
+	+	31	33
+	+	34	0
+	+	32	28
+	+	33	10
+	+	36	0
+	+	37	17
+	+	41	21
+	+	42	25
+	+	43	30
+	+	22	22
+	+	35	23
+	+	1	18
+	+	22	7
+	+	26	0
+	+	3	0
+	+	23	22
+	+	24	0
+	+	4	16
+	+	5	0
+	+	4	20
+	+	6	21
+	+	9	7
+	+	7	24
+	+	8	0
+	+	9	22
+	+	10	2
+	+	18	0
+	+	13	33
+	+	16	0
+	+	15	10
+	+	14	26
+	+	18	0
+	+	12	7
+	+	12	0
+	+	16	3
+	+	17	24
+	+	12	0
+	+	11	61
+	+	19	17
+	+	24	24
+	+	25	30
+	+	5	8
+	+	9	16
+	+	25	18
+
+> /g/emacs-notes/Computer_science/demo_c/data_structure/x.c
+	*	1703150993	0
+	"	1	0
+
+> /g/wxf`s blog/content/posts/2023年总结.md
+	*	1703140322	0
+	"	32	77
+	^	32	80
+	.	32	77
+	+	9	8
+	+	9	43
+	+	8	20
+	+	11	49
+	+	13	90
+	+	18	24
+	+	18	126
+	+	19	0
+	+	19	108
+	+	19	18
+	+	19	120
+	+	14	42
+	+	15	0
+	+	32	77
+
+> /g/wxf`s blog/public/project/index.html
+	*	1703135406	0
+	"	7	0
+
+> /g/wxf`s blog/content/resource/和胡老师对话.md
+	*	1703135359	0
+	"	10	66
+	^	10	69
+	.	10	66
+	+	10	66
+
+> /g/docs/README.md
+	*	1703134559	0
+	"	7	0
+	.	17	0
+	+	1	1
+	+	1	14
+	+	1	27
+	+	4	0
+	+	3	0
+	+	5	7
+	+	6	0
+	+	5	1
+	+	1	0
+	+	15	21
+	+	12	25
+	+	14	0
+	+	19	35
+	+	18	34
+	+	19	0
+	+	17	0
+
+> /g/emacs-notes/Computer_science/demo_c/x.
+	*	1703123848	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/x.cv
+	*	1703123845	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/xx.c
+	*	1703123838	0
+	"	16	0
+	^	20	6
+	.	20	5
+	+	24	0
+	+	23	1
+	+	24	0
+	+	25	0
+	+	23	0
+	+	26	0
+	+	25	10
+	+	23	0
+	+	24	0
+	+	22	2
+	+	23	1
+	+	22	1
+	+	24	0
+	+	18	7
+	+	22	22
+	+	26	11
+	+	26	0
+	+	26	11
+	+	26	0
+	+	25	9
+	+	1	0
+	+	28	0
+	+	1	18
+	+	18	1
+	+	22	22
+	+	22	35
+	+	22	12
+	+	22	47
+	+	22	0
+	+	6	15
+	+	6	16
+	+	7	7
+	+	21	22
+	+	22	10
+	+	22	18
+	+	21	7
+	+	6	6
+	+	9	10
+	+	21	1
+	+	9	1
+	+	21	15
+	+	22	0
+	+	6	8
+	+	22	1
+	+	22	13
+	+	22	6
+	+	22	13
+	+	7	6
+	+	22	0
+	+	21	20
+	+	22	0
+	+	22	11
+	+	22	19
+	+	21	33
+	+	2	17
+	+	22	0
+	+	22	2
+	+	22	17
+	+	22	12
+	+	8	1
+	+	6	23
+	+	8	16
+	+	22	0
+	+	21	27
+	+	3	0
+	+	21	54
+	+	21	17
+	+	22	0
+	+	21	20
+	+	11	0
+	+	11	21
+	+	15	0
+	+	21	0
+	+	12	0
+	+	15	0
+	+	19	16
+	+	20	9
+	+	12	1
+	+	13	1
+	+	14	1
+	+	21	17
+	+	11	18
+	+	12	4
+	+	13	2
+	+	14	8
+	+	13	7
+	+	14	2
+	+	13	7
+	+	14	10
+	+	13	4
+	+	14	5
+	+	19	0
+	+	14	5
+	+	12	3
+	+	13	6
+	+	14	6
+	+	13	2
+	+	14	2
+	+	19	20
+	+	20	5
+
+> /g/wxf`s blog/content/main.md
+	*	1703059378	0
+	"	15	2
+	^	17	46
+	.	17	0
+	+	12	0
+	+	9	41
+	+	17	0
+	+	13	7
+	+	14	0
+	+	15	8
+	+	17	0
+
+> /g/docs/pro/c顺序表.md
+	*	1703058633	0
+	"	5	86
+	^	5	87
+	.	5	87
+	+	1	0
+	+	2	0
+	+	3	35
+	+	4	96
+	+	4	0
+	+	5	0
+	+	6	0
+	+	5	87
+
+> /g/docs/pro/c链表.md
+	*	1703058603	0
+	"	1	0
+	^	6	119
+	.	1	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	3	11
+	+	5	108
+	+	6	119
+	+	1	0
+	+	2	0
+	+	1	0
+
+> /g/docs/pro/C链表
+	*	1703058547	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/data_structure/Link.c
+	*	1703055603	0
+	"	3	0
+	^	4	0
+	.	4	0
+	+	1	18
+	+	6	7
+	+	7	0
+	+	4	0
+
+> /g/emacs-notes/Computer_science/demo_c/data_structure/include/Link.h
+	*	1703055525	0
+	"	9	4
+	^	9	5
+	.	8	22
 	+	1	18
 	+	3	0
-	+	2	14
-	+	6	15
-	+	7	13
+	+	6	7
+	+	7	0
+	+	4	16
+	+	8	6
+	+	6	7
+	+	9	8
+	+	8	15
+	+	9	1
+	+	8	22
 
-> /g/emacs-notes/Computer_science/make_test/main.
-	*	1677944296	0
+> /g/emacs-notes/Computer_science/demo_c/data_structure/Link
+	*	1703055401	0
 	"	1	0
 
-> /g/emacs-notes/Computer_science/make_test/bar.c
-	*	1677944288	0
-	"	3	3
-	^	3	4
-	.	3	3
-	+	1	14
-	+	2	1
-	+	3	3
+> ~/.emacs.d/ssr/elfeed.org
+	*	1702780287	0
+	"	2	0
 
-> /g/emacs-notes/Computer_science/make_test/include/bar.h
-	*	1677944250	0
-	"	1	14
-	^	1	15
-	.	1	14
+> ~/.emacs.d/ssr/elfeed.opml
+	*	1702780275	0
+	"	2	0
+
+> ~/.emacs.d/ssr/elfeed.o
+	*	1702780270	0
+	"	1	0
+
+> ~/.emacs.d/ssr/README.org
+	*	1702780219	0
+	"	4	0
+
+> /g/emacs-notes/Computer_science/demo_c/a.c
+	*	1702714862	0
+	"	7	9
+	^	7	10
+	.	7	9
+	+	1	18
+	+	5	7
+	+	9	0
+	+	4	16
+	+	9	6
+	+	6	10
+	+	9	0
+	+	4	0
+	+	8	16
+	+	3	17
+	+	7	9
+
+> /g/emacs-notes/Computer_science/demo_c/data_structure/a.c
+	*	1702714828	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/data_structure/a.out
+	*	1702714825	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/test.c
+	*	1702714543	0
+	"	10	0
+	^	16	10
+	.	9	0
+	+	1	18
+	+	14	1
+	+	17	9
+	+	16	0
+	+	11	0
+	+	4	1
+	+	11	7
+	+	3	16
+	+	11	0
+	+	11	9
+	+	11	19
+	+	16	5
+	+	15	23
+	+	16	9
+	+	11	20
+	+	5	37
+	+	6	2
+	+	8	0
+	+	11	0
+	+	7	29
+	+	8	29
+	+	3	25
+	+	3	1
+	+	3	0
+	+	3	16
+	+	3	23
+	+	3	0
+	+	3	20
+	+	5	2
+	+	6	2
+	+	7	3
+	+	8	3
+	+	8	2
+	+	7	2
+	+	11	1
+	+	3	14
+	+	9	17
+	+	11	0
+	+	9	0
+	+	3	11
+	+	3	0
+	+	3	25
+	+	3	2
+	+	3	0
+	+	3	11
+	+	3	5
+	+	3	0
+	+	3	22
+	+	3	0
+	+	5	1
+	+	6	1
+	+	7	2
+	+	8	2
+	+	8	1
+	+	3	26
+	+	5	25
+	+	8	0
+	+	3	19
+	+	16	9
+	+	9	0
+
+> /g/emacs-notes/Computer_science/demo_c/data_structure/xx.c
+	*	1702703108	0
+	"	27	0
+	^	19	1
+	.	19	0
+	+	39	12
+	+	38	13
+	+	1	18
+	+	7	7
+	+	20	7
+	+	20	0
+	+	20	9
+	+	20	0
+	+	3	24
+	+	4	0
+	+	4	9
+	+	4	23
+	+	4	17
+	+	4	23
+	+	20	0
+	+	7	7
+	+	20	0
+	+	7	0
+	+	22	23
+	+	23	0
+	+	27	0
+	+	23	13
+	+	25	8
+	+	27	0
+	+	11	18
+	+	20	16
+	+	11	20
+	+	20	20
+	+	11	20
+	+	20	19
+	+	11	20
+	+	20	27
+	+	11	38
+	+	18	5
+	+	4	14
+	+	20	0
+	+	22	9
+	+	3	24
+	+	4	26
+	+	3	24
+	+	4	26
+	+	4	0
+	+	11	32
+	+	20	31
+	+	12	12
+	+	20	0
+	+	12	23
+	+	20	18
+	+	12	31
+	+	20	31
+	+	29	26
+	+	29	10
+	+	20	13
+	+	18	2
+	+	4	0
+	+	5	0
+	+	11	11
+	+	8	2
+	+	9	2
+	+	18	1
+	+	20	2
+	+	20	0
+	+	29	0
+	+	11	0
+	+	8	1
+	+	9	1
+	+	20	0
+	+	29	25
+	+	34	0
+	+	32	9
+	+	20	0
+	+	18	2
+	+	34	0
+	+	29	9
+	+	18	12
+	+	20	0
+	+	20	20
+	+	20	0
+	+	26	0
+	+	20	0
+	+	33	0
+	+	13	0
+	+	20	0
+	+	18	0
+	+	20	0
+	+	18	0
+	+	18	13
+	+	18	2
+	+	33	2
+	+	18	0
+	+	20	0
+	+	17	0
+	+	33	1
+	+	20	0
+	+	16	0
+	+	14	12
+	+	16	0
+	+	15	19
+	+	16	0
+	+	19	0
+
+> /g/docs/pro/c语言基础.md
+	*	1702648280	0
+	"	2	0
+
+> /g/docs/pro/c.md
+	*	1702533078	0
+	"	2	0
+	^	2	17
+	.	2	0
+	+	1	14
+	+	2	0
+
+> /g/docs/c.md
+	*	1702528997	0
+	"	1	0
+	^	3	0
+	.	3	0
+	+	1	2
+	+	4	0
+	+	5	0
+	+	6	0
+	+	2	12
+	+	3	0
+
+> /g/docs/index.html
+	*	1702461574	0
+	"	24	2
+	^	49	14
+	.	24	0
+	+	1	5
+	+	1	24
+	+	1	20
+	+	1	5
+	+	1	15
+	+	1	8
+	+	1	34
+	+	1	5
+	+	1	9
+	+	1	10
+	+	1	25
+	+	1	26
+	+	1	23
+	+	1	0
+	+	1	5
+	+	1	0
+	+	1	6
+	+	1	5
+	+	1	0
+	+	1	1
+	+	1	18
+	+	1	0
+	+	1	5
+	+	1	0
+	+	1	58
+	+	1	0
+	+	1	74
+	+	1	0
+	+	1	19
+	+	1	22
 	+	1	0
 	+	2	0
-	+	1	14
+	+	18	0
+	+	18	16
+	+	18	0
+	+	18	17
+	+	18	16
+	+	18	15
+	+	14	0
+	+	56	9
+	+	60	0
+	+	18	0
+	+	74	80
+	+	18	0
+	+	75	0
+	+	18	0
+	+	76	0
+	+	18	9
+	+	18	0
+	+	71	0
+	+	52	0
+	+	49	0
+	+	50	0
+	+	49	13
+	+	24	0
 
-> /g/emacs-notes/Computer_science/make_test/include
-	*	1677944168	0
+> /g/docs/_coverpage.md
+	*	1702457157	0
+	"	5	45
+	^	5	48
+	.	5	45
+	+	4	26
+	+	4	4
+	+	4	0
+	+	4	14
+	+	4	0
+	+	4	4
+	+	2	0
+	+	1	20
+	+	4	0
+	+	3	24
+	+	4	0
+	+	5	48
+	+	5	45
+
+> /g/docs/home.md
+	*	1702450112	0
 	"	1	0
 
-> /g/emacs-notes/Computer_science/make_test/Makefile
-	*	1677944140	0
-	"	30	1
-	^	27	38
-	.	11	0
-	+	6	11
-	+	3	5
-	+	3	6
-	+	5	0
-	+	4	0
-	+	1	4
-	+	3	4
-	+	8	0
-	+	30	21
-	+	3	0
-	+	5	0
+> /g/docs/tmp.md
+	*	1702450079	0
+	"	2	0
+	.	2	0
+	+	2	0
+
+> /g/docs/.nojekyll
+	*	1702447537	0
+	"	1	0
+
+> /g/docs/_no
+	*	1702447520	0
+	"	1	0
+
+> /g/docs/_sidebar.md
+	*	1702447474	0
+	"	1	0
+	.	1	0
+	+	1	15
+	+	1	10
+	+	1	8
+	+	1	14
+	+	1	11
 	+	1	0
+	+	1	28
+	+	1	21
+	+	1	0
+	+	1	25
+	+	1	19
+	+	1	0
+	+	1	21
+	+	1	18
+	+	1	16
+	+	1	13
+	+	1	0
+
+> /g/docs/_navbar.md
+	*	1702385809	0
+	"	1	0
+	.	3	0
+	+	1	19
+	+	3	46
+	+	3	11
+	+	3	8
+	+	3	5
+	+	3	11
 	+	3	0
+	+	3	5
+	+	3	0
+	+	3	7
+	+	3	10
+	+	3	13
+	+	3	8
+	+	3	0
+
+> /g/emacs-notes/Computer_science/demo_c/xx
+	*	1702274385	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/data_structure/Seq.c
+	*	1702190859	0
+	"	1	9
+	^	1	10
+	.	1	9
+	+	1	23
+	+	2	0
 	+	4	1
 	+	5	0
-	+	6	1
-	+	1	7
-	+	9	6
-	+	1	25
-	+	9	28
-	+	10	0
-	+	16	16
-	+	20	20
-	+	27	37
-	+	19	0
-	+	10	0
-	+	11	17
-	+	20	0
-	+	27	28
-	+	18	20
-	+	27	37
-	+	11	0
+	+	1	9
 
-> /g/emacs-notes/Computer_science/make_test/bar.h
-	*	1677941817	0
-	"	1	12
-	^	1	13
-	.	1	12
-	+	1	12
+> /g/emacs-notes/Computer_science/demo_c/data_structure/include/Seq.h
+	*	1702090257	0
+	"	16	0
+	^	15	33
+	.	15	33
+	+	1	18
+	+	8	1
+	+	8	0
+	+	9	15
+	+	12	0
+	+	10	14
+	+	12	0
+	+	11	15
+	+	7	17
+	+	12	8
+	+	13	0
+	+	15	0
+	+	2	19
+	+	5	14
+	+	1	18
+	+	2	19
+	+	15	33
+	+	16	1
+	+	16	0
+	+	16	46
+	+	16	27
+	+	16	10
+	+	16	0
+	+	14	17
+	+	16	0
+	+	15	33
 
-> /g/emacs-notes/Computer_science/make_test/foo.c
-	*	1677941226	0
-	"	3	9
-	^	3	10
-	.	3	9
-	+	1	14
-	+	2	1
+> /g/emacs-notes/Computer_science/demo_c/xxx.c
+	*	1702012368	0
+	"	19	0
+	^	2	18
+	.	2	17
+	+	1	27
+	+	26	1
+	+	27	17
+	+	1	0
+	+	25	0
+	+	27	0
+	+	1	18
+	+	21	1
+	+	22	0
+	+	4	28
+	+	5	10
+	+	6	26
+	+	7	9
+	+	10	27
+	+	11	1
+	+	18	0
+	+	13	22
+	+	14	2
+	+	16	0
+	+	15	5
+	+	17	9
+	+	18	0
+	+	22	28
+	+	2	17
+
+> /g/emacs-notes/Computer_science/demo_c/ptr.c
+	*	1701876111	0
+	"	4	0
+	^	7	15
+	.	7	15
+	+	1	18
+	+	12	1
+	+	16	24
 	+	3	9
+	+	4	1
+	+	8	8
+	+	3	13
+	+	8	9
+	+	5	16
+	+	14	5
+	+	13	10
+	+	14	8
+	+	16	0
+	+	15	13
+	+	16	10
+	+	5	12
+	+	15	5
+	+	16	0
+	+	15	0
+	+	6	15
+	+	7	15
+
+> /g/emacs-notes/Computer_science/demo_c/include/aaa.h
+	*	1701853850	0
+	"	5	13
+	^	5	14
+	.	5	13
+	+	1	20
+	+	4	14
+	+	5	13
+
+> /g/emacs-notes/Computer_science/demo_c/swap.c
+	*	1701684380	0
+	"	18	12
+	^	18	13
+	.	18	12
+	+	1	18
+	+	15	1
+	+	16	1
+	+	3	0
+	+	14	4
+	+	3	24
+	+	4	1
+	+	12	0
+	+	10	9
+	+	12	0
+	+	11	20
+	+	7	0
+	+	11	20
+	+	7	19
+	+	11	31
+	+	18	0
+	+	17	9
+	+	18	12
+
+> ~/.gitconfig
+	*	1701435827	0
+	"	9	32
+	^	9	1
+	.	9	0
+	+	9	31
+	+	8	0
+	+	9	0
+
+> ~/.emacs.d/elfeed.opml
+	*	1701336150	0
+	"	1	0
+
+> /g/recoll index/project/Tinyhttpd/httpd.c
+	*	1701252544	0
+	"	21	0
+
+> /g/recoll index/project/Tinyhttpd/Makefile
+	*	1701252302	0
+	"	9	8
+
+> /g/recoll index/project/cJSON/README.md
+	*	1701088264	0
+	"	2	0
+
+> /g/wxf`s blog/public/.git/config
+	*	1700237239	0
+	"	9	1
+	^	9	55
+	.	9	0
+	+	9	0
+
+> /g/wxf`s blog/.git/config
+	*	1700237089	0
+	"	8	10
+	^	8	11
+
+> ~/.bashrc
+	*	1700221995	0
+	"	196	7
+	^	214	23
+	.	214	22
+	+	212	14
+	+	212	0
+	+	212	16
+	+	213	55
+	+	214	0
+	+	215	0
+	+	214	22
+
+> /g/test/7.txt
+	*	1700119710	0
+	"	1	0
+	.	1	0
+	+	2	0
+	+	1	7
+	+	3	0
+	+	4	0
+	+	1	0
+
+> /g/test/5.txt
+	*	1700118869	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> /g/emacs-notes/Computer_science/demo_c/data_structure/linklist_array.c
+	*	1699952857	0
+	"	9	0
+	.	9	0
+	+	1	18
+	+	2	0
+	+	3	0
+	+	9	0
+	+	11	1
+	+	14	0
+	+	6	7
+	+	5	8
+	+	6	16
+	+	9	0
+	+	14	1
+	+	9	0
+
+> /g/emacs-notes/Computer_science/demo_c/1-6-1.c
+	*	1699692932	0
+	"	10	15
+	^	22	54
+	.	24	0
+	+	1	18
+	+	4	1
+	+	24	9
+	+	23	0
+	+	6	16
+	+	9	22
+	+	10	16
+	+	12	30
+	+	13	24
+	+	14	19
+	+	15	45
+	+	19	21
+	+	20	21
+	+	21	25
+	+	22	53
+	+	24	0
+
+> /g/emacs-notes/Computer_science/demo_c/1-5-4.c
+	*	1699691637	0
+	"	24	23
+	^	24	24
+	.	24	23
+	+	1	18
+	+	7	1
+	+	25	9
+	+	11	30
+	+	12	2
+	+	23	0
+	+	14	15
+	+	16	40
+	+	18	23
+	+	23	0
+	+	19	3
+	+	22	0
+	+	23	0
+	+	20	14
+	+	21	7
+	+	22	0
+	+	9	10
+	+	3	12
+	+	4	12
+	+	23	2
+	+	24	28
+	+	25	0
+	+	24	23
+
+> /g/emacs-notes/Computer_science/demo_c/1-5-4.
+	*	1699691315	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/ex1-9.c
+	*	1699688331	0
+	"	13	0
+	^	16	13
+	.	18	0
+	+	17	0
+	+	11	5
+	+	7	0
+	+	5	14
+	+	6	0
+	+	5	13
+	+	8	0
+	+	7	5
+	+	11	14
+	+	13	13
+	+	14	19
+	+	15	15
+	+	16	12
+	+	18	0
+
+> /g/emacs-notes/Computer_science/demo_c/ex1-8.c
+	*	1699622582	0
+	"	20	16
+	^	20	17
+	.	20	16
+	+	1	18
+	+	4	1
+	+	6	0
+	+	5	16
+	+	6	13
+	+	18	0
+	+	14	17
+	+	18	0
+	+	14	8
+	+	16	20
+	+	18	0
+	+	20	16
+	+	7	8
+	+	8	0
+	+	21	0
+	+	21	11
+	+	20	11
+	+	21	11
+	+	21	17
+	+	20	16
+	+	21	20
+	+	21	0
+	+	20	16
+
+> /g/emacs-notes/Computer_science/demo_c/1-5-3.c
+	*	1699621093	0
+	"	8	10
+	^	8	11
+	.	8	11
+	+	18	0
+	+	16	7
+	+	18	7
+	+	16	28
+	+	18	0
+	+	18	2
+	+	18	12
+	+	16	10
+	+	18	10
+	+	8	6
+	+	16	12
+	+	18	11
+	+	1	18
+	+	4	1
+	+	8	10
+	+	8	24
+	+	9	2
+	+	14	0
+	+	16	0
+	+	14	0
+	+	10	5
+	+	8	8
+	+	8	0
+	+	5	7
+	+	8	0
+	+	7	0
+	+	10	13
+	+	14	0
+	+	11	3
+	+	13	0
+	+	14	0
+	+	11	0
+	+	14	0
+	+	12	2
+	+	5	16
+	+	12	13
+	+	16	24
+	+	18	0
+	+	6	14
+	+	16	10
+	+	10	8
+	+	15	0
+	+	17	9
+	+	16	0
+	+	8	2
+	+	14	2
+	+	8	11
+
+> /g/emacs-notes/Computer_science/demo_c/1-5-2.c
+	*	1699619951	0
+	"	9	19
+	^	9	20
+	.	9	19
+	+	1	18
+	+	4	1
+	+	10	0
+	+	7	24
+	+	9	19
+
+> /g/emacs-notes/Computer_science/demo_c/ex1-7.c
+	*	1699619841	0
+	"	7	0
+	^	6	10
+	.	6	9
+	+	1	18
+	+	4	1
+	+	7	0
+	+	5	0
+	+	7	0
+	+	5	17
+	+	5	18
+	+	6	9
+
+> /g/emacs-notes/Computer_science/demo_c/ex1-6.c
+	*	1699619323	0
+	"	5	7
+	^	5	8
+	.	5	7
+	+	7	0
+	+	6	9
+	+	6	0
+	+	6	13
+	+	6	0
+	+	6	32
+	+	6	0
+	+	7	0
+	+	6	37
+	+	5	7
+
+> /g/emacs-notes/Computer_science/demo_c/ex1-
+	*	1699619221	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/1-5-1.c
+	*	1699619059	0
+	"	10	2
+	^	10	4
+	.	10	2
+	+	1	18
+	+	2	0
+	+	4	1
+	+	6	31
+	+	12	13
+	+	13	0
+	+	12	9
+	+	12	15
+	+	7	2
+	+	11	0
+	+	12	0
+	+	9	18
+	+	10	9
+	+	9	11
+	+	10	2
+
+> /g/emacs-notes/Computer_science/demo_c/ex_getchar.c
+	*	1699618415	0
+	"	8	0
+
+> /g/emacs-notes/Computer_science/demo_c/ex
+	*	1699618411	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/ex3.c
+	*	1699618390	0
+	"	51	0
+	^	31	14
+	.	31	13
+	+	41	19
+	+	28	1
+	+	29	0
+	+	27	35
+	+	29	26
+	+	30	34
+	+	31	13
+
+> /g/emacs-notes/Computer_science/demo_c/ex2.c
+	*	1699618369	0
+	"	4	0
+
+> /g/emacs-notes/Computer_science/demo_c/ex1-1.c
+	*	1699618283	0
+	"	1	6
+	^	1	7
+	.	1	7
+	+	1	7
+
+> /g/emacs-notes/Shell/server/1.sh
+	*	1699610749	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/ex1.c
+	*	1699347114	0
+	"	1	0
+
+> /g/recoll index/project/Tinyhttpd/README.md
+	*	1699172413	0
+	"	37	12
+
+> /g/recoll index/project/tinyhttpd/INSTALL
+	*	1699171168	0
+	"	1	0
+
+> /g/recoll index/project/tinyhttpd/TODO
+	*	1699171145	0
+	"	64	0
+
+> /g/recoll index/project/tinyhttpd/FILES
+	*	1699170906	0
+	"	51	29
+	^	51	32
+	.	51	0
+	+	51	0
+
+> /g/wxf`s blog/content/project/搬家.md
+	*	1698853509	0
+	"	2	0
+
+> /g/wxf`s blog/content/project/环境搭建-物理环境.md
+	*	1698853441	0
+	"	8	7
+	^	8	7
+	.	8	4
+	+	8	4
+
+> /g/wxf`s blog/archetypes/default.md
+	*	1698853276	0
+	"	7	0
+
+> /g/wxf`s blog/content/project/main.md
+	*	1698852804	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /g/wxf`s blog/content/about.md
+	*	1698852210	0
+	"	1	0
+
+> /g/wxf`s blog/hugo.toml
+	*	1698851940	0
+	"	16	9
+	^	20	15
+	.	20	15
+	+	21	14
+	+	20	15
+
+> /g/wxf`s blog/public/index.html
+	*	1698851177	0
+	"	2	0
+
+> /g/wxf`s blog/public/index.
+	*	1698851170	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/xx1.c
+	*	1698651962	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	1	18
+	+	16	0
+
+> /g/emacs-notes/Computer_science/demo_c/case1-3_IO.c
+	*	1698651533	0
+	"	23	9
+	^	23	10
+	.	23	10
+	+	27	34
+	+	48	10
+	+	23	10
+
+> /g/emacs-notes/Computer_science/demo_c/demo03_IO.c
+	*	1698651363	0
+	"	53	0
+
+> /g/emacs-notes/Computer_science/demo_c/case1-2.c
+	*	1698651333	0
+	"	1	0
+
+> /g/emacs-notes/Computer_science/demo_c/case1-1.c
+	*	1698651320	0
+	"	1	0

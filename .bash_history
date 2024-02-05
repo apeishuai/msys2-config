@@ -1,12 +1,3 @@
-clear
-ls
-./configure 
-clear
-ls
-cmake
-pacman -S cmake
-cmake
-clea
 rls
 clear
 ls
@@ -497,4 +488,13 @@ emacs
 pyton
 python 
 pip install pywin32
+clear
+pwd
+ls -al
+echo $HOME
+CD HOME
+cpwd
+pwd
+clear
+emacs
 clear

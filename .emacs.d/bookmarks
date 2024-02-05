@@ -3,18 +3,18 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
- (filename . "g:/emacs-notes/GTD/Mointer.org")
- (front-context-string . "* TODO [[https:/")
- (rear-context-string . "04-13 周四 12:40]\n")
- (position . 6246))
-("org-refile-last-stored"
- (filename . "g:/emacs-notes/GTD/Ref.org")
- (front-context-string . "* TODO [[http://")
- (rear-context-string . "04-12 周三 13:14]\n")
- (position . 70303))
-("org-capture-last-stored"
  (filename . "g:/emacs-notes/GTD/inbox.org")
- (front-context-string . "* TODO 《山河故人》   ")
- (rear-context-string . "05-23 周二 11:18]\n")
- (position . 67509))
+ (front-context-string . "* TODO tmp      ")
+ (rear-context-string . "10-30 周一 20:44]\n")
+ (position . 92906))
+("org-refile-last-stored"
+ (filename . "g:/emacs-notes/GTD/show.org")
+ (front-context-string . "* TODO [[https:/")
+ (rear-context-string . "06-23 周五 14:44]\n")
+ (position . 4514))
+("org-capture-last-stored"
+ (filename . "~/org/inbox.org")
+ (front-context-string . "* TODO tmp      ")
+ (rear-context-string . "09-14 周四 16:53]\n")
+ (position . 489))
 )

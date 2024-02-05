@@ -1,0 +1,4 @@
+* Blogs                                                              :elfeed:
+** weekly-journal                                                   :journal:
+*** [[http://www.ruanyifeng.com/blog/atom.xml][阮一峰的网络日志]]
+*** https://weekly.tw93.fun/rss.xml

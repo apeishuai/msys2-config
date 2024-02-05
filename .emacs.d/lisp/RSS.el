@@ -2,17 +2,25 @@
 ;;Func: refresh all contents、display in my thoughts、mark some valubale articles
 ;; use an org file to organise feeds
 
+(setq org-opml-src "~/.emacs.d/ssr/")
+(use-package ox-opml
+  :ensure t
+  :load-path org-opml-src)
+(use-package org-opml
+  :ensure t
+  :load-path org-opml-src)
+
+
 (use-package elfeed-org
   :ensure t
   :config
   (elfeed-org)
-  (setq rmh-elfeed-org-files (list "~/.emacs.d/elfeed.org"))
-  (setq elfeed-db-directory (expand-file-name "elfeed" user-emacs-directory))
+  (setq rmh-elfeed-org-files (list "~/.emacs.d/ssr/elfeed.org"))
+  (setq elfeed-db-directory (expand-file-name "ssr/elfeed" user-emacs-directory))
   (setq elfeed-curl-extra-arguments '("-xhttp://127.0.0.1:1082"))
   :bind
   ("C-x r" . elfeed)
   )
-
 
 
 ;;(add-hook 'emacs-startup-hook (lambda () (run-at-time 100 5 'elfeed-update)))

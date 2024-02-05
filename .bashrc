@@ -208,4 +208,8 @@ HISTFILE="g:/emacs-notes/Shell/history_file"
 
 
 
-
+# 别名 cmd
+alias root="cd ~"
+alias pro="cd 'g:/emacs-notes/Computer_science/demo_c'"
+alias lib="cd c:/msys64/mingw64/include"
+	
