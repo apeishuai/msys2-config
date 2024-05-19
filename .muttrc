@@ -1,0 +1,22 @@
+## Receive options.
+set imap_user="2137730014@qq.com"
+set imap_pass="avibfajjsudfciga"
+set folder = "imaps://2137730014@imap.qq.com"
+set spoolfile = "+INBOX"
+set postponed = +Drafts
+set record = +Sent
+
+## Send options.
+set smtp_url = "smtps://2137730014@qq.com:qxinfguwqpuwcifd@smtp.qq.com"
+set smtp_pass = "avibfajjsudfciga"
+set realname = "apeishuai pc msys"
+set from = "2137730014@qq.com"
+set hostname="gmail.com"
+set signature="apei"
+
+# Connection options
+set ssl_force_tls = yes
+unset ssl_starttls = yes
+
+## Hook -- IMPORTANT!
+## account-hook $folder "set imap_user=user@gmail.com imap_pass=****"

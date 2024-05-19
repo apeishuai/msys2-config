@@ -1,2 +1,0 @@
-# download youtube vedio and subtitle
-you-get -f -o F:\ vedio  -s 127.0.0.1:1081 https://www.youtube.com/watch?v=Y681hXWwhQY&ab_channel=BBCLearningEnglish

@@ -1,0 +1,23 @@
+# Set history size
+HISTSIZE=1000000
+HISTFILESIZE=1000000
+
+# env PATH
+PROMPT_COMMAND="history -a; history -n"
+HISTFILE="$root/shell/history_file"
+instruct="$root/shell/readme.md"
+
+# conf
+if [ "$(uname)" == "Linux" ]; then
+	alias conf="vim ~/.bashrc_linux"
+elif [ -n "$MSYSTEM" ] && [ "$MSYSTEM" == "MSYS" ]; then
+	alias conf="vim ~/.bashrc_win"
+fi
+alias conf_="vim ~/.bashrc_comm"
+alias refresh="source ~/.bashrc"
+
+# serve
+alias docs="cd $serv_root/docs/"
+alias blog="cd '$serv_root/blog'"
+alias cmd="cd $root/shell"
+#alias pro="cd $root/project"

@@ -1,79 +1,3 @@
-rls
-clear
-ls
-vim INSTALL
-./configure 
-clear
-ls
-vim configure
-clear
-./configure 
-clear
-ls
-vim config.guess 
-clear
-ls
-clear
-ls
-cd g:
-cd emacs-notes/Computer_science/make_test/
-clear
-ls
-clear
-ls
-mkdir INCLUDE
-clear
-mv INCLUDE/ include
-ls
-clear
-ls
-rm -rf INCLUDE/
-clear
-'ls
-clear
-touch ionclude
-touch include
-tm -rf ionclude 
-rm -tf ino
-ls
-clear
-ls
-mkdir lib
-clear
-vim Makefile 
-clear
-ls
-mv bar.h include 
-clear
-ls
-make
-vim Makefile 
-ls
-vim Makefile 
-clear
-gcc -o main.o -c main.c
-gcc -o main.o -c main.c -I
-gcc -o main.o -c main.c -I./inlcude
-gcc -I help
-gcc -I --help
-gcc  --help
-gcc -I -h
-clear
-gcc -h
-gcc --h
-clear
-vim Makefile 
-ls
-gcc -o main.o -c main.c -I./include
-gcc -o main.o -c main.c -I../include
-gcc -o main.o -c main.c -I ../include
-gcc -o main.o -c main.c -I ../make_test/include
-gcc -I
-gcc -I ./include
-cleare
-clear
-clear
-ls
 vim Makefile 
 clear
 make
@@ -498,3 +422,79 @@ pwd
 clear
 emacs
 clear
+emacs
+pwd
+ls
+clear
+ls
+vim '6 Life-Changing Philosophical Insights ｜ The Knowledge Project Podcast 170 [ovCtm8LwN28].en.vtt' 
+rm '6 Life-Changing Philosophical Insights ｜ The Knowledge Project Podcast 170 [ovCtm8LwN28].en.vtt' 
+clear
+ls
+rm unknown-0.0-0.tar.bz2 
+clear
+ls
+ls -al
+cd .emacs.d/
+ls
+ls -al
+cd ..
+clear
+git clone git@github.com:apeishuai/msys2-config.git
+ls
+cd msys2-config/
+ls
+ls -al
+pw
+pwd
+clear
+emacs
+emacs
+emacs
+mkdir archive
+ls
+mv 电气.org archive
+exit
+mv kaoyan.org archive
+exit
+ls
+mv OKR.org archive
+exit
+mv archive.org archive
+mv archive_tag.org archive
+exit
+mv case.org archive/
+exit
+ls
+mv Rsc_Articels.org archive/
+mv people.org archive/
+mv finished.org archive/
+ls
+exit
+mv work.org archive/work_pmhb.org
+exit
+mv wang.org archive/
+exit
+mv 重设标签体系.txt archive/
+exit
+emacs
+ping ysk.ranga.cc
+clear
+clear
+shell
+refresh
+refresh
+conf
+clear
+PWF
+pwd
+conf
+clear
+ls
+clear
+conf
+clear
+clear
+clear
+clear
+emacs

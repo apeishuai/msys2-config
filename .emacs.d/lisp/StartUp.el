@@ -6,7 +6,6 @@
 
 (setq warning-minimum-level :emergency)
 
-
 ;;picture-show
 (require 'org-download)
 (add-hook 'dired-mode-hook 'org-download-enable)
@@ -22,19 +21,19 @@
 ;;环境变量设置
 (setq default-directory "/media/root/wxf files/emacs-notes/")
 (when (memq window-system '(w32))
-  (setq default-directory "g:/emacs-notes/")
+  (setq default-directory "g:/area/emacs-notes/")
   )
 
 (setq config-directory "~/.emacs.d/lisp/")
 (setenv "notes-home" "/media/root/wxf files/emacs-notes/")
 (when (memq window-system '(w32))
-  (setenv "notes-home" "g:/emacs-notes/")
+  (setenv "notes-home" "g:/area/emacs-notes/")
   )
 
 (setenv "PATH"
 	(concat
 	 ;"" ";"
-	 "g:/emacs-notes" ";"
+	 "g:/area/emacs-notes" ";"
 	 "e:/Snipaste-2.7.3-Beta-x64" ";"
 	 (getenv "PATH")
 	 )
@@ -91,42 +90,6 @@ for the current buffer's file name, and the line number at point."
 ;;winum (windows)
 (setq window-numbering-assign-func
       (lambda () (when (equal (buffer-name) "*Calculator*") 9)))
-
-
-;;显示行号
-(require 'display-line-numbers)
-(set 'display-line-numbers-certain-modes '(org-mode))
-(defun display-line-numbers--turn-on ()
-  "turn on line numbers in certain majore modes defined in `display-line-numbers-certain-modes'"
-  (if (and
-       (member major-mode display-line-numbers-certain-modes)
-       (not (minibufferp)))
-      (display-line-numbers-mode)))
-
-(global-display-line-numbers-mode t)
-
-
-
-
-;;文本排序 读书列表
-(defun sort-booklist ()
-"
-sort structed entry
-1 title 2 tags 3 status 4 start-time 5 end-time 6 intro
-"
-(interactive)
-(let* (
-       (keyword (read-string "1 title 2 tags 3 status 4 start-time 5 end-time 6 intro \nplease input sort methods: " ))
-       (key-regexp (concat "\\" keyword))
-       (record-regexp "* Title: 《\\(.*\\)》\n.*Tags: \\(.*\\)\n.*Status: \\(.*\\)\n.*Start-Time: \\(.*\\)\n.*End-Time: \\(.*\\)\n.*Intro: \\(.*\\)"))
-  (sort-regexp-fields nil record-regexp key-regexp
-                      (region-beginning)
-                      (region-end))))
-
-
-
-
-
 
 
 (provide 'StartUp)

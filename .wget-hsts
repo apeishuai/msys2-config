@@ -3,4 +3,5 @@
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 yt-dl.org	0	0	1689101440	31536000
 learnpythonthehardway.org	0	1	1693992440	63072000
-github.com	0	1	1689101476	31536000
+mirrors.oneinstack.com	0	0	1711096768	15768000
+github.com	0	1	1710056154	31536000
