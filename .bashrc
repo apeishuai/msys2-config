@@ -1,10 +1,9 @@
 if [ "$(uname)" == "Linux" ]; then
-    root=/home/shuai
+    home=~
     source ~/.bashrc_comm
     source ~/.bashrc_linux
 elif [ -n "$MSYSTEM" ] && [ "$MSYSTEM" == "MSYS" ]; then
-    root=/g/area
-    serv_root=/d/main/serve
+    home=D:/softwares/msys64/home/whens
     source ~/.bashrc_comm
     source ~/.bashrc_win
 fi

@@ -11,69 +11,97 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/sync_sha
+~MSle0~/端口
 
 # Last Substitute Search Pattern:
-~MSle0&#sys.*blog
+~MSle0&..\/img
 
 # Last Substitute String:
-$
+$img
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1716083672,,"wq"
-:Wq
-|2,0,1716044397,,"Wq"
+|2,0,1730469947,,"wq"
 :q
-|2,0,1715957289,,"q"
+|2,0,1730469879,,"q"
+:qall
+|2,0,1730469355,,"qall"
+:q!
+|2,0,1730446269,,"q!"
+:Q
+|2,0,1730446261,,"Q"
 :ew
-|2,0,1715879086,,"ew"
+|2,0,1730446150,,"ew"
+:Q1
+|2,0,1730439728,,"Q1"
+:!wq
+|2,0,1730439410,,"!wq"
+:Lwq
+|2,0,1730439400,,"Lwq"
+:"wq
+|2,0,1730426993,,"\"wq"
+:weq
+|2,0,1730426992,,"weq"
+:wqq
+|2,0,1730425014,,"wqq"
+:ewq
+|2,0,1730380937,,"ewq"
+:WQ
+|2,0,1730357545,,"WQ"
+:%s/..\/img/img/g
+|2,0,1730302183,,"%s/..\\/img/img/g"
+:we
+|2,0,1729858411,,"we"
+:Wq
+|2,0,1729574806,,"Wq"
+:wq\
+|2,0,1729568755,,"wq\\"
 :w
-|2,0,1715751241,,"w"
+|2,0,1729483002,,"w"
+:qw
+|2,0,1729383344,,"qw"
+:wqe
+|2,0,1729152202,,"wqe"
+:Lq
+|2,0,1728973589,,"Lq"
+:.!！
+|2,0,1722211289,,".!！"
+:Pwq
+|2,0,1721926087,,"Pwq"
+:eqw
+|2,0,1721914085,,"eqw"
+:.,.+9!))
+|2,0,1720781740,,".,.+9!))"
+:wwq
+|2,0,1720621085,,"wwq"
+:'<,'>WQ
+|2,0,1720616617,,"'<,'>WQ"
+:wq3
+|2,0,1720487714,,"wq3"
+:!q
+|2,0,1720487363,,"!q"
+:!
+|2,0,1718337182,,"!"
+:%s/d\:
+|2,0,1716550283,,"%s/d\\:"
 :e
 |2,0,1715750864,,"e"
-:WQ
-|2,0,1715566657,,"WQ"
-:"wq
-|2,0,1715504384,,"\"wq"
-:wwq
-|2,0,1715487289,,"wwq"
-:weq
-|2,0,1715465961,,"weq"
-:ewq
-|2,0,1715465915,,"ewq"
 :help
 |2,0,1715461628,,"help"
 :":wq
 |2,0,1714896364,,"\":wq"
-:qall
-|2,0,1714637165,,"qall"
 :qwq
 |2,0,1714284918,,"qwq"
-:q!
-|2,0,1714138152,,"q!"
 :qQ
 |2,0,1714138148,,"qQ"
-:!q
-|2,0,1714138144,,"!q"
-:qw
-|2,0,1713235742,,"qw"
 :qvi :q
 |2,0,1712933691,,"qvi :q"
-:we
-|2,0,1712493381,,"we"
 :qq
 |2,0,1711624386,,"qq"
 :wqA
 |2,0,1711209195,,"wqA"
-:wqe
-|2,0,1711176613,,"wqe"
 ::wq
 |2,0,1710933121,,":wq"
-:eqw
-|2,0,1710926536,,"eqw"
-:wq\
-|2,0,1710921576,,"wq\\"
 :'<,'>wq
 |2,0,1710909866,,"'<,'>wq"
 :%s/#sys.*blog/ /g
@@ -82,12 +110,8 @@ $
 |2,0,1710256245,,"'<,'"
 :%s/pro/base/g
 |2,0,1709537456,,"%s/pro/base/g"
-:Lq
-|2,0,1709535938,,"Lq"
 :eq
 |2,0,1708463557,,"eq"
-:Lwq
-|2,0,1707215035,,"Lwq"
 :QW
 |2,0,1703220457,,"QW"
 :.,.+1wq
@@ -96,8 +120,6 @@ $
 |2,0,1702445248,,".wq"
 :2wq
 |2,0,1702190851,,"2wq"
-:wq3
-|2,0,1694215124,,"wq3"
 :1
 |2,0,1694214996,,"1"
 :wsqa
@@ -118,22 +140,168 @@ $
 |2,0,1674272706,,"q!'"
 
 # Search String History (newest to oldest):
+?/端口
+|2,1,1730468575,47,"端口"
+?/node log
+|2,1,1730453564,47,"node log"
+? @$
+|2,1,1730451493,,"@$"
+?/jianguo
+|2,1,1730446605,47,"jianguo"
+?/NODE
+|2,1,1730446217,47,"NODE"
+?/ref
+|2,1,1730445934,47,"ref"
+?/biaozhun
+|2,1,1730445750,47,"biaozhun"
+?/data
+|2,1,1730445572,47,"data"
+?/uninstall
+|2,1,1730443948,47,"uninstall"
+?/install
+|2,1,1730443938,47,"install"
+?/prefix
+|2,1,1730440639,47,"prefix"
+?/npm
+|2,1,1730439245,47,"npm"
+?/corepack
+|2,1,1730427025,47,"corepack"
+?/node
+|2,1,1730423910,47,"node"
+?/bin
+|2,1,1730422832,47,"bin"
+?/shell
+|2,1,1730422746,47,"shell"
+?/proxy
+|2,1,1730373137,47,"proxy"
+?/npmjs
+|2,1,1730371540,47,"npmjs"
+?/pass
+|2,1,1730369764,47,"pass"
+?/work
+|2,1,1730361691,47,"work"
+?/scoop
+|2,1,1730350182,47,"scoop"
+? ..\/img
+|2,1,1730302183,,"..\\/img"
+?/ebook
+|2,1,1730157432,47,"ebook"
+?/ebvook
+|2,1,1730157330,47,"ebvook"
+?/pro
+|2,1,1730155673,47,"pro"
+?/bash
+|2,1,1730087572,47,"bash"
+?/product
+|2,1,1730046664,47,"product"
+?/site
+|2,1,1729896422,47,"site"
+?/cmd
+|2,1,1729858254,47,"cmd"
+?/sort
+|2,1,1729569347,47,"sort"
+?/sortA
+|2,1,1729569334,47,"sortA"
+?/end_length
+|2,1,1729569312,47,"end_length"
+?/jianguo 
+|2,1,1729388691,47,"jianguo "
+?/Index
+|2,1,1729377424,47,"Index"
+?/work_ref
+|2,1,1729376618,47,"work_ref"
+?/find_max
+|2,1,1729350415,47,"find_max"
+?/swap
+|2,1,1729327781,47,"swap"
+?/itn
+|2,1,1729325535,47,"itn"
+?/free
+|2,1,1729308569,47,"free"
+?/length_arr
+|2,1,1729308533,47,"length_arr"
+?/ts
+|2,1,1729267852,47,"ts"
+?/rsc
+|2,1,1729152840,47,"rsc"
+?/huzhou
+|2,1,1729152226,47,"huzhou"
+?/msi
+|2,1,1729152208,47,"msi"
+?/proj
+|2,1,1729151542,47,"proj"
+?/serv
+|2,1,1729012888,47,"serv"
+?/blog
+|2,1,1728972874,47,"blog"
+?/sync
+|2,1,1728960983,47,"sync"
+?/instruct
+|2,1,1728952243,47,"instruct"
+?/serve
+|2,1,1728951595,47,"serve"
+?/sync_conf
+|2,1,1728632174,47,"sync_conf"
+?/scp
+|2,1,1728184122,47,"scp"
+?/搜索
+|2,1,1725490386,47,"搜索"
+?/download
+|2,1,1723326739,47,"download"
+?/指令
+|2,1,1722298483,47,"指令"
+?/Print
+|2,1,1722127415,47,"Print"
+?/PrintC
+|2,1,1722127412,47,"PrintC"
+?/printcon
+|2,1,1722127406,47,"printcon"
+?/*
+|2,1,1722126907,47,"*"
+?/plc
+|2,1,1722045579,47,"plc"
+?/函数
+|2,1,1722002950,47,"函数"
+?/eplan
+|2,1,1721914070,47,"eplan"
+?/tool
+|2,1,1721863753,47,"tool"
+?/@$
+|2,1,1720784863,47,"@$"
+? \<产品\>
+|2,1,1720754910,,"\\<产品\\>"
+?/现场
+|2,1,1720745930,47,"现场"
+?/tshark
+|2,1,1720667642,47,"tshark"
+?/展示项目下
+|2,1,1720617120,47,"展示项目下"
+?/博客
+|2,1,1720616460,47,"博客"
+?/工具
+|2,1,1720616225,47,"工具"
+?/deploy
+|2,1,1720615733,47,"deploy"
+?/数据结构
+|2,1,1720491440,47,"数据结构"
+?/search
+|2,1,1720487422,47,"search"
+?/用户管理
+|2,1,1720139239,47,"用户管理"
+?/ssh
+|2,1,1720083225,47,"ssh"
+? d\:
+|2,1,1716550283,,"d\\:"
+?/readwise
+|2,1,1716477074,47,"readwise"
 ?/sync_sha
 |2,1,1716046393,47,"sync_sha"
-?/sync
-|2,1,1716044238,47,"sync"
 ?/shaa
 |2,1,1715927137,47,"shaa"
-?/serv
-|2,1,1715905501,47,"serv"
 ?/server
 |2,1,1715877330,47,"server"
 ?/root
 |2,1,1715876217,47,"root"
-?/pro
-|2,1,1715876177,47,"pro"
-?/work
-|2,1,1715608322,47,"work"
 ?/416
 |2,1,1715567692,47,"416"
 ?/412
@@ -172,30 +340,20 @@ $
 |2,1,1715496017,47,"init"
 ?/add_
 |2,1,1715495951,47,"add_"
-? @$
-|2,1,1715485189,,"@$"
 ?/conf
 |2,1,1715461660,47,"conf"
-?/instruct
-|2,1,1715461644,47,"instruct"
 ?/help
 |2,1,1715461635,47,"help"
-?/shell
-|2,1,1715409724,47,"shell"
 ?/demo_node
 |2,1,1715005911,47,"demo_node"
 ?/pip
 |2,1,1714893291,47,"pip"
 ?/om
 |2,1,1714893149,47,"om"
-?/node
-|2,1,1714802133,47,"node"
 ?/环境
 |2,1,1714703738,47,"环境"
 ?/线索
 |2,1,1714703584,47,"线索"
-?/blog
-|2,1,1714229708,47,"blog"
 ?/docker
 |2,1,1714147862,47,"docker"
 ?/demo_c
@@ -206,8 +364,6 @@ $
 |2,1,1712912547,47,"PRINT"
 ?/===
 |2,1,1712911910,47,"==="
-?/serve
-|2,1,1712624026,47,"serve"
 ?/a[
 |2,1,1712557377,47,"a["
 ?/nums
@@ -252,8 +408,6 @@ $
 |2,1,1711097238,47,"www www"
 ?/sync_bash
 |2,1,1711087465,47,"sync_bash"
-?/scp
-|2,1,1711077523,47,"scp"
 ?/推流
 |2,1,1711034221,47,"推流"
 ?/策略
@@ -308,8 +462,6 @@ $
 |2,1,1710266179,,"#sys.*blog"
 ?/value
 |2,1,1710254936,47,"value"
-?/data
-|2,1,1710254900,47,"data"
 ?/s-
 |2,1,1710192404,47,"s-"
 ?/resetButton
@@ -356,12 +508,8 @@ $
 |2,1,1709468609,47,"local"
 ?/da
 |2,1,1709468571,47,"da"
-?/ref
-|2,1,1709468546,47,"ref"
 ?/3000
 |2,1,1709467102,47,"3000"
-?/数据结构
-|2,1,1709461388,47,"数据结构"
 ?/list
 |2,1,1709461380,47,"list"
 ?/docs`
@@ -392,50 +540,6 @@ $
 |2,1,1703152439,47,"start"
 ?/cover
 |2,1,1702450123,47,"cover"
-?/EOF
-|2,1,1698591952,47,"EOF"
-?/return
-|2,1,1694076478,47,"return"
-?/txt_aga
-|2,1,1693996496,47,"txt_aga"
-?/bout
-|2,1,1693996078,47,"bout"
-?/Let
-|2,1,1693996060,47,"Let"
-?/let
-|2,1,1693996056,47,"let"
-?/weight
-|2,1,1693996037,47,"weight"
-?/br
-|2,1,1691332497,47,"br"
-? \<PLAYLIST_URL\>
-|2,1,1689409052,,"\\<PLAYLIST_URL\\>"
-?/template
-|2,1,1689241353,47,"template"
-?/output
-|2,1,1689241342,47,"output"
-?/term
-|2,1,1688354924,47,"term"
-?/theme
-|2,1,1688354606,47,"theme"
-?/themes
-|2,1,1688354599,47,"themes"
-?/music
-|2,1,1688353669,47,"music"
-?/whswhswhs
-|2,1,1681255578,47,"whswhswhs"
-?/github
-|2,1,1681255537,47,"github"
-?/f-string
-|2,1,1679807277,47,"f-string"
-?/path
-|2,1,1679717482,47,"path"
-?/out
-|2,1,1679717320,47,"out"
-?/input
-|2,1,1679715881,47,"input"
-?/mjpeg
-|2,1,1679128677,47,"mjpeg"
 
 # Expression History (newest to oldest):
 
@@ -444,1664 +548,1785 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	  + [shaarli 书签](http://117.50.186.154:8005/#)
-|3,1,0,1,1,0,1716050191,"  + [shaarli 书签](http://117.50.186.154:8005/#)"
-"1	LINE	0
-	alias serv_shaare="cd d:/main/serve/shaarli"
-|3,0,1,1,1,0,1715927139,"alias serv_shaare=\"cd d:/main/serve/shaarli\""
+"0	LINE	0
+	npm adduser //
+|3,0,0,1,1,0,1730453570,"npm adduser //"
+""1	LINE	0
+		url = git@github.com:apeishuai/bash.git
+|3,1,1,1,1,0,1730469613,"	url = git@github.com:apeishuai/bash.git"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1715906273,""
+	[submodule "shell"]
+|3,0,2,1,1,0,1730469613,"[submodule \"shell\"]"
 "3	LINE	0
 	
-|3,0,3,1,1,0,1715906272,""
+|3,0,3,1,1,0,1730456088,""
 "4	LINE	0
-	    home=/d/documents/main
-|3,0,4,1,1,0,1715906248,"    home=/d/documents/main"
+	
+|3,0,4,1,1,0,1730456088,""
 "5	LINE	0
-	}
-|3,0,5,1,1,0,1715877854,"}"
+	
+|3,0,5,1,1,0,1730456084,""
 "6	LINE	0
-	    Run("services.msc")  ; 运行服务管理器
-|3,0,6,1,1,0,1715877853,"    Run(\"services.msc\")  ; 运行服务管理器"
+	
+|3,0,6,1,1,0,1730456084,""
 "7	LINE	0
-	{
-|3,0,7,1,1,0,1715877853,"{"
+	
+|3,0,7,1,1,0,1730456084,""
 "8	LINE	0
-	^!s::  ; Alt (^) + S (!)
-|3,0,8,1,1,0,1715877852,"^!s::  ; Alt (^) + S (!)"
+	
+|3,0,8,1,1,0,1730456083,""
 "9	LINE	0
-	; 使用 Alt + S 打开 Windows 服务管理器
-|3,0,9,1,1,0,1715877852,"; 使用 Alt + S 打开 Windows 服务管理器"
+	
+|3,0,9,1,1,0,1730453837,""
 "w	CHAR	0
 	)
 |3,0,32,0,1,0,1693974476,")"
 "-	CHAR	0
-	e
-|3,0,36,0,1,0,1716044729,"e"
+	/
+|3,0,36,0,1,0,1730469369,"/"
 
 # File marks:
-'0  21  17  /d/main/serve/blog/content/main.md
-|4,48,21,17,1716083672,"/d/main/serve/blog/content/main.md"
-'1  10  54  /d/main/serve/blog/content/main.md
-|4,49,10,54,1716050228,"/d/main/serve/blog/content/main.md"
-'2  10  54  /d/main/serve/blog/content/main.md
-|4,50,10,54,1716050228,"/d/main/serve/blog/content/main.md"
-'3  15  6  /d/main/serve/shaarli/docker-compose.yml
-|4,51,15,6,1716048890,"/d/main/serve/shaarli/docker-compose.yml"
-'4  221  57  ~/.bashrc_win
-|4,52,221,57,1716046494,"~/.bashrc_win"
-'5  221  55  ~/.bashrc_win
-|4,53,221,55,1716046446,"~/.bashrc_win"
-'6  221  80  ~/.bashrc_win
-|4,54,221,80,1716045221,"~/.bashrc_win"
-'7  221  80  ~/.bashrc_win
-|4,55,221,80,1716045221,"~/.bashrc_win"
-'8  221  74  ~/.bashrc_win
-|4,56,221,74,1716044761,"~/.bashrc_win"
-'9  221  74  ~/.bashrc_win
-|4,57,221,74,1716044761,"~/.bashrc_win"
+'0  3  42  ~/.gitmodules
+|4,48,3,42,1730469947,"~/.gitmodules"
+'1  1  0  ~/.gitmodules
+|4,49,1,0,1730469879,"~/.gitmodules"
+'2  1  0  ~/.gitmodules
+|4,50,1,0,1730469879,"~/.gitmodules"
+'3  1  0  ~/.gitmodules
+|4,51,1,0,1730469614,"~/.gitmodules"
+'4  1  0  ~/.gitmodules
+|4,52,1,0,1730469614,"~/.gitmodules"
+'5  2  39  ~/.gitmodules
+|4,53,2,39,1730469412,"~/.gitmodules"
+'6  2  39  ~/.gitmodules
+|4,54,2,39,1730469412,"~/.gitmodules"
+'7  2  39  ~/.gitmodules
+|4,55,2,39,1730469412,"~/.gitmodules"
+'8  2  39  ~/.gitmodules
+|4,56,2,39,1730469412,"~/.gitmodules"
+'9  1  0  ~/shell/.gits
+|4,57,1,0,1730469355,"~/shell/.gits"
 
 # Jumplist (newest first):
--'  21  17  /d/main/serve/blog/content/main.md
-|4,39,21,17,1716083672,"/d/main/serve/blog/content/main.md"
--'  10  54  /d/main/serve/blog/content/main.md
-|4,39,10,54,1716050478,"/d/main/serve/blog/content/main.md"
--'  10  54  /d/main/serve/blog/content/main.md
-|4,39,10,54,1716050228,"/d/main/serve/blog/content/main.md"
--'  1  0  /d/main/serve/blog/content/main.md
-|4,39,1,0,1716050186,"/d/main/serve/blog/content/main.md"
--'  1  0  /d/main/serve/blog/content/main.md
-|4,39,1,0,1716050186,"/d/main/serve/blog/content/main.md"
--'  15  6  /d/main/serve/shaarli/docker-compose.yml
-|4,39,15,6,1716048890,"/d/main/serve/shaarli/docker-compose.yml"
--'  15  6  /d/main/serve/shaarli/docker-compose.yml
-|4,39,15,6,1716048890,"/d/main/serve/shaarli/docker-compose.yml"
--'  15  6  /d/main/serve/shaarli/docker-compose.yml
-|4,39,15,6,1716048890,"/d/main/serve/shaarli/docker-compose.yml"
--'  15  6  /d/main/serve/shaarli/docker-compose.yml
-|4,39,15,6,1716048890,"/d/main/serve/shaarli/docker-compose.yml"
--'  12  21  /d/main/serve/shaarli/docker-compose.yml
-|4,39,12,21,1716048317,"/d/main/serve/shaarli/docker-compose.yml"
--'  12  21  /d/main/serve/shaarli/docker-compose.yml
-|4,39,12,21,1716048317,"/d/main/serve/shaarli/docker-compose.yml"
--'  12  21  /d/main/serve/shaarli/docker-compose.yml
-|4,39,12,21,1716048317,"/d/main/serve/shaarli/docker-compose.yml"
--'  12  21  /d/main/serve/shaarli/docker-compose.yml
-|4,39,12,21,1716048317,"/d/main/serve/shaarli/docker-compose.yml"
--'  221  57  ~/.bashrc_win
-|4,39,221,57,1716046494,"~/.bashrc_win"
--'  221  57  ~/.bashrc_win
-|4,39,221,57,1716046494,"~/.bashrc_win"
--'  221  57  ~/.bashrc_win
-|4,39,221,57,1716046494,"~/.bashrc_win"
--'  221  57  ~/.bashrc_win
-|4,39,221,57,1716046494,"~/.bashrc_win"
--'  221  57  ~/.bashrc_win
-|4,39,221,57,1716046494,"~/.bashrc_win"
--'  221  57  ~/.bashrc_win
-|4,39,221,57,1716046494,"~/.bashrc_win"
--'  221  57  ~/.bashrc_win
-|4,39,221,57,1716046494,"~/.bashrc_win"
--'  221  57  ~/.bashrc_win
-|4,39,221,57,1716046494,"~/.bashrc_win"
--'  221  55  ~/.bashrc_win
-|4,39,221,55,1716046446,"~/.bashrc_win"
--'  221  55  ~/.bashrc_win
-|4,39,221,55,1716046446,"~/.bashrc_win"
--'  221  55  ~/.bashrc_win
-|4,39,221,55,1716046446,"~/.bashrc_win"
--'  221  55  ~/.bashrc_win
-|4,39,221,55,1716046446,"~/.bashrc_win"
--'  221  55  ~/.bashrc_win
-|4,39,221,55,1716046446,"~/.bashrc_win"
--'  221  55  ~/.bashrc_win
-|4,39,221,55,1716046446,"~/.bashrc_win"
--'  221  55  ~/.bashrc_win
-|4,39,221,55,1716046446,"~/.bashrc_win"
--'  221  55  ~/.bashrc_win
-|4,39,221,55,1716046446,"~/.bashrc_win"
--'  221  80  ~/.bashrc_win
-|4,39,221,80,1716045221,"~/.bashrc_win"
--'  221  80  ~/.bashrc_win
-|4,39,221,80,1716045221,"~/.bashrc_win"
--'  221  80  ~/.bashrc_win
-|4,39,221,80,1716045221,"~/.bashrc_win"
--'  221  80  ~/.bashrc_win
-|4,39,221,80,1716045221,"~/.bashrc_win"
--'  221  80  ~/.bashrc_win
-|4,39,221,80,1716045221,"~/.bashrc_win"
--'  221  80  ~/.bashrc_win
-|4,39,221,80,1716045221,"~/.bashrc_win"
--'  221  80  ~/.bashrc_win
-|4,39,221,80,1716045221,"~/.bashrc_win"
--'  221  80  ~/.bashrc_win
-|4,39,221,80,1716045221,"~/.bashrc_win"
--'  221  74  ~/.bashrc_win
-|4,39,221,74,1716044761,"~/.bashrc_win"
--'  221  74  ~/.bashrc_win
-|4,39,221,74,1716044761,"~/.bashrc_win"
--'  221  74  ~/.bashrc_win
-|4,39,221,74,1716044761,"~/.bashrc_win"
--'  221  74  ~/.bashrc_win
-|4,39,221,74,1716044761,"~/.bashrc_win"
--'  221  74  ~/.bashrc_win
-|4,39,221,74,1716044761,"~/.bashrc_win"
--'  221  74  ~/.bashrc_win
-|4,39,221,74,1716044761,"~/.bashrc_win"
--'  221  74  ~/.bashrc_win
-|4,39,221,74,1716044761,"~/.bashrc_win"
--'  221  74  ~/.bashrc_win
-|4,39,221,74,1716044761,"~/.bashrc_win"
--'  221  16  ~/.bashrc_win
-|4,39,221,16,1716044731,"~/.bashrc_win"
--'  221  16  ~/.bashrc_win
-|4,39,221,16,1716044731,"~/.bashrc_win"
--'  221  16  ~/.bashrc_win
-|4,39,221,16,1716044731,"~/.bashrc_win"
--'  221  16  ~/.bashrc_win
-|4,39,221,16,1716044731,"~/.bashrc_win"
--'  221  16  ~/.bashrc_win
-|4,39,221,16,1716044731,"~/.bashrc_win"
--'  221  16  ~/.bashrc_win
-|4,39,221,16,1716044731,"~/.bashrc_win"
--'  221  16  ~/.bashrc_win
-|4,39,221,16,1716044731,"~/.bashrc_win"
--'  221  16  ~/.bashrc_win
-|4,39,221,16,1716044731,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044725,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044646,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044646,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044646,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044646,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044646,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044646,"~/.bashrc_win"
--'  226  0  ~/.bashrc_win
-|4,39,226,0,1716044646,"~/.bashrc_win"
+-'  3  42  ~/.gitmodules
+|4,39,3,42,1730469947,"~/.gitmodules"
+-'  1  0  ~/.gitmodules
+|4,39,1,0,1730469918,"~/.gitmodules"
+-'  1  0  ~/.gitmodules
+|4,39,1,0,1730469879,"~/.gitmodules"
+-'  1  0  ~/.gitmodules
+|4,39,1,0,1730469614,"~/.gitmodules"
+-'  2  39  ~/.gitmodules
+|4,39,2,39,1730469412,"~/.gitmodules"
+-'  2  39  ~/.gitmodules
+|4,39,2,39,1730469412,"~/.gitmodules"
+-'  2  39  ~/.gitmodules
+|4,39,2,39,1730469412,"~/.gitmodules"
+-'  1  13  ~/.gitmodules
+|4,39,1,13,1730469367,"~/.gitmodules"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  0  ~/shell/.gits
+|4,39,1,0,1730469355,"~/shell/.gits"
+-'  1  13  ~/.gitmodules
+|4,39,1,13,1730469240,"~/.gitmodules"
+-'  1  13  ~/.gitmodules
+|4,39,1,13,1730469240,"~/.gitmodules"
+-'  2  0  ~/.gitmodules
+|4,39,2,0,1730469235,"~/.gitmodules"
+-'  2  0  ~/.gitmodules
+|4,39,2,0,1730469235,"~/.gitmodules"
+-'  2  0  ~/.gitmodules
+|4,39,2,0,1730469229,"~/.gitmodules"
+-'  2  0  ~/.gitmodules
+|4,39,2,0,1730469229,"~/.gitmodules"
+-'  1  0  ~/.gitmodules
+|4,39,1,0,1730469225,"~/.gitmodules"
+-'  1  0  ~/.gitmodules
+|4,39,1,0,1730469225,"~/.gitmodules"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  30  56  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,30,56,1730468800,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
 
 # History of marks within files (newest to oldest):
 
-> /d/main/serve/blog/content/main.md
-	*	1716083671	0
-	"	21	17
-	^	10	55
-	.	10	54
-	+	10	54
+> ~/.gitmodules
+	*	1730469946	0
+	"	3	42
+	^	3	43
+	.	3	42
+	+	1	19
+	+	3	42
 
-> /d/main/serve/shaarli/docker-compose.yml
-	*	1716048889	0
-	"	15	6
-	^	12	22
-	.	12	21
-	+	1	10
-	+	11	11
-	+	12	11
-	+	11	20
-	+	12	21
+> ~/shell/.gits
+	*	1730469354	0
+	"	1	0
+
+> /c/Users/whens/Nutstore/1/docs/doc-os.md
+	*	1730468799	0
+	"	30	56
+	^	12	45
+	.	12	42
+	+	1	8
+	+	41	0
+	+	43	0
+	+	42	0
+	+	41	0
+	+	2	0
+	+	2	9
+	+	2	0
+	+	2	30
+	+	2	0
+	+	2	9
+	+	2	0
+	+	2	26
+	+	2	49
+	+	2	32
+	+	2	36
+	+	2	38
+	+	2	33
+	+	2	28
+	+	2	23
+	+	2	22
+	+	2	24
+	+	2	0
+	+	8	14
+	+	15	8
+	+	17	7
+	+	18	37
+	+	18	41
+	+	3	3
+	+	29	0
+	+	32	0
+	+	30	117
+	+	31	28
+	+	26	24
+	+	23	7
+	+	24	0
+	+	21	18
+	+	38	40
+	+	36	51
+	+	38	40
+	+	38	48
+	+	36	1
+	+	37	54
+	+	39	3
+	+	40	0
+	+	1	8
+	+	2	0
+	+	3	0
+	+	45	0
+	+	4	18
+	+	34	0
+	+	35	0
+	+	32	0
+	+	18	52
+	+	18	0
+	+	19	0
+	+	18	0
+	+	5	0
+	+	6	0
+	+	8	15
+	+	13	0
+	+	18	0
+	+	19	0
+	+	14	0
+	+	6	0
+	+	8	15
+	+	33	0
+	+	14	0
+	+	10	19
+	+	11	22
+	+	12	42
+
+> /g/area/emacs-notes/Computer_science/demo_nodejs/http.js
+	*	1730468769	0
+	"	11	51
+	^	11	52
+	.	11	51
+	+	9	12
+	+	11	51
+
+> ~/Shell/bin/port_scan.sh
+	*	1730468452	0
+	"	21	106
+
+> /g/area/emacs-notes/Computer_science/demo_nodejs/get.js
+	*	1730468309	0
+	"	3	0
+
+> /g/area/emacs-notes/Computer_science/demo_nodejs/buffer.js
+	*	1730468225	0
+	"	2	0
+
+> /g/area/emacs-notes/Computer_science/demo_nodejs/server.js
+	*	1730462098	0
+	"	7	22
+	^	7	23
+	.	7	22
+	+	7	22
 
 > ~/.bashrc_win
-	*	1716046493	0
-	"	221	57
-	^	221	58
-	.	221	57
-	+	203	0
-	+	202	0
-	+	209	0
-	+	216	0
-	+	215	11
-	+	210	10
-	+	219	0
-	+	216	70
-	+	217	68
-	+	219	0
-	+	241	0
-	+	222	0
-	+	220	72
-	+	216	53
-	+	266	35
-	+	251	0
-	+	247	13
-	+	226	36
-	+	226	108
-	+	226	14
-	+	226	81
-	+	226	0
-	+	217	39
-	+	247	1
-	+	248	0
-	+	219	28
-	+	220	0
-	+	219	26
-	+	204	0
-	+	272	0
-	+	243	14
-	+	248	62
-	+	250	14
-	+	260	0
-	+	252	6
+	*	1730460843	0
+	"	227	0
+	^	279	116
+	.	273	0
+	+	252	0
+	+	252	76
 	+	253	0
-	+	260	0
-	+	253	23
-	+	260	0
-	+	248	71
-	+	249	0
-	+	250	0
-	+	249	62
-	+	258	30
-	+	272	6
-	+	272	41
-	+	255	31
-	+	256	14
-	+	253	44
-	+	254	44
-	+	257	35
-	+	205	7
-	+	206	0
-	+	206	15
-	+	209	0
-	+	206	34
+	+	252	78
+	+	254	12
+	+	292	1
+	+	293	32
+	+	294	0
+	+	275	0
+	+	279	0
+	+	281	0
+	+	289	36
+	+	258	54
+	+	258	53
 	+	258	15
-	+	273	0
-	+	260	0
-	+	258	43
-	+	260	6
-	+	262	0
-	+	251	0
-	+	226	0
-	+	219	0
-	+	222	0
-	+	219	0
+	+	258	56
+	+	258	31
+	+	205	34
+	+	206	22
+	+	205	9
+	+	206	9
+	+	222	29
+	+	258	49
+	+	284	22
+	+	281	24
+	+	223	0
+	+	220	1
+	+	258	16
+	+	222	14
+	+	258	16
 	+	220	0
-	+	209	0
-	+	195	0
-	+	202	0
-	+	204	0
-	+	226	0
-	+	260	0
-	+	258	43
-	+	206	34
-	+	207	20
-	+	208	20
-	+	271	0
-	+	271	6
-	+	271	22
-	+	271	6
-	+	271	0
-	+	269	0
-	+	272	0
-	+	228	0
-	+	235	9
-	+	228	14
+	+	221	58
+	+	220	59
+	+	221	68
+	+	220	1
+	+	221	0
+	+	220	72
+	+	220	54
+	+	221	45
+	+	222	0
+	+	257	0
+	+	255	75
+	+	281	0
+	+	258	62
+	+	258	0
+	+	258	62
+	+	258	0
+	+	258	25
+	+	258	0
+	+	258	78
+	+	288	28
+	+	258	60
+	+	258	0
+	+	251	0
+	+	254	0
+	+	212	0
+	+	198	52
+	+	200	0
+	+	215	0
+	+	247	0
+	+	258	0
+	+	224	0
+	+	234	0
+	+	244	0
+	+	217	0
+	+	210	0
+	+	234	0
+	+	244	0
+	+	247	0
+	+	244	0
+	+	247	0
+	+	244	0
+	+	247	0
+	+	241	0
+	+	239	0
+	+	234	0
+	+	241	0
+	+	242	0
+	+	247	0
+	+	244	0
+	+	248	0
+	+	258	0
+	+	273	0
+	+	280	0
+	+	281	0
+	+	280	13
+	+	281	72
+	+	280	91
+	+	281	0
+	+	279	26
+	+	279	115
+	+	273	0
+	+	241	0
+	+	235	0
+	+	234	0
 	+	236	0
-	+	239	0
-	+	236	13
-	+	239	0
-	+	235	23
-	+	236	20
-	+	239	0
-	+	237	0
-	+	232	42
-	+	233	0
-	+	221	57
+	+	241	0
+	+	238	0
+	+	258	0
+	+	273	0
+	n	288	87
+
+> /d/g/area/serve/blog/content/posts/情景创造.md
+	*	1730456510	0
+	"	33	100
+	^	33	101
+	.	33	100
+	+	9	0
+	+	11	53
+	+	10	68
+	+	12	0
+	+	8	39
+	+	15	44
+	+	17	0
+	+	15	6
+	+	17	0
+	+	18	91
+	+	19	74
+	+	20	74
+	+	17	90
+	+	18	91
+	+	19	74
+	+	22	99
+	+	24	34
+	+	2	20
+	+	13	63
+	+	25	78
+	+	26	42
+	+	27	42
+	+	29	0
+	+	29	32
+	+	24	31
+	+	29	52
+	+	24	32
+	+	29	105
+	+	27	42
+	+	31	139
+	+	32	42
+	+	33	100
+	+	34	79
+	+	36	40
+	+	41	138
+	+	43	0
+	+	33	100
+
+> /c/Users/whens/Nutstore/1/docs/doc-kaifa.md
+	*	1730455797	0
+	"	8	0
+	^	22	0
+	.	21	0
+	+	79	0
+	+	95	52
+	+	95	65
+	+	95	0
+	+	79	0
+	+	95	0
+	+	89	0
+	+	95	0
+	+	80	0
+	+	79	19
+	+	83	0
+	+	83	19
+	+	85	0
+	+	86	0
+	+	78	12
+	+	80	0
+	+	84	0
+	+	87	0
+	+	88	0
+	+	87	0
+	+	90	0
+	+	95	0
+	+	90	0
+	+	95	0
+	+	77	0
+	+	93	0
+	+	77	0
+	+	95	0
+	+	95	28
+	+	95	0
+	+	95	53
+	+	95	29
+	+	95	53
+	+	95	0
+	+	95	86
+	+	95	0
+	+	95	31
+	+	95	25
+	+	95	26
+	+	95	37
+	+	95	32
+	+	95	22
+	+	95	29
+	+	77	0
+	+	8	0
+	+	95	0
+	+	97	0
+	+	95	0
+	+	95	205
+	+	95	167
+	+	95	0
+	+	9	0
+	+	10	10
+	+	16	0
+	+	9	0
+	+	16	0
+	+	69	0
+	+	65	10
+	+	11	28
+	+	16	0
+	+	11	46
+	+	12	6
+	+	13	53
+	+	14	1
+	+	13	2
+	+	14	41
+	+	15	38
+	+	64	0
+	+	63	0
+	+	11	43
+	+	75	0
+	+	95	0
+	+	63	0
+	+	23	0
+	+	39	0
+	+	58	0
+	+	53	0
+	+	18	0
+	+	58	0
+	+	48	0
+	+	63	0
+	+	82	0
+	+	19	28
+	+	8	2
+	+	18	0
+	+	16	0
+	+	23	0
+	+	19	22
+	+	23	0
+	+	63	0
+	+	8	0
+	+	23	0
+	+	20	0
+	+	50	0
+	+	46	14
+	+	47	15
+	+	48	0
+	+	21	0
+
+> /d/g/area/serve/blog/content/posts/node版本管理.md
+	*	1730454030	0
+	"	8	24
+	^	8	25
+	.	8	24
+	+	8	21
+	+	8	42
+	+	9	0
+	+	11	0
+	+	28	2
+	+	13	9
+	+	27	2
+	+	13	7
+	+	29	0
+	+	29	12
+	+	16	0
+	+	17	0
+	+	19	0
+	+	23	0
+	+	25	0
+	+	14	10
+	+	29	21
+	+	30	41
+	+	31	0
+	+	32	92
+	+	42	12
+	+	43	38
+	+	38	23
+	+	39	34
+	+	41	6
+	+	39	22
+	+	41	13
+	+	42	52
+	+	40	57
+	+	38	26
+	+	39	43
+	+	40	60
+	+	41	16
+	+	42	55
+	+	38	1
+	+	39	0
+	+	38	0
+	+	39	0
+	+	37	6
+	+	47	3
+	+	43	46
+	+	45	41
+	+	47	0
+	+	43	46
+	+	48	0
+	+	35	39
+	+	34	18
+	+	35	41
+	+	34	58
+	+	36	0
+	+	47	0
+	+	46	13
+	+	48	0
+	+	48	41
+	+	50	24
+	+	51	0
+	+	10	32
+	+	53	0
+	+	9	0
+	+	52	14
+	+	53	0
+	+	30	4
+	+	35	4
+	+	48	4
+	+	54	9
+	+	56	0
+	+	53	14
+	+	56	8
+	+	70	2
+	+	56	7
+	+	57	29
+	+	58	50
+	+	70	3
+	+	59	0
+	+	67	0
+	+	61	9
+	+	67	11
+	+	69	15
+	+	58	60
+	+	59	26
+	+	60	15
+	+	61	34
+	+	67	11
+	+	61	50
+	+	57	56
+	+	61	37
+	+	67	0
+	+	61	37
+	+	65	0
+	+	62	2
+	+	66	6
+	+	63	57
+	+	64	62
+	+	65	0
+	+	70	3
+	+	71	40
+	+	1	0
+	+	8	24
+
+> /d/g/area/serve/blog/doc-kaifa.md
+	*	1730453537	0
+	"	1	0
+
+> /d/g/area/serve/blog/content/posts/win11保持屏幕常亮+取消密码登录.md
+	*	1730451327	0
+	"	1	0
+
+> ~/server.js
+	*	1730450051	0
+	"	18	2
+	^	18	3
+	.	18	2
+	+	15	16
+	+	18	2
+
+> ~/hello.js
+	*	1730443225	0
+	"	6	9
+	^	6	10
+	.	6	9
+	+	1	16
+	+	1	20
+	+	6	9
+
+> ~/Shell/win/chg-env-var.sh
+	*	1730442969	0
+	"	30	55
+	^	30	56
+	.	30	56
+	+	30	11
+	+	25	0
+	+	54	0
+	+	30	56
+
+> /c/Users/whens/Nutstore/1/docs/doc-kaifa
+	*	1730442500	0
+	"	1	0
+
+> ~/Shell/win/chg-
+	*	1730442197	0
+	"	1	0
+
+> /c/Users/whens/Nutstore/1/docs/doc-os
+	*	1730442162	0
+	"	1	0
+
+> /c/Users/whens/Nutstore/1/docs/doc-soft.md
+	*	1730440246	0
+	"	1	0
+	^	12	16
+	.	12	13
+	+	1	0
+	+	1	27
+	+	1	0
+	+	2	0
+	+	1	0
+	+	1	42
+	+	1	50
+	+	1	0
+	+	2	0
+	+	3	0
+	+	2	0
+	+	1	9
+	+	12	13
+
+> ~/xx.txt
+	*	1730439470	0
+	"	1	0
+	.	1	0
+	+	1	57
+	+	1	0
+
+> /d/Softwares/scoop/apps/nodejs/21.6.1/server.js
+	*	1730424539	0
+	"	13	2
+	^	13	3
+	.	13	2
+	+	13	2
+
+> ~/Shell/bin/pdf2png.js
+	*	1730423877	0
+	"	19	0
+
+> ~/Shell/bin/xx.bat
+	*	1730423776	0
+	"	1	0
+
+> /d/Softwares/scoop/apps/nodejs/xx.js
+	*	1730381733	0
+	"	1	0
+
+> /d/g/area/Shell/bin/node_modules/xx.js
+	*	1730381450	0
+	"	1	36
+	^	1	37
+	.	2	0
+	+	2	17
+	+	2	0
+
+> /d/g/area/Shell/bin/node_modules/server.js
+	*	1730381335	0
+	"	5	0
+	^	2	29
+	.	2	25
+	+	14	2
+	+	2	25
+
+> /d/g/area/Shell/bin/node_modules/package.json
+	*	1730374943	0
+	"	2	22
+	^	2	23
+	.	2	23
+	+	7	0
+	+	1	0
+	+	1	17
+	+	3	24
+	+	11	0
+	+	1	0
+	+	2	14
+	+	7	14
+	+	2	23
+
+> /d/g/area/Shell/bin/node_modules/test.js
+	*	1730374789	0
+	"	5	14
+	^	5	15
+	.	5	14
+	+	4	27
+	+	5	14
+
+> /d/g/area/Shell/bin/node_modules/index.js
+	*	1730374674	0
+	"	4	1
+	^	4	2
+	.	4	1
+	+	6	22
+	+	4	1
+
+> /d/softwares/scoop/persist/nodejs/cache/_logs/2024-10-31T10_53_34_458Z-debug-0.log
+	*	1730372106	0
+	"	1	0
+
+> /d/Softwaresscooppersistnodejscache_logs2024-10-31T10_53_34_458Z-debug-0.log
+	*	1730372027	0
+	"	1	0
+
+> /d/g/area/Shell/bin/xx.bat
+	*	1730357547	0
+	"	4	26
+	^	4	26
+	.	4	26
+	+	7	4
+	+	6	0
+	+	4	26
+
+> /d/g/area/Shell/bin/xxx.bat
+	*	1730357298	0
+	"	18	4
+	^	18	5
+	.	18	4
+	+	18	4
+
+> /d/g/area/serve/docs/resource/doc-kaifa.md
+	*	1730350355	0
+	"	1	0
+
+> /d/g/area/Shell/bin/port_scan.sh
+	*	1730339749	0
+	"	20	0
+
+> /d/g/area/Shell/bin/port
+	*	1730339488	0
+	"	1	0
+
+> /d/g/area/Shell/bin/yt_d.sh
+	*	1730339270	0
+	"	1	0
+
+> /d/g/area/Shell/bin/readme.md
+	*	1730339249	0
+	"	1	0
+
+> /d/g/area/Shell/bin/search_web.sh
+	*	1730337805	0
+	"	1	0
+
+> /d/g/area/serve/docs/resource/chumopin.md
+	*	1730302428	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	7	0
+	+	6	0
+
+> /c/Users/whens/Nutstore/1/docs/doc-dianqi.md
+	*	1730302293	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	5	21
+	+	4	24
+	+	1	24
+	+	14	42
+	+	19	12
+	+	1	0
+	+	4	24
+	+	6	0
+	+	5	0
+	+	25	5
+	+	85	83
+	+	50	0
+	+	46	0
+	+	25	5
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	43	0
+	+	46	0
+	+	51	0
+	+	49	0
+	+	57	0
+	+	58	0
+	+	59	0
+	+	60	0
+	+	67	0
+	+	70	0
+	+	80	0
+	+	82	0
+	+	84	0
+	+	37	0
+	+	43	10
+	+	44	0
+	+	37	0
+	+	48	0
+	+	83	0
+	+	2	0
+	+	1	12
+
+> /d/g/area/serve/docs/resource/plc.md
+	*	1730302075	0
+	"	1	17
+
+> /d/g/area/serve/docs/resource/配电计算.md
+	*	1730302037	0
+	"	1	0
+
+> /d/g/area/serve/docs/resource/host.md
+	*	1730302026	0
+	"	30	2
+
+> /c/Users/whens/Nutstore/1/docs/doc-host.md
+	*	1730302024	0
+	"	161	0
+	^	1	10
+	.	1	9
+	+	1	32
+	+	1	0
+	+	1	31
+	+	1	12
+	+	232	3
+	+	203	0
+	+	1	9
+
+> /d/g/area/serve/docs/resource/linux.md
+	*	1730302005	0
+	"	292	0
+
+> /d/g/area/serve/docs/resource/scoop.md
+	*	1730301042	0
+	"	1	0
+
+> /d/g/area/serve/docs/resource/windows.md
+	*	1730301026	0
+	"	4	29
+
+> /c/Users/whens/Nutstore/1/docs/doc-program.md
+	*	1730300378	0
+	"	2	0
+	^	1	11
+	.	2	0
+	+	3	9
+	+	4	0
+	+	4	6
+	+	4	0
+	+	75	120
+	+	5	1
+	+	11	1
+	+	43	1
+	+	74	0
+	+	27	15
+	+	2	0
+	+	1	5
+	+	2	0
+	+	1	10
+	+	2	0
+
+> /d/g/area/serve/docs/resource/nodejs.md
+	*	1730300202	0
+	"	67	16
+
+> /d/g/area/serve/docs/resource/front.md
+	*	1730299881	0
+	"	54	0
+	^	25	0
+	.	24	0
+	+	24	0
+
+> /d/g/area/serve/docs/README.md
+	*	1730299845	0
+	"	103	0
+
+> /g/area/emacs-notes/Computer_science/demo_c/alo_sort.c
+	*	1730299348	0
+	"	80	0
+	^	77	1
+	.	77	0
+	+	58	27
+	+	58	12
+	+	58	0
+	+	58	19
+	+	58	25
+	+	58	21
+	+	58	30
+	+	85	20
+	+	86	17
+	+	58	19
+	+	58	14
+	+	58	16
+	+	58	12
+	+	58	16
+	+	58	0
+	+	49	32
+	+	57	0
+	+	50	19
+	+	51	16
+	+	52	30
+	+	55	0
+	+	53	21
+	+	54	6
+	+	57	0
+	+	56	16
+	+	60	12
+	+	61	4
+	+	86	2
+	+	61	38
+	+	73	0
+	+	61	38
+	+	58	1
+	+	73	0
+	+	73	13
+	+	73	28
+	+	73	0
+	+	73	25
+	+	73	1
+	+	73	0
+	+	7	0
+	+	3	0
+	+	73	0
+	+	73	11
+	+	73	1
+	+	73	2
+	+	73	1
+	+	73	0
+	+	61	43
+	+	73	24
+	+	73	0
+	+	3	0
+	+	73	27
+	+	73	0
+	+	73	28
+	+	73	0
+	+	73	14
+	+	73	25
+	+	73	0
+	+	73	17
+	+	73	0
+	+	73	36
+	+	73	17
+	+	73	25
+	+	87	18
+	+	73	13
+	+	73	9
+	+	87	16
+	+	83	32
+	+	88	9
+	+	87	16
+	+	73	26
+	+	73	0
+	+	61	38
+	+	62	19
+	+	73	9
+	+	73	0
+	+	63	16
+	+	72	0
+	+	64	30
+	+	70	0
+	+	66	37
+	+	69	0
+	+	67	30
+	+	68	13
+	+	72	0
+	+	73	0
+	+	71	0
+	+	66	11
+	+	87	15
+	+	74	0
+	+	19	0
+	+	74	0
+	+	45	0
+	+	9	0
+	+	74	0
+	+	75	12
+	+	76	18
+	+	77	0
+	+	87	2
+	+	77	0
+
+> /d/g/area/Shell/bin/update_dll.sh
+	*	1730254233	0
+	"	20	40
+	^	17	36
+	.	17	35
+	+	20	40
+	+	4	16
+	+	7	25
+	+	17	35
+
+> /g/area/emacs-notes/Computer_science/demo_c/tmp.c
+	*	1730201815	0
+	"	51	36
+	^	67	1
+	.	67	0
+	+	1	18
+	+	1	0
+	+	1	18
+	+	67	0
+
+> /c/Users/whens/Nutstore/1/docs/inbox.org
+	*	1730155603	0
+	"	1	0
+	.	16	0
+	+	22	0
+	+	103	86
+	+	103	25
+	+	104	102
+	+	104	22
+	+	105	35
+	+	106	45
+	+	107	0
+	+	22	0
+	+	19	0
+	+	22	0
+	+	32	0
+	+	34	0
+	+	159	0
+	+	22	0
+	+	18	0
+	+	16	0
+
+> /c/Users/whens/Nutstore/1/docs/mobile.org
+	*	1730155366	0
+	"	1	0
+
+> /c/Users/whens/Nutstore/1/docs/info
+	*	1730155335	0
+	"	1	0
+
+> /c/Users/whens/Nutstore/1/docs/archiv.org
+	*	1730155217	0
+	"	9257	0
+	^	1	8
+	.	1	7
+	+	2	0
+	+	1	7
+
+> /c/Users/whens/Nutstore/1/docs/doc-tool.md
+	*	1730155189	0
+	"	1	9
+	^	1	10
+	.	1	9
+	+	2	0
+	+	1	9
+
+> /c/Users/whens/Nutstore/1/docs/doc-jixie.md
+	*	1730155169	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> /c/Users/whens/Nutstore/1/docs/doc.md
+	*	1730154729	0
+	"	47	4
+	^	47	1
+	.	57	0
+	+	1	26
+	+	1	9
+	+	4	41
+	+	5	39
+	+	6	0
+	+	6	19
+	+	7	41
+	+	8	41
+	+	9	41
+	+	10	41
+	+	11	39
+	+	12	0
+	+	12	41
+	+	14	18
+	+	1	0
+	+	15	28
+	+	17	12
+	+	18	12
+	+	19	41
+	+	20	41
+	+	23	41
+	+	24	41
+	+	25	41
+	+	26	41
+	+	27	41
+	+	29	15
+	+	30	42
+	+	31	39
+	+	32	0
+	+	32	41
+	+	33	39
+	+	34	41
+	+	35	41
+	+	36	41
+	+	37	41
+	+	39	33
+	+	2	0
+	+	40	41
+	+	41	41
+	+	42	41
+	+	43	41
+	+	44	41
+	+	45	41
+	+	46	0
+	+	46	41
+	+	47	41
+	+	48	41
+	+	52	0
+	+	49	41
+	+	50	41
+	+	51	0
+	+	52	0
+	+	52	41
+	+	56	0
+	+	53	39
+	+	49	0
+	+	55	15
+	+	56	0
+	+	57	0
+
+> /d/g/area/Shell/set_ipv4_manual.ps1
+	*	1730092492	0
+	"	1	0
+
+> /d/g/area/Shell/1.asm
+	*	1730092328	0
+	"	1	0
+
+> /d/g/area/Shell/set_ipv4_manual_original.ps1
+	*	1730092299	0
+	"	5	77
+	^	5	78
+	.	5	77
+	+	5	77
+
+> /d/g/area/Shell/set_ipv4_auto.ps1
+	*	1730092277	0
+	"	2	0
+
+> /d/g/area/Shell/set_ipv4_manual_new.ps1
+	*	1730092145	0
+	"	2	0
+
+> /c/Users/whens/Nutstore/1/docs/inbox.md
+	*	1730048242	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	17	34
+	+	17	57
+	+	17	119
+	+	17	9
+	+	17	135
+	+	17	0
+	+	18	0
+	+	17	37
+	+	17	30
+	+	17	56
+	+	17	53
+	+	17	41
+	+	17	30
+	+	17	36
+	+	17	60
+	+	17	33
+	+	25	0
+	+	17	0
+	+	1	0
+	+	17	0
+	+	15	0
+	+	6	0
+	+	7	83
+	+	11	0
+	+	17	0
+	+	17	68
+	+	17	65
+	+	17	185
+	+	17	0
+	+	8	0
+	+	11	69
+	+	12	0
+	+	11	0
+	+	12	0
+	+	12	108
+	+	17	0
+	+	2	0
+	+	1	0
+	+	17	0
+	+	18	0
+	+	145	0
+	+	146	0
+	+	17	16
+	+	1	0
+
+> /c/Users/whens/Nutstore/1/docs/index.md
+	*	1730048235	0
+	"	1	0
+
+> ~/inbox.md
+	*	1730048066	0
+	"	1	0
+
+> /d/g/area/Shell/area/workflow/site_mang/websites.txt
+	*	1730020573	0
+	"	8	15
+	.	8	15
+	+	8	15
+
+> /d/g/area/Shell/area/workflow/site_mang/groups.txt
+	*	1730020564	0
+	"	5	28
+	^	5	31
+	.	5	31
+	+	4	3
+	+	5	31
+
+> /d/g/area/Shell/area/workflow/site_mang/url_mang.sh
+	*	1730020547	0
+	"	1	0
+
+> /d/g/area/serve/blog/content/posts/情境创设-资源引入.md
+	*	1729960094	0
+	"	26	0
+	^	22	324
+	.	22	323
+	+	11	0
+	+	12	30
+	+	13	22
+	+	14	7
+	+	15	0
+	+	16	0
+	+	17	0
+	+	16	23
+	+	13	64
+	+	14	34
+	+	15	70
+	+	13	31
+	+	14	17
+	+	15	35
+	+	16	33
+	+	22	0
+	+	20	36
+	+	22	203
+	+	22	15
+	+	25	417
+	+	27	69
+	+	25	417
+	+	28	0
+	+	17	0
+	+	29	249
+	+	30	0
+	+	31	9
+	+	22	323
+
+> /d/g/area/serve/blog/content/posts/情景创设-资源引入.md
+	*	1729954640	0
+	"	1	0
+
+> /d/g/area/Shell/area/workflow/site_mang/readme.md
+	*	1729858466	0
+	"	2	0
 
 > ~/.bashrc_comm
-	*	1716044378	0
-	"	22	25
-	^	21	26
-	.	21	25
+	*	1729858234	0
+	"	20	10
+	^	20	12
+	.	20	11
 	+	1	0
 	+	7	14
 	+	8	14
-	+	9	23
+	+	8	23
+	+	8	0
 	+	9	0
-	+	10	0
-	+	9	0
+	+	8	0
 	+	1	0
 	+	17	13
 	+	17	15
-	+	11	0
-	+	13	0
-	+	15	0
-	+	13	0
-	+	12	0
-	+	17	0
-	+	14	0
-	+	12	11
-	+	14	29
-	+	12	31
-	+	9	0
-	+	17	0
-	+	18	0
-	+	13	0
-	+	19	0
-	+	20	19
-	+	21	25
-	+	22	20
-	+	24	0
-	+	17	0
-	+	9	0
 	+	10	0
+	+	12	0
+	+	14	0
+	+	12	0
+	+	11	0
+	+	17	0
+	+	13	0
+	+	11	11
+	+	13	29
+	+	11	31
+	+	8	0
+	+	17	0
+	+	20	23
+	+	12	0
+	+	20	23
+	+	20	42
+	+	20	48
+	+	20	43
+	+	20	23
+	+	17	0
+	+	8	0
+	+	9	0
 	+	1	4
 	+	1	16
 	+	17	0
 	+	16	30
 	+	17	0
 	+	1	0
-	+	23	18
-	+	21	20
-	+	20	19
-	+	24	0
-	+	24	15
-	+	24	38
+	+	20	41
+	+	20	43
+	+	20	42
+	+	20	23
+	+	20	38
+	+	20	61
 	+	16	11
-	+	24	0
-	+	19	0
-	+	24	0
-	+	22	8
-	+	19	0
-	+	24	0
-	+	23	0
-	+	19	0
-	+	20	24
-	+	21	25
-
-> /d/main/serve/calibrate-web/config
-	*	1715957288	0
-	"	1	0
-
-> /d/main/serve/calibrate-web/docker-compose.yml
-	*	1715957277	0
-	"	10	34
-	^	10	35
-	.	10	34
-	+	1	62
-	+	15	18
-	+	9	13
-	+	10	14
-	+	9	34
-	+	10	34
-
-> ~/.bashrc
-	*	1715906248	0
-	"	7	4
-	^	7	27
-	.	7	0
-	+	245	29
-	+	237	0
-	+	241	6
-	+	245	0
-	+	247	0
-	+	238	5
-	+	247	0
-	+	235	5
-	+	236	0
-	+	226	4
-	+	223	0
-	+	230	0
-	+	222	0
-	+	242	0
-	+	245	0
-	+	237	0
-	+	249	0
-	+	248	5
-	+	249	15
-	+	237	0
-	+	226	0
-	+	234	0
-	+	240	0
-	+	226	0
-	+	229	0
-	+	226	0
-	+	246	0
-	+	241	0
-	+	226	0
-	+	223	0
-	+	222	0
-	+	213	0
-	+	239	0
-	+	211	36
-	+	229	13
-	+	236	6
-	+	229	10
-	+	231	0
-	+	234	0
-	+	232	0
-	+	231	16
-	+	232	13
-	+	234	11
-	+	232	13
-	+	234	0
-	+	231	70
-	+	232	64
-	+	229	68
-	+	234	0
-	+	227	40
-	+	229	0
-	+	236	15
-	+	233	65
-	+	224	34
-	+	218	100
-	+	213	30
-	+	217	71
-	+	256	1
-	+	217	38
-	+	218	38
-	+	217	46
-	+	218	104
-	+	219	22
-	+	219	88
-	+	221	0
-	+	219	82
-	+	218	0
-	+	216	0
-	+	216	77
-	+	219	8
-	+	216	0
-	+	244	36
-	+	220	68
-	+	215	16
-	+	215	84
-	+	1	0
-	+	1	27
-	+	1	23
-	+	1	28
-	+	1	30
-	+	1	0
-	+	9	0
-	+	1	0
-	+	2	0
-	+	5	0
-	+	2	0
-	+	5	0
-	+	2	0
-	+	5	0
-	+	5	23
-	+	4	0
-	+	6	0
-	+	4	24
-	+	6	15
-	+	5	0
-	+	3	0
-	+	10	0
+	+	20	23
+	+	20	31
+	+	20	23
+	+	20	47
+	+	20	48
+	+	20	39
+	+	20	49
+	+	20	35
+	+	20	23
+	+	20	55
 	+	8	0
-	+	7	26
-	+	7	0
+	+	20	23
+	+	14	2
+	+	19	5
+	+	20	23
+	+	21	6
+	+	7	28
+	+	20	11
 
-> /d/main/serve/shaarli/d
-	*	1715879021	0
-	"	1	0
-
-> /g/area/shell/ahk/to.ahk
-	*	1715877907	0
+> /d/g/area/serve/blog/content/main.md
+	*	1729811355	0
 	"	6	0
-	^	6	1
+	^	14	17
 	.	6	0
-	+	1	0
-	+	1	47
-	+	6	0
-
-> /d/documents/main/shaarli/docker-compose.yml
-	*	1715877472	0
-	"	10	0
-
-> /g/area/shell/ahk/main.ahk
-	*	1715790225	0
-	"	176	0
-	^	176	1
-	.	176	0
-	+	1	0
-	+	1	115
-	+	137	16
-	+	169	0
-	+	171	0
-	+	176	0
-
-> /g/area/shell/ahk/man.ahk
-	*	1715790089	0
-	"	176	0
-	^	176	1
-	.	176	0
-	+	176	0
-
-> /g/area/shell/ahk/ma
-	*	1715789725	0
-	"	1	0
-
-> /g/area/shell/ahk/win_web_mang.ahk
-	*	1715751633	0
-	"	27	0
-	^	33	1
-	.	33	0
-	+	33	0
-
-> /g/area/shell/ahk/min_window.ahk
-	*	1715751241	0
-	"	1	0
-	^	6	1
-	.	1	0
-	+	1	9
-	+	1	8
-	+	1	13
-	+	1	6
-	+	1	41
-	+	1	5
-	+	1	0
-	+	1	5
-	+	1	0
-	+	1	4
-	+	1	0
-	+	1	5
-	+	1	24
-	+	6	0
-	+	1	0
-
-> /d/documents/main/blog/content/posts/主题阅读方法.md
-	*	1715670879	0
-	"	10	327
-	^	10	330
-	.	10	327
-	+	8	93
-	+	10	327
-
-> /g/area/shell/test/var.txt
-	*	1715567828	0
-	"	114	4
-	^	135	16
-	.	135	15
-	+	2	0
-	+	1	0
-	+	252	2
-	+	45	0
-	+	46	5
-	+	169	3
-	+	172	0
-	+	181	0
-	+	194	0
-	+	200	0
-	+	191	3
-	+	169	7
-	+	201	6
-	+	206	5
-	+	208	0
-	+	207	3
-	+	179	0
-	+	140	33
-	+	135	25
-	+	198	26
-	+	145	15
-	+	140	15
-	+	135	15
-
-> /g/area/shell/test/x.py
-	*	1715532903	0
-	"	50	15
-	^	50	16
-	.	50	15
-	+	37	15
-	+	46	15
-	+	50	15
-
-> /g/area/shell/test/x.sh
-	*	1715532597	0
-	"	29	15
-	^	29	16
-	.	29	15
-	+	29	15
-
-> /g/area/shell/test/xx.py
-	*	1715532495	0
-	"	19	15
-	^	19	16
-	.	19	15
-	+	19	15
-
-> /g/area/shell/test/xx.sh
-	*	1715532452	0
-	"	11	0
-	^	21	17
-	.	11	0
-	+	14	14
-	+	11	0
-	+	15	14
-	+	14	0
-	+	21	16
-	+	11	0
-
-> /g/area/shell/test/123.txt
-	*	1715532196	0
-	"	34	0
-
-> /g/area/shell/workflow/groups.txt
-	*	1715526811	0
-	"	1	25
-	^	1	26
-	.	1	25
-	+	2	6
-	+	1	3
-	+	3	0
-	+	1	25
-
-> /g/area/shell/readme.md
-	*	1715504723	0
-	"	11	0
-	^	10	0
-	.	10	0
-	+	14	0
+	+	18	70
+	+	18	0
+	+	14	15
 	+	12	0
+	+	18	9
+	+	15	0
 	+	17	0
-	+	16	20
-	+	27	25
-	+	28	31
-	+	26	11
-	+	22	0
-	+	21	0
-	+	21	1
-	+	22	50
-	+	21	17
-	+	21	0
-	+	24	0
-	+	27	7
-	+	24	0
-	+	27	7
-	+	28	8
-	+	24	0
-	+	19	0
+	+	18	0
 	+	16	0
-	+	14	10
-	+	10	0
+	+	14	16
+	+	6	0
 
-> /g/area/shell/workflow/url_mang.sh
-	*	1715504521	0
-	"	116	0
-	^	13	50
-	.	13	49
-	+	13	49
-
-> /g/area/shell/workflow/main.sh
-	*	1715501396	0
-	"	30	1
-	^	33	24
-	.	33	23
-	+	1	0
-	+	33	20
-	+	1	0
-	+	33	21
-	+	33	0
-	+	1	0
-	+	4	7
-	+	33	29
-	+	4	3
-	+	10	0
-	+	9	51
-	+	16	0
+> /d/g/area/serve/blog/content/posts/反馈分析法.md
+	*	1729689119	0
+	"	28	225
+	^	28	228
+	.	28	225
 	+	11	0
-	+	12	23
-	+	29	11
-	+	19	2
-	+	12	20
-	+	4	19
-	+	33	48
-	+	32	5
-	+	33	0
-	+	32	0
-	+	33	23
+	+	10	84
+	+	17	249
+	+	19	394
+	+	19	424
+	+	21	343
+	+	23	402
+	+	29	82
+	+	12	27
+	+	13	35
+	+	14	89
+	+	24	75
+	+	21	235
+	+	28	225
 
-> /g/area/shell/workflow/websites.txt
-	*	1715501377	0
-	"	2	32
-
-> /g/area/shell/workflow/open_site.sh
-	*	1715501290	0
-	"	18	26
-	^	39	2
-	.	29	0
-	+	23	0
-	+	23	12
-	+	23	0
-	+	23	1
-	+	23	0
-	+	23	1
-	+	23	0
-	+	22	0
-	+	39	1
-	+	29	0
-	+	28	0
-	+	29	0
-
-> /g/area/shell/workflow/readme.md
-	*	1715500766	0
-	"	2	18
-	^	1	29
-	.	1	26
-	+	3	26
-	+	3	40
-	+	3	0
-	+	5	0
-	+	1	11
-	+	3	0
-	+	1	26
-
-> /g/area/shell/workflow/main,sh
-	*	1715499847	0
+> /g/area/emacs-notes/Computer_science/demo_c/alo_sort
+	*	1729568974	0
 	"	1	0
 
-> /g/area/shell/workflow/open_site1.sh
-	*	1715498615	0
-	"	32	4
-	^	36	21
-	.	32	0
-	+	36	20
-	+	32	0
+> /g/area/emacs-notes/Computer_science/demo_c/demo.c
+	*	1729568871	0
+	"	6	26
+	^	6	27
+	.	6	26
+	+	1	18
+	+	5	11
+	+	8	0
+	+	6	18
+	+	7	9
+	+	6	22
+	+	2	15
+	+	6	26
 
-> /g/area/shell/workflow/readme.txt
-	*	1715498367	0
-	"	1	16
-	^	1	19
-	.	1	16
-	+	1	16
-
-> /g/area/shell/workflow/bookmark.sh
-	*	1715498297	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-
-> /g/area/shell/open_site.sh
-	*	1715498073	0
-	"	16	3
-	^	22	21
-	.	22	20
-	+	1	20
-	+	1	11
-	+	1	52
-	+	1	0
-	+	1	41
-	+	1	0
-	+	1	26
-	+	1	23
-	+	1	11
-	+	1	20
-	+	1	0
-	+	1	5
-	+	1	11
-	+	82	10
-	+	80	0
-	+	82	0
-	+	1	11
-	+	22	20
-
-> /g/area/shell/xx.sh
-	*	1715497903	0
-	"	23	13
-	^	23	56
-	.	23	55
-	+	1	20
-	+	1	61
-	+	1	20
-	+	1	0
-	+	1	32
-	+	1	0
-	+	1	10
-	+	1	0
-	+	1	20
-	+	1	0
-	+	1	5
-	+	1	4
-	+	1	0
-	+	1	5
-	+	1	0
-	+	1	3
-	+	1	14
-	+	1	11
-	+	201	8
-	+	119	8
-	+	253	8
-	+	150	0
-	+	159	0
-	+	229	51
-	+	238	9
-	+	229	0
-	+	225	0
-	+	226	0
-	+	23	55
-
-> /g/area/shell/open_site_v1.0.sh
-	*	1715497510	0
-	"	16	20
-
-> /g/area/shell/xx.txt
-	*	1715495767	0
-	"	41	92
-	^	41	95
-	.	41	92
-	+	41	92
-
-> /g/area/shell/xx.html
-	*	1715492265	0
-	"	41	6
-
-> /g/area/shell/open_site
-	*	1715491001	0
-	"	1	0
-
-> /g/area/shell/test.sh
-	*	1715490931	0
-	"	42	0
-
-> /g/area/shell/yt_d.sh
-	*	1715490925	0
-	"	1	0
-
-> /g/area/shell/xx.
-	*	1715490331	0
-	"	1	0
-
-> /g/area/shell/windows/command-list.sh
-	*	1715489337	0
-	"	8	0
-
-> /g/area/shell/windows/port_scan.sh
-	*	1715489286	0
+> /g/area/emacs-notes/Computer_science/demo_c/test.c
+	*	1729568406	0
 	"	25	0
 
-> /g/area/shell/windows/说明.txt
-	*	1715489261	0
-	"	2	0
-
-> /g/area/shell/windows/chg-env-var.sh
-	*	1715489252	0
-	"	59	10
-	.	60	0
-	+	25	0
-	+	27	0
-	+	8	0
-	+	36	0
-	+	35	0
-	+	26	0
-	+	56	1
-	+	22	1
-	+	60	1
-	+	60	0
-
-> /g/area/shell/ahk/ref_mannual.ahk
-	*	1715487855	0
-	"	5	35
-	^	5	36
-	.	5	35
-	+	1	21
-	+	1	0
-	+	1	20
-	+	22	21
-	+	5	35
-
-> /g/area/shell/ahk/xx.ahk
-	*	1715487288	0
-	"	1	24
-	^	1	25
-	.	1	24
-	+	1	0
-	+	26	0
-	+	1	24
-
-> /g/area/shell/ahk/get_conf.ahk
-	*	1715485740	0
-	"	10	26
-	^	10	27
-	.	10	26
-	+	1	0
-	+	14	20
-	+	9	0
-	+	1	0
-	+	9	0
-	+	10	26
-
-> /g/area/shell/windows/command-install.sh
-	*	1715485200	0
-	"	13	0
-	^	11	14
-	.	11	13
-	+	11	13
-
-> /g/area/shell/windows/main-init.sh
-	*	1715485183	0
-	"	7	0
-
-> ~/.bshrc
-	*	1715461671	0
-	"	1	0
-
-> /usr/share/vim/vim82/doc/help.txt
-	*	1715461631	0
-	"	2	0
-
-> /g/area/shell/windows/port_using.sh
-	*	1715346339	0
-	"	8	0
-
-> /g/area/shell/ahk/hello.ahk
-	*	1715346097	0
-	"	1	19
-	^	1	20
-	.	1	19
-	+	1	19
-
-> /d/work/engineer-work/plc/cp_text.ps1
-	*	1715307017	0
-	"	14	4
-	^	24	1
-	.	24	0
-	+	1	0
-	+	1	33
-	+	24	0
-
-> /d/work/engineer-work/plc/Pos_huzhou_Pro_qizhou_Aid_I.txt
-	*	1715306564	0
-	"	1	0
-
-> /d/work/engineer-work/plc/Pos_huzhou_Pro_qizhou_Aid_Q.txt
-	*	1715306356	0
-	"	37	5
-	^	37	6
-	.	37	5
-	+	18	1
-	+	19	0
-	+	20	0
+> /d/g/area/serve/blog/content/resource/namespace和贝叶斯推理.md
+	*	1729387618	0
+	"	29	0
+	^	28	6
+	.	33	0
+	+	7	38
+	+	9	105
+	+	9	189
+	+	10	60
+	+	9	216
+	+	10	36
+	+	13	131
+	+	14	9
+	+	9	191
+	+	18	148
+	+	18	42
 	+	21	0
-	+	22	0
-	+	23	0
-	+	25	0
-	+	26	0
-	+	24	0
-	+	28	0
-	+	27	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	33	0
-	+	32	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	38	0
-	+	37	5
-
-> /d/work/engineer-work/plc/aid.txt
-	*	1715305793	0
-	"	31	0
-	^	37	11
-	.	25	0
-	+	39	17
-	+	25	1
-	+	26	0
-	+	27	0
-	+	28	0
-	+	30	0
-	+	29	0
-	+	31	0
-	+	32	0
-	+	33	0
-	+	35	0
-	+	34	0
-	+	36	0
-	+	37	10
-	+	25	0
-
-> /d/documents/main/blog/content/posts/超越理论-情景创设.md
-	*	1715133522	0
-	"	36	73
-	^	36	76
-	.	36	73
-	+	2	20
-	+	8	86
-	+	12	0
-	+	10	190
-	+	12	6
-	+	12	0
-	+	11	94
-	+	11	279
-	+	13	0
-	+	12	0
-	+	11	269
-	+	13	1
-	+	34	30
-	+	15	2
-	+	15	0
-	+	35	3
-	+	35	0
-	+	36	241
-	+	37	39
-	+	36	109
-	+	37	162
-	+	35	0
-	+	15	0
-	+	13	34
-	+	36	73
-
-> /d/documents/main/blog/content/posts/情景创设.md
-	*	1715130823	0
-	"	8	0
-	^	8	0
-	.	8	0
-	+	8	0
-
-> /g/area/emacs-notes/Computer_science/demo_ts/hello.ts
-	*	1715006216	0
-	"	11	18
-	^	11	19
-	.	11	18
-	+	1	34
-	+	8	25
-	+	10	17
-	+	12	27
-	+	2	32
-	+	4	0
-	+	3	1
-	+	8	0
-	+	3	1
-	+	5	6
-	+	7	0
-	+	5	1
-	+	6	43
-	+	10	19
-	+	11	18
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/web_client.js
-	*	1715003447	0
-	"	20	9
-	^	20	10
-	.	20	9
-	+	1	27
-	+	3	15
-	+	6	20
-	+	4	20
-	+	5	14
-	+	6	20
-	+	7	2
-	+	9	34
-	+	10	12
-	+	17	0
-	+	11	35
-	+	12	14
-	+	14	30
-	+	15	19
-	+	16	3
-	+	19	41
-	+	20	9
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/web.client.js
-	*	1715002989	0
-	"	1	0
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/web_server.js
-	*	1715002950	0
-	"	17	1
-	^	11	6
-	.	11	5
-	+	1	27
-	+	2	23
-	+	3	25
-	+	5	45
-	+	20	0
-	+	6	48
-	+	7	49
-	+	9	51
-	+	10	10
-	+	11	19
-	+	12	55
-	+	14	7
-	+	17	3
-	+	15	56
-	+	16	34
-	+	17	3
-	+	18	16
-	+	20	0
-	+	19	3
-	+	20	15
-	+	22	55
-	+	11	5
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/index.html
-	*	1715002894	0
-	"	7	0
-	.	6	0
-	+	1	15
-	+	2	4
-	+	11	1
-	+	3	6
-	+	6	7
-	+	10	5
-	+	7	6
-	+	8	31
-	+	9	27
-	+	6	0
-	+	4	24
-	+	5	29
-	+	6	0
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/index.
-	*	1715002891	0
-	"	1	0
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/idne
-	*	1715002887	0
-	"	1	0
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/index.js
-	*	1715002792	0
-	"	4	26
-	^	4	27
-	.	4	26
-	+	1	33
-	+	2	33
-	+	4	26
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/get.js
-	*	1715000760	0
-	"	12	8
-	^	13	11
-	.	13	10
-	+	1	27
-	+	2	25
-	+	3	27
-	+	6	37
-	+	7	0
-	+	14	0
-	+	7	64
-	+	8	47
-	+	14	16
-	+	15	0
-	+	8	50
-	+	9	44
-	+	10	37
-	+	13	0
-	+	12	0
-	+	11	13
-	+	12	33
-	+	13	10
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/file.js
-	*	1715000193	0
-	"	13	33
-	^	13	34
-	.	13	33
-	+	1	23
-	+	3	43
-	+	4	9
-	+	5	27
-	+	7	45
-	+	10	40
-	+	11	47
-	+	13	33
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/tool.js
-	*	1715000004	0
-	"	12	2
-	^	12	3
-	.	13	0
-	+	1	29
-	+	3	20
-	+	5	0
-	+	4	21
-	+	5	1
-	+	7	46
-	+	9	31
-	+	10	20
-	+	11	17
-	+	12	3
-	+	13	0
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/global.js
-	*	1714999482	0
-	"	2	22
-	^	2	23
-	.	2	22
-	+	1	25
-	+	2	22
-
-> /d/documents/main/blog/content/posts/《a_philosophy_of_software_design》.md
-	*	1714913255	0
-	"	8	0
-	^	7	0
-	.	7	0
-	+	5	21
-	+	7	3
-	+	7	0
-
-> /d/documents/main/blog/content/posts/archive-王彦彦.md
-	*	1714912300	0
-	"	5	10
-	^	5	11
-	.	5	10
-	+	5	10
-
-> /d/documents/main/blog/content/posts/确定方向.md
-	*	1714912293	0
-	"	5	10
-	^	5	11
-	.	5	10
-	+	12	156
-	+	14	24
-	+	5	10
-
-> /d/documents/main/blog/content/posts/断舍离.md
-	*	1714912260	0
-	"	5	10
-	^	5	11
-	.	5	10
-	+	9	28
-	+	10	39
-	+	11	0
-	+	12	213
-	+	14	195
-	+	14	318
-	+	14	199
-	+	18	245
-	+	20	96
-	+	14	30
-	+	15	0
-	+	14	54
-	+	14	156
-	+	5	10
-
-> /d/documents/main/blog/content/posts/health.md
-	*	1714912232	0
-	"	4	0
-
-> /d/documents/main/blog/content/posts/《软件开发者路线图》.md
-	*	1714912187	0
-	"	5	17
-	^	5	18
-	.	5	17
-	+	5	17
-
-> /d/documents/main/blog/content/posts/《改变，问题的形成和解决》.md
-	*	1714912173	0
-	"	5	26
-	^	5	27
-	.	5	26
-	+	5	26
-
-> /d/documents/main/blog/hugo.toml
-	*	1714912154	0
-	"	34	9
-	^	34	10
-	.	34	9
-	+	35	0
-	+	36	0
-	+	36	16
-	+	36	10
-	+	36	14
-	+	36	11
-	+	36	9
-	+	37	0
+	+	18	276
 	+	18	0
-	+	24	0
-	+	22	9
-	+	28	9
-	+	34	9
+	+	17	108
+	+	20	0
+	+	29	1
+	+	22	29
+	+	33	47
+	+	23	100
+	+	26	64
+	+	33	47
+	+	29	44
+	+	33	44
+	+	24	20
+	+	27	26
+	+	25	83
+	+	28	29
+	+	27	26
+	+	31	31
+	+	22	3
+	+	33	2
+	+	31	109
+	+	33	0
+	+	30	0
+	+	32	80
+	+	22	64
+	+	33	3
+	+	34	163
+	+	34	304
+	+	35	75
+	+	22	0
+	+	29	0
+	+	30	0
+	+	23	1
+	+	26	1
+	+	31	1
+	+	32	1
+	+	24	3
+	+	25	5
+	+	27	5
+	+	28	5
+	+	33	0
 
-> /d/documents/main/blog/content/posts/《自我管理》.md
-	*	1714912085	0
-	"	4	22
-	^	4	23
-	.	4	22
-	+	4	22
+> /d/g/area/serve/blog/content/project/index.md
+	*	1729383868	0
+	"	22	63
+	^	22	64
+	.	22	63
+	+	17	11
+	+	21	14
+	+	17	1
+	+	21	1
+	+	17	16
+	+	16	14
+	+	21	16
+	+	22	16
+	+	23	77
+	+	22	63
 
-> /d/documents/main/blog/content/posts/《我在北京送快递》.md
-	*	1714912057	0
-	"	5	10
-	^	5	11
-	.	5	10
-	+	5	10
-
-> /d/documents/main/blog/content/main.md
-	*	1714911858	0
-	"	1	0
-	^	9	47
-	.	17	0
-	+	10	55
-	+	17	0
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/func.js
-	*	1714909265	0
-	"	9	20
-	^	9	21
-	.	9	20
-	+	1	19
-	+	2	18
-	+	5	29
-	+	6	12
-	+	9	20
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/server.js
-	*	1714896871	0
-	"	20	20
-	^	8	18
-	.	10	0
-	+	20	20
-	+	4	17
-	+	14	0
-	+	5	38
-	+	6	49
-	+	10	50
-	+	10	56
-	+	11	32
-	+	12	16
-	+	15	43
-	+	16	36
-	+	1	27
-	+	2	0
-	+	4	19
-	+	9	0
-	+	8	17
-	+	10	0
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/router.js
-	*	1714896364	0
-	"	5	21
-	^	5	22
-	.	5	21
-	+	1	25
-	+	2	53
-	+	5	21
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/helloworld.js
-	*	1714894578	0
-	"	3	13
-	^	3	14
-	.	3	13
-	+	1	24
-	+	2	28
-	+	3	0
-	+	1	31
-	+	3	13
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/stream_chain.js
-	*	1714894104	0
-	"	6	24
-	^	6	25
-	.	6	24
-	+	1	23
-	+	3	27
-	+	5	33
-	+	6	24
-	+	7	46
-	+	9	33
-	+	6	24
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/stream_rw.js
-	*	1714893293	0
+> /d/g/area/serve/blog/content/resource/list-infostream-src.md
+	*	1729383655	0
 	"	7	16
 	^	7	17
 	.	7	16
-	+	1	23
-	+	3	52
-	+	7	0
-	+	3	0
-	+	4	42
-	+	7	0
-	+	7	30
-	+	8	33
+	+	30	0
+	+	6	5
+	+	8	99
 	+	7	16
 
-> /g/area/emacs-notes/Computer_science/demo_nodejs/stream_rw.ks
-	*	1714893187	0
+> /g/area/emacs-notes/Computer_science/demo_c/alo_sort_bubble.c
+	*	1729347753	0
+	"	10	0
+	.	11	0
+	+	1	18
+	+	2	19
+	+	20	11
+	+	24	0
+	+	10	19
+	+	10	0
+	+	21	30
+	+	10	25
+	+	19	0
+	+	12	0
+	+	10	1
+	+	12	21
+	+	13	0
+	+	12	29
+	+	19	0
+	+	23	13
+	+	10	19
+	+	10	27
+	+	10	0
+	+	10	23
+	+	10	0
+	+	10	8
+	+	10	36
+	+	10	10
+	+	10	25
+	+	4	23
+	+	5	13
+	+	8	0
+	+	5	13
+	+	7	8
+	+	10	22
+	+	22	19
+	+	10	25
+	+	10	46
+	+	10	16
+	+	10	13
+	+	10	11
+	+	10	0
+	+	11	0
+
+> /g/area/emacs-notes/Computer_science/demo_c/leet_01_sum.c
+	*	1729325749	0
 	"	1	0
 
-> /g/area/emacs-notes/Computer_science/demo_nodejs/stream_write.js
-	*	1714893159	0
-	"	16	13
-	^	3	0
-	.	16	13
-	+	1	23
-	+	2	54
-	+	4	0
+> /g/area/emacs-notes/Computer_science/demo_c/base_var_lifecycle.c
+	*	1729325727	0
+	"	48	0
+	.	48	0
+	+	13	0
+	+	48	0
+
+> /g/area/emacs-notes/Computer_science/demo_c/archive/Ref.org
+	*	1729325629	0
+	"	1	0
+
+> /g/area/emacs-notes/Computer_science/demo_c/bt_c_memo.c
+	*	1729293394	0
+	"	11	4
+	^	11	5
+	.	11	4
+	+	6	19
+	+	7	0
+	+	17	0
+	+	7	0
+	+	18	0
+	+	15	17
+	+	16	1
+	+	11	4
+
+> /g/area/emacs-notes/Computer_science/demo_c/namespace.c
+	*	1729293255	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> /g/area/emacs-notes/Computer_science/demo_c/c_memo.c
+	*	1729293217	0
+	"	9	18
+	^	9	19
+	.	9	18
+	+	1	17
 	+	2	0
-	+	5	53
-	+	8	32
-	+	8	31
+	+	8	1
 	+	9	0
-	+	12	35
-	+	13	28
-	+	16	37
-	+	17	23
-	+	20	33
-	+	2	0
-	+	3	0
-	+	16	13
+	+	11	0
+	+	3	7
+	+	9	16
+	+	10	9
+	+	1	12
+	+	9	18
 
-> /g/area/emacs-notes/Computer_science/demo_nodejs/stream_read.js
-	*	1714892336	0
-	"	11	33
-	^	11	34
-	.	11	33
-	+	1	23
-	+	2	14
-	+	1	0
-	+	2	0
-	+	4	52
-	+	5	33
-	+	7	36
-	+	8	23
-	+	11	33
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/buffer.js
-	*	1714891259	0
-	"	4	31
-	^	4	32
-	.	4	31
-	+	1	42
-	+	3	32
-	+	4	31
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/event.js
-	*	1714891048	0
-	"	14	31
-	^	14	32
-	.	14	31
-	+	14	31
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/callback_noblock.js
-	*	1714890919	0
-	"	7	0
-	^	8	34
-	.	8	33
-	+	1	23
-	+	3	43
-	+	4	35
-	+	5	29
-	+	8	33
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/callback.js
-	*	1714890744	0
-	"	7	32
-	^	7	33
-	.	7	28
-	+	1	23
-	+	3	40
-	+	5	29
-	+	7	28
-
-> /g/area/emacs-notes/Computer_science/demo_nodejs/http.js
-	*	1714889703	0
-	"	11	33
-
-> /d/documents/main/docs/README.md
-	*	1714804816	0
-	"	37	10
-	^	37	11
-	.	37	10
+> /g/area/emacs-notes/Computer_science/demo_ts/test.ts
+	*	1729268051	0
+	"	5	0
+	.	6	0
+	+	2	22
+	+	3	21
+	+	4	22
+	+	6	21
 	+	6	0
-	+	37	10
 
-> /d/documents/main/docs/resource/nodejs.md
-	*	1714804764	0
-	"	71	13
-	^	71	16
-	.	71	13
-	+	39	0
-	+	2	41
-	+	3	69
-	+	6	0
-	+	1	2
-	+	7	14
-	+	22	18
-	+	23	11
-	+	21	2
-	+	38	2
-	+	23	14
-	+	38	0
-	+	27	55
-	+	27	0
-	+	30	15
-	+	37	24
-	+	32	15
-	+	38	0
-	+	27	18
-	+	27	0
-	+	25	41
-	+	28	0
-	+	9	3
-	+	19	2
-	+	18	18
-	+	8	15
-	+	39	13
-	+	41	21
-	+	40	14
-	+	58	0
-	+	59	10
-	+	58	10
-	+	58	47
-	+	42	0
-	+	57	14
-	+	62	26
-	+	63	0
-	+	5	0
-	+	63	21
-	+	65	11
-	+	63	21
-	+	62	8
-	+	57	8
-	+	43	22
-	+	58	0
-	+	44	0
-	+	43	42
-	+	44	49
-	+	57	0
-	+	44	78
-	+	57	0
-	+	48	45
-	+	58	0
-	+	48	48
-	+	50	11
-	+	51	9
-	+	53	0
-	+	58	0
-	+	52	31
-	+	54	37
-	+	54	1
-	+	54	40
-	+	55	17
-	+	64	11
-	+	65	45
-	+	50	13
-	+	52	52
-	+	63	0
-	+	60	0
-	+	57	0
-	+	63	0
-	+	44	0
-	+	60	16
-	+	68	17
-	+	71	0
-	+	71	100
-	+	71	2
-	+	71	104
-	+	71	13
+> /g/area/emacs-notes/Computer_science/demo_ts/test.
+	*	1729267921	0
+	"	1	0
+
+> /g/area/emacs-notes/GTD/archiv.org
+	*	1729207003	0
+	"	46	0
+
+> /g/area/emacs-notes/GTD/agenda.org
+	*	1729206994	0
+	"	47	0
+
+> /g/area/emacs-notes/GTD/area.org
+	*	1729206982	0
+	"	156	0
+
+> /g/area/emacs-notes/GTD/inbox.org
+	*	1729206971	0
+	"	1	0

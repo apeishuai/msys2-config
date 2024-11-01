@@ -111,7 +111,7 @@
 # /etc/profile sets 022, removing write perms to group + others.
 # Set a more restrictive umask: i.e. no exec perms for others:
 # umask 027
-# Paranoid: neither group nor others have any perms:
+# Paranoi neither group nor others have any perms:
 # umask 077
 
 # Functions
@@ -191,85 +191,98 @@
 
 # custom soft
 
-
-
-
 # custom path
 # export PATH=$PATH:/mingw64/bin/
 export PATH=$PATH:\C\:\/msys64\mingw64/bin/
 export PATH=$PATH:\E\:\/cmd\ tool/proxychains/
-#export http_proxy="127.0.0.1:1082"
-
-alias sync_tmp="scp -q -r "g:/area/emacs-notes/shell/xx.txt" shuai@117.50.186.154:~/shell/xx.txt"
-
-# shell
-alias cmd_ahk="cd $root/shell/ahk"
-alias cmd_site_mang="cd $root/shell/area/workflow/site_mang"
-alias cmd_test_huzhou_plc="cd $root/shell/test"
-
-# sync conf
-alias sync_conf_tmux="scp -q -r shuai@117.50.186.154:~/.tmux.conf ~/.tmux.conf"
-alias sync_conf_lTr="scp -q -r "~/.bashrc*" shuai@117.50.186.154:~"
-alias sync_conf_rTl="scp -q -r shuai@117.50.186.154:~/.bashrc* ~"
-
-# sync shell
-alias sync_shell_rTl="scp -q -r shuai@117.50.186.154:~/Shell/ $root"
-alias sync_shell_lTr="scp -q -r "$root/Shell" shuai@117.50.186.154:~/"
-
-#alias sync_blog="rsync -avuP shuai@117.50.186.154:~/blog/ /g/area/arch_blog"
-#alias sync_proj="rsync -avz shuai@117.50.186.154:~/project/ $root/project"
-alias sync_shaarli="rsync -avz "$serv_root/shaarli" ubuntu@117.50.186.154:~/serve"
-
-alias info="cd g:/area/emacs-notes/info/"
-alias lib="cd c:/msys64/mingw64/include"
-alias nixos="cd d:/softwares/nixos-wsl/"
-
-
-# server & data
-alias serve_data="cd d:/local_data/"
-alias werss="cd d:/local_data/werss"
-alias cousera="cd d:/documents/courses"
-alias serv_shaare="cd d:/main/serve/shaarli"
+export PATH=$PATH:\D\:\/softwares/msys64/home/whens/node_modules/
 
 # help
 alias man_docker="vim "
 alias man_vim="vim "
+alias rsc_ebook="start g:/rsc/ebooks"
+alias rsc_icloud="start D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments"
+alias info="cd g:/area/emacs-notes/info/"
+alias lib="cd c:/msys64/mingw64/include"
+alias nixos="cd /softwares/nixos-wsl/"
+alias help_html="vim $serv_root/docs/resource/front.md"
 
 
 
-# pro
+# soft
+alias node="C:/Users/whens/AppData/Local/pnpm/node.exe"
+alias npm="C:/Users/whens/AppData/Local/pnpm/npm.cmd"
+alias bin="cd ~/Shell/bin"
+
+
+
+# serve
+alias docs="cd $serv_root/docs/"
+alias blog="cd '$serv_root/blog'"
+alias site="cd d:/g/area/Shell/area/workflow/site_mang"
+alias site_add="cd d:/g/area/Shell/area/workflow/site_mang && ./url_mang.sh -a $1 $2 $3"
+alias site_open="cd d:/g/area/Shell/area/workflow/site_mang && ./main.sh $1"
+alias site_ls="cd d:/g/area/Shell/area/workflow/site_mang && ./url_mang.sh -L"
+#alias url="cd d:/g/area/Shell/area/workflow/site_mang && ./url_mang.sh -l"
+
+
+# data
+#alias serve_data="cd /local_data/"
+#alias werss="cd /local_data/werss"
+#alias cousera="cd /documents/courses"
+#alias serv_shaare="cd /main/serve/shaarli"
+alias ref="cd 'D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref'"
+alias jianguo-doc="cd 'C:\\Users\\whens\\Nutstore\\1\\docs'"
+alias rsc="cd 'D:/g/rsc'"
+alias pro="cd 'd:/g/pro'"
+alias node_modules="cd 'd:/softwares/msys64/home/whens/node_modules'"
+alias img_jianguo="cd 'C:/Users/whens/Nutstore/1/docs/img'"
+alias img_blog="cd '/d/g/area/serve/blog/static/img/'"
+
+
+
+alias shell="cd ~/Shell"
+alias data="cd 'g:/area/wxf-data'"
+alias data_fuwa="cd 'g:/area/wxf-data/福娃 tele 2023-08-14'"
+
+
+
+# sync
+alias sync_tmp="scp -q -r ubuntu@117.50.186.154:~/*.pcap "D:/tmp/" && cd "D:/tmp/""
+alias sync_conf_tmux="scp -q -r shuai@117.50.186.154:~/.tmux.conf ~/.tmux.conf"
+alias sync_conf_lTr="scp -q -r "~/.bashrc*" ubuntu@117.50.186.154:~"
+alias sync_conf_rTl="scp -q -r ubuntu@117.50.186.154:~/.bash* ~"
+alias sync_shell_rTl="scp -q -r shuai@117.50.186.154:~/Shell/ $root"
+alias sync_shell_lTr="scp -q -r "$root/Shell" shuai@117.50.186.154:~/"
+alias sync_shaarli="rsync -avz "$serv_root/shaarli" ubuntu@117.50.186.154:~/serve"
+
+
+# demo
 alias demo_front="cd 'g:/area/emacs-notes/Computer_science/demo_front'"
 alias demo_c="cd 'g:/area/emacs-notes/Computer_science/demo_c'"
 alias demo_java="cd 'g:/area/emacs-notes/Computer_science/demo_java'"
 alias demo_python="cd 'g:/area/emacs-notes/Computer_science/demo_python'"
 alias demo_cpp="cd 'g:/area/emacs-notes/Computer_science/demo_cpp'"
 alias demo_docker="cd 'g:/area/emacs-notes/Computer_science/docker'"
-# alias demo_dot="cd 'g:/area/emacs-notes/Computer_science/dot'"
 alias demo_node="cd 'g:/area/emacs-notes/Computer_science/demo_nodejs'"
 alias demo_ts="cd 'g:/area/emacs-notes/Computer_science/demo_ts'"
 alias demo_alog="cd 'g:/area/emacs-notes/Computer_science/demo_alogram'"
+alias demo_aardio="cd 'g:/area/emacs-notes/Computer_science/demo_aardio'"
+# alias demo_dot="cd 'g:/area/emacs-notes/Computer_science/dot'"
+
 
 # work
-alias work_plc="cd 'd:/work/engineer-work/plc'"
-alias work_hmi="cd 'd:/work/engineer-work/hmi'"
-alias work_doc="cd 'd:/work/docs-work'"
-alias work_conf="cd 'd:/work/config-work'"
-alias work_ref="cd 'd:/work/ref-work'"
-alias work_soft_msi="cd 'd:/softwares/msi'"
+alias work="cd d:/work"
+alias work_ing="cd 'd:/g/area/work/ing-jsgx(极速光学)'"
+alias work_archiv="cd 'd:/g/area/work/archiv'"
+alias work_msi="cd 'd:/g/area/work/soft-work/msi'"
+alias biaozhun_dianqi="cd 'D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref/标准 GB/标准-电气'"
+alias xuanxing="cd D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref/products"
 
 # work-soft
-alias solid="cd d:/softwares/soildworks\ 2018"
-
-
-# ref
-alias ref="start d:/documents/base"
-alias book="start g:/resource/ebooks"
-
-
-
-
-
+# alias solid="cd /softwares/soildworks\ 2018"
 # Disable non-interactive output
+
 if [ -z "$PS1" ]; then
     return
 fi

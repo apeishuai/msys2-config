@@ -3,18 +3,18 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
- (filename . "g:/area/emacs-notes/GTD/rsc.org")
- (front-context-string . "* TODO book\n/Ent")
- (rear-context-string . "3-23 周四 20:02]\n\n")
- (position . 12985))
+ (filename . "g:/area/emacs-notes/GTD/area.org")
+ (front-context-string . "** TODO 安装ubuntu")
+ (rear-context-string . "07-04 周四 15:26]\n")
+ (position . 8730))
 ("org-refile-last-stored"
- (filename . "g:/area/emacs-notes/GTD/rsc.org")
- (front-context-string . "** TODO 金钱心理学   ")
- (rear-context-string . "3-10 周五 12:41]\n\n")
- (position . 29214))
+ (filename . "g:/area/emacs-notes/GTD/area.org")
+ (front-context-string . "*** TODO 安装ubunt")
+ (rear-context-string . "06-07 周五 08:38]\n")
+ (position . 7577))
 ("org-capture-last-stored"
  (filename . "g:/area/emacs-notes/GTD/inbox.org")
- (front-context-string . "* TODO book\n/Ent")
- (rear-context-string . "04-10 周三 17:29]\n")
- (position . 59))
+ (front-context-string . "* TODO 安装ubuntu系")
+ (rear-context-string)
+ (position . 1))
 )

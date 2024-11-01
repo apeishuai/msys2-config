@@ -4,8 +4,7 @@ HISTFILESIZE=1000000
 
 # env PATH
 PROMPT_COMMAND="history -a; history -n"
-HISTFILE="$root/shell/history_file"
-instruct="$root/shell/readme.md"
+HISTFILE="$home/.bash_history"
 
 # conf
 if [ "$(uname)" == "Linux" ]; then
@@ -13,11 +12,10 @@ if [ "$(uname)" == "Linux" ]; then
 elif [ -n "$MSYSTEM" ] && [ "$MSYSTEM" == "MSYS" ]; then
 	alias conf="vim ~/.bashrc_win"
 fi
+
 alias conf_="vim ~/.bashrc_comm"
 alias refresh="source ~/.bashrc"
 
-# serve
-alias docs="cd $serv_root/docs/"
-alias blog="cd '$serv_root/blog'"
-alias cmd="cd $root/shell"
-#alias pro="cd $root/project"
+# var
+serv_root=/d/g/area/serve
+doc_rsc=/g/area/serve/docs/resource

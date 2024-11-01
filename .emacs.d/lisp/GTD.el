@@ -15,12 +15,9 @@
 
 
 (when (memq window-system '(w32))
-  (setq org-agenda-files '("inbox.org" "area.org"))
+  (setq org-agenda-files '("inbox.org" "area.org" "archiv.org"))
   (setq org-refile-files (directory-files "g:/area/emacs-notes/GTD/" t "\\.org$"))
   )
-
-
-
 ;; Refile
 (setq org-refile-use-outline-path 'file)
 (setq org-outline-path-complete-in-steps nil)
@@ -42,3 +39,5 @@ See also `org-save-all-org-buffers'"
 (advice-add 'org-refile :after
 	    (lambda (&rest _)
 	      (gtd-save-org-buffers)))
+
+(provide 'GTD)
