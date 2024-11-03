@@ -217,12 +217,13 @@ alias bin="cd ~/Shell/bin"
 
 
 # serve
-alias docs="cd $serv_root/docs/"
+# alias docs="cd $serv_root/docs/" \\封存，里面的内容有需要提取
 alias blog="cd '$serv_root/blog'"
-alias site="cd d:/g/area/Shell/area/workflow/site_mang"
-alias site_add="cd d:/g/area/Shell/area/workflow/site_mang && ./url_mang.sh -a $1 $2 $3"
-alias site_open="cd d:/g/area/Shell/area/workflow/site_mang && ./main.sh $1"
-alias site_ls="cd d:/g/area/Shell/area/workflow/site_mang && ./url_mang.sh -L"
+
+alias site="cd ~/Shell/workflow/site_mang"
+alias site_add="cd ~/Shell/workflow/site_mang && ./url_mang.sh -a $1 $2 $3"
+alias site_open="cd ~/Shell/workflow/site_mang && ./main.sh $1"
+alias site_ls="cd ~/Shell/workflow/site_mang && ./url_mang.sh -L"
 #alias url="cd d:/g/area/Shell/area/workflow/site_mang && ./url_mang.sh -l"
 
 
@@ -238,6 +239,9 @@ alias pro="cd 'd:/g/pro'"
 alias node_modules="cd 'd:/softwares/msys64/home/whens/node_modules'"
 alias img_jianguo="cd 'C:/Users/whens/Nutstore/1/docs/img'"
 alias img_blog="cd '/d/g/area/serve/blog/static/img/'"
+
+
+alias pro_react="cd G:/area/emacs-notes/Computer_science/demo_nodejs/reactapp"
 
 
 
@@ -268,6 +272,7 @@ alias demo_node="cd 'g:/area/emacs-notes/Computer_science/demo_nodejs'"
 alias demo_ts="cd 'g:/area/emacs-notes/Computer_science/demo_ts'"
 alias demo_alog="cd 'g:/area/emacs-notes/Computer_science/demo_alogram'"
 alias demo_aardio="cd 'g:/area/emacs-notes/Computer_science/demo_aardio'"
+alias demo_php="cd 'g:/area/emacs-notes/Computer_science/demo_php'"
 # alias demo_dot="cd 'g:/area/emacs-notes/Computer_science/dot'"
 
 
