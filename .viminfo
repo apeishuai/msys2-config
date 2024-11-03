@@ -21,9 +21,9 @@ $img
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1730596501,,"q"
+|2,0,1730596563,,"q"
 :wq
-|2,0,1730596496,,"wq"
+|2,0,1730596554,,"wq"
 :weq
 |2,0,1730595622,,"weq"
 :%s/..\/img/img/g
@@ -636,28 +636,36 @@ $img
 |3,0,36,0,1,0,1730596179,"c"
 
 # File marks:
-'0  12  21  ~/Shell/git_push.sh
-|4,48,12,21,1730596501,"~/Shell/git_push.sh"
-'1  12  21  ~/Shell/git_push.sh
-|4,49,12,21,1730596496,"~/Shell/git_push.sh"
+'0  11  0  ~/Shell/git_push.sh
+|4,48,11,0,1730596563,"~/Shell/git_push.sh"
+'1  11  0  ~/Shell/git_push.sh
+|4,49,11,0,1730596554,"~/Shell/git_push.sh"
 '2  12  21  ~/Shell/git_push.sh
-|4,50,12,21,1730596476,"~/Shell/git_push.sh"
+|4,50,12,21,1730596501,"~/Shell/git_push.sh"
 '3  12  21  ~/Shell/git_push.sh
-|4,51,12,21,1730596476,"~/Shell/git_push.sh"
-'4  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,52,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
-'5  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,53,271,0,1730596008,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
-'6  266  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,54,266,0,1730596008,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
-'7  220  8  ~/.bashrc_win
-|4,55,220,8,1730595623,"~/.bashrc_win"
-'8  220  73  ~/.bashrc_win
-|4,56,220,73,1730595586,"~/.bashrc_win"
-'9  103  0  /d/g/area/serve/docs/README.md
-|4,57,103,0,1730595467,"/d/g/area/serve/docs/README.md"
+|4,51,12,21,1730596501,"~/Shell/git_push.sh"
+'4  12  21  ~/Shell/git_push.sh
+|4,52,12,21,1730596501,"~/Shell/git_push.sh"
+'5  12  21  ~/Shell/git_push.sh
+|4,53,12,21,1730596501,"~/Shell/git_push.sh"
+'6  12  21  ~/Shell/git_push.sh
+|4,54,12,21,1730596496,"~/Shell/git_push.sh"
+'7  12  21  ~/Shell/git_push.sh
+|4,55,12,21,1730596496,"~/Shell/git_push.sh"
+'8  12  21  ~/Shell/git_push.sh
+|4,56,12,21,1730596496,"~/Shell/git_push.sh"
+'9  12  21  ~/Shell/git_push.sh
+|4,57,12,21,1730596496,"~/Shell/git_push.sh"
 
 # Jumplist (newest first):
+-'  11  0  ~/Shell/git_push.sh
+|4,39,11,0,1730596563,"~/Shell/git_push.sh"
+-'  11  0  ~/Shell/git_push.sh
+|4,39,11,0,1730596554,"~/Shell/git_push.sh"
+-'  12  21  ~/Shell/git_push.sh
+|4,39,12,21,1730596541,"~/Shell/git_push.sh"
+-'  12  21  ~/Shell/git_push.sh
+|4,39,12,21,1730596541,"~/Shell/git_push.sh"
 -'  12  21  ~/Shell/git_push.sh
 |4,39,12,21,1730596501,"~/Shell/git_push.sh"
 -'  12  21  ~/Shell/git_push.sh
@@ -670,6 +678,58 @@ $img
 |4,39,1,0,1730596258,"~/Shell/git_push.sh"
 -'  1  0  ~/Shell/git_push.sh
 |4,39,1,0,1730596258,"~/Shell/git_push.sh"
+-'  1  0  ~/Shell/git_push.sh
+|4,39,1,0,1730596258,"~/Shell/git_push.sh"
+-'  1  0  ~/Shell/git_push.sh
+|4,39,1,0,1730596258,"~/Shell/git_push.sh"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
 -'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
 |4,39,87,0,1730596244,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
 -'  87  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
@@ -702,6 +762,54 @@ $img
 |4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
 -'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
 |4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  270  9  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,270,9,1730596084,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
 -'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
 |4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
 -'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
@@ -718,152 +826,44 @@ $img
 |4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
 -'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
 |4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,0,1730596008,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,0,1730596008,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,0,1730596008,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,0,1730596008,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,0,1730596008,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,0,1730596008,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,0,1730596008,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,0,1730596008,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  124  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,124,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  119  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,119,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  124  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,124,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  119  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,119,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  124  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,124,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  119  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,119,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  124  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,124,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  119  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,119,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  124  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,124,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  119  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,119,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  124  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,124,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  119  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,119,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  124  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,124,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  119  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,119,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  124  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,124,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  119  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,119,0,1730595893,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  296  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,296,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  291  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,291,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  296  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,296,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  291  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,291,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  296  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,296,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  291  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,291,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  296  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,296,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  291  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,291,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  296  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,296,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  291  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,291,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  296  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,296,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  291  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,291,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  296  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,296,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  291  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,291,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  296  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,296,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  291  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,291,0,1730595871,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  199  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,199,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  194  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,194,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  199  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,199,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  194  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,194,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  199  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,199,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  194  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,194,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  199  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,199,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  194  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,194,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  199  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,199,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  194  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,194,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  199  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,199,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  194  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,194,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  199  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,199,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  194  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,194,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  199  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,199,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  194  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,194,0,1730595861,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  261  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,261,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  261  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,261,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  261  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,261,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  261  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,261,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  261  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,261,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  261  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,261,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  266  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,266,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
--'  261  33  /c/Users/whens/Nutstore/1/docs/doc-os.md
-|4,39,261,33,1730595845,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
+-'  271  0  /c/Users/whens/Nutstore/1/docs/doc-os.md
+|4,39,271,0,1730596077,"/c/Users/whens/Nutstore/1/docs/doc-os.md"
 
 # History of marks within files (newest to oldest):
 
 > ~/Shell/git_push.sh
-	*	1730596500	0
-	"	12	21
+	*	1730596562	0
+	"	11	0
 	^	12	22
 	.	12	21
 	+	2	28
