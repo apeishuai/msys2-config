@@ -21,13 +21,13 @@
 ;;环境变量设置
 (setq default-directory "/media/root/wxf files/emacs-notes/")
 (when (memq window-system '(w32))
-  (setq default-directory "g:/area/emacs-notes/")
+  (setq default-directory "d:/g/area/emacs-notes/")
   )
 
 (setq config-directory "~/.emacs.d/lisp/")
 (setenv "notes-home" "/media/root/wxf files/emacs-notes/")
 (when (memq window-system '(w32))
-  (setenv "notes-home" "g:/area/emacs-notes/")
+  (setenv "notes-home" "d:/g/area/emacs-notes/")
   )
 
 (setenv "PATH"

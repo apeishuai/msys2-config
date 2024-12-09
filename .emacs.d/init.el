@@ -10,4 +10,5 @@
 (require 'GTD)
 (require 'my-find-file)
 (require 'basic)
+(require 'plantuml)
 

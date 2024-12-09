@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/whens'
+let g:netrw_dirhist_3='/d/g/area/serve/blog/content/posts'
+let g:netrw_dirhist_2='/home/whens/.emacs.d/lisp'
 let g:netrw_dirhist_1='/g/area/emacs-notes/Computer_science/docker'
 let g:netrw_dirhist_0='/d/g/area/serve/blog/content/posts'
 let g:netrw_dirhist_9='/d/g/area/serve/docs/resource'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_8='/d/g/area/serve/blog/content/resource'
 let g:netrw_dirhist_7='/g/area/serve/docs/resource'
 let g:netrw_dirhist_6='/g/area/serve/docs'
 let g:netrw_dirhist_5='/g/area/serve/docs/resource'
-let g:netrw_dirhist_4='/g/area/serve/blog/content/posts'
-let g:netrw_dirhist_3='/g/area/shell/ahk/plc_200_smart.ahk'
-let g:netrw_dirhist_2='/g/area/shell/ahk'

@@ -207,6 +207,10 @@ alias lib="cd c:/msys64/mingw64/include"
 alias nixos="cd /softwares/nixos-wsl/"
 alias help_html="vim $serv_root/docs/resource/front.md"
 
+## search
+alias qt-search="$google_path https://doc.qt.io/"
+
+
 
 
 # soft
@@ -215,10 +219,22 @@ alias npm="C:/Users/whens/AppData/Local/pnpm/npm.cmd"
 alias bin="cd ~/Shell/bin"
 
 
+google_path="'C:/Program Files/Google/Chrome/Application/chrome.exe'"
+eplan_path="D:/softwares-work/eplan\ v2.9/EPLAN/Platform/2.9.4/Bin/Eplan.exe"
+Tzx_path="D:/softwares-work/Chint/Tzx/Tzx.exe"
+alias google="$google_path"
+alias eplan="$eplan_path"
+alias aider="conda activate && aider --deepseek --no-git --no-auto-commits"
+
+
 
 # serve
 # alias docs="cd $serv_root/docs/" \\封存，里面的内容有需要提取
+
 alias blog="cd '$serv_root/blog'"
+
+# mysqld --console
+alias gantt="cd '$serv_root/zz-plan' && zz-plan -f conf.yaml"
 
 alias site="cd ~/Shell/workflow/site_mang"
 alias site_add="cd ~/Shell/workflow/site_mang && ./url_mang.sh -a $1 $2 $3"
@@ -228,27 +244,44 @@ alias site_ls="cd ~/Shell/workflow/site_mang && ./url_mang.sh -L"
 
 
 # data
+alias data="cd 'D:/g/area/wxf-data"
+
+alias mysql="mysql -u root -p"
+export conf_mysql="D:/Softwares/scoop/apps/mysql/current" #scoop prefix mysql
+
+alias journal="cd 'D:/g/area/emacs-notes/life/Journal'"
+
+export host="C:/Windows/System32/drivers/etc"
+
+export note="D:/g/area/emacs-notes D:/g/area/serve/docs C:/Users/whens/Nutstore/1/docs"
+export ref="D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref D:/g/area/wxf-data/chrome web-pages"
+export log=""
+
+
 #alias serve_data="cd /local_data/"
 #alias werss="cd /local_data/werss"
 #alias cousera="cd /documents/courses"
 #alias serv_shaare="cd /main/serve/shaarli"
-alias ref="cd 'D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref'"
+
+alias life_travel="cd "
+alias rsc_ref="cd 'D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref' && start ."
 alias jianguo-doc="cd 'C:\\Users\\whens\\Nutstore\\1\\docs'"
 alias rsc="cd 'D:/g/rsc'"
-alias pro="cd 'd:/g/pro'"
+
 alias node_modules="cd 'd:/softwares/msys64/home/whens/node_modules'"
 alias img_jianguo="cd 'C:/Users/whens/Nutstore/1/docs/img'"
 alias img_blog="cd '/d/g/area/serve/blog/static/img/'"
 
-
-alias pro_react="cd G:/area/emacs-notes/Computer_science/demo_nodejs/reactapp"
-
-
-
 alias shell="cd ~/Shell"
-alias data="cd 'g:/area/wxf-data'"
+alias msi="cd 'C:/Users/whens/Nutstore/1/win soft'"
+alias data="cd 'd:/g/area/wxf-data'"
 alias data_fuwa="cd 'g:/area/wxf-data/福娃 tele 2023-08-14'"
 
+bin="D:/softwares/msys64/home/whens/Shell/bin"
+
+export uml_file="C:/Users/whens/Nutstore/1/docs/uml"
+alias dot="cd $uml_file && java -jar $bin/plantuml.jar stat.uml"
+alias show="cd $uml_file && start stat.png"
 
 
 # sync
@@ -257,16 +290,17 @@ alias sync_conf_tmux="scp -q -r shuai@117.50.186.154:~/.tmux.conf ~/.tmux.conf"
 alias sync_conf_lTr="scp -q -r "~/.bashrc*" ubuntu@117.50.186.154:~"
 alias sync_conf_rTl="scp -q -r ubuntu@117.50.186.154:~/.bash* ~"
 alias sync_shell_rTl="scp -q -r shuai@117.50.186.154:~/Shell/ $root"
-alias sync_shell_lTr="scp -q -r "$root/Shell" shuai@117.50.186.154:~/"
+alias sync_shell_lTr="scp -q -r "$root/Shell" pei@27.tcp.cpolar.top:~/"
 alias sync_shaarli="rsync -avz "$serv_root/shaarli" ubuntu@117.50.186.154:~/serve"
 
 
 # demo
-alias demo_front="cd 'g:/area/emacs-notes/Computer_science/demo_front'"
+alias demo_front="cd 'd:/g/area/emacs-notes/Computer_science/demo_front'"
 alias demo_c="cd 'g:/area/emacs-notes/Computer_science/demo_c'"
 alias demo_java="cd 'g:/area/emacs-notes/Computer_science/demo_java'"
-alias demo_python="cd 'g:/area/emacs-notes/Computer_science/demo_python'"
-alias demo_cpp="cd 'g:/area/emacs-notes/Computer_science/demo_cpp'"
+alias demo_python="cd 'd:/emacs-notes/Computer_science/demo_python'"
+alias demo_cpp="cd 'd:/emacs-notes/Computer_science/demo_cpp'"
+alias demo_lisp="cd 'd:/g/area/emacs-notes/Computer_science/demo_lisp'"
 alias demo_docker="cd 'g:/area/emacs-notes/Computer_science/docker'"
 alias demo_node="cd 'g:/area/emacs-notes/Computer_science/demo_nodejs'"
 alias demo_ts="cd 'g:/area/emacs-notes/Computer_science/demo_ts'"
@@ -276,6 +310,14 @@ alias demo_php="cd 'g:/area/emacs-notes/Computer_science/demo_php'"
 # alias demo_dot="cd 'g:/area/emacs-notes/Computer_science/dot'"
 
 
+# pro
+alias pro="cd 'd:/g/pro'"
+alias pro-etddy="cd 'D:/g/pro/Etddy-py'"
+alias pro_react="cd G:/area/emacs-notes/Computer_science/demo_nodejs/reactapp"
+alias pro-reverse="cd 'D:/g/pro/work_reverse'"
+#alias pro-xuanxing="cd 'D:/g/pro/xuanxing'"
+
+
 # work
 alias work="cd d:/work"
 alias work_ing="cd 'd:/g/area/work/ing-jsgx(极速光学)'"
@@ -283,9 +325,15 @@ alias work_archiv="cd 'd:/g/area/work/archiv'"
 alias work_msi="cd 'd:/g/area/work/soft-work/msi'"
 alias biaozhun_dianqi="cd 'D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref/标准 GB/标准-电气'"
 alias xuanxing="cd D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref/products"
+alias xuanxing-shinaide="$google_path https://www.schneider-electric.cn/zh/work/support/product-selector/"
+alias xuanxing-zhentai="$Tzx_path"
+
+alias cax-zhentai="$google_path https://www.chint.net/service/download/eplan"
+
 
 # work-soft
 # alias solid="cd /softwares/soildworks\ 2018"
+alias qt="cd D:/softwares-work/qt6/Tools/QtDesignStudio/qt6_design_studio_reduced_version/bin"
 # Disable non-interactive output
 
 if [ -z "$PS1" ]; then
