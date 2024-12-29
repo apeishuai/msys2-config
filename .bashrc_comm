@@ -14,7 +14,7 @@ elif [ -n "$MSYSTEM" ] && [ "$MSYSTEM" == "MSYS" ]; then
 fi
 
 alias conf_="vim ~/.bashrc_comm"
-alias refresh="source ~/.bashrc"
+alias r="source ~/.bashrc"
 
 # var
 serv_root=/d/g/area/serve

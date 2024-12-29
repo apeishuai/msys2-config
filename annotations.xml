@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Annotations>
+    <Annotation about="*.electronjs.org/zh/*" timestamp="0x0006291bd5193ac4" score="1.0">
+        <Label name="_include_"></Label>
+        <Label name="编程"></Label>
+        <AdditionalData attribute="original_url" value="*.electronjs.org/zh/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.0xffff.one/*" timestamp="0x0006290e044d768c" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="*.0xffff.one/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.geekpm.com/*" timestamp="0x0006290d3c02dea0" score="1.0">
+        <Label name="_include_"></Label>
+        <Label name="博客"></Label>
+        <AdditionalData attribute="original_url" value="*.geekpm.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.01.me/*" timestamp="0x0006290d1f91fe73" score="1.0">
+        <Label name="_include_"></Label>
+        <Label name="博客"></Label>
+        <AdditionalData attribute="original_url" value="01.me/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.bbs.gongkong.com/*" timestamp="0x0006290ce14af562" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="*.bbs.gongkong.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.chaoli.club/*" timestamp="0x0006290cd7f8f323" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="chaoli.club/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.eleduck.com/*" timestamp="0x0006290cc73eb46a" score="1.0">
+        <Label name="_include_"></Label>
+        <Label name="工作机会"></Label>
+        <AdditionalData attribute="original_url" value="https://eleduck.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.cnblogs.com/*" timestamp="0x0006290bc893e016" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="www.cnblogs.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.stackoverflow.com/*" timestamp="0x0006290bb7bfc8a3" score="1.0">
+        <Label name="_include_"></Label>
+        <Label name="编程"></Label>
+        <AdditionalData attribute="original_url" value="https://stackoverflow.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.github.com/*" timestamp="0x0006290bb62cb520" score="1.0">
+        <Label name="_include_"></Label>
+        <Label name="编程"></Label>
+        <AdditionalData attribute="original_url" value="github.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.reddit.com/*" timestamp="0x0006290bb38f8b66" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="reddit.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.bilibili.com/*" timestamp="0x0006290bb2f476b0" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="bilibili.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.youtube.com/*" timestamp="0x0006290bb2711531" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="youtube.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.wireshark.org/*" timestamp="0x000628f62298fa68" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.wireshark.org/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.refactoringguru.cn/*" timestamp="0x000628f459506d47" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://refactoringguru.cn/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="*.v2ex.com/*" timestamp="0x000628edbb806669" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://v2ex.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="doc.qt.io/*" timestamp="0x000628edb66af696" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://doc.qt.io/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="tech.meituan.com/*" timestamp="0x000628ed9dcd2d37" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="tech.meituan.com/*"></AdditionalData>
+    </Annotation>
+    <Annotation about="www.hw100k.com/yingshi*" timestamp="0x000628ed8bd10640" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://www.hw100k.com/yingshi"></AdditionalData>
+    </Annotation>
+    <Annotation about="java-design-patterns.com/zh/*" timestamp="0x000628ed2f5d46ce" score="1.0">
+        <Label name="_include_"></Label>
+        <AdditionalData attribute="original_url" value="https://java-design-patterns.com/zh/"></AdditionalData>
+    </Annotation>
+</Annotations>

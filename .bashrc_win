@@ -200,16 +200,25 @@ export PATH=$PATH:\D\:\/softwares/msys64/home/whens/node_modules/
 # help
 alias man_docker="vim "
 alias man_vim="vim "
-alias rsc_ebook="start g:/rsc/ebooks"
+alias rsc_ebook="start g:/rsc-ebooks"
 alias rsc_icloud="start D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments"
 alias info="cd g:/area/emacs-notes/info/"
 alias lib="cd c:/msys64/mingw64/include"
 alias nixos="cd /softwares/nixos-wsl/"
 alias help_html="vim $serv_root/docs/resource/front.md"
 
-## search
-alias qt-search="$google_path https://doc.qt.io/"
 
+## search
+alias search="echo 'execute search- num' && cat 'C:/Users/whens/Nutstore/1/docs/search.txt'"
+alias search-="$bin/search_exe.sh"
+alias search-x="start 'https://x.com/search?q=list%3A1565529135316815873+'"
+alias search-yacy="start 'https://cse.google.com/cse?cx=f42e7c5964a474558'"
+alias conf-yacy="start 'https://programmablesearchengine.google.com/controlpanel/overview?cx=f42e7c5964a474558'"
+alias conf-yacy="cd "
+alias search-grep="start 'https://grep.app/search'"
+
+## trace
+alias trac_knne="start 'https://gitee.com/Kenneth-Lee-2012/MySummary/commits/master'"
 
 
 
@@ -232,6 +241,8 @@ alias aider="conda activate && aider --deepseek --no-git --no-auto-commits"
 # alias docs="cd $serv_root/docs/" \\封存，里面的内容有需要提取
 
 alias blog="cd '$serv_root/blog'"
+alias week="cd '$serv_root/weekly'"
+alias serv="cd $serv_root"
 
 # mysqld --console
 alias gantt="cd '$serv_root/zz-plan' && zz-plan -f conf.yaml"
@@ -248,9 +259,6 @@ alias data="cd 'D:/g/area/wxf-data"
 
 alias mysql="mysql -u root -p"
 export conf_mysql="D:/Softwares/scoop/apps/mysql/current" #scoop prefix mysql
-
-alias journal="cd 'D:/g/area/emacs-notes/life/Journal'"
-
 export host="C:/Windows/System32/drivers/etc"
 
 export note="D:/g/area/emacs-notes D:/g/area/serve/docs C:/Users/whens/Nutstore/1/docs"
@@ -263,9 +271,11 @@ export log=""
 #alias cousera="cd /documents/courses"
 #alias serv_shaare="cd /main/serve/shaarli"
 
+export doc="C:/Users/whens/Nutstore/1/docs"
+export gtd="C:/Users/whens/Nutstore/1/docs/GTD"
 alias life_travel="cd "
 alias rsc_ref="cd 'D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref' && start ."
-alias jianguo-doc="cd 'C:\\Users\\whens\\Nutstore\\1\\docs'"
+alias doc="cd $doc"
 alias rsc="cd 'D:/g/rsc'"
 
 alias node_modules="cd 'd:/softwares/msys64/home/whens/node_modules'"
@@ -295,18 +305,19 @@ alias sync_shaarli="rsync -avz "$serv_root/shaarli" ubuntu@117.50.186.154:~/serv
 
 
 # demo
-alias demo_front="cd 'd:/g/area/emacs-notes/Computer_science/demo_front'"
-alias demo_c="cd 'g:/area/emacs-notes/Computer_science/demo_c'"
-alias demo_java="cd 'g:/area/emacs-notes/Computer_science/demo_java'"
-alias demo_python="cd 'd:/emacs-notes/Computer_science/demo_python'"
-alias demo_cpp="cd 'd:/emacs-notes/Computer_science/demo_cpp'"
-alias demo_lisp="cd 'd:/g/area/emacs-notes/Computer_science/demo_lisp'"
-alias demo_docker="cd 'g:/area/emacs-notes/Computer_science/docker'"
-alias demo_node="cd 'g:/area/emacs-notes/Computer_science/demo_nodejs'"
-alias demo_ts="cd 'g:/area/emacs-notes/Computer_science/demo_ts'"
-alias demo_alog="cd 'g:/area/emacs-notes/Computer_science/demo_alogram'"
-alias demo_aardio="cd 'g:/area/emacs-notes/Computer_science/demo_aardio'"
-alias demo_php="cd 'g:/area/emacs-notes/Computer_science/demo_php'"
+export prefix="d:/g/area/emacs-notes/Computer_science"
+alias demo_front="cd '$prefix/demo_front'"
+alias demo_c="cd '$prefix/demo_c'"
+alias demo_java="cd '$prefix/demo_java'"
+alias demo_py="cd $prefix/demo_python"
+alias demo_cpp="cd '$prefix/demo_cpp'"
+alias demo_lisp="cd '$prefix/demo_lisp'"
+alias demo_docker="cd '$prefix/docker'"
+alias demo_node="cd '$prefix/demo_nodejs'"
+alias demo_ts="cd '$prefix/demo_ts'"
+alias demo_alog="cd '$prefix/demo_alogram'"
+alias demo_aardio="cd '$prefix/demo_aardio'"
+alias demo_php="cd '$prefix/demo_php'"
 # alias demo_dot="cd 'g:/area/emacs-notes/Computer_science/dot'"
 
 

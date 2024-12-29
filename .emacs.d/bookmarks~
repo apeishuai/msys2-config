@@ -4,17 +4,17 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
  (filename . "g:/area/emacs-notes/GTD/area.org")
- (front-context-string . "** TODO 硬度仪器测试\n/")
- (rear-context-string . "06-19 周三 08:33]\n")
- (position . 8323))
+ (front-context-string . "** TODO 安装ubuntu")
+ (rear-context-string . "07-04 周四 15:26]\n")
+ (position . 8730))
 ("org-refile-last-stored"
  (filename . "g:/area/emacs-notes/GTD/area.org")
- (front-context-string . "** TODO 硬度仪器测试\n/")
- (rear-context-string . "06-19 周三 08:33]\n")
- (position . 8323))
+ (front-context-string . "*** TODO 安装ubunt")
+ (rear-context-string . "06-07 周五 08:38]\n")
+ (position . 7577))
 ("org-capture-last-stored"
  (filename . "g:/area/emacs-notes/GTD/inbox.org")
- (front-context-string . "* TODO 硬度仪器测试\n/E")
+ (front-context-string . "* TODO 安装ubuntu系")
  (rear-context-string)
  (position . 1))
 )

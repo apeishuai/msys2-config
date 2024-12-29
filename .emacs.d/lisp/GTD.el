@@ -16,7 +16,7 @@
 
 
 (when (memq window-system '(w32))
-  (setq org-agenda-files '("inbox.org" "area.org" "archiv.org" "rsc.org"))
+  (setq org-agenda-files '("inbox.org" "area.org"  "rsc.org"))
   (setq org-refile-files (directory-files "C:/Users/whens/Nutstore/1/docs/GTD" t "\\.org$"))
   )
 ;; Refile

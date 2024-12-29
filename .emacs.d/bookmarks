@@ -8,10 +8,10 @@
  (rear-context-string . "07-04 周四 15:26]\n")
  (position . 8730))
 ("org-refile-last-stored"
- (filename . "g:/area/emacs-notes/GTD/area.org")
- (front-context-string . "*** TODO 安装ubunt")
- (rear-context-string . "06-07 周五 08:38]\n")
- (position . 7577))
+ (filename . "c:/Users/whens/Nutstore/1/docs/GTD/inbox.org")
+ (front-context-string . "* TODO [[g:/emac")
+ (rear-context-string . "3-11 周六 08:37]\n\n")
+ (position . 50859))
 ("org-capture-last-stored"
  (filename . "g:/area/emacs-notes/GTD/inbox.org")
  (front-context-string . "* TODO 安装ubuntu系")
