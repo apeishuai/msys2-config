@@ -1,0 +1,17 @@
+google=https://www.google.com
+smart_line=https://w2.siemens.com.cn/smart/Product/HMI
+HPPrint_Tank510=https://h10032.www1.hp.com/ctg/Manual/c06351949.pdf
+ns_kill=https://kill-the-newsletter.com/
+s7-200=https://w2.siemens.com.cn/smart/Product/S7
+易冰莹=https://space.bilibili.com/89969926/dynamic
+威纶通=https://www.weinview.cn/
+soft=https://mall.industry.siemens.com/mall/zh/cn/Catalog/Products/10335019?tree=CatalogTree
+HPPrint_Manual_Tank510=https://h10032.www1.hp.com/ctg/Manual/c06351949.pdf
+smart_200_cpu_gujian=https://support.industry.siemens.com/cs/document/109765009/s7-200-smart-cpu-%E5%9B%BA%E4%BB%B6%E4%B8%8B%E8%BD%BD?dti=0&lc=zh-CN
+xuetutu=http://www.bzfxw.com/
+bai=https://www.bbx.com
+autohotkey=https://autohotkey.top/
+baidu=www.baidu.com
+HPPrint=https://123.hp.com/cn/zh/
+gb=https://std.samr.gov.cn/
+底层技术栈=https://space.bilibili.com/3493276204141323

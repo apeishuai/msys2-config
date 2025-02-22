@@ -1,0 +1,27 @@
+# web name
+name: "gantt"
+
+# listen ip and port
+host: "0.0.0.0:5000"
+
+# web url
+domain: "http://127.0.0.1:5000"
+
+# database config
+db:
+  user: "ubuntu"
+  password: "123456qwe"
+  host: "127.0.0.1:3306"
+  name: "plan"
+
+# random string
+randStr: "2n5rj7byazgl3miqowsfkph69dcvu814e0tx0dvk"
+
+# file path
+uploadDir: "/tmp/upload"
+
+# is close register
+closeRegister: false
+
+# license code
+licenseCode: "9d2f849f50175e27f2a14c83b8a5309778e7afb6ab351cadb5488b9dac7e674e5fc4e23f95df09f97a60925ab17f1271f387dc9e947796151740220a49f400e99c25fcc052ea2a833a572f2e52f92f5d9e27faa02493aadfb06a71119b74200060cf8f20dc01791a2811ab5adc513cd3bbdedbb3807d49e61702bdccd5b2b17db5f53de01982efccd58668eb22c7401549ec7e50b40ce8d4029e50f6119665c20dd165dad0b9609a36b80e549422c82fc6ce07b9e30a2766c0fdd080f22a3db25aea41900349bd3e8a2d169343d4066cbf1538645f07a62a9c9cd03933fc3eb38285668b40028f3bebf37defe7ce6b77da53a35d32351d81533a36f52671ba0a"

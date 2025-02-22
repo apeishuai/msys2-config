@@ -1,0 +1,44 @@
+Public Sub runmcro()
+    Run ("'" + "G:\shuai-files\Shell\Excel_VBA_Macro" + "\ExcelMacro.xlsm'!Sheet3.GetMetaData")
+
+    Dim connstr, cmdtxt As String
+    Dim conn, recordset As Variant
+    
+    Set conn = CreateObject("ADODB.connection")
+    Set Rst = CreateObject("ADODB.Recordset")
+    
+    
+    PathStr = "C:\Users\shuai\Desktop\MetaData.xls"
+    Select Case Application.Version * 1
+    Case Is <= 11
+        connstr = "Provider={Microsoft.Jet.Oledb.4.0;" & _
+                 "Extended Properties=Excel 8.0;Data Source=" & PathStr
+    Case Is >= 12
+        connstr = "provider= Microsoft.ACE.OLEDB.12.0;" & _
+                 "extended properties=excel 12.0;data source=" & PathStr
+    End Select
+    
+    conn.Open connstr
+    
+    Rem 1 SQL语句
+    strSQL = "Select * FROM [MetaData$] where 数字 < 60"
+    
+    Rst.Open strSQL, conn, 3, 1, 1
+    
+    While Not Rst.EOF
+        
+        Rem 对Cell操作
+        Set loworkbook = Workbooks(Rst.Fields("工作簿").Value)
+        Set loSheet = loworkbook.Sheets(Rst.Fields("工作表").Value)
+        
+        Set lorange = loSheet.Range(Rst.Fields("地址").Value)
+        lorange.Interior.ColorIndex = 3
+        
+        Rst.MoveNext
+    Wend
+    
+    conn.Close
+    
+    Workbooks("ExcelMacro.xlsm").Close
+    
+End Sub

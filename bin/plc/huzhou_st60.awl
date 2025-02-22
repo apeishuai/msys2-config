@@ -1,0 +1,2708 @@
+ORGANIZATION_BLOCK MAIN:OB1
+TITLE=程序注释
+BEGIN
+Network 1 
+// 程序段注释
+LD     SM0.0
+CALL   SBR25
+CALL   SBR26
+CALL   SBR27
+CALL   SBR28
+Network 2 
+LD     V800.0
+=      V50.4
+Network 3 
+LDW=   VW900, +0
+MOVW   +2000, VW900
+Network 4 
+LD     SM0.0
+=      L60.0
+LD     SM0.0
+=      L63.7
+LDN    SM0.0
+=      L63.6
+LD     L60.0
+CALL   SBR29, L63.7, L63.6, 1, 0, 0, 0, 0, VW900, VW900, V4250.0, V4250.1, V4250.2, VB4260
+Network 5 
+LD     V4250.0
+EU
+S      V4251.0, 1
+R      C0, 1
+Network 6 
+LD     V4251.3
+EU
+S      V4251.0, 1
+S      V4251.4, 1
+R      C0, 1
+Network 7 
+LDN    V4251.4
+A      V4251.0
+=      L60.0
+LDN    V4251.4
+A      V4251.0
+EU
+=      L63.7
+LD     L60.0
+CALL   SBR30, L63.7, 1, +108, &VB4000, V4250.6, V4250.7, V4250.5, VB4270
+Network 8 
+LD     V4251.4
+A      V4251.0
+=      L60.0
+LD     V4251.4
+A      V4251.0
+EU
+=      L63.7
+LD     L60.0
+CALL   SBR30, L63.7, 1, +108, &VB4000, V4250.6, V4250.7, V4250.5, VB4270
+Network 9 
+LD     V4251.0
+LDN    SM0.0
+CTU    C0, +10
+Network 10 
+LD     V4251.0
+TON    T32, +50
+A      T32
+S      V4251.1, 1
+R      V4251.0, 1
+Network 11 
+LD     V4251.1
+TON    T33, +5
+A      T33
+LPS
+AW>=   C0, +3
+R      V4251.1, 1
+S      V4251.2, 1
+LPP
+AW<    C0, +3
+R      V4251.1, 1
+S      V4251.0, 1
+Network 12 
+LD     V4251.2
+R      C0, 1
+R      V4251.2, 1
+R      V4251.4, 1
+Network 13 
+LD     V4250.0
+CALL   SBR31, 1, +124, &VB4108, V4250.3, V4250.4, V4250.5, VB4261, VW4262
+Network 14 
+LD     SM0.6
+EU
+LPS
+MOVW   +0, VW4264
+AENO
+MOVD   &VB4048, AC1
+LPP
+FOR    VW4266, +1, +30
+Network 15 
+LD     SM0.0
++I     *AC1, VW4264
+AENO
++D     +2, AC1
+Network 16 
+NEXT
+Network 17 
+LDW<>  VW4264, VW4268
+A      V4250.0
+AN     V4251.3
+S      V4251.3, 1
+Network 18 
+LD     V4251.3
+TON    T130, +1
+A      T130
+MOVW   VW4264, VW4268
+R      V4251.3, 1
+Network 19 
+LD     I2.0
+A      I3.0
+LDN    V800.7
+A      I2.5
+A      I1.6
+LD     V800.7
+A      I2.6
+A      I1.7
+OLD
+ALD
+A      I3.4
+A      I3.1
+A      I2.1
+A      V13.5
+A      V60.1
+=      V63.1
+Network 20 
+LD     I1.4
+AN     V63.4
+AN     V60.0
+A      V60.1
+CALL   SBR23
+Network 21 
+LDN    I1.4
+LDN    V60.0
+O      V63.4
+ALD
+AN     V412.0
+CALL   SBR0
+Network 22 
+LDN    V63.4
+AN     V412.0
+CALL   SBR24
+Network 23 
+LD     I1.3
+AN     V63.4
+AN     V412.0
+TON    T120, +15
+Network 24 
+LD     T120
+EU
+S      V60.0, 1
+Network 25 
+LD     SM0.0
+LPS
+AW=    VW804, +0
+MOVW   +5, VW804
+LRD
+AD=    VD834, +0
+MOVD   +100, VD834
+LRD
+AW=    VW806, +0
+MOVW   +50, VW806
+LRD
+AW=    VW818, +0
+MOVW   +5, VW818
+LRD
+AW=    VW820, +0
+MOVW   +5, VW820
+LPP
+AW=    VW838, +0
+MOVW   +5, VW838
+END_ORGANIZATION_BLOCK
+SUBROUTINE_BLOCK 手动:SBR0
+TITLE=子程序注释
+BEGIN
+Network 1 
+// 程序段注释
+LD     M0.5
+LPS
+EU
+S      V50.5, 1
+LPP
+ED
+R      V50.5, 1
+Network 2 
+LD     M0.6
+LPS
+EU
+S      V50.6, 1
+LPP
+ED
+R      V50.6, 1
+Network 3 
+LD     M1.0
+LPS
+EU
+S      V51.0, 1
+LPP
+ED
+R      V51.0, 1
+Network 4 
+LD     M1.1
+LPS
+EU
+S      V51.2, 1
+R      V51.1, 1
+LPP
+ED
+S      V51.1, 1
+R      V51.2, 1
+Network 5 
+LD     M1.3
+LPS
+EU
+S      V51.3, 1
+LPP
+ED
+R      V51.3, 1
+Network 6 
+LD     M1.4
+LPS
+EU
+S      V51.4, 1
+LPP
+ED
+R      V51.4, 1
+Network 7 
+LD     M1.5
+LPS
+EU
+S      V51.5, 1
+LPP
+ED
+R      V51.5, 1
+Network 8 
+LD     M1.6
+LPS
+EU
+S      V51.6, 1
+LPP
+ED
+R      V51.6, 1
+Network 9 
+LD     M1.7
+LPS
+EU
+S      V51.7, 1
+LPP
+ED
+R      V51.7, 1
+Network 10 
+LD     M2.0
+LPS
+EU
+LD     I2.0
+O      I1.6
+ALD
+A      I3.1
+A      V13.5
+S      V52.1, 1
+R      V52.0, 1
+LPP
+ED
+LD     I2.0
+O      I1.6
+ALD
+A      I3.1
+A      V13.5
+S      V52.0, 1
+R      V52.1, 1
+Network 11 
+LD     M2.2
+LPS
+EU
+A      I3.1
+A      V13.5
+S      V52.2, 1
+R      V52.3, 1
+LPP
+ED
+S      V52.3, 1
+R      V52.2, 1
+Network 12 
+LD     M2.4
+LPS
+EU
+S      V52.4, 1
+LPP
+ED
+AN     V50.6
+R      V52.4, 1
+Network 13 
+LD     M2.6
+LPS
+EU
+S      V52.6, 1
+LPP
+ED
+AN     V50.6
+R      V52.6, 1
+Network 14 
+LD     M2.7
+LPS
+EU
+S      V52.7, 1
+LPP
+ED
+R      V52.7, 1
+Network 15 
+LD     M5.0
+LPS
+EU
+S      V55.0, 1
+LPP
+ED
+R      V55.0, 1
+Network 16 
+LD     M5.1
+LPS
+EU
+S      V55.1, 1
+LPP
+ED
+R      V55.1, 1
+Network 17 
+LD     M5.2
+LPS
+EU
+S      V55.2, 1
+LPP
+ED
+R      V55.2, 1
+Network 18 
+LD     M5.3
+LPS
+EU
+S      V55.3, 1
+LPP
+ED
+R      V55.3, 1
+Network 19 
+LD     M5.4
+LPS
+EU
+S      V55.4, 1
+LPP
+ED
+R      V55.4, 1
+Network 20 
+LD     V0.4
+O      V0.5
+LPS
+AN     I0.1
+AN     I0.2
+A      V12.6
+A      V26.6
+EU
+S      S5.0, 1
+LPP
+LD     I0.1
+O      I0.2
+ON     V12.6
+ON     V26.6
+ALD
+R      V0.4, 2
+Network 21 
+LSCR   S5.0
+Network 22 
+LD     S5.0
+LPS
+MOVR   VD1000, VD1064
+AENO
+MOVR   VD1000, VD1164
+LRD
+A      V0.4
+MOVR   VD1016, VD1060
+AENO
+MOVR   VD1116, VD1160
+LRD
+A      V0.5
+MOVR   VD1020, VD1060
+AENO
+MOVR   VD1120, VD1160
+LRD
+A      V0.5
+SCRT   S5.2
+LPP
+A      V0.4
+SCRT   S5.1
+Network 23 
+SCRE
+Network 24 
+LSCR   S5.1
+Network 25 
+LD     S5.1
+S      V14.3, 1
+A      V26.4
+S      V0.3, 1
+A      V12.4
+SCRT   S5.3
+Network 26 
+SCRE
+Network 27 
+LSCR   S5.2
+Network 28 
+LD     S5.2
+S      V0.3, 1
+A      V12.4
+S      V14.3, 1
+A      V26.4
+SCRT   S5.3
+Network 29 
+SCRE
+Network 30 
+LSCR   S5.3
+Network 31 
+LD     S5.3
+R      V0.3, 1
+R      V14.3, 1
+R      V0.4, 2
+R      S5.3, 1
+Network 32 
+SCRE
+Network 33 
+LD     V2.1
+EU
+S      S5.4, 1
+Network 34 
+LSCR   S5.4
+Network 35 
+LDN    V801.5
+S      V16.0, 1
+A      V27.4
+S      V2.0, 1
+A      V13.4
+SCRT   S5.5
+Network 36 
+LD     V801.5
+S      V2.0, 1
+A      V13.4
+S      V16.0, 1
+A      V27.4
+SCRT   S5.5
+Network 37 
+SCRE
+Network 38 
+LSCR   S5.5
+Network 39 
+LD     S5.5
+R      V2.0, 1
+R      V16.0, 1
+R      V2.1, 1
+R      S5.5, 1
+Network 40 
+SCRE
+Network 41 
+LD     V28.4
+MOVR   VD1216, VD1260
+Network 42 
+LD     V28.5
+MOVR   VD1220, VD1260
+Network 43 
+LD     V28.6
+MOVR   VD1224, VD1260
+Network 44 
+LD     V28.4
+O      V28.5
+O      V28.6
+LPS
+AN     I0.4
+AN     I0.5
+A      V40.6
+AN     V28.2
+TON    T104, +2
+LPP
+A      T104
+EU
+S      V28.2, 1
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS0_CTRL:SBR1
+TITLE=此 POU 由运动向导生成，旨在与位置 0 处的模块配合使用. AXISx_CTRL（控制）指令用于启用和初始化运动控制。该指令的输出可提供运动控制的当前状态. 该指令应在每次程序扫描中调用，并且仅可在程序中使用一次.
+VAR_INPUT
+MOD_EN:BOOL;	// 启用模块。1 = 可发送命令；0 = 中止进行中的任何命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 在运动控制闲置时开启
+Error:BYTE;	// 包含模块最后一次请求的结果.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+C_Dir:BOOL;	// 当前方向
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS0_MAN:SBR2
+TITLE=此 POU 由运动向导生成，旨在与位置 0 处的模块配合使用. AXISx_MAN（手动模式）指令用于以手动模式控制运动控制。在手动模式下，电机可以不同的速度运行，也可朝任一方向点动. 当 AXISx_MAN 指令启用后，仅允许 AXISx_CTRL 和 AXISx_DIS 指令.
+VAR_INPUT
+RUN:BOOL;	// RUN/STOP 加速到目标速度和移动到目标位置.
+JOG_P:BOOL;	// 正方向 JOG：脉冲 = JOG_INCREMENT；开启 = JOG_SPEED
+JOG_N:BOOL;	// 负方向 JOG：脉冲 = JOG_INCREMENT；开启 = JOG_SPEED
+Speed:REAL;	// 运动的目标速度.
+Dir:BOOL;	// 运动的目标方向.
+END_VAR
+VAR_OUTPUT
+Error:BYTE;	// 运动控制的状态错误.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+C_Dir:BOOL;	// 当前方向
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+SpeedManualActive:BOOL;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS0_GOTO:SBR3
+TITLE=此 POU 由运动向导生成，旨在与位置 0 处的模块配合使用. AXISx_GOTO（移动到位置）指令用于命令朝指定位置运动。Mode 输入用于选择移动类型.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+Pos:REAL;	// 运动的目标位置.
+Speed:REAL;	// 运动的目标速度.
+Mode:BYTE;	// 移动类型。0 = 绝对；1 = 相对；2 = 正；3 = 负
+Abort:BOOL;	// 中止命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS0_RUN:SBR4
+TITLE=此 POU 由运动向导生成，旨在与位置 0 处的模块配合使用. AXISx_RUN（运行运动曲线）指令用于命令运动控制执行模块组态中指定的运动曲线.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+Profile:BYTE;	// 要运行的运动曲线的数量.
+Abort:BOOL;	// 中止命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+C_Profile:BYTE;	// 当前运动曲线
+C_Step:BYTE;	// 运动曲线内的当前步.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+END_VAR
+VAR
+RUN_PROFILE:BYTE;
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS0_RSEEK:SBR5
+TITLE=此 POU 由运动向导生成，旨在与位置 0 处的模块配合使用. AXISx_RSEEK（查找参考点位置）指令用于使用模块组态中指定的搜索方法来启动参考点查找操作. 当定位到参考点且运动停止后，模块会将 RP_OFFSET 参数装载到当前位置参数. 
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS0_LDOFF:SBR6
+TITLE=此 POU 由运动向导生成，旨在与位置 0 处的模块配合使用. AXISx_LDOFF（装载 RP_OFFSET）指令允许您的程序在参考点以外的位置建立一个新的零点位置 (ZERO_POS). 调用该指令之前，必须确定参考点.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS0_LDPOS:SBR7
+TITLE=此 POU 由运动向导生成，旨在与位置 0 处的模块配合使用. AXISx_LDPOS（装载位置）指令用于更改运动控制组态中的当前位置参数。同时将为绝对移动建立一个新的零点位置 (ZERO_POS).
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+New_Pos:REAL;	// 需要装载到运动控制当前位置参数的值
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+C_Pos:REAL;	// 当前位置
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS0_SRATE:SBR8
+TITLE=此 POU 由运动向导生成，旨在与位置 0 处的模块配合使用. AXISx_SRATE（设置速率）指令用于更改运动控制采用的加速、减速和急停时间.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+ACCEL_Time:DINT;	// 以毫秒为单位的加速时间.
+DECEL_Time:DINT;	// 以毫秒为单位的减速时间.
+JERK_Time:DINT;	// 以毫秒为单位的急停时间.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS0_DIS:SBR9
+TITLE=此 POU 由运动向导生成，旨在与位置 0 处的模块配合使用. AXISx_DIS（禁用）指令用于更改运动控制的 DIS 输出.
+VAR_INPUT
+DIS_ON:BOOL;	// 控制运动控制上的 DIS 输出
+END_VAR
+VAR_OUTPUT
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS0_CFG:SBR10
+TITLE=此 POU 由运动向导生成，旨在与位置 0 处的模块配合使用. AXISx_CFG（重新装载组态）指令使运动控制从组态表指针指定的位置上读取其组态块.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS0_CACHE:SBR11
+TITLE=此 POU 由运动向导生成，旨在与位置 0 处的模块配合使用. 执行该指令前将曲线预先加载到缓存中
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+Profile:BYTE;	// 要运行的运动曲线的数量.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+RUN_PROFILE:BYTE;
+ActiveCmdTemp:BYTE;
+CacheProfile_B:BYTE;
+CacheProfile_W:WORD;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS1_CTRL:SBR12
+TITLE=此 POU 由运动向导生成，旨在与位置 1 处的模块配合使用. AXISx_CTRL（控制）指令用于启用和初始化运动控制。该指令的输出可提供运动控制的当前状态. 该指令应在每次程序扫描中调用，并且仅可在程序中使用一次.
+VAR_INPUT
+MOD_EN:BOOL;	// 启用模块。1 = 可发送命令；0 = 中止进行中的任何命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 在运动控制闲置时开启
+Error:BYTE;	// 包含模块最后一次请求的结果.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+C_Dir:BOOL;	// 当前方向
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS1_MAN:SBR13
+TITLE=此 POU 由运动向导生成，旨在与位置 1 处的模块配合使用. AXISx_MAN（手动模式）指令用于以手动模式控制运动控制。在手动模式下，电机可以不同的速度运行，也可朝任一方向点动. 当 AXISx_MAN 指令启用后，仅允许 AXISx_CTRL 和 AXISx_DIS 指令.
+VAR_INPUT
+RUN:BOOL;	// RUN/STOP 加速到目标速度和移动到目标位置.
+JOG_P:BOOL;	// 正方向 JOG：脉冲 = JOG_INCREMENT；开启 = JOG_SPEED
+JOG_N:BOOL;	// 负方向 JOG：脉冲 = JOG_INCREMENT；开启 = JOG_SPEED
+Speed:REAL;	// 运动的目标速度.
+Dir:BOOL;	// 运动的目标方向.
+END_VAR
+VAR_OUTPUT
+Error:BYTE;	// 运动控制的状态错误.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+C_Dir:BOOL;	// 当前方向
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+SpeedManualActive:BOOL;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS1_GOTO:SBR14
+TITLE=此 POU 由运动向导生成，旨在与位置 1 处的模块配合使用. AXISx_GOTO（移动到位置）指令用于命令朝指定位置运动。Mode 输入用于选择移动类型.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+Pos:REAL;	// 运动的目标位置.
+Speed:REAL;	// 运动的目标速度.
+Mode:BYTE;	// 移动类型。0 = 绝对；1 = 相对；2 = 正；3 = 负
+Abort:BOOL;	// 中止命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS1_RUN:SBR15
+TITLE=此 POU 由运动向导生成，旨在与位置 1 处的模块配合使用. AXISx_RUN（运行运动曲线）指令用于命令运动控制执行模块组态中指定的运动曲线.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+Profile:BYTE;	// 要运行的运动曲线的数量.
+Abort:BOOL;	// 中止命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+C_Profile:BYTE;	// 当前运动曲线
+C_Step:BYTE;	// 运动曲线内的当前步.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+END_VAR
+VAR
+RUN_PROFILE:BYTE;
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS1_RSEEK:SBR16
+TITLE=此 POU 由运动向导生成，旨在与位置 1 处的模块配合使用. AXISx_RSEEK（查找参考点位置）指令用于使用模块组态中指定的搜索方法来启动参考点查找操作. 当定位到参考点且运动停止后，模块会将 RP_OFFSET 参数装载到当前位置参数. 
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS1_LDOFF:SBR17
+TITLE=此 POU 由运动向导生成，旨在与位置 1 处的模块配合使用. AXISx_LDOFF（装载 RP_OFFSET）指令允许您的程序在参考点以外的位置建立一个新的零点位置 (ZERO_POS). 调用该指令之前，必须确定参考点.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS1_LDPOS:SBR18
+TITLE=此 POU 由运动向导生成，旨在与位置 1 处的模块配合使用. AXISx_LDPOS（装载位置）指令用于更改运动控制组态中的当前位置参数。同时将为绝对移动建立一个新的零点位置 (ZERO_POS).
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+New_Pos:REAL;	// 需要装载到运动控制当前位置参数的值
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+C_Pos:REAL;	// 当前位置
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS1_SRATE:SBR19
+TITLE=此 POU 由运动向导生成，旨在与位置 1 处的模块配合使用. AXISx_SRATE（设置速率）指令用于更改运动控制采用的加速、减速和急停时间.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+ACCEL_Time:DINT;	// 以毫秒为单位的加速时间.
+DECEL_Time:DINT;	// 以毫秒为单位的减速时间.
+JERK_Time:DINT;	// 以毫秒为单位的急停时间.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS1_DIS:SBR20
+TITLE=此 POU 由运动向导生成，旨在与位置 1 处的模块配合使用. AXISx_DIS（禁用）指令用于更改运动控制的 DIS 输出.
+VAR_INPUT
+DIS_ON:BOOL;	// 控制运动控制上的 DIS 输出
+END_VAR
+VAR_OUTPUT
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS1_CFG:SBR21
+TITLE=此 POU 由运动向导生成，旨在与位置 1 处的模块配合使用. AXISx_CFG（重新装载组态）指令使运动控制从组态表指针指定的位置上读取其组态块.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS1_CACHE:SBR22
+TITLE=此 POU 由运动向导生成，旨在与位置 1 处的模块配合使用. 执行该指令前将曲线预先加载到缓存中
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+Profile:BYTE;	// 要运行的运动曲线的数量.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+RUN_PROFILE:BYTE;
+ActiveCmdTemp:BYTE;
+CacheProfile_B:BYTE;
+CacheProfile_W:WORD;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK 自动:SBR23
+TITLE=
+BEGIN
+Network 1 
+LD     I1.1
+A      V63.1
+A      I1.2
+AN     V60.3
+S      V60.2, 2
+Network 2 
+LDN    I1.2
+R      V60.2, 1
+Network 3 
+LD     V60.2
+EU
+S      S2.0, 1
+S      S3.0, 1
+S      S7.0, 1
+Network 4 
+LD     V60.2
+LPS
+AN     I1.5
+TON    T112, +2
+A      T112
+S      V50.5, 1
+LRD
+A      I1.5
+TON    T101, +5
+A      T101
+R      V50.5, 1
+LPP
+NOT
+R      V50.5, 1
+Network 5 
+LSCR   S2.0
+Network 6 
+LD     V60.2
+AN     V62.5
+LPS
+LD     T101
+O      M5.5
+ALD
+AN     V60.5
+SCRT   S2.1
+LPP
+AN     I1.5
+AN     M5.5
+TON    T102, VW806
+A      T102
+=      V412.4
+Network 7 
+LDN    V60.2
+O      V62.5
+R      S2.0, 1
+Network 8 
+SCRE
+Network 9 
+LSCR   S2.1
+Network 10 
+LD     S2.1
+S      V51.3, 1
+A      T103
+LPS
+A      V800.7
+S      V51.1, 1
+R      V51.2, 1
+LRD
+AN     V800.7
+R      V51.1, 1
+S      V51.2, 1
+LPP
+LDN    V800.7
+A      I1.7
+LD     V800.7
+A      I1.6
+OLD
+ALD
+SCRT   S2.2
+Network 11 
+SCRE
+Network 12 
+LSCR   S2.2
+Network 13 
+LD     S2.2
+R      V51.3, 1
+A      I2.0
+LPS
+EU
+S      V60.5, 1
+LRD
+AN     V800.7
+S      V51.1, 1
+R      V51.2, 1
+LRD
+A      V800.7
+R      V51.1, 1
+S      V51.2, 1
+LPP
+LDN    V800.7
+A      I1.6
+LD     V800.7
+A      I1.7
+OLD
+ALD
+SCRT   S2.0
+Network 14 
+SCRE
+Network 15 
+LSCR   S3.0
+Network 16 
+LD     V61.7
+ON     V245.0
+R      V52.4, 1
+R      V50.6, 1
+R      V52.6, 1
+Network 17 
+LD     V60.2
+AN     V412.1
+AN     V412.2
+LD     V60.5
+O      V62.5
+ALD
+S      V52.2, 1
+R      V52.3, 1
+LD     V61.7
+ON     V245.0
+LD     V62.0
+ON     V245.1
+ALD
+LD     V62.1
+ON     V60.4
+ALD
+ALD
+A      I2.7
+SCRT   S3.1
+Network 18 
+LDN    V60.2
+S      V52.3, 1
+R      V52.2, 1
+A      I3.0
+SCRT   S3.7
+Network 19 
+SCRE
+Network 20 
+LSCR   S3.1
+Network 21 
+LD     S3.1
+LPS
+S      V60.4, 1
+R      V52.4, 1
+R      V50.6, 1
+R      V52.6, 1
+A      I3.1
+A      I3.4
+LPS
+A      V800.7
+S      V52.0, 1
+R      V52.1, 1
+LPP
+AN     V800.7
+R      V52.0, 1
+S      V52.1, 1
+LPP
+LDN    V800.7
+A      I2.6
+LD     V800.7
+A      I2.5
+OLD
+ALD
+SCRT   S3.2
+Network 22 
+SCRE
+Network 23 
+LSCR   S3.2
+Network 24 
+LD     S3.2
+TON    T113, +1
+A      T113
+SCRT   S3.3
+SCRT   S6.0
+Network 25 
+SCRE
+Network 26 
+LSCR   S3.3
+Network 27 
+LD     S3.3
+LPS
+A      V245.0
+S      V52.4, 1
+S      V50.6, 1
+S      V52.6, 1
+LRD
+LD     T105
+A      T106
+ON     V245.0
+ALD
+TON    T43, +1
+LRD
+A      T43
+S      V52.3, 1
+R      V52.2, 1
+EU
+S      S4.7, 1
+LPP
+A      I3.0
+LPS
+AN     V800.7
+S      V52.0, 1
+R      V52.1, 1
+LRD
+A      V800.7
+R      V52.0, 1
+S      V52.1, 1
+LPP
+LDN    V800.7
+A      I2.5
+LD     V800.7
+A      I2.6
+OLD
+ALD
+SCRT   S3.7
+Network 28 
+SCRE
+Network 29 
+LSCR   S3.7
+Network 30 
+LD     S3.7
+LPS
+A      V60.2
+LPS
+LDD<   VD120, VD834
+O      V800.4
+ALD
+SCRT   S4.0
+LPP
+AN     V800.4
+AD>=   VD120, VD834
+S      V62.5, 1
+SCRT   S4.0
+LPP
+AN     V60.2
+SCRT   S4.2
+Network 31 
+SCRE
+Network 32 
+LSCR   S4.0
+Network 33 
+LD     S4.0
+LPS
+A      V62.5
+LPS
+AW<    VW118, VW838
+SCRT   S3.0
+LPP
+AW>=   VW118, VW838
+SCRT   S4.1
+LPP
+AN     V62.5
+SCRT   S3.0
+Network 34 
+SCRE
+Network 35 
+LSCR   S4.1
+Network 36 
+LD     S4.1
+R      V60.2, 1
+R      V62.5, 1
+MOVW   +0, VW118
+SCRT   S4.2
+Network 37 
+SCRE
+Network 38 
+LSCR   S4.2
+Network 39 
+LD     S4.2
+LD     V61.7
+ON     V245.0
+ALD
+LD     V62.0
+ON     V245.1
+ALD
+LD     V62.1
+ON     V60.4
+ALD
+R      V60.3, 1
+R      V52.4, 1
+R      V50.6, 1
+R      V52.6, 1
+R      S4.2, 1
+Network 40 
+SCRE
+Network 41 
+LSCR   S4.7
+Network 42 
+LD     S4.7
+LPS
+A      V245.0
+SCRT   S8.0
+LRD
+A      V245.1
+SCRT   S8.1
+LPP
+AN     V245.0
+AN     V245.1
+R      S4.7, 1
+Network 43 
+SCRE
+Network 44 
+LSCR   S8.0
+Network 45 
+LDN    V800.5
+S      V65.0, 1
+S      V66.7, 1
+R      S8.0, 1
+Network 46 
+LD     V800.5
+S      V61.7, 1
+R      S8.0, 1
+Network 47 
+SCRE
+Network 48 
+LSCR   S8.1
+Network 49 
+LDN    V800.6
+TON    T107, VW822
+A      T107
+TON    T108, VW824
+Network 50 
+LD     V800.6
+O      V61.6
+O      T108
+SCRT   S8.2
+Network 51 
+SCRE
+Network 52 
+LSCR   S8.2
+Network 53 
+LD     S8.2
+S      V62.0, 1
+R      S8.2, 1
+Network 54 
+SCRE
+Network 55 
+LSCR   S6.0
+Network 56 
+LD     S6.0
+LPS
+LD     V246.1
+O      V247.1
+O      V248.1
+O      V250.0
+ON     V245.2
+ALD
+SCRT   S6.1
+LPP
+A      V245.2
+AN     V246.1
+AN     V247.1
+AN     V248.1
+AN     V250.0
+SCRT   S6.2
+Network 57 
+SCRE
+Network 58 
+LSCR   S6.1
+Network 59 
+LD     S6.1
+LPS
+LD     V246.1
+ON     V245.2
+ALD
+MOVR   VD1216, VD1260
+LRD
+A      V245.2
+LPS
+AN     V246.1
+A      V247.1
+MOVR   VD1220, VD1260
+LPP
+AN     V246.1
+AN     V247.1
+A      V248.1
+MOVR   VD1224, VD1260
+LPP
+LPS
+S      V28.3, 1
+A      V40.4
+S      V51.5, 1
+LPP
+A      I2.2
+SCRT   S6.2
+Network 60 
+SCRE
+Network 61 
+LSCR   S6.2
+Network 62 
+LD     S6.2
+R      V51.5, 1
+R      V28.3, 1
+A      I2.1
+S      V62.1, 1
+R      S6.2, 1
+Network 63 
+SCRE
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK 复位:SBR24
+TITLE=
+BEGIN
+Network 1 
+LD     V60.0
+LPS
+MOVR   VD1016, VD1060
+AENO
+MOVR   VD1000, VD1064
+LPP
+MOVR   VD1116, VD1160
+AENO
+MOVR   VD1000, VD1164
+Network 2 
+LD     V60.0
+EU
+S      S0.0, 1
+Network 3 
+LSCR   S0.0
+Network 4 
+LD     S0.0
+LPS
+R      V0.1, 3
+R      V14.1, 3
+R      S2.0, 64
+R      V60.1, 20
+R      V245.0, 56
+R      V65.0, 32
+R      V116.0, 32
+R      M0.4, 19
+R      V50.5, 2
+R      M5.0, 5
+R      V55.0, 5
+R      V51.4, 1
+S      V51.5, 1
+R      V51.6, 2
+R      V51.3, 2
+A      I2.0
+LPS
+AN     V800.7
+S      V51.1, 1
+R      V51.2, 1
+LPP
+A      V800.7
+R      V51.1, 1
+S      V51.2, 1
+LRD
+S      V52.3, 1
+R      V52.2, 1
+LPP
+A      I3.0
+LPS
+AN     V800.7
+S      V52.0, 1
+R      V52.1, 1
+LRD
+A      V800.7
+R      V52.0, 1
+S      V52.1, 1
+LPP
+LDN    V800.7
+A      I2.5
+A      I1.6
+LD     V800.7
+A      I2.6
+A      I1.7
+OLD
+ALD
+A      I2.0
+A      I2.2
+SCRT   S0.1
+Network 5 
+SCRE
+Network 6 
+LSCR   S0.1
+Network 7 
+LD     S0.1
+LPS
+=      V28.0
+AN     V801.5
+S      V14.0, 1
+A      V27.4
+S      V0.0, 1
+A      V13.4
+A      V41.4
+SCRT   S0.2
+LPP
+A      V801.5
+S      V0.0, 1
+A      V13.4
+S      V14.0, 1
+A      V27.4
+A      V41.4
+SCRT   S0.2
+Network 8 
+SCRE
+Network 9 
+LSCR   S0.2
+Network 10 
+LD     S0.2
+R      V0.0, 1
+R      V14.0, 1
+TON    T42, +2
+A      T42
+S      V0.3, 1
+S      V14.3, 1
+S      V28.3, 1
+A      V12.4
+A      V26.4
+A      V40.4
+SCRT   S0.3
+Network 11 
+SCRE
+Network 12 
+LSCR   S0.3
+Network 13 
+LD     S0.3
+R      V52.4, 1
+R      V52.6, 1
+R      V0.3, 1
+R      V14.3, 1
+R      V28.3, 1
+A      I3.4
+A      I3.1
+SCRT   S0.4
+Network 14 
+SCRE
+Network 15 
+LSCR   S0.4
+Network 16 
+LD     S0.4
+R      V51.5, 1
+A      I2.1
+S      V60.1, 1
+R      V60.0, 1
+R      S0.4, 1
+Network 17 
+SCRE
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK NG移位:SBR25
+TITLE=
+BEGIN
+Network 1 
+LD     S3.2
+EU
+INCB   VB252
+Network 2 
+LDB=   VB252, 1
+TONR   T5, +9999
+EU
+R      T5, 1
+Network 3 
+LDB=   VB252, 2
+MOVW   T5, VW254
+MOVB   1, VB252
+Network 4 
+LD     V60.2
+ED
+MOVB   0, VB252
+Network 5 
+LD     V66.7
+LPS
+A      V55.0
+AW>=   VW4112, +1
+S      V60.6, 1
+LRD
+A      V55.1
+AW>=   VW4114, +1
+S      V60.7, 1
+LPP
+A      V55.2
+AW>=   VW4116, +1
+S      V61.0, 1
+Network 6 
+LD     T107
+AW>=   VW4118, +1
+S      V61.6, 1
+Network 7 
+LDN    V801.0
+A      V66.2
+LPS
+A      V4169.0
+S      V60.6, 1
+LRD
+A      V4169.1
+S      V60.7, 1
+LRD
+A      V4169.2
+S      V61.0, 1
+LRD
+A      V4169.0
+S      V412.6, 1
+LRD
+A      V4169.1
+S      V412.7, 1
+LRD
+A      V4169.2
+S      V413.0, 1
+LRD
+A      V4169.3
+S      V61.6, 1
+S      V413.1, 1
+LPP
+AW<>   VW4168, +0
+R      V60.2, 1
+Network 8 
+LD     S3.1
+EU
+LPS
+R      V61.7, 3
+AW<    VW118, +10000
+A      V62.5
+INCW   VW118
+LRD
+AN     V800.4
+INCD   VD120
+LRD
+SHRB   V60.5, V245.0, +7
+LRD
+SHRB   V60.6, V246.0, +7
+LRD
+SHRB   V60.7, V247.0, +7
+LRD
+SHRB   V61.0, V248.0, +7
+LPP
+SHRB   V61.6, V250.0, +7
+Network 9 
+LD     S3.2
+EU
+R      V60.5, 4
+A      V245.2
+LPS
+INCD   VD850
+A      V246.1
+INCD   VD854
+LRD
+A      V247.1
+INCD   VD858
+LRD
+A      V248.1
+INCD   VD862
+LRD
+A      V250.0
+INCD   VD866
+LPP
+LD     V246.1
+O      V247.1
+O      V248.1
+O      V250.0
+ALD
+INCD   VD870
+Network 10 
+LD     V63.6
+MOVD   +0, VD850
+AENO
+MOVD   +0, VD854
+AENO
+MOVD   +0, VD858
+AENO
+MOVD   +0, VD862
+AENO
+MOVD   +0, VD870
+Network 11 
+LD     SM0.0
+DTR    VD870, VD272
+DTR    VD850, VD276
+MOVR   VD272, VD280
+/R     VD276, VD280
+MOVR   VD280, VD874
+*R     100.0, VD874
+MOVD   VD850, VD286
+-D     VD870, VD286
+Network 12 
+LDD>=  VD120, VD834
+AN     V800.4
+=      V412.3
+Network 13 
+LD     I1.4
+LPS
+A      I4.1
+TON    T127, +10
+A      T127
+=      V412.1
+LPP
+A      I4.2
+TON    T116, +20
+A      T116
+=      V412.2
+Network 14 
+LDN    I2.0
+TON    T103, VW804
+Network 15 
+LDN    I3.1
+TON    T105, VW818
+Network 16 
+LDN    I3.4
+A      I3.3
+TON    T106, VW820
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK 轴控制:SBR26
+TITLE=
+BEGIN
+Network 1 
+LD     SM0.0
+LPS
+AR=    VD1000, 0.0
+MOVR   50.0, VD1000
+LRD
+AR=    VD1004, 0.0
+MOVR   1.0, VD1004
+LRD
+AR=    VD1008, 0.0
+MOVR   300.0, VD1008
+LRD
+AR=    VD1012, 0.0
+MOVR   20.0, VD1012
+LRD
+AW=    VW840, +0
+MOVW   +100, VW840
+LPP
+AW=    VW816, +0
+MOVW   +1, VW816
+Network 2 
+LD     M5.6
+LPS
+AN     I0.1
+AN     I0.2
+A      V12.6
+A      V26.6
+AN     V66.7
+EU
+S      V65.0, 1
+S      V66.7, 1
+LPP
+LD     I0.1
+O      I0.2
+ON     V12.6
+ON     V26.6
+ALD
+R      M5.6, 1
+Network 3 
+LD     V66.7
+EU
+MOVW   +0, VW114
+Network 4 
+LD     V66.2
+EU
+INCW   VW114
+Network 5 
+LD     V66.2
+EU
+LD     V66.6
+O      V60.0
+EU
+CTU    C4, VW840
+Network 6 
+LD     V65.0
+LPS
+MOVR   VD1000, VD1064
+AENO
+MOVR   VD1000, VD1164
+LRD
+MOVR   VD1020, VD1060
+AENO
+MOVR   VD1120, VD1160
+LRD
+S      V50.6, 1
+LRD
+S      V0.3, 1
+LPP
+A      V12.4
+S      V14.3, 1
+A      V26.4
+S      V65.1, 1
+R      V65.0, 1
+Network 7 
+LD     V65.1
+R      V0.3, 1
+R      V14.3, 1
+S      V55.0, 2
+TON    T41, VW810
+A      T41
+S      V65.2, 1
+R      V65.1, 1
+Network 8 
+LD     V65.2
+MOVR   VD1004, VD110
+AENO
+*R     VD1008, VD110
+AENO
+MOVR   VD110, VD1064
+/R     60.0, VD1064
+Network 9 
+LDN    V801.4
+A      V65.2
+=      L60.0
+LD     V65.2
+EU
+=      L63.7
+LD     L60.0
+CALL   SBR45, L63.7, 1, VD1024, VD1124, VD1064, 0, +500, +500, +200, 0, V13.6, V13.7, V13.7, VB284
+Network 10 
+LD     V801.4
+A      V65.2
+=      L60.0
+LD     V65.2
+EU
+=      L63.7
+LD     L60.0
+CALL   SBR3, L63.7, VD1024, VD1064, 0, V12.5, V13.6, VB3, VD4, VD8
+Network 11 
+LD     V65.2
+TON    T109, +1
+A      T109
+A      V13.6
+S      V65.3, 1
+R      V65.2, 1
+Network 12 
+LD     V65.3
+TON    T115, VW816
+S      V55.2, 1
+A      T115
+S      V66.2, 1
+R      V65.3, 1
+Network 13 
+LD     V66.2
+LPS
+MOVR   VD1000, VD1064
+AENO
+MOVR   VD1000, VD1164
+LRD
+MOVR   VD1016, VD1060
+AENO
+MOVR   VD1116, VD1160
+LRD
+TON    T47, VW814
+LRD
+R      V55.0, 3
+LPP
+A      T47
+S      V14.3, 1
+A      V26.4
+S      V0.3, 1
+A      V12.4
+S      V66.3, 1
+R      V66.2, 1
+Network 14 
+LD     V66.2
+ED
+R      V0.3, 1
+R      V14.3, 1
+Network 15 
+LD     V66.3
+LPS
+AN     I1.4
+LPS
+A      M5.6
+LPS
+AW<    VW114, VW812
+S      V65.0, 1
+R      V66.3, 1
+LPP
+AW>=   VW114, VW812
+R      M5.6, 1
+LPP
+AN     M5.6
+R      V66.3, 1
+R      V66.7, 1
+LPP
+A      I1.4
+R      M5.6, 1
+S      V66.4, 1
+R      V66.3, 1
+Network 16 
+LD     V66.4
+R      V50.6, 1
+TON    T111, VW842
+A      T111
+R      V52.4, 1
+R      V52.6, 1
+A      I3.1
+A      I3.4
+A      V13.5
+LPS
+AN     C4
+S      V66.5, 1
+R      V66.4, 1
+LPP
+A      C4
+S      V66.6, 1
+R      V66.4, 1
+Network 17 
+LD     V66.5
+S      V61.7, 1
+R      V66.5, 1
+R      V66.7, 1
+Network 18 
+LD     V66.6
+TON    T114, +2
+A      T114
+LPS
+AN     V801.5
+S      V15.7, 1
+A      V27.4
+S      V1.7, 1
+A      V13.4
+S      V61.7, 1
+R      V66.6, 2
+LPP
+A      V801.5
+S      V1.7, 1
+A      V13.4
+S      V15.7, 1
+A      V27.4
+S      V61.7, 1
+R      V66.6, 2
+Network 19 
+LD     V66.6
+ED
+R      V1.7, 1
+R      V15.7, 1
+Network 20 
+LD     SM0.0
+=      L60.0
+LD     SM0.0
+=      L63.7
+LD     L60.0
+CALL   SBR1, L63.7, V12.0, VB3, VD4, VD8, V12.1
+Network 21 
+LD     SM0.0
+=      L60.0
+LD     V1.1
+LD     V1.2
+AN     I0.0
+OLD
+A      I0.6
+=      L63.7
+LD     V1.5
+=      L63.6
+LD     V1.6
+=      L63.5
+LD     L60.0
+CALL   SBR2, L63.7, L63.6, L63.5, VD1012, V1.2, VB3, VD4, VD8, V12.1
+Network 22 
+LD     V0.0
+O      V0.1
+O      V1.7
+O      V2.0
+=      L60.0
+LD     V0.0
+O      V0.1
+O      V1.7
+O      V2.0
+EU
+=      L63.7
+LD     L60.0
+CALL   SBR5, L63.7, V12.2, VB3
+Network 23 
+LD     V0.1
+R      V0.2, 2
+Network 24 
+LD     V0.0
+O      V0.1
+O      V1.7
+O      V2.0
+TON    T37, +1
+A      T37
+AB=    VB3, 0
+A      V12.2
+S      V12.6, 1
+=      V13.4
+Network 25 
+LD     SM0.0
+=      L60.0
+LD     V0.2
+O      V0.3
+EU
+=      L63.7
+LD     L60.0
+CALL   SBR3, L63.7, VD1060, VD1064, 0, V12.5, V12.3, VB3, VD4, VD8
+Network 26 
+LD     V0.2
+O      V0.3
+TON    T38, +1
+A      T38
+LPS
+AB=    VB3, 0
+A      V12.3
+R      V0.2, 1
+=      V12.4
+LPP
+AB<>   VB3, 0
+R      V0.2, 1
+Network 27 
+LD     SM0.0
+=      L60.0
+LD     SM0.0
+=      L63.7
+LD     L60.0
+CALL   SBR12, L63.7, V26.0, VB17, VD18, VD22, V26.1
+Network 28 
+LD     SM0.0
+=      L60.0
+LD     V15.1
+LD     V15.2
+AN     I0.3
+OLD
+A      I0.7
+=      L63.7
+LD     V15.5
+=      L63.6
+LD     V15.6
+=      L63.5
+LD     L60.0
+CALL   SBR13, L63.7, L63.6, L63.5, VD1012, V15.2, VB17, VD18, VD22, V26.1
+Network 29 
+LD     V14.0
+O      V14.1
+O      V15.7
+O      V16.0
+AN     V801.4
+=      L60.0
+LD     V14.0
+O      V14.1
+O      V15.7
+O      V16.0
+EU
+=      L63.7
+LD     L60.0
+CALL   SBR16, L63.7, V26.2, VB17
+Network 30 
+LD     V14.1
+R      V14.2, 2
+Network 31 
+LD     V14.0
+O      V14.1
+O      V15.7
+O      V16.0
+TON    T39, +1
+LD     T39
+AB=    VB17, 0
+A      V26.2
+O      V801.4
+ALD
+S      V26.6, 1
+=      V27.4
+Network 32 
+LDN    V801.4
+=      L60.0
+LD     V14.2
+O      V14.3
+EU
+=      L63.7
+LD     L60.0
+CALL   SBR14, L63.7, VD1160, VD1164, 0, V26.5, V26.3, VB17, VD18, VD22
+Network 33 
+LD     V14.2
+O      V14.3
+TON    T40, +1
+A      T40
+LPS
+LDB=   VB17, 0
+A      V26.3
+O      V801.4
+ALD
+R      V14.2, 1
+=      V26.4
+LPP
+AB<>   VB17, 0
+R      V14.2, 1
+Network 34 
+LD     SM0.0
+MOVR   VD1016, VD200
++R     0.2, VD200
+LD     V12.6
+AR<=   VD4, VD200
+O      I0.0
+ALD
+=      V13.5
+Network 35 
+LD     SM0.0
+=      L60.0
+LD     SM0.0
+=      L63.7
+LD     L60.0
+CALL   SBR32, L63.7, V40.0, VB31, VD32, VD36, V40.1
+Network 36 
+LD     SM0.0
+LPS
+AR=    VD1212, 0.0
+MOVR   20.0, VD1212
+LPP
+AR=    VD1200, 0.0
+MOVR   20.0, VD1200
+Network 37 
+LD     SM0.0
+=      L60.0
+LD     V29.1
+LD     V29.2
+AN     I0.5
+OLD
+=      L63.7
+LD     V29.5
+=      L63.6
+LD     V29.6
+=      L63.5
+LD     L60.0
+CALL   SBR33, L63.7, L63.6, L63.5, VD1212, V29.2, VB31, VD32, VD36, V40.1
+Network 38 
+LD     SM0.0
+=      L60.0
+LD     V28.0
+O      V28.1
+O      V29.7
+EU
+=      L63.7
+LD     L60.0
+CALL   SBR36, L63.7, V40.2, VB31
+Network 39 
+LD     V28.1
+R      V28.2, 2
+Network 40 
+LD     V28.0
+O      V28.1
+O      V29.7
+TON    T48, +1
+A      T48
+LPS
+AB=    VB31, 0
+A      V40.2
+R      V28.1, 1
+S      V40.6, 1
+=      V41.4
+LPP
+AB<>   VB31, 0
+R      V28.1, 1
+Network 41 
+LD     SM0.0
+=      L60.0
+LD     V28.2
+O      V28.3
+EU
+=      L63.7
+LD     L60.0
+CALL   SBR34, L63.7, VD1260, VD1200, 0, V40.5, V40.3, VB31, VD32, VD36
+Network 42 
+LD     V28.2
+O      V28.3
+TON    T49, +1
+A      T49
+LPS
+AB=    VB31, 0
+A      V40.3
+R      V28.2, 1
+=      V40.4
+LPP
+AB<>   VB31, 0
+R      V28.2, 1
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK 报警:SBR27
+TITLE=
+BEGIN
+Network 1 
+LD     SM0.5
+EU
+=      V63.2
+Network 2 
+LD     V60.0
+LD     I1.4
+A      V60.2
+OLD
+=      V63.3
+Network 3 
+LD     V63.3
+EU
+FILL   +0, VW300, 40
+Network 4 
+LD     V63.3
+CALL   SBR100, Q1.1, Q1.2, I1.6, I1.7, VB300, VB301, V400.0, V400.1
+Network 5 
+LD     V63.3
+CALL   SBR44, Q1.3, I2.0, VB302, VB303, V400.2, V400.3
+Network 6 
+LD     V63.3
+CALL   SBR43, Q1.5, I2.1, I2.2, VB306, VB307, V400.6, V400.7
+Network 7 
+LD     V63.3
+CALL   SBR100, Q2.0, Q2.1, I2.5, I2.6, VB312, VB313, V401.4, V401.5
+Network 8 
+LD     V63.3
+CALL   SBR100, Q2.3, Q2.2, I3.0, I2.7, VB314, VB315, V401.6, V401.7
+Network 9 
+LD     V63.3
+CALL   SBR44, Q2.4, I3.1, VB316, VB317, V402.0, V402.1
+Network 10 
+LD     V63.3
+CALL   SBR43, Q2.6, I3.4, I3.3, VB320, VB321, V402.4, V402.5
+Network 11 
+LDN    V801.2
+AN     I4.0
+TON    T123, +15
+A      T123
+=      V412.5
+Network 12 
+LD     I1.4
+A      V60.3
+AN     V801.3
+LPS
+AW=    VW4170, +0
+TON    T124, +30
+LRD
+AW=    VW4170, +1
+TON    T125, +30
+LPP
+LD     T124
+O      T125
+ALD
+S      V404.2, 1
+Network 13 
+LDD<>  VD400, +0
+OD<>   VD404, +0
+S      V63.4, 1
+Network 14 
+LD     V63.4
+R      V50.5, 2
+Network 15 
+LD     V63.5
+MOVD   +0, VD400
+MOVD   +0, VD404
+R      V412.6, 4
+R      V63.4, 1
+AD>=   VD120, VD834
+MOVD   +0, VD120
+Network 16 
+LDD<>  VD400, +0
+OD<>   VD404, +0
+O      V412.0
+A      SM0.5
+=      V53.6
+Network 17 
+LDN    V60.2
+LDD<>  VD412, +0
+A      SM0.5
+OLD
+AN     V63.4
+AN     V412.0
+=      V53.4
+Network 18 
+LD     V60.2
+AN     V63.4
+AD=    VD412, +0
+=      V53.5
+Network 19 
+LDD<>  VD400, +0
+OD<>   VD404, +0
+OD<>   VD412, +0
+TON    T128, +100
+Network 20 
+LDD<>  VD400, +0
+OD<>   VD404, +0
+OD<>   VD412, +0
+AN     T128
+A      SM0.5
+=      V53.7
+Network 21 
+LDN    V60.1
+AN     V60.0
+=      V416.0
+Network 22 
+LDN    V63.4
+A      V60.0
+=      V416.2
+Network 23 
+LDN    V63.4
+A      V62.5
+=      V416.3
+Network 24 
+LD     M5.5
+=      V416.4
+Network 25 
+LDN    I0.6
+ON     I0.7
+=      V412.0
+R      V60.0, 3
+R      S0.0, 8
+R      V65.0, 16
+R      V0.2, 2
+R      V14.2, 2
+R      V50.5, 2
+R      M5.6, 1
+Network 26 
+LDN    V412.0
+AN     V60.2
+MOVB   0, VB266
+Network 27 
+LDN    V412.0
+AN     V63.4
+A      V60.2
+MOVB   1, VB266
+Network 28 
+LD     V412.0
+O      V63.4
+MOVB   2, VB266
+Network 29 
+LD     I1.4
+A      I4.2
+TON    T116, +20
+A      T116
+=      V412.2
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK 输出:SBR28
+TITLE=
+BEGIN
+Network 1 
+LD     V50.4
+=      Q0.4
+Network 2 
+LD     V50.5
+=      Q0.5
+Network 3 
+LD     V50.6
+=      Q0.6
+Network 4 
+LD     SM0.0
+MOVW   VW51, QW1
+MOVB   VB53, QB8
+Network 5 
+LD     V55.0
+MOVW   +1, VW4048
+NOT
+MOVW   +0, VW4048
+Network 6 
+LD     V55.1
+MOVW   +1, VW4050
+NOT
+MOVW   +0, VW4050
+Network 7 
+LD     V55.2
+MOVW   +1, VW4052
+NOT
+MOVW   +0, VW4052
+Network 8 
+LD     V55.3
+MOVW   +1, VW4054
+NOT
+MOVW   +0, VW4054
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK TCP_CONNECT:SBR29
+TITLE=
+VAR_INPUT
+Req:BOOL;
+Active:BOOL;
+ConnID:WORD;
+IPaddr1:BYTE;
+IPaddr2:BYTE;
+IPaddr3:BYTE;
+IPaddr4:BYTE;
+RemPort:WORD;
+LocPort:WORD;
+END_VAR
+VAR_OUTPUT
+Done:BOOL;
+Busy:BOOL;
+Error:BOOL;
+Status:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK TCP_SEND:SBR30
+TITLE=
+VAR_INPUT
+Req:BOOL;
+ConnID:WORD;
+DataLen:INT;
+DataPtr:DWORD;
+END_VAR
+VAR_OUTPUT
+Done:BOOL;
+Busy:BOOL;
+Error:BOOL;
+Status:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK TCP_RECV:SBR31
+TITLE=
+VAR_INPUT
+ConnID:WORD;
+MaxLen:INT;
+DataPtr:DWORD;
+END_VAR
+VAR_OUTPUT
+Done:BOOL;
+Busy:BOOL;
+Error:BOOL;
+Status:BYTE;
+Length:INT;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS2_CTRL:SBR32
+TITLE=此 POU 由运动向导生成，旨在与位置 2 处的模块配合使用. AXISx_CTRL（控制）指令用于启用和初始化运动控制。该指令的输出可提供运动控制的当前状态. 该指令应在每次程序扫描中调用，并且仅可在程序中使用一次.
+VAR_INPUT
+MOD_EN:BOOL;	// 启用模块。1 = 可发送命令；0 = 中止进行中的任何命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 在运动控制闲置时开启
+Error:BYTE;	// 包含模块最后一次请求的结果.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+C_Dir:BOOL;	// 当前方向
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS2_MAN:SBR33
+TITLE=此 POU 由运动向导生成，旨在与位置 2 处的模块配合使用. AXISx_MAN（手动模式）指令用于以手动模式控制运动控制。在手动模式下，电机可以不同的速度运行，也可朝任一方向点动. 当 AXISx_MAN 指令启用后，仅允许 AXISx_CTRL 和 AXISx_DIS 指令.
+VAR_INPUT
+RUN:BOOL;	// RUN/STOP 加速到目标速度和移动到目标位置.
+JOG_P:BOOL;	// 正方向 JOG：脉冲 = JOG_INCREMENT；开启 = JOG_SPEED
+JOG_N:BOOL;	// 负方向 JOG：脉冲 = JOG_INCREMENT；开启 = JOG_SPEED
+Speed:REAL;	// 运动的目标速度.
+Dir:BOOL;	// 运动的目标方向.
+END_VAR
+VAR_OUTPUT
+Error:BYTE;	// 运动控制的状态错误.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+C_Dir:BOOL;	// 当前方向
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+SpeedManualActive:BOOL;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS2_GOTO:SBR34
+TITLE=此 POU 由运动向导生成，旨在与位置 2 处的模块配合使用. AXISx_GOTO（移动到位置）指令用于命令朝指定位置运动。Mode 输入用于选择移动类型.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+Pos:REAL;	// 运动的目标位置.
+Speed:REAL;	// 运动的目标速度.
+Mode:BYTE;	// 移动类型。0 = 绝对；1 = 相对；2 = 正；3 = 负
+Abort:BOOL;	// 中止命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS2_RUN:SBR35
+TITLE=此 POU 由运动向导生成，旨在与位置 2 处的模块配合使用. AXISx_RUN（运行运动曲线）指令用于命令运动控制执行模块组态中指定的运动曲线.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+Profile:BYTE;	// 要运行的运动曲线的数量.
+Abort:BOOL;	// 中止命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+C_Profile:BYTE;	// 当前运动曲线
+C_Step:BYTE;	// 运动曲线内的当前步.
+C_Pos:REAL;	// 当前位置
+C_Speed:REAL;	// 当前速度
+END_VAR
+VAR
+RUN_PROFILE:BYTE;
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS2_RSEEK:SBR36
+TITLE=此 POU 由运动向导生成，旨在与位置 2 处的模块配合使用. AXISx_RSEEK（查找参考点位置）指令用于使用模块组态中指定的搜索方法来启动参考点查找操作. 当定位到参考点且运动停止后，模块会将 RP_OFFSET 参数装载到当前位置参数. 
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS2_LDOFF:SBR37
+TITLE=此 POU 由运动向导生成，旨在与位置 2 处的模块配合使用. AXISx_LDOFF（装载 RP_OFFSET）指令允许您的程序在参考点以外的位置建立一个新的零点位置 (ZERO_POS). 调用该指令之前，必须确定参考点.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS2_LDPOS:SBR38
+TITLE=此 POU 由运动向导生成，旨在与位置 2 处的模块配合使用. AXISx_LDPOS（装载位置）指令用于更改运动控制组态中的当前位置参数。同时将为绝对移动建立一个新的零点位置 (ZERO_POS).
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+New_Pos:REAL;	// 需要装载到运动控制当前位置参数的值
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+C_Pos:REAL;	// 当前位置
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS2_SRATE:SBR39
+TITLE=此 POU 由运动向导生成，旨在与位置 2 处的模块配合使用. AXISx_SRATE（设置速率）指令用于更改运动控制采用的加速、减速和急停时间.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+ACCEL_Time:DINT;	// 以毫秒为单位的加速时间.
+DECEL_Time:DINT;	// 以毫秒为单位的减速时间.
+JERK_Time:DINT;	// 以毫秒为单位的急停时间.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS2_DIS:SBR40
+TITLE=此 POU 由运动向导生成，旨在与位置 2 处的模块配合使用. AXISx_DIS（禁用）指令用于更改运动控制的 DIS 输出.
+VAR_INPUT
+DIS_ON:BOOL;	// 控制运动控制上的 DIS 输出
+END_VAR
+VAR_OUTPUT
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS2_CFG:SBR41
+TITLE=此 POU 由运动向导生成，旨在与位置 2 处的模块配合使用. AXISx_CFG（重新装载组态）指令使运动控制从组态表指针指定的位置上读取其组态块.
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+ActiveCmdTemp:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK AXIS2_CACHE:SBR42
+TITLE=此 POU 由运动向导生成，旨在与位置 2 处的模块配合使用. 执行该指令前将曲线预先加载到缓存中
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+Profile:BYTE;	// 要运行的运动曲线的数量.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+RUN_PROFILE:BYTE;
+ActiveCmdTemp:BYTE;
+CacheProfile_B:BYTE;
+CacheProfile_W:WORD;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK 单阀双感应报警:SBR43
+TITLE=
+VAR_IN_OUT
+输出:BOOL;
+原点:BOOL;
+动点:BOOL;
+原时:BYTE;
+动时:BYTE;
+原警:BOOL;
+动警:BOOL;
+END_VAR
+BEGIN
+Network 1 
+LD     L0.0
+LPS
+AN     L0.2
+LPS
+A      V63.2
+INCB   LB2
+LPP
+AB>=   LB2, 6
+S      L3.1, 1
+LPP
+LPS
+A      L0.2
+MOVB   0, LB2
+LPP
+MOVB   0, LB1
+Network 2 
+LDN    L0.0
+LPS
+AN     L0.1
+LPS
+A      V63.2
+INCB   LB1
+LPP
+AB>=   LB1, 6
+S      L3.0, 1
+LPP
+LPS
+A      L0.1
+MOVB   0, LB1
+LPP
+MOVB   0, LB2
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK 单阀单感应报警:SBR44
+TITLE=
+VAR_IN_OUT
+输出:BOOL;
+原点:BOOL;
+原时:BYTE;
+动时:BYTE;
+原警:BOOL;
+动警:BOOL;
+END_VAR
+BEGIN
+Network 1 
+LD     L0.0
+LPS
+A      L0.1
+LPS
+A      V63.2
+INCB   LB2
+LPP
+AB>=   LB2, 6
+S      L3.1, 1
+LPP
+LPS
+AN     L0.1
+MOVB   0, LB2
+LPP
+MOVB   0, LB1
+Network 2 
+LDN    L0.0
+LPS
+AN     L0.1
+LPS
+A      V63.2
+INCB   LB1
+LPP
+AB>=   LB1, 6
+S      L3.0, 1
+LPP
+LPS
+A      L0.1
+MOVB   0, LB1
+LPP
+MOVB   0, LB2
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK GRP0_2D_MOVELINEAR:SBR45
+TITLE=此 POU 由运动向导生成，旨在与轴组 0 配合使用。GRP0_2D_MOVELINEAR 指令用于命令一个轴组上的2D直线插补运动。
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+Segment_ID:BYTE;	// 线段 ID
+Pos_X:REAL;	// X 轴的运动目标位置
+Pos_Y:REAL;	// Y 轴的运动目标位置
+Speed:REAL;	// 运动的目标速度
+Mode:BYTE;	// 移动类型。0 = 绝对; 1 = 相对
+Acc_Time:DINT;	// 加速时间 (ms)
+Decel_Time:DINT;	// 减速时间 (ms)
+Jerk_Time:DINT;	// 急停时间 (ms)
+Buffer_Mode:BYTE;	// 运动衔接方式
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Busy:BOOL;	// 忙
+Active:BOOL;	// 活跃
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+VAR
+Seg_Pointer:DWORD;
+Seg_Status:BYTE;
+Seg_ErrorCode:BYTE;
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK GRP0_RESET:SBR46
+TITLE=此 POU 由运动向导生成，旨在与轴组 0 配合使用。GRP0_RESET 指令用于命令一个轴组从 ErrorStop 状态转换为准备进行直线插补运动的状态。
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Busy:BOOL;	// 忙
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK GRP0_STOP:SBR47
+TITLE=此 POU 由运动向导生成，旨在与轴组 0 配合使用。GRP0_STOP 指令用于停止正在进行的轴组运动。
+VAR_INPUT
+START:BOOL;	// 未激活时向运动控制发送命令.
+Mode:BYTE;	// 轴组停止模式. 0=减速停止; 1=立即停止
+Decel_Time:DWORD;	// 减速停止模式的减速时间
+END_VAR
+VAR_OUTPUT
+Done:BOOL;	// 当运动控制完成该命令时为高.
+Busy:BOOL;	// 忙
+Active:BOOL;	// 活跃
+Error:BYTE;	// 运动控制的状态错误.
+END_VAR
+BEGIN
+Network 1 // 此 POU 针对编辑和查看设置了密码保护.
+
+END_SUBROUTINE_BLOCK
+SUBROUTINE_BLOCK 双阀双感应报警:SBR100
+TITLE=
+VAR_IN_OUT
+原输出:BOOL;
+动输出:BOOL;
+原点:BOOL;
+动点:BOOL;
+原时:BYTE;
+动时:BYTE;
+原警:BOOL;
+动警:BOOL;
+END_VAR
+BEGIN
+Network 1 
+LD     L0.1
+LPS
+AN     L0.3
+LPS
+A      V63.2
+INCB   LB2
+LPP
+AB>=   LB2, 6
+S      L3.1, 1
+LPP
+LPS
+A      L0.3
+MOVB   0, LB2
+LPP
+MOVB   0, LB1
+Network 2 
+LD     L0.0
+LPS
+AN     L0.2
+LPS
+A      V63.2
+INCB   LB1
+LPP
+AB>=   LB1, 6
+S      L3.0, 1
+LPP
+LPS
+A      L0.2
+MOVB   0, LB1
+LPP
+MOVB   0, LB2
+END_SUBROUTINE_BLOCK
+INTERRUPT_BLOCK INT_0:INT0
+TITLE=中断例程注释
+BEGIN
+Network 1 
+// 程序段注释
+END_INTERRUPT_BLOCK

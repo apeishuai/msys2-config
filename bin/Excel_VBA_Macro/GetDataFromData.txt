@@ -1,0 +1,50 @@
+Sub get_data_from_table()
+
+    Dim connstr, cmdtxt As String
+    Dim conn, recordset As Variant
+    
+    Set conn = CreateObject("ADODB.connection")
+    Set Rst = CreateObject("ADODB.Recordset")
+    
+    
+    PathStr = "C:\Users\shuai\Desktop\MetaData.xls"
+    Select Case Application.Version * 1
+    Case Is <= 11
+        connstr = "Provider={Microsoft.Jet.Oledb.4.0;" & _
+                 "Extended Properties=Excel 8.0;Data Source=" & PathStr
+    Case Is >= 12
+        connstr = "provider= Microsoft.ACE.OLEDB.12.0;" & _
+                 "extended properties=excel 12.0;data source=" & PathStr
+    End Select
+    
+    
+    conn.Open connstr
+    strSQL = "Select * FROM [MetaData$]"
+    Rst.Open strSQL, conn, 3, 1, 1
+    
+    
+    Sheets.Add
+    Dim r, f As Integer
+    r = 1
+    
+    For f = 0 To Rst.Fields.Count - 1
+        Sheets(1).Cells(r, f + 1).Value = Rst.Fields(f).Name
+    Next
+    
+    While Not Rst.EOF
+        r = r + 1
+        For f = 0 To Rst.Fields.Count - 1
+            Sheets(1).Cells(r, f + 1).Value = Rst.Fields(f).Value
+        Next
+        Rst.MoveNext
+    Wend
+    
+    conn.Close
+    
+    Sheets(1).Activate
+    Cells.Rows.AutoFit
+    Cells.Columns.AutoFit
+    Cells(1, 1).Select
+    
+    
+End Sub

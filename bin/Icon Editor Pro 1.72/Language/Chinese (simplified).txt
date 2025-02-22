@@ -1,0 +1,391 @@
+; Greenfish Icon Editor Pro
+; Language pack: Chinese (simplified)
+; Created by: sfufoet - Blogs: http://loland.net (english); http://www.appinn.com (Chinese); http://jandan.net (Chinese)
+
+; General dictionary
+LABEL_WIDTH=宽
+LABEL_HEIGHT=高
+LABEL_SIZE=大小
+LABEL_COLOR=颜色
+LABEL_KIND=种类
+LABEL_ANTIALIAS=反锯齿
+LABEL_POSITION=位置
+UNTITLED=无标题
+
+; Buttons
+B_OK=确定
+B_CANCEL=取消
+B_RESET=重置
+B_ADD=添加
+B_REMOVE=移除
+B_CLEAR=清除
+B_CLOSE=关闭
+B_ALL=选择全部
+B_NONE=全部不选
+B_PRINT=打印
+B_PRINTER_SETUP=打印机设置
+B_PREVIEW=预览
+B_COMPILE=编译
+
+; Shown messages
+MSG_NOT_EXIST=文件"%s"不存在
+MSG_NOT_FOUND_ICLSTUB=一个重要文件“Config\iclstub.dll”丢失，请重新下载 GFIE。
+MSG_OVERWRITE=确定覆盖此文件“%s”？
+MSG_UNKNOWN_FILE_TYPE=无法打开或保存当前文件 "%s"。
+MSG_INVALID_FILE_FORMAT=当前文件 "%s" 不是 "%s" 格式. 该文件可能已损坏，或者其扩展名是错误的。
+MSG_CROPPED=图片大小超过 %dx%d ，并将会被裁剪。继续保存图像将会丢失一部分信息。请点击“帮助→设置”，把“最大图片大小”改大一些。
+MSG_SAVE_CHANGES=要保存更改到 %s 吗？
+MSG_CONFIRM_REVERT=对文件 "%s" 的操作将全部丢失且无法还原，请问您还要继续还原到打开状态么？
+MSG_DATA_LOSS_INFO=为了避免数据的丢失，建议把图标保存为其他格式。
+MSG_DL_MULTIPAGE=该文件格式不能支持多个图标转换为一个图像文件，只有第一个图标能被保存。
+MSG_DL_SIZE_256=图像大于 256×256 ，该文件格式无法保存，图像将被剪裁。
+MSG_DL_TRANSPARENCY=该文件格式不支持背景透明。
+MSG_DL_COLOR_DEPTH=有一部分的颜色信息无法保存。
+MSG_ADD_FILES=请添加文件。
+MSG_SELECT_PAGES=请选择多个图像
+MSG_SELECT_ITEMS=请选择图标后再操作
+MSG_CONFIRM_REMOVE=你确定移除选中的图标？
+MSG_RES_EXIST=已经有同名并且语言属性相同的图标存在，请修改为其他名字或修改同名图标的语言属性。
+MSG_PAGE_SIZE_0=错误: 纸张物理宽度无法为 0 mm。请选择其他的纸张格式。
+
+; Open/Save dialog filters
+FF_ALL=所有文件
+FF_ICO=图标文件
+FF_CUR=光标文件
+FF_ANI=动态光标
+FF_PNG=PNG
+FF_XPM=X像素图片
+FF_BMP=BMP
+FF_JPEG=JPEG
+FF_GIF=GIF 图像格式
+FF_EXEC=可执行文件及图标库
+FF_ICL=图标库
+FF_RES=Win32 资源文件
+
+; Tool names
+TOOL_SEL_RECT=矩形选框工具
+TOOL_SEL_ELLIPSE=椭圆选框工具
+TOOL_LASSO=多边形套索工具
+TOOL_WAND=魔棒工具
+TOOL_SEL_PENCIL=铅笔选择工具
+TOOL_TRANSFORM=变形工具
+TOOL_CROP=裁剪工具
+TOOL_HOTSPOT=设置鼠标指针热点（hotspot），热点就是指针用来触发事件的点，对于箭头来说，热点当然就是箭头的尖端。
+TOOL_EYEDROPPER=取色工具
+TOOL_RETOUCH=修饰工具，请在“工具行为面板”选择“模糊、锐化”等详细功能
+TOOL_RECT=矩形工具
+TOOL_ELLIPSE=椭圆工具
+TOOL_LINE=直线工具
+TOOL_TEXT=文字工具
+TOOL_PENCIL=铅笔工具
+TOOL_BRUSH=笔刷工具
+TOOL_ERASER=橡皮擦工具
+TOOL_RECOLOR=颜色对换工具，可以把鼠标指针下和背景色一样的颜色涂改为前景色
+TOOL_BUCKET=水桶填充工具，会把选中的区域都填充上前景色
+TOOL_GRADIENT=渐变填充工具，要先选择要填充的区域
+TOOL_NONE=无
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_ENTER=Enter
+KEY_DEL=Del
+
+; Menu items
+MI_FILE=文件
+MI_FILE_NEW_GRAPHIC=新建图标
+MI_FILE_NEW_LIBRARY=新建图标库
+MI_FILE_OPEN=打开
+MI_FILE_RECENT_FILES=最近打开文件
+MI_FILE_RF_CLEAR=清除列表
+MI_FILE_BATCH_CONVERT=批量转换文件
+MI_FILE_CLOSE=关闭
+MI_FILE_CLOSE_ALL=关闭全部
+MI_FILE_SAVE=保存
+MI_FILE_SAVE_AS=另存为
+MI_FILE_SAVE_ALL=全部保存
+MI_FILE_REVERT=复原到打开状态
+MI_FILE_METADATA=元数据(Metadata)
+MI_FILE_PRINT=打印
+MI_FILE_EXIT=退出
+
+MI_EDIT=编辑
+MI_EDIT_UNDO=撤销
+MI_EDIT_CANT_UNDO=无法撤消
+MI_EDIT_REDO=重做
+MI_EDIT_CANT_REDO=无法重做
+MI_EDIT_CUT=剪切
+MI_EDIT_COPY=复制
+MI_EDIT_PASTE=粘贴
+MI_EDIT_PASTE_PAGE=粘贴为新的图像
+MI_EDIT_DELETE=删除
+MI_EDIT_SEL_ALL=全选
+MI_EDIT_SEL_NONE=取消选择
+MI_EDIT_SEL_INVERT=反选
+MI_EDIT_SEL_LOAD=读取选区
+MI_EDIT_SEL_SAVE=保存选区
+MI_EDIT_CROP_TRANSPARENCY=裁剪透明区域
+MI_EDIT_TRANSFORM=旋转
+MI_EDIT_SEL_TRANSFORM=旋转设置
+MI_EDIT_FLIP_HORIZ=水平翻转
+MI_EDIT_FLIP_VERT=垂直翻转
+MI_EDIT_ROTATE_LEFT=向左旋转 90 度
+MI_EDIT_ROTATE_RIGHT=向右旋转 90 度
+MI_EDIT_ROTATE_180=旋转 180 度
+
+MI_VIEW=查看
+MI_VIEW_ZOOM_IN=放大
+MI_VIEW_ZOOM_OUT=缩小
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=适应窗口
+MI_VIEW_GRID=网格
+MI_VIEW_CENTER_LINES=中心十字线
+MI_VIEW_PAGES=图像列表
+MI_VIEW_TOOLBAR=工具栏
+MI_VIEW_COLOR_PICKER=取色面板
+MI_VIEW_TOOL_BEHAVIOR=工具行为面板
+MI_VIEW_STARTUP_SCREEN=欢迎窗口
+
+MI_FLT=滤镜
+MI_FLT_GRAYSCALE=灰度
+MI_FLT_INVERT=反相
+MI_FLT_SOLARIZE=曝光过度（Solarize）
+MI_FLT_RGB=RGB 通道
+MI_FLT_HS=色相/饱和度
+MI_FLT_EXPOSURE=曝光（Exposure）
+MI_FLT_AVERAGE=平均颜色（Average）
+MI_FLT_BLUR_SOFT=软化模糊（Soft Blur）
+MI_FLT_BLUR_MORE=进一步模糊
+MI_FLT_BLUR_CUSTOM=自定义模糊
+MI_FLT_SHARPEN=锐化
+MI_FLT_UNSHARP_MASK=USM 锐化
+MI_FLT_REMOVE_MATTE=移除杂边（Remove matte）
+MI_FLT_OPACITY=透明度（Opacity）
+MI_FLT_PAINT_CONTOUR=描边（Paint contour）
+MI_FLT_DROP_SHADOW=阴影（Drop shadow）
+MI_FLT_GLOW=发光
+MI_FLT_BEVEL=斜面（Bevel）
+
+MI_ICON=图标
+MI_ICON_PAGE_NEW=新建图像
+MI_ICON_PAGE_DELETE=删除图像
+MI_ICON_PAGE_PROP=图像属性
+MI_ICON_PAGE_EXPORT=导出图像
+MI_ICON_UNIFORM_RATE=应用该帧速到所有帧上
+MI_ICON_CREATE_FROM_IMAGE=根据当前画布内容创建图标
+MI_ICON_TEST=测试光标
+
+MI_LIB=图标库
+MI_LIB_ADD=添加图标
+MI_LIB_REMOVE=移除图标
+MI_LIB_REPLACE=替换图标
+MI_LIB_PROP=图标属性
+MI_LIB_EXTRACT_EDIT=提取并编辑
+MI_LIB_EXTRACT_SAVE=提取到...
+
+MI_HELP=帮助
+MI_HELP_CONTENTS=帮助内容
+MI_HELP_GS=入门
+MI_HELP_HOMEPAGE=主页
+MI_HELP_DONATE=捐助
+MI_HELP_PREFERENCES=设置
+MI_HELP_LANGUAGE=语言
+MI_HELP_ABOUT=关于
+
+; Pixel Format to String
+PF_1_BIT=1 位
+PF_16_COLORS=16 色
+PF_256_COLORS=256 色
+PF_24_BIT=24 位
+PF_32_BIT=32 位
+
+; Undo captions
+UNDO_MOVE_PAGE=移动图像
+UNDO_FLIP_ROTATE=翻转/旋转
+
+; Page properties dialog box
+PG_CAPTION_NEW_PAGE=新建图像
+PG_CAPTION_PAGE_PROP=图像属性
+
+PG_SIZE_ITEMS=16 x 16 (最小的)<br>20 x 20 (XP window 图标)<br>24 x 24 (用于工具栏的)<br>32 x 32 (小的)<br>48 x 48 (中的)<br>64 x 64 (大的)<br>256 x 256 (较大的, Vista)<br>自定义
+PG_CUSTOM_SIZE=自定义大小
+PG_SQUARE=正方形
+
+PG_CR=颜色设置
+PG_CR_ITEMS=黑白<br>16 色 (系统调色板)<br>256 色 (一般)<br>24-位 RGB 颜色<br>默认(32-位)
+
+PG_ANIMATION=当保存为动态光标时
+PG_FRAME_RATE=帧速 (毫秒)
+PG_CREATE_FROM_SELECTED=根据选中的图像创建图像
+
+; Color Picker
+TAB_HSB_MAP=拾色器
+TAB_SWATCHES=色板
+
+; Filter configuration dialogs
+LABEL_RED=红
+LABEL_GREEN=绿
+LABEL_BLUE=蓝
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=色相
+LABEL_SATURATION=饱和度
+LABEL_GAMMA=Gamma 值
+LABEL_BRIGHTNESS=亮度
+LABEL_GAUSSIAN_BLUR=高斯模糊
+LABEL_BOX_BLUR=方框模糊
+LABEL_MATTE_COLOR=杂边颜色
+LABEL_WHITE_MATTE=白色杂边
+LABEL_BLACK_MATTE=黑色杂边
+LABEL_INNER_GLOW=内发光
+LABEL_OUTER_GLOW=外发光
+
+LABEL_AMOUNT=数量
+LABEL_ANGLE_DEGREES=角度 (度)
+LABEL_BLUR=模糊
+LABEL_DISTANCE=距离
+LABEL_INTENSITY=强度
+LABEL_OPACITY=透明度
+LABEL_RADIUS=半径
+LABEL_THRESHOLD=阀值
+
+; Create icon from image dialog box
+CI_SELECT_FORMATS=选择您要创建的格式大小
+
+; Batch conversion dialog
+BC_FILES=文件：
+BC_SETTINGS=设置
+BC_FORMAT=转换为
+BC_FOLDER=目标文件夹：
+BC_OPEN=用本软件打开转换后的文件
+BC_ICON_FORMATS=选择图标格式
+
+; Preferences dialog box
+PREF_MISC=Misc
+PREF_ENVIRONMENT=环境设置
+PREF_INSTALL=路径设置
+PREF_IMAGE_MAX=最大图片大小（注意，有风险）
+PREF_PNG_ICONS=把 PNG 文件转换为为 .ICO/.CUR 文件时压缩：
+PREF_PNG_LIMIT=压缩图片，当图片大小超过：
+PREF_COLORS=颜色
+PREF_TRANSPARENT_HATCH=网格颜色设置
+PREF_DVM=打开保存对话框的查看设置
+PREF_DVM_ITEMS=图标<br>列表<br>详细信息<br>缩略图<br>平铺
+PREF_MWA=鼠标滚轮动作
+PREF_MWA_ITEMS=无动作<br>滚动<br>缩放
+PREF_SAVE_TOOL_SETTINGS=关闭本软件之后保存工具面板的设置
+PREF_FILE_ASSOC=文件打开关联
+
+; Language dialog box
+LABEL_LANG_PACK=语言包
+
+; Metadata dialog box
+MD_TYPE=%s 文件
+MD_TITLE=标题
+MD_AUTHOR=作者
+MD_COPYRIGHT=版权
+MD_COMMENTS=注释
+MD_QUALITY=保存质量
+MD_LOOP_COUNT=动画循环次数(0 = 永远循环)
+
+; Print dialog box
+PRINT_COPIES=份数
+PRINT_ZOOM=缩放 (%)
+PRINT_CAPTION=标题
+PRINT_PAGES=打印
+PRINT_PAGES_BUTTONS=全部图像<br>当前图像
+
+; Resource properties dialog box
+RP_NAME=名字
+RP_LANGUAGE=语言
+RP_LANG_CUSTOM=自定义语言 ID
+RP_LANG_NEUTRAL=中立语言
+
+; Startup screen
+ST_CHOOSE_ACTION=当软件启动后：
+ST_NG=创建新图标
+ST_NG_INFO=创建一个新图标，光标或动画文件
+ST_NL=创建新图标库
+ST_NL_INFO=创建一个空白图标库（.ICL）或资源文件（.RES）
+ST_OPEN=打开文件
+ST_OPEN_INFO=从存储媒体打开图像文件、图标库、可执行文件或资源文件
+ST_CONVERT=批量转换图片
+ST_CONVERT_INFO=把各种图片转换成图标或者其他格式的图片
+ST_NONE=不做任何动作
+ST_NONE_INFO=启动后不再出现欢迎窗口，如果要重新显示请点击“查看→启动窗口”
+ST_RECENT_INFO=启动后打开最近一次编辑过的文件
+ST_SHOW=永远在启动后显示本窗口
+
+; Test dialog box
+LABEL_MOVE_OVER_IMAGE=请把鼠标移入下面的区域，点击后会出现红色的点。
+
+; Insert Text dialog box
+CAPTION_INSERT_TEXT=插入文字设置
+
+; Tool Behavior dialog box
+TB_BRUSH_ITEMS=Rounded<br>Sharp<br>Slash<br>Backslash<br>Horizontal<br>Vertical<br>Spray
+TB_RETOUCH_ITEMS=模糊<br>锐化<br>减淡<br>加深<br>Hue<br>海绵
+
+; Transform Selection dialog box
+XF_UNITS_ITEMS=像素<br>%
+
+; Hints
+HINT_COMPACT=Compact view
+
+HINT_CP_FORE_COLOR=前景色
+HINT_CP_BACK_COLOR=背景色
+HINT_CP_SWAP_COLORS=交换颜色
+HINT_CP_DEFAULT=默认的前景色和背景色
+HINT_CP_TRANSPARENT=透明的
+HINT_CP_INVERTED=反转前景色
+HINT_CP_SWATCHES=左键单击选择颜色，右击：使用前景色替换被点击的颜色
+HINT_CP_SWATCH_LOAD=打开色板预设文件
+HINT_CP_SWATCH_SAVE=保存为色板预设文件
+HINT_CP_RED=红
+HINT_CP_GREEN=绿
+HINT_CP_BLUE=蓝
+HINT_CP_ALPHA=颜色透明度
+HINT_CP_HTML=HTML 颜色代码
+HINT_CP_WCP=Windows 系统自带的拾色器
+
+HINT_DOC_LB=图像列表（图标/帧）
+HINT_DOC_LB_PAGE=图像 %d，大小： %d × %d 像素
+HINT_DOC_LB_PNG=另存为 .ICO/.CUR 时进行 PNG 压缩
+HINT_DOC_ZOOM_MENU=缩放
+HINT_DOC_NODES=%d 节点
+HINT_DOC_TOGGLE_PAGES=隐藏/显示图像列表
+
+HINT_RES_FOLDER=请选择一个文件夹来保存提取后的图标：
+
+HINT_STARTUP_HELP=帮助
+HINT_TEST_BGR_LOAD=载入背景
+HINT_TEST_BGR_DEFAULT=默认背景
+
+HINT_TEXT_FACE=字体
+HINT_TEXT_BOLD=粗体
+HINT_TEXT_ITALIC=斜体
+HINT_TEXT_UNDERLINE=下划线
+
+HINT_TB_FRAMED=线框
+HINT_TB_FILLED=填充
+HINT_TB_LINE_WIDTH=线宽
+HINT_TB_EYEDROPPER_BACK=使用吸管工具后切换回上一个工具
+HINT_TB_BRUSH_SIZE=笔刷大小
+HINT_TB_BRUSH_SHAPE=笔刷形状
+HINT_TB_TOLERANCE=魔棒工具/颜色对换工具/水桶填充工具的容差 (%)
+HINT_TB_RETOUCH_MODE=修饰工具的模式设置
+HINT_TB_ERASER_STRENGTH=橡皮擦力度 (%)
+HINT_TB_G_LINEAR=线性渐变
+HINT_TB_G_RADIAL=径向渐变
+HINT_TB_G_CONICAL=角度渐变
+HINT_TB_G_SPIRAL=螺旋渐变
+HINT_TB_REP_NONE=不重复渐变
+HINT_TB_REP_SYM=对称渐变
+HINT_TB_REP_ASYM=不对称渐变
+HINT_TB_MODE_COLOR=颜色模式
+HINT_TB_MODE_TRANSPARENCY=透明度模式
+
+; eof

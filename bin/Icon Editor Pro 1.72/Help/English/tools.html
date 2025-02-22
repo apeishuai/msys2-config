@@ -1,0 +1,130 @@
+<html><head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head><body>
+<span class="n">
+
+<span class="t">
+The tools<p>
+</span>
+
+You can select the active tool from the <b>Toolbar</b> dialog. If you accidentally close the window,
+you can show it again by checking <b>View | Toolbar</b>.<br>
+When using the selection tools, hold down <b>Shift</b> to add to the current selection,
+<b>Ctrl</b> to subtract from the current selection, and
+<b>Shift+Ctrl</b> to keep the intersection of the old and new selections.<p>
+
+<a name="selrect"></a>
+<img src="../!images/selrect.png"><span class="h">&nbsp;Rectangular select (S)</span><p>
+This tool, as its name suggests, can be used to select rectangular areas of the image.
+To move/resize the selected area, use the <b>Transform (F)</b> tool.<p>
+
+<a name="selellipse"></a>
+<img src="../!images/selellipse.png"><span class="h">&nbsp;Elliptical select (A)</span><p>
+You can select elliptical areas with this tool.<p>
+
+<a name="lasso"></a>
+<img src="../!images/lasso.png"><span class="h">&nbsp;Lasso (O)</span><p>
+The lasso is a tool for selecting freehand areas.<p>
+
+<a name="wand"></a>
+<img src="../!images/wand.png"><span class="h">&nbsp;Wand (W)</span><p>
+The wand can be used to select areas of the same color. Click on the canvas to select the
+neighboring pixels which are similar in color. Use the <a href="toolbhv.html">Tool Behavior</a> dialog to configure the
+color tolerance of the wand.<p>
+
+<a name="selpencil"></a>
+<img src="../!images/selpencil.png"><span class="h">&nbsp;Pencil select (I)</span><p>
+Draw as if you drew with a pencil to select the pixels.<p>
+
+<a name="transform"></a>
+<img src="../!images/transform.png"><span class="h">&nbsp;Transform (F)</span><p>
+This tool can be used to transform selected areas. A special mouse cursor indicates if nothing is
+selected. You can resize the selection by grabbing its sides or corners, or move it by dragging every
+other pixel of the canvas. If you hold down <b>Shift</b> while dragging, the selection will drag a
+stripe wherever it moves. Hold down <b>Ctrl</b> when starting to transform the selection to keep its
+copy at the initial place.<p>
+
+<a name="crop"></a>
+<img src="../!images/crop.png"><span class="h">&nbsp;Crop (X)</span><p>
+Select a part of the image to keep it discarding all other pixels. Hold down <b>Shift</b> to
+select a square.<p>
+
+<a name="hotspot"></a>
+<img src="../!images/hotspot.png"><span class="h">&nbsp;Set hotspot (H)</span><p>
+You can use this tool to set the so-called hot spot when working on a cursor.
+The hot spot is a pixel of the cursor with which you click on objects.
+For instance, considering an arrow-shaped cursor, the hot spot is the end of the arrow.
+Click and drag to place the hot spot to another place on the canvas.
+The hot spot is indicated with a red X.<p>
+
+<a name="eyedropper"></a>
+<img src="../!images/eyedropper.png"><span class="h">&nbsp;Eyedropper (Y)</span><p>
+The eyedropper is used for picking colors from the canvas. Click with the left button to
+pick the foreground and with the right button to pick the background color.
+If the <b>Eyedropper switches back</b> checkbox is checked in the
+<a href="toolbhv.html">Tool Behavior</a> dialog, the eyedropper will switch back to
+the previously selected tool after finishing its work.<p>
+
+<a name="retouch"></a>
+<img src="../!images/retouch.png"><span class="h">&nbsp;Retouch (U)</span><p>
+This tool can be used to perform various tricks on the image, especially on photos.
+The Retouch tool works as a brush and can be configured in the
+<a href="toolbhv.html">Tool Behavior</a> dialog box. It can work in <b>Blur, Sharpen,
+Dodge (lighten), Burn (darken), Hue and Sponge</b> modes.<p>
+
+<a name="rect"></a>
+<img src="../!images/rect.png"><span class="h">&nbsp;Rectangle (R)</span><p>
+Click and drag on the image to draw a rectangle. Hold down <b>Shift</b> to draw a square.
+Use the <a href="toolbhv.html">Tool Behavior</a> dialog for configuring filledness and line width.<p>
+
+<a name="ellipse"></a>
+<img src="../!images/ellipse.png"><span class="h">&nbsp;Ellipse (J)</span><p>
+Click and drag on the image to draw an ellipse. Hold down <b>Shift</b> to draw a circle.
+Use the <a href="toolbhv.html">Tool Behavior</a> dialog for configuring filledness and line width.<p>
+
+<a name="line"></a>
+<img src="../!images/line.png"><span class="h">&nbsp;Line (L)</span><p>
+Click and drag on the image to draw a straight line segment. Hold down <b>Shift</b> to draw a line
+in a special direction.
+Use the <a href="toolbhv.html">Tool Behavior</a> dialog for configuring line width.<p>
+
+<a name="text"></a>
+<img src="../!images/text.png"><span class="h">&nbsp;Text (T)</span><p>
+Click on the canvas to open a dialog box where you can type the text and adjust font settings.
+After clicking <b>OK</b>, the text will be inserted as a floating selection.<p>
+
+<a name="pencil"></a>
+<img src="../!images/pencil.png"><span class="h">&nbsp;Pencil (P)</span><p>
+This tool can be used to draw a freehand, 1-pixel-wide line on the canvas.<p>
+
+<a name="brush"></a>
+<img src="../!images/brush.png"><span class="h">&nbsp;Brush (B)</span><p>
+This tool can be used to draw a freehand line on the canvas.
+Use the <a href="toolbhv.html">Tool Behavior</a> dialog for configuring brush shape and width.<p>
+
+<a name="eraser"></a>
+<img src="../!images/eraser.png"><span class="h">&nbsp;Eraser (E)</span><p>
+The eraser is similar to the brush. In effect, it helps you paint with the transparent color.
+Use the <a href="toolbhv.html">Tool Behavior</a> dialog for configuring brush shape and width.<p>
+
+<a name="recolor"></a>
+<img src="../!images/recolor.png"><span class="h">&nbsp;Recolor (Q)</span><p>
+This tool is in fact a brush which paints with the foreground color <b>only</b> on
+areas of the background color (reversed if you press the right mouse button).
+Use the <a href="toolbhv.html">Tool Behavior</a> dialog for configuring brush shape, brush width
+and color tolerance.<p>
+
+<a name="bucket"></a>
+<img src="../!images/bucket.png"><span class="h">&nbsp;Bucket fill (K)</span><p>
+Click on the canvas to fill one-color areas of the image. (You can drag the mouse while holding down the
+left button to preview the result of the operation.)
+Use the <a href="toolbhv.html">Tool Behavior</a> dialog for adjusting color tolerance.<p>
+
+<a name="gradient"></a>
+<img src="../!images/gradient.png"><span class="h">&nbsp;Gradient (G)</span><p>
+Click and drag on the canvas to draw a gradient between the foreground and background colors.
+You can use the <a href="toolbhv.html">Tool Behavior</a> dialog for adjusting gradient and
+repetition kind.<p>
+
+</span>
+</body></html>

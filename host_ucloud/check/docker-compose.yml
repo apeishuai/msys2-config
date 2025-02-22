@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  chrome:
+    image: easychen/checkchan:latest
+    volumes:
+      - "./data:/checkchan/data"
+    environment:
+      - "CKC_PASSWD=abc6677"
+      - "VDEBUG=OFF"
+      - "VNC=ON"
+      #- "WIN_WIDTH=414"
+      #- "WIN_HEIGHT=896"
+      #- "XVFB_WHD=500x896x16"
+      - "API_KEY=abc7788"
+      - "ERROR_IMAGE=NORMAL" # NONE,NORMAL,FULL
+      #- "SNAP_URL_BASE=<开启截图在这里写服务器地址（结尾不用加/），不开留空>..."
+      #- "SNAP_FULL=1"
+      - "TZ=Asia/Chongqing"
+      # - WEBHOOK_URL=http://... # 云端 Webhook地址，不需要则不用设置
+    ports:
+      - "5900:5900"
+      - "8080:8080"
+      - "8088:80"

@@ -1,0 +1,379 @@
+; Greenfish Icon Editor Pro
+; Language pack: Spanish
+; Created by: Chris Grundy
+
+; General dictionary
+LABEL_WIDTH=Ancho
+LABEL_HEIGHT=Altura
+LABEL_SIZE=Tamaño
+LABEL_COLOR=Color
+LABEL_KIND=Tipo
+LABEL_ANTIALIAS=Anti alias
+LABEL_POSITION=Posición
+UNTITLED=Sin Título
+
+; Buttons
+B_OK=Aceptar
+B_CANCEL=Cancelar
+B_RESET=Reiniciar
+B_ADD=Añadir
+B_REMOVE=Remover
+B_CLEAR=Borrar
+B_CLOSE=Cerrar
+B_ALL=Todo
+B_NONE=Nada
+B_PRINT=Imprimir
+B_PRINTER_SETUP=Configuración de impresora
+B_PREVIEW=Preview
+B_COMPILE=Compilar
+
+; Shown messages
+MSG_NOT_EXIST="%s" no existe
+MSG_UNKNOWN_FILE_TYPE=El formato de archivo de "%s" no pudo ser determinado automáticamente. Este archivo no pude ser abierto o grabado por Greenfish Icon Editor Pro o tiene una extensión incorrecta.
+MSG_INVALID_FILE_FORMAT=El archivo "%s" no coincide con el formato "%s". El archivo puede estar dañado, puede tener una extensión incorrecta, o un filtro incorrecto puede haber sido especificado en el cuadro de diálogo de Abrir archivo.
+MSG_SAVE_CHANGES=Desea grabar los cambios a "%s"?
+MSG_CONFIRM_REVERT=Todos los cambios a "%s" se perderán y esta operación no puede deshacerse. ¿Está seguro de continuar?
+MSG_DATA_LOSS_INFO=Para evitar perder información, grabe también el documento en un formato de archivo diferente.
+MSG_DL_MULTIPAGE=Este formato de archivo no soporta multiples imágenes en un archivo. Solo la primera página pudo ser grabada.
+MSG_DL_SIZE_256=Este formeto de archivo no soporta imágenes de tamaños mayores a 256x256. Estas imágenes fueron recortadas.
+MSG_DL_TRANSPARENCY=Este formato de archivo no soporta transparencia.
+MSG_DL_COLOR_DEPTH=Algunas porciones de la información de color no pudieron ser grabadas.
+MSG_ADD_FILES=Por favor añada algunos archivos a la lista
+MSG_SELECT_PAGES=Por favor seleccione algunas páginas
+MSG_PAGE_SIZE_0=Error: el ancho físico de la página no puede ser 0 mm. Por favor seleccione otro tamaño de papel.
+
+; Open/Save dialog filters
+FF_ALL=Todos los archivos
+FF_ICO=Archivos de íconos
+FF_CUR=Archivos de punteros
+FF_ANI=Punteros animados
+FF_PNG=Gráficos Portables de Red (PNG)
+FF_XPM=X-Pixmaps
+FF_BMP=Mapas de bits de Windows
+FF_JPEG=Archivos JPEG
+FF_EXEC=Todos los archivos ejecutables y librerías de íconos
+FF_ICO_CUR=Archivos de iconos y cursores
+FF_ICL=Librerias de íconos
+FF_RES=Archivos de recursos Win32
+FF_RC=Rutinas de recursos
+
+; Tool names
+TOOL_SEL_RECT=Selección rectangular
+TOOL_SEL_ELLIPSE=Selección elíptica
+TOOL_LASSO=Laso
+TOOL_WAND=Banda
+TOOL_SEL_PENCIL=Selección con lápiz
+TOOL_TRANSFORM=Transformar
+TOOL_CROP=Cortar
+TOOL_HOTSPOT=Fijar punto clave
+TOOL_EYEDROPPER=Gotero
+TOOL_RETOUCH=Retocar
+TOOL_RECT=Rectángulo
+
+TOOL_ELLIPSE=Elipse
+TOOL_LINE=Línea
+TOOL_TEXT=Texto
+TOOL_PENCIL=Lápiz
+TOOL_BRUSH=Pincel
+TOOL_ERASER=Borrador
+TOOL_RECOLOR=Recolorear
+TOOL_BUCKET=Balde de pintura
+TOOL_GRADIENT=Llenar con gradiente
+TOOL_NONE=Ninguna
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Borrar
+
+; Menu items
+MI_FILE=Archivo
+MI_FILE_NEW=Nuevo
+MI_FILE_OPEN=Abrir
+MI_FILE_RECENT_FILES=Archivos recientes
+MI_FILE_RF_CLEAR=Borrar lista
+MI_FILE_EXTRACT=Extraer
+MI_FILE_BATCH_CONVERT=Convertir archivos en lote
+MI_FILE_CREATE_RES=Crear archivo RES
+MI_FILE_CLOSE=Cerrar
+MI_FILE_CLOSE_ALL=Cerrar todos
+MI_FILE_SAVE=Grabar
+MI_FILE_SAVE_AS=Grabar como
+MI_FILE_SAVE_ALL=Grabar todos
+MI_FILE_REVERT=Revertir
+MI_FILE_METADATA=Metadata
+MI_FILE_PRINT=Imprimir
+MI_FILE_EXIT=Salir
+
+MI_EDIT=Editar
+MI_EDIT_UNDO=Deshacer
+MI_EDIT_CANT_UNDO=Imposible deshacer
+MI_EDIT_REDO=Rehacer
+MI_EDIT_CANT_REDO=Imposible rehacer
+MI_EDIT_CUT=Cortar
+MI_EDIT_COPY=Copiar
+MI_EDIT_PASTE=Pegar
+MI_EDIT_PASTE_PAGE=Pegar como Nueva Página
+MI_EDIT_DELETE=Borrar
+MI_EDIT_SEL_ALL=Seleccionar todo
+MI_EDIT_SEL_NONE=Deseleccionar  todo
+MI_EDIT_SEL_INVERT=Invertir selección
+MI_EDIT_SEL_LOAD=Cargar máscara de selección
+MI_EDIT_SEL_SAVE=Grabar máscara de selección
+MI_EDIT_CROP_TRANSPARENCY=Recortar partes transparentes
+MI_EDIT_TRANSFORM=Transformar
+MI_EDIT_SEL_TRANSFORM=Transformar selección
+MI_EDIT_FLIP_HORIZ=Volcar horizontalmente
+MI_EDIT_FLIP_VERT=Volcar verticalmente
+MI_EDIT_ROTATE_LEFT=Rotar 90 grados a la izquierda
+MI_EDIT_ROTATE_RIGHT=Rotar 90 grados a la derecha
+MI_EDIT_ROTATE_180=Rotar 180 grados
+
+MI_VIEW=Ver
+MI_VIEW_ZOOM_IN=Acercar
+MI_VIEW_ZOOM_OUT=Alejar
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Encajar a la ventana
+MI_VIEW_GRID=Grilla
+MI_VIEW_CENTER_LINES=Centrar líneas
+MI_VIEW_TOOLBAR=Barra de herramientas
+MI_VIEW_COLOR_PICKER=Selector de colores
+MI_VIEW_TOOL_BEHAVIOR=Comportamiento de herramienta
+MI_VIEW_STARTUP_SCREEN=Pantalla de inicio
+
+MI_FLT=Filtros
+MI_FLT_GRAYSCALE=Escala de grises
+MI_FLT_INVERT=Invertir
+MI_FLT_SOLARIZE=Solarizar
+MI_FLT_RGB=Canales RGB
+MI_FLT_HS=Tono/Saturación
+MI_FLT_EXPOSURE=Exposición
+MI_FLT_AVERAGE=Promediar
+MI_FLT_BLUR_SOFT=Desenfocar poco
+MI_FLT_BLUR_MORE=Desenfocar más
+MI_FLT_BLUR_CUSTOM=Desenfocar con opciones
+MI_FLT_SHARPEN=Afilar
+MI_FLT_UNSHARP_MASK=Desafilar máscara
+MI_FLT_REMOVE_MATTE=Remover mate
+MI_FLT_OPACITY=Opacidad
+MI_FLT_PAINT_CONTOUR=Pintar contorno
+MI_FLT_DROP_SHADOW=Sombra
+MI_FLT_GLOW=Brillo
+MI_FLT_BEVEL=Relieve
+
+MI_ICON=Icono
+MI_ICON_PAGE_NEW=Nueva página
+MI_ICON_PAGE_DELETE=Borrar página
+MI_ICON_PAGE_PROP=Propiedades de la página
+MI_ICON_PAGE_EXPORT=Exportar página
+MI_ICON_UNIFORM_RATE=Aplicar velocidad uniforme a todos los cuadros
+MI_ICON_CREATE_FROM_IMAGE=Crear ícono a partir de una imagen
+MI_ICON_TEST=Probar
+
+MI_HELP=Ayuda
+MI_HELP_CONTENTS=Contenidos
+MI_HELP_GS=Primeros pasos
+MI_HELP_HOMEPAGE=Página de inicio
+MI_HELP_DONATE=Donar
+MI_HELP_PREFERENCES=Preferencias
+MI_HELP_LANGUAGE=Lenguaje
+MI_HELP_ABOUT=Acerca de
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 colores
+PF_256_COLORS=256 colores
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_MOVE_PAGE=Mover página
+UNDO_FLIP_ROTATE=Volcar/Rotar
+
+; Page properties dialog box
+PG_CAPTION_NEW_PAGE=Nueva página
+PG_CAPTION_PAGE_PROP=Propiedades de página
+
+PG_SIZE_ITEMS=16 x 16 (mínimo)<br>20 x 20 (ícono de ventanas XP)<br>24 x 24 (barra de herramientas)<br>32 x 32 (pequeño)<br>48 x 48 (medio)<br>64 x 64 (grande)<br>256 x 256 (enorme, Vista)<br>Personalizado
+PG_CUSTOM_SIZE=Tamaño personalizado
+PG_SQUARE=Cuadrado
+
+PG_CR=Reducción de colores
+PG_CR_ITEMS=Blanco y negro<br>16 colores (paleta del sistema)<br>256 colores (adaptiva)<br>24-bit RGB<br>Sin reducción (32-bit)
+
+PG_ANIMATION=Al grabar como animación
+PG_FRAME_RATE=Duración por cuadro (unidad: 1/60 s)
+PG_CREATE_FROM_SELECTED=Crear a partir de la página seleccionada
+
+; Color Picker
+TAB_HSB_MAP=Mapa HSB
+TAB_SWATCHES=Colores comunes
+
+; Filter configuration dialogs
+LABEL_RED=Rojo
+LABEL_GREEN=Verde
+LABEL_BLUE=Azul
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Variación de tono
+LABEL_SATURATION=Saturación
+LABEL_GAMMA=Gama
+LABEL_BRIGHTNESS=Brillo
+LABEL_GAUSSIAN_BLUR=Desenfoque de Gauss
+LABEL_BOX_BLUR=Desenfoque por cajones
+LABEL_MATTE_COLOR=Mate de color
+LABEL_WHITE_MATTE=Mate blanco
+LABEL_BLACK_MATTE=Mate negro
+LABEL_INNER_GLOW=Brillo interno
+LABEL_OUTER_GLOW=Brillo externo
+
+LABEL_AMOUNT=Cantidad
+LABEL_ANGLE_DEGREES=Angulo (grados)
+LABEL_BLUR=Desenfoque
+LABEL_DISTANCE=Distancia
+LABEL_INTENSITY=Intensidad
+LABEL_OPACITY=Opacidad
+LABEL_RADIUS=Radio
+LABEL_THRESHOLD=Umbral
+
+; Create icon from image dialog box
+CI_SELECT_FORMATS=Seleccione los formatos que desea crear
+
+; Batch conversion dialog
+BC_FILES=Archivos
+BC_SETTINGS=Opciones
+BC_FORMAT=Convertir a
+BC_FOLDER=Carpeta de destino
+BC_OPEN=Abrir archivos convertidos en Greenfish Icon Editor Pro
+BC_ICON_FORMATS=Formatos de ícono a ser creados
+
+; Create resource file dialog box
+RES_FILES=Archivos de íconos o cursores a ser incluidos
+RES_FILE_NAME=Nombre del archivo
+RES_ID=ID del recurso
+RES_ADD_FILES=Pro favor añada archivos a la colección
+
+; Preferences dialog box
+PREF_MISC=Misceláneos
+PREF_ENVIRONMENT=Entorno
+PREF_INSTALL=Instalar
+PREF_IMAGE_MAX=Tamaño máximo de imagen (incrementar a riezgo propio)
+PREF_PNG_ICONS=Usando compresión PNG en archivos .ICO/.CUR
+PREF_PNG_LIMIT=Comprimir páginas cuyo tamaño sea al menos
+PREF_COLORS=Colores
+PREF_TRANSPARENT_HATCH=Compuerta transparente
+PREF_DVM=Modo de visualización de los diálogos de Abrir/Grabar
+PREF_DVM_ITEMS=Iconos<br>Lista<br>Detalles<br>Vista miniatura<br>Mosaico
+PREF_MWA=Acción de la rueda del ratón
+PREF_MWA_ITEMS=Ninguno<br>Recorrer<br>Acercar
+PREF_SAVE_TOOL_SETTINGS=Grabar opciones de herramientas entre sesiones
+PREF_EXTRACT=Extracción de recursos de ejecutables
+PREF_EXTRACT_FOLDER=Carpeta de destino
+PREF_FILE_ASSOC=Asociación de archivos
+
+; Language dialog box
+LABEL_LANG_PACK=Paquete de idioma
+
+; Metadata dialog box
+MD_TYPE=Para archivos %s
+MD_TITLE=Título
+MD_AUTHOR=Autor
+MD_COPYRIGHT=Derechos reservados
+MD_COMMENTS=Commentarios
+MD_QUALITY=Grabar con calidad
+MD_LOOP_COUNT=Conteo de repeticiones (0 = infinito)
+
+; Print dialog box
+PRINT_COPIES=Copias
+PRINT_ZOOM=Zoom (%)
+PRINT_CAPTION=Título
+PRINT_PAGES=Imprimir
+PRINT_PAGES_BUTTONS=Todas las páginas<br>Página actual
+
+; Startup screen
+ST_CHOOSE_ACTION=Pro favor escoja una acción para realizar
+ST_NEW=Crear nuevo documento
+ST_NEW_INFO=Crea un nuevo documento de ícono o puntero
+ST_OPEN=Abre un documento existente
+ST_OPEN_INFO=Abrir como ícono, puntero u otro archivo de imagen de un medio de almacenamiento
+ST_EXTRACT=Extraer recursos de un ejecutable
+ST_EXTRACT_INFO=Abre un archivo EXE o DLL y graba a una carpeta todos los íconos y punteros que encuentre.Posteriormente puede abrirlos en Greenfish Icon Editor Pro.
+ST_CONVERT=Convertir archivos de imágenes por lotes
+ST_CONVERT_INFO=Convierte múltiples archivos de imagen a íconos u otro formato de imagen
+ST_RES=Crear un archivo de recursos o libreria de iconos
+ST_RES_INFO=Compila un archivo .RES o .ICL a partir de una colección de archivos de icono o de cursor
+ST_NONE=No realizar ninguna acción
+ST_NONE_INFO=Cierra la pantalla de inicio
+ST_RECENT_INFO=Abre un archivo que fue recientemente editado en Greenfish Icon Editor Pro
+ST_SHOW=Siempre mostrar esta pantalla al iniciar
+
+; Test dialog box
+LABEL_MOVE_OVER_IMAGE=Mueva el puntero sobre la imagen siguiente
+
+; Insert Text dialog box
+CAPTION_INSERT_TEXT=Insertar texto
+
+; Tool Behavior dialog box
+TB_BRUSH_ITEMS=Redondeado<br>Filo<br>Barra de quebrado<br>Barra invertida<br>Horizontal<br>Vertical<br>Rociador
+TB_RETOUCH_ITEMS=Desenfocar<br>Afilar<br>Esquivar<br>Quemar<br>Tono<br>Esponja
+
+; Transform Selection dialog box
+XF_UNITS_ITEMS=pixeles<br>%
+
+; Hints
+HINT_ABOUT_HOMEPAGE=Página de inicio
+HINT_COMPACT=Vista compacta
+
+HINT_CP_FORE_COLOR=Color de frente
+HINT_CP_BACK_COLOR=Color de fondo
+HINT_CP_SWAP_COLORS=Intercambiar colores
+HINT_CP_DEFAULT=Valor inicial
+HINT_CP_TRANSPARENT=Transparente
+HINT_CP_INVERTED=Invertido
+HINT_CP_SWATCHES=Clic izquierdo para escoger el color, clic derecho para sobrescribir un colore frecuente con el color actual
+HINT_CP_SWATCH_LOAD=Cargar colores frecuentes
+HINT_CP_SWATCH_SAVE=Grabar colores frecuentes
+HINT_CP_RED=Componente rojo
+HINT_CP_GREEN=Componente verde
+HINT_CP_BLUE=Componente azul
+HINT_CP_ALPHA=Alfa (opacidad)
+HINT_CP_HTML=Código HTML
+HINT_CP_WCP=Selector de colores de Windows
+
+HINT_DOC_LB=Lista de páginas(formatos de íconos/cuadros)
+HINT_DOC_LB_PAGE=Página %d, tamaño: %d x %d pixeles
+HINT_DOC_LB_PNG=se comprimirá con compresión PNG al grabar como .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Zoom
+
+HINT_STARTUP_HELP=Ayuda
+HINT_TEST_BGR_LOAD=Cargar fondo
+HINT_TEST_BGR_DEFAULT=Fondo predeterminado
+
+HINT_TEXT_FACE=Tipografía
+HINT_TEXT_BOLD=Negrilla
+HINT_TEXT_ITALIC=Itálica
+HINT_TEXT_UNDERLINE=Subrayado
+
+HINT_TB_FRAMED=Objetos encuadrados
+HINT_TB_FILLED=Objetos llenados
+HINT_TB_LINE_WIDTH=Grosor de línea
+HINT_TB_EYEDROPPER_BACK=Gotero selecciona nuevamente la herramienta anterior
+HINT_TB_BRUSH_SIZE=Tamaño de pincel
+HINT_TB_BRUSH_SHAPE=Forma de pincel
+HINT_TB_TOLERANCE=Tolerancia de Banda/Recolorear/Balde (%)
+HINT_TB_RETOUCH_MODE=Modo de retoque
+HINT_TB_ERASER_STRENGTH=Intensidad del borrador (%)
+HINT_TB_G_LINEAR=Gradiente lineal
+HINT_TB_G_RADIAL=Gradiente radial
+HINT_TB_G_CONICAL=Gradiente cónico
+HINT_TB_G_SPIRAL=Gradiente espiral
+HINT_TB_REP_NONE=Sin repetición
+HINT_TB_REP_SYM=Repetición simétrica
+HINT_TB_REP_ASYM=Repetition asimétrica
+HINT_TB_MODE_COLOR=Modo de color
+HINT_TB_MODE_TRANSPARENCY=Modo de transparencia
+
+; eof

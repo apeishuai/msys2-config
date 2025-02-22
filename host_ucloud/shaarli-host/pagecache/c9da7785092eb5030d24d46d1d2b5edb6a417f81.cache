@@ -1,0 +1,913 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Shared Bookmarks</title>
+  <subtitle>Shaared links</subtitle>
+  
+    <updated>2025-02-15T06:40:49+00:00</updated>
+  
+  <link rel="self" href="http:///feed/atom" />
+  <link rel="search" type="application/opensearchdescription+xml" href="http:///open-search"
+        title="Shaarli search - Shared Bookmarks" />
+  
+  <author>
+    <name>Shared Bookmarks</name>
+    <uri>http:///</uri>
+  </author>
+  <id>http:///</id>
+  <generator>Shaarli</generator>
+  
+    <entry>
+      <title>关于查看dll信息的两种方法_查看dll函数及参数-CSDN博客</title>
+      
+        <link href="https://blog.csdn.net/qq_42136233/article/details/108323663" />
+      
+      <id>http:/shaare/0DB_Rg</id>
+      
+        <published>2025-02-15T06:03:43+00:00</published>
+        <updated>2025-02-15T06:40:45+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/0DB_Rg" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>Qt(6.8.1) 使用Qcustomplot(2.1.1) 问题记录贴_qcustomplot qt6.8-CSDN博客</title>
+      
+        <link href="https://blog.csdn.net/weixin_44383635/article/details/144881973" />
+      
+      <id>http:/shaare/CKP4ZQ</id>
+      
+        <published>2025-02-15T03:33:03+00:00</published>
+        <updated>2025-02-15T06:40:46+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[<div class="markdown"><p>moc</p></div>
+
+<br>&#8212; <a href="http:/shaare/CKP4ZQ" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>QCustomPlot在VS2019+Qt6.71 编译出错的解决方法_qcustomplot qt6编译报错-CSDN博客</title>
+      
+        <link href="https://blog.csdn.net/sinat_15561283/article/details/144513401" />
+      
+      <id>http:/shaare/MkIqkg</id>
+      
+        <published>2025-02-15T03:32:53+00:00</published>
+        <updated>2025-02-15T06:40:49+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/MkIqkg" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>子弹笔记</title>
+      
+        <link href="https://unix2012.github.io/note/note_2008.html" />
+      
+      <id>http:/shaare/K4756Q</id>
+      
+        <published>2025-02-14T01:46:53+00:00</published>
+        <updated>2025-02-14T01:47:17+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/K4756Q" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>用vimwiki搭建你自己的维基世界</title>
+      
+        <link href="https://xstarcd.github.io/wiki/vim/vimwiki-guide.html" />
+      
+      <id>http:/shaare/vaa5ag</id>
+      
+        <published>2025-02-14T01:33:06+00:00</published>
+        <updated>2025-02-14T01:47:18+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/vaa5ag" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="wiki" label="wiki" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>USTC VLab Verilog OJ | YAVG Group Presents</title>
+      
+        <link href="https://verilogoj.ustc.edu.cn/oj/problempage/1" />
+      
+      <id>http:/shaare/e0vzvA</id>
+      
+        <published>2025-02-13T16:21:33+00:00</published>
+        <updated>2025-02-13T16:35:24+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/e0vzvA" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>https://www.cs.cmu.edu/~rwh/students/okasaki.pdf</title>
+      
+        <link href="https://www.cs.cmu.edu/~rwh/students/okasaki.pdf" />
+      
+      <id>http:/shaare/DMzeNw</id>
+      
+        <published>2025-02-13T16:21:27+00:00</published>
+        <updated>2025-02-13T16:35:23+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/DMzeNw" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>Types and Programming Languages</title>
+      
+        <link href="https://www.cis.upenn.edu/~bcpierce/tapl/" />
+      
+      <id>http:/shaare/_-x-WQ</id>
+      
+        <published>2025-02-13T16:21:19+00:00</published>
+        <updated>2025-02-13T16:35:35+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/_-x-WQ" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>piglei/one-python-craftsman: 来自一位 Pythonista 的编程经验分享，内容涵盖编码技巧、最佳实践与思维模式等方面。</title>
+      
+        <link href="https://github.com/piglei/one-python-craftsman" />
+      
+      <id>http:/shaare/RFrwsQ</id>
+      
+        <published>2025-02-13T16:21:02+00:00</published>
+        <updated>2025-02-13T16:35:45+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/RFrwsQ" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>苹果推出账户间购买项目迁移功能，可转移已购 App - 小众软件</title>
+      
+        <link href="https://www.appinn.com/apple-transfer-purchased-apps/" />
+      
+      <id>http:/shaare/8pmggg</id>
+      
+        <published>2025-02-13T16:20:41+00:00</published>
+        <updated>2025-02-13T16:35:47+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/8pmggg" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>X 上的 瞎玩菌：“换了6个投影仪了，别再瞎买了～ https://t.co/tv7YtEQW1m” / X</title>
+      
+        <link href="https://x.com/Blind___Gamer/status/1890068421577941386" />
+      
+      <id>http:/shaare/O_09mQ</id>
+      
+        <published>2025-02-13T16:18:04+00:00</published>
+        <updated>2025-02-13T16:35:34+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/O_09mQ" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>Tag Index · cgnail's weblog</title>
+      
+        <link href="https://cgnail.github.io/tags/#lambda%E6%BC%94%E7%AE%97" />
+      
+      <id>http:/shaare/4jwdtA</id>
+      
+        <published>2025-02-13T15:59:15+00:00</published>
+        <updated>2025-02-13T16:35:49+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/4jwdtA" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>Good Math/Bad Math: More logic: models and why they matter</title>
+      
+        <link href="https://goodmath.blogspot.com/2006/04/more-logic-models-and-why-they-matter.html" />
+      
+      <id>http:/shaare/iRjF_g</id>
+      
+        <published>2025-02-13T15:48:10+00:00</published>
+        <updated>2025-02-13T16:35:59+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/iRjF_g" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>我的最爱Lambda演算——开篇 · cgnail's weblog</title>
+      
+        <link href="https://cgnail.github.io/academic/lambda-1/" />
+      
+      <id>http:/shaare/znJ6gA</id>
+      
+        <published>2025-02-13T15:30:55+00:00</published>
+        <updated>2025-02-13T15:35:45+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/znJ6gA" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>终章，Lambda演算建模——程序即证明！ · cgnail's weblog</title>
+      
+        <link href="https://cgnail.github.io/academic/lambda-7/" />
+      
+      <id>http:/shaare/YBjZlg</id>
+      
+        <published>2025-02-13T15:30:21+00:00</published>
+        <updated>2025-02-13T15:35:40+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/YBjZlg" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>2022 年度总结 &amp; 回顾 - lfkdsk's Blog</title>
+      
+        <link href="https://lfkdsk.github.io/summary-2022/" />
+      
+      <id>http:/shaare/1Hz09Q</id>
+      
+        <published>2025-02-13T14:10:52+00:00</published>
+        <updated>2025-02-13T15:35:30+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/1Hz09Q" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>Qt5 QtQuick系列----QtQuick的Secne Graph剖析(3)-- qml与OpenGl结合 - JadeCicada - 博客园</title>
+      
+        <link href="https://www.cnblogs.com/butterflybay/p/10347852.html" />
+      
+      <id>http:/shaare/zLf1yg</id>
+      
+        <published>2025-02-13T07:36:33+00:00</published>
+        <updated>2025-02-13T15:35:50+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/zLf1yg" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>188080501/JQImageItem: 基于FBO显示QImage到QML中</title>
+      
+        <link href="https://github.com/188080501/JQImageItem" />
+      
+      <id>http:/shaare/q3h20w</id>
+      
+        <published>2025-02-13T07:35:56+00:00</published>
+        <updated>2025-02-13T15:35:49+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/q3h20w" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>jaredtao/QtOpenGL: some Qt OpenGL Demo</title>
+      
+        <link href="https://github.com/jaredtao/QtOpenGL" />
+      
+      <id>http:/shaare/TVLQPA</id>
+      
+        <published>2025-02-13T06:45:41+00:00</published>
+        <updated>2025-02-13T07:19:14+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/TVLQPA" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>QCustomPlot使用心得四：动态曲线和绘图效率测试-CSDN博客</title>
+      
+        <link href="https://blog.csdn.net/yxy244/article/details/100099876" />
+      
+      <id>http:/shaare/47GGQw</id>
+      
+        <published>2025-02-13T06:45:05+00:00</published>
+        <updated>2025-02-13T07:19:17+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/47GGQw" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>会磨刀的小猪个人动态-会磨刀的小猪动态记录-哔哩哔哩视频</title>
+      
+        <link href="https://space.bilibili.com/275661059/dynamic" />
+      
+      <id>http:/shaare/rnd2rQ</id>
+      
+        <published>2025-02-13T05:57:21+00:00</published>
+        <updated>2025-02-13T07:19:15+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/rnd2rQ" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="bilibili" label="bilibili" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>英特尔® 酷睿™ i3-7100U 处理器</title>
+      
+        <link href="https://www.intel.cn/content/www/cn/zh/products/sku/95442/intel-core-i37100u-processor-3m-cache-2-40-ghz/specifications.html" />
+      
+      <id>http:/shaare/T8q8gg</id>
+      
+        <published>2025-02-13T05:55:06+00:00</published>
+        <updated>2025-02-13T07:19:16+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/T8q8gg" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="gpu" label="gpu" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>Qt 绘图进阶之一：图片绘图类QPixmap、QImage、QPicture - fengMisaka - 博客园</title>
+      
+        <link href="https://www.cnblogs.com/linuxAndMcu/p/16587761.html#_label2" />
+      
+      <id>http:/shaare/BKe-kQ</id>
+      
+        <published>2025-02-13T05:53:24+00:00</published>
+        <updated>2025-02-13T07:19:15+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/BKe-kQ" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>Qt 性能优化之二：绘制视频方案选择 - fengMisaka - 博客园</title>
+      
+        <link href="https://www.cnblogs.com/linuxAndMcu/p/17145330.html" />
+      
+      <id>http:/shaare/lJeV0A</id>
+      
+        <published>2025-02-13T05:48:42+00:00</published>
+        <updated>2025-02-13T07:19:15+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/lJeV0A" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>QT 绘制波形图、频谱图、瀑布图、星座图、眼图、语图 - 木三百川 - 博客园</title>
+      
+        <link href="https://www.cnblogs.com/young520/p/17438635.html" />
+      
+      <id>http:/shaare/Jk9UwQ</id>
+      
+        <published>2025-02-13T05:48:32+00:00</published>
+        <updated>2025-02-13T07:19:17+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/Jk9UwQ" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>Qt 性能优化之一：CPU占有率高的现象和解决办法 - fengMisaka - 博客园</title>
+      
+        <link href="https://www.cnblogs.com/linuxAndMcu/p/17145325.html" />
+      
+      <id>http:/shaare/OnqaHg</id>
+      
+        <published>2025-02-13T05:48:26+00:00</published>
+        <updated>2025-02-13T07:19:17+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/OnqaHg" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>【QCustomPlot】性能提升之修改源码（版本 V2.x.x） - 木三百川 - 博客园</title>
+      
+        <link href="https://www.cnblogs.com/young520/p/17441950.html" />
+      
+      <id>http:/shaare/IUbraw</id>
+      
+        <published>2025-02-13T05:48:16+00:00</published>
+        <updated>2025-02-13T05:48:17+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[<div class="markdown"><p>QCustomPlot 是开源项目，源码编写十分规范，想要理解它的可视化思路不算特别困难。我在这篇随笔中总结一下常用的源码修改技巧，下面的每一个技巧都是独立的，相互之间不会引发任何冲突。示例中使用的 QCustomPlot 版本号为 2.0.1，但在更高的 2.x.x 版本中也适用。</p></div>
+
+<br>&#8212; <a href="http:/shaare/IUbraw" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="c++" label="C++" />
+      
+        <category scheme="http:///?searchtags=" term="qt" label="QT" />
+      
+        <category scheme="http:///?searchtags=" term="科学绘图" label="科学绘图" />
+      
+        <category scheme="http:///?searchtags=" term="绘图库-qcustomplot-学习笔记" label="绘图库-QCustomPlot-学习笔记" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>(2 条消息) 刘典武 - 知乎</title>
+      
+        <link href="https://www.zhihu.com/people/feiyangqingyun" />
+      
+      <id>http:/shaare/yO-nCw</id>
+      
+        <published>2025-02-13T03:23:14+00:00</published>
+        <updated>2025-02-13T05:48:18+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[<div class="markdown"><p>推流/物联网/大屏系统/自定义控件/UI定制/输入法</p></div>
+
+<br>&#8212; <a href="http:/shaare/yO-nCw" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="zhihu" label="zhihu" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>zetaloop/keyviz: 免费开源按键可视化工具 Keyviz 的汉化版。Keyviz Chinese l10n fork.</title>
+      
+        <link href="https://github.com/zetaloop/keyviz" />
+      
+      <id>http:/shaare/7xMLcA</id>
+      
+        <published>2025-02-13T03:16:10+00:00</published>
+        <updated>2025-02-13T03:21:34+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[<div class="markdown"><p>scoop install keyviz</p></div>
+
+<br>&#8212; <a href="http:/shaare/7xMLcA" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>OpenGL - LearnOpenGL CN</title>
+      
+        <link href="https://learnopengl-cn.github.io/01%20Getting%20started/01%20OpenGL/" />
+      
+      <id>http:/shaare/0oN-mw</id>
+      
+        <published>2025-02-13T02:28:53+00:00</published>
+        <updated>2025-02-13T02:28:58+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/0oN-mw" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="opengl" label="opengl" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>(2 条消息) xuges - 知乎</title>
+      
+        <link href="https://www.zhihu.com/people/struct-78" />
+      
+      <id>http:/shaare/Etnamg</id>
+      
+        <published>2025-02-13T01:05:31+00:00</published>
+        <updated>2025-02-13T02:28:42+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/Etnamg" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="zhihu" label="zhihu" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>(2 条消息) 南理汉子 - 知乎</title>
+      
+        <link href="https://www.zhihu.com/people/renlifei" />
+      
+      <id>http:/shaare/dL5x8Q</id>
+      
+        <published>2025-02-13T01:05:08+00:00</published>
+        <updated>2025-02-13T02:28:43+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/dL5x8Q" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="zhihu" label="zhihu" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>阿里云 GPU 实例云服务器本地部署 DeepSeek R1 - dudu - 博客园</title>
+      
+        <link href="https://www.cnblogs.com/dudu/p/18705441" />
+      
+      <id>http:/shaare/TGOwpw</id>
+      
+        <published>2025-02-13T00:55:43+00:00</published>
+        <updated>2025-02-13T02:28:43+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/TGOwpw" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="ai," label="ai," />
+      
+        <category scheme="http:///?searchtags=" term="deepseek" label="deepseek" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>Steam 上的 赛博朋克 2077</title>
+      
+        <link href="https://store.steampowered.com/app/1091500/_2077/?l=schinese" />
+      
+      <id>http:/shaare/E70JQg</id>
+      
+        <published>2025-02-12T22:47:22+00:00</published>
+        <updated>2025-02-12T22:48:35+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/E70JQg" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="game" label="game" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>幼鹰me - 知乎</title>
+      
+        <link href="https://www.zhihu.com/people/guofei9987/answers/by_votes?page=3" />
+      
+      <id>http:/shaare/qH0-qg</id>
+      
+        <published>2025-02-12T15:19:15+00:00</published>
+        <updated>2025-02-12T15:24:53+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/qH0-qg" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="media," label="media," />
+      
+        <category scheme="http:///?searchtags=" term="zhihu" label="zhihu" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>guofei9987 (郭飞)</title>
+      
+        <link href="https://github.com/guofei9987" />
+      
+      <id>http:/shaare/NDF4kw</id>
+      
+        <published>2025-02-12T15:18:58+00:00</published>
+        <updated>2025-02-12T22:30:43+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/NDF4kw" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="blog," label="blog," />
+      
+        <category scheme="http:///?searchtags=" term="trace" label="trace" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>Steam 上的 Radio Commander</title>
+      
+        <link href="https://store.steampowered.com/app/871530/Radio_Commander/?l=schinese" />
+      
+      <id>http:/shaare/DVkzrg</id>
+      
+        <published>2025-02-12T15:18:32+00:00</published>
+        <updated>2025-02-12T15:25:08+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/DVkzrg" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="game" label="game" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>序列化和反序列化 - 美团技术团队</title>
+      
+        <link href="https://tech.meituan.com/2015/02/26/serialization-vs-deserialization.html" />
+      
+      <id>http:/shaare/_hJMug</id>
+      
+        <published>2025-02-12T07:58:15+00:00</published>
+        <updated>2025-02-12T15:25:08+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/_hJMug" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>zhouzhou/算法/手搓LZW压缩算法.md at main · Mrliduanyang/zhouzhou</title>
+      
+        <link href="https://github.com/Mrliduanyang/zhouzhou/blob/main/%E7%AE%97%E6%B3%95/%E6%89%8B%E6%90%93LZW%E5%8E%8B%E7%BC%A9%E7%AE%97%E6%B3%95.md" />
+      
+      <id>http:/shaare/0OPJVw</id>
+      
+        <published>2025-02-12T07:58:09+00:00</published>
+        <updated>2025-02-12T15:24:58+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/0OPJVw" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>多线程（二）设计缓冲无锁队列 - 知乎</title>
+      
+        <link href="https://zhuanlan.zhihu.com/p/547055774" />
+      
+      <id>http:/shaare/ZQTzxg</id>
+      
+        <published>2025-02-12T06:18:27+00:00</published>
+        <updated>2025-02-12T06:50:25+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/ZQTzxg" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>[缓存] RingBuff 环形队列、环形缓冲区及有锁无锁实现_环形buff-CSDN博客</title>
+      
+        <link href="https://blog.csdn.net/tianshuai1111/article/details/136177062" />
+      
+      <id>http:/shaare/f7MJoA</id>
+      
+        <published>2025-02-12T06:18:18+00:00</published>
+        <updated>2025-02-12T06:50:26+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/f7MJoA" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>环形缓冲区的设计及其在生产者消费者模式下的使用（并发有锁环形队列） - zengzy - 博客园</title>
+      
+        <link href="https://www.cnblogs.com/zengzy/p/5139582.html" />
+      
+      <id>http:/shaare/W-ICcQ</id>
+      
+        <published>2025-02-12T06:18:04+00:00</published>
+        <updated>2025-02-12T06:50:27+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/W-ICcQ" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>常见并发模型梳理</title>
+      
+        <link href="https://hanamichi.wiki/posts/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B/" />
+      
+      <id>http:/shaare/4vq1cg</id>
+      
+        <published>2025-02-12T06:17:50+00:00</published>
+        <updated>2025-02-12T06:50:39+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/4vq1cg" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>高效I/O并发处理：双缓冲和Exchanger</title>
+      
+        <link href="https://colobu.com/2024/01/14/double-buffering-and-Exchanger/" />
+      
+      <id>http:/shaare/ZdHBqw</id>
+      
+        <published>2025-02-12T06:17:41+00:00</published>
+        <updated>2025-02-12T06:50:33+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/ZdHBqw" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>双缓冲模式 · Sequencing Patterns · 游戏设计模式</title>
+      
+        <link href="https://gpp.tkchu.me/double-buffer.html#%E4%BA%A4%E6%8D%A2%E6%9C%AC%E8%BA%AB%E9%9C%80%E8%A6%81%E6%97%B6%E9%97%B4" />
+      
+      <id>http:/shaare/1wkAug</id>
+      
+        <published>2025-02-12T06:17:31+00:00</published>
+        <updated>2025-02-12T06:50:29+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/1wkAug" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>函数式编程该怎么学呀？ - 知乎</title>
+      
+        <link href="https://www.zhihu.com/question/664311077/answer/3598077825" />
+      
+      <id>http:/shaare/CWhHPA</id>
+      
+        <published>2025-02-12T02:08:44+00:00</published>
+        <updated>2025-02-12T22:48:43+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/CWhHPA" title="Permalink">Permalink</a>]]></content>
+      
+        <category scheme="http:///?searchtags=" term="program" label="program" />
+      
+        <category scheme="http:///?searchtags=" term="," label="," />
+      
+        <category scheme="http:///?searchtags=" term="zhihu" label="zhihu" />
+      
+      
+    </entry>
+  
+    <entry>
+      <title>为什么在现实中学到的知识和观点，我自己无法成体系遵从逻辑得表达出来？ - 知乎</title>
+      
+        <link href="https://www.zhihu.com/question/522468394/answer/2402598523" />
+      
+      <id>http:/shaare/M5kzhw</id>
+      
+        <published>2025-02-12T02:06:32+00:00</published>
+        <updated>2025-02-12T06:50:40+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/M5kzhw" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>单元测试成神之路——C++篇 – wanziの遇笺</title>
+      
+        <link href="https://zhangyuyu.github.io/cpp-unit-test/" />
+      
+      <id>http:/shaare/0V3Ekw</id>
+      
+        <published>2025-02-12T01:32:59+00:00</published>
+        <updated>2025-02-12T01:37:52+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/0V3Ekw" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>一文掌握谷歌 C++ 单元测试框架 GoogleTest - 知乎</title>
+      
+        <link href="https://zhuanlan.zhihu.com/p/544491071" />
+      
+      <id>http:/shaare/SDYsog</id>
+      
+        <published>2025-02-12T01:32:55+00:00</published>
+        <updated>2025-02-12T01:37:39+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/SDYsog" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>【C++ JSON 开源库】nlohmann入门使用总结 - fengMisaka - 博客园</title>
+      
+        <link href="https://www.cnblogs.com/linuxAndMcu/p/14503341.html#_label1" />
+      
+      <id>http:/shaare/68v_cg</id>
+      
+        <published>2025-02-12T01:32:48+00:00</published>
+        <updated>2025-02-12T01:37:52+00:00</updated>
+      
+      <content type="html" xml:lang="en"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/68v_cg" title="Permalink">Permalink</a>]]></content>
+      
+      
+    </entry>
+  
+</feed>

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# 指定要遍历的文件夹路径
+folderPath="C:/Users/shuai/Desktop/vtt"
+
+# 遍历文件夹中的所有文件
+for file in "$folderPath"/*
+do
+  # 判断当前文件是否为可打印文件（例如：txt、doc、xls 等）
+  if [[ "$file" =~ \.(txt|doc|docx|xls|xlsx|ppt|pptx)$ ]]; then
+    # 使用 2Printer 打印当前文件为 PDF 格式
+    2printer -src "$file" -prn "Bullzip PDF Printer" -options alerts:no /copies 1
+  fi
+done

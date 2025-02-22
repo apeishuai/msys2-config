@@ -1,0 +1,379 @@
+; Greenfish Icon Editor Pro
+; Language pack: Ukrainian
+; Created by: Stanislav A. Kondratov
+
+; General dictionary
+LABEL_WIDTH=Ширина
+LABEL_HEIGHT=Висота
+LABEL_SIZE=Розмір
+LABEL_COLOR=Колір
+LABEL_KIND=Тип
+LABEL_ANTIALIAS=Сглажування
+LABEL_POSITION=Позиція
+UNTITLED=Без назви
+
+; Buttons
+B_OK=ОК
+B_CANCEL=Відмінити
+B_RESET=Зброс
+B_ADD=Додати
+B_REMOVE=Видалити
+B_CLEAR=Очистити
+B_CLOSE=Закрити
+B_ALL=Все
+B_NONE=Немає
+B_PRINT=Друк
+B_PRINTER_SETUP=Налаштування принтера
+B_PREVIEW=Перегляд
+B_COMPILE=Зібрати
+
+; Shown messages
+MSG_NOT_EXIST="%s" не існує
+MSG_UNKNOWN_FILE_TYPE=Формат файлу "%s" не розпізнано. Цей файл не можна відкрити або зберегти за допомогою Greenfish Icon Editor Pro.
+MSG_INVALID_FILE_FORMAT=Файл "%s" не відповідає формату "%s". Можливо файл пошкоджено або має невідповідне розширення, або вказоно невірний фільтр у діалогу Відкрити.
+MSG_SAVE_CHANGES=Бажаєте зберегти зміни в "%s"?
+MSG_CONFIRM_REVERT=Всі зміни в "%s" будуть втрачені та їх не можна відмінити. Продовжити?
+MSG_DATA_LOSS_INFO=Для запобігання втрати даних збережіть документ в іншому форматі.
+MSG_DL_MULTIPAGE=Цей формат файла не підтримує зберігання кількох малюнків у одному файлі. Буде збережена тільки перша сторінка.
+MSG_DL_SIZE_256=Цей формат файла не підтримує збереження малюнків з розміром більше 256x256. Ці малюнки будуть відрізані.
+MSG_DL_TRANSPARENCY=Цей формат файлу не підтримує прозорість.
+MSG_DL_COLOR_DEPTH=Деяка частина кольорів не буде збережена.
+MSG_ADD_FILES=Додайте декілька файлів до списку
+MSG_SELECT_PAGES=Виділіть кілька сторінок
+MSG_PAGE_SIZE_0=Помилка: Ширина малюнка не може бути 0 мм. Оберіть інший формат папіру.
+
+; Open/Save dialog filters
+FF_ALL=Всі файли
+FF_ICO=Файли іконок
+FF_CUR=Файли курсорів
+FF_ANI=Анімовані курсори
+FF_PNG=*.PNG
+FF_XPM=*.XPM
+FF_BMP=*.BMP
+FF_JPEG=*.JPEG
+FF_GIF=*.GIF
+FF_EXEC=Всі програми та бібліотеки іконок
+FF_ICO_CUR=Файли іконок та курсорів
+FF_ICL=Бібліотеки іконок
+FF_RES=Файли ресурсів Win32
+FF_RC=Скрипти ресурсів
+
+; Tool names
+TOOL_SEL_RECT=Прямокутне виділення
+TOOL_SEL_ELLIPSE=Еліпсоїдне виділення
+TOOL_LASSO=Ласо
+TOOL_WAND=Чарівна паличка
+TOOL_SEL_PENCIL=Карандаш
+TOOL_TRANSFORM=Трансформ
+TOOL_CROP=Рамка
+TOOL_HOTSPOT=Встановити крапку
+TOOL_EYEDROPPER=Пипетка
+TOOL_RETOUCH=Ретуш
+TOOL_RECT=Прямокутник
+TOOL_ELLIPSE=Еліпс
+TOOL_LINE=Лінія
+TOOL_TEXT=Текст
+TOOL_PENCIL=Карандаш
+TOOL_BRUSH=Кисть
+TOOL_ERASER=Ластик
+TOOL_RECOLOR=Заміна кольору
+TOOL_BUCKET=Заливка
+TOOL_GRADIENT=Градієнт
+TOOL_NONE=Немає
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+
+; Menu items
+MI_FILE=Файл
+MI_FILE_NEW=Новий
+MI_FILE_OPEN=Відкрити
+MI_FILE_RECENT_FILES=Останні файли
+MI_FILE_RF_CLEAR=Очистити список
+MI_FILE_EXTRACT=Extract
+MI_FILE_BATCH_CONVERT=Групова конвертація
+MI_FILE_CREATE_RES=Створити ICL/RES файл
+MI_FILE_CLOSE=Закрити
+MI_FILE_CLOSE_ALL=Закрити все
+MI_FILE_SAVE=Зберегти
+MI_FILE_SAVE_AS=Зберегти як
+MI_FILE_SAVE_ALL=Зберегти все
+MI_FILE_REVERT=Revert
+MI_FILE_METADATA=Інформація про малюнок
+MI_FILE_PRINT=Друк
+MI_FILE_EXIT=Вихід
+
+MI_EDIT=Правка
+MI_EDIT_UNDO=Відмінити
+MI_EDIT_CANT_UNDO=Не можна відмінити
+MI_EDIT_REDO=Повернути
+MI_EDIT_CANT_REDO=Не можна повернути
+MI_EDIT_CUT=Вирізати
+MI_EDIT_COPY=Копиювати
+MI_EDIT_PASTE=Вставити
+MI_EDIT_PASTE_PAGE=Вставити як нову сторінку
+MI_EDIT_DELETE=Видалити
+MI_EDIT_SEL_ALL=Виділити все
+MI_EDIT_SEL_NONE=Зняти виділення
+MI_EDIT_SEL_INVERT=Інвертувати виділення
+MI_EDIT_SEL_LOAD=Завантажити маски виділення
+MI_EDIT_SEL_SAVE=Зберегти маски виділення
+MI_EDIT_CROP_TRANSPARENCY=Видалити прозорі частини
+MI_EDIT_TRANSFORM=Трансформ
+MI_EDIT_SEL_TRANSFORM=Трансформувати виділення
+MI_EDIT_FLIP_HORIZ=Горизонтальне відображення
+MI_EDIT_FLIP_VERT=Вертикальне відображення
+MI_EDIT_ROTATE_LEFT=Повернути на 90 градусів ліворуч
+MI_EDIT_ROTATE_RIGHT=Повернути на 90 градусів праворуч
+MI_EDIT_ROTATE_180=Повернути на 180 градусів
+
+MI_VIEW=Вид
+MI_VIEW_ZOOM_IN=Збільшити
+MI_VIEW_ZOOM_OUT=Зменшити
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=По розмірам вікна
+MI_VIEW_GRID=Сітка
+MI_VIEW_CENTER_LINES=Центруючі лінії
+MI_VIEW_TOOLBAR=Панель інструментів
+MI_VIEW_COLOR_PICKER=Палітра
+MI_VIEW_TOOL_BEHAVIOR=Інструменти
+MI_VIEW_STARTUP_SCREEN=Початковий екран
+
+MI_FLT=Фільтри
+MI_FLT_GRAYSCALE=Відтінки сірого
+MI_FLT_INVERT=Інвертувати
+MI_FLT_SOLARIZE=Соляризувати
+MI_FLT_RGB=RGB канали
+MI_FLT_HS=Відтінки/Насиченість
+MI_FLT_EXPOSURE=Витримка
+MI_FLT_AVERAGE=Розмиття в фон
+MI_FLT_BLUR_SOFT=М'яке розмиття
+MI_FLT_BLUR_MORE=Сильне розмиття
+MI_FLT_BLUR_CUSTOM=Розмиття
+MI_FLT_SHARPEN=Різкість
+MI_FLT_UNSHARP_MASK=Контурна різкість
+MI_FLT_REMOVE_MATTE=Видалити по масці
+MI_FLT_OPACITY=Прозорість
+MI_FLT_PAINT_CONTOUR=Контур
+MI_FLT_DROP_SHADOW=Тінь
+MI_FLT_GLOW=Мерегтіння
+MI_FLT_BEVEL=Зкос
+
+MI_ICON=Іконка
+MI_ICON_PAGE_NEW=Нова сторінка
+MI_ICON_PAGE_DELETE=Видалити сторінку
+MI_ICON_PAGE_PROP=Властивості сторінки
+MI_ICON_PAGE_EXPORT=Експорт сторінки
+MI_ICON_UNIFORM_RATE=Apply frame duration to all frames
+MI_ICON_CREATE_FROM_IMAGE=Створити іконку з малюнка
+MI_ICON_TEST=Тест
+
+MI_HELP=Довідка
+MI_HELP_CONTENTS=Зміст
+MI_HELP_GS=Швидкий старт
+MI_HELP_HOMEPAGE=Домашня сторінка
+MI_HELP_DONATE=Благодійність
+MI_HELP_PREFERENCES=Налаштування
+MI_HELP_LANGUAGE=Мова
+MI_HELP_ABOUT=Про програму...
+
+; Pixel Format to String
+PF_1_BIT=1-біт
+PF_16_COLORS=16 кольорів
+PF_256_COLORS=256 кольорів
+PF_24_BIT=24-біт
+PF_32_BIT=32-біт
+
+; Undo captions
+UNDO_MOVE_PAGE=Змістити сторінку
+UNDO_FLIP_ROTATE=Зеркало/Розворіт
+
+; Page properties dialog box
+PG_CAPTION_NEW_PAGE=Нова сторінка
+PG_CAPTION_PAGE_PROP=Властивості сторінки
+
+PG_SIZE_ITEMS=16 x 16 (найменша)<br>20 x 20 (іконка XP)<br>24 x 24 (панель інструментів)<br>32 x 32 (маленька)<br>48 x 48 (середня)<br>64 x 64 (велика)<br>256 x 256 (найбільша, Vista)<br>Своя
+PG_CUSTOM_SIZE=Свій розмір
+PG_SQUARE=Квадрат
+
+PG_CR=Глибина кольору
+PG_CR_ITEMS=Чорний з білим<br>16 кольорів (системна палітра)<br>256 кольорів<br>24-bit RGB<br>No reduction (32-bit)
+
+PG_ANIMATION=При збереженні як анімації
+PG_FRAME_RATE=Тривалість кадру (мілісекунд)
+PG_CREATE_FROM_SELECTED=Створити з обраної сторінки
+
+; Color Picker
+TAB_HSB_MAP=HSB мапа
+TAB_SWATCHES=Зразки
+
+; Filter configuration dialogs
+LABEL_RED=Червоний
+LABEL_GREEN=Зелений
+LABEL_BLUE=Синій
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Hue shift
+LABEL_SATURATION=Насиченість
+LABEL_GAMMA=Гама
+LABEL_BRIGHTNESS=Яскравість
+LABEL_GAUSSIAN_BLUR=Розмиття по Гаусу
+LABEL_BOX_BLUR=Розмиття по фігурі
+LABEL_MATTE_COLOR=Маска кольору
+LABEL_WHITE_MATTE=Маска по білому
+LABEL_BLACK_MATTE=Маска по чорному
+LABEL_INNER_GLOW=Внутрішнє мерегтіння
+LABEL_OUTER_GLOW=Зовнішнє мерегтіння
+
+LABEL_AMOUNT=Ступінь
+LABEL_ANGLE_DEGREES=Вугол (градуси)
+LABEL_BLUR=Розмиття
+LABEL_DISTANCE=Відстань
+LABEL_INTENSITY=Інтенсивність
+LABEL_OPACITY=Прозорість
+LABEL_RADIUS=Радіус
+LABEL_THRESHOLD=Поріг
+
+; Create icon from image dialog box
+CI_SELECT_FORMATS=Вкажіть формат файла для створення
+
+; Batch conversion dialog
+BC_FILES=Файли
+BC_SETTINGS=Налаштування
+BC_FORMAT=Перетворити на
+BC_FOLDER=Цільова папка
+BC_OPEN=Відкрити перетворені файли в Greenfish Icon Editor Pro
+BC_ICON_FORMATS=Формат іконок для створення
+
+; Create resource file dialog box
+RES_FILES=Іконка або курсор для включення
+RES_FILE_NAME=Ім'я файла
+RES_ID=ID ресурса
+RES_ADD_FILES=Додайте кілька файлів до колекції
+
+; Preferences dialog box
+PREF_MISC=Різне
+PREF_ENVIRONMENT=Оточення
+PREF_INSTALL=Інтеграція
+PREF_IMAGE_MAX=Макс. дозволений розмір малюнку
+PREF_PNG_ICONS=Використовувати PNG стискання в .ICO/.CUR файлах
+PREF_PNG_LIMIT=Стискати малюнки
+PREF_COLORS=Кольори
+PREF_TRANSPARENT_HATCH=Прозорий фон
+PREF_DVM=Режим перегляду діалога Відкрити/Зберегти
+PREF_DVM_ITEMS=Іконки<br>Список<br>Детально<br>Ескізи<br>Плитка
+PREF_MWA=Дія колеса миші
+PREF_MWA_ITEMS=Ні<br>Прокрутка<br>Масштаб
+PREF_SAVE_TOOL_SETTINGS=Зберігати налаштування інструментів між сесіями
+PREF_EXTRACT=Extracting resources from executables
+PREF_EXTRACT_FOLDER=Цільова папка
+PREF_FILE_ASSOC=Асоціації файлів
+
+; Language dialog box
+LABEL_LANG_PACK=Файл мови
+
+; Metadata dialog box
+MD_TYPE=Для %s файлів
+MD_TITLE=Назва
+MD_AUTHOR=Автор
+MD_COPYRIGHT=Авторські права
+MD_COMMENTS=Коментарі
+MD_QUALITY=Якість
+MD_LOOP_COUNT=Кількість повторів (0 = безкінечність)
+
+; Print dialog box
+PRINT_COPIES=Копій
+PRINT_ZOOM=Масштаб (%)
+PRINT_CAPTION=Назва
+PRINT_PAGES=Друк
+PRINT_PAGES_BUTTONS=Всі сторінки<br>Поточна сторінка
+
+; Startup screen
+ST_CHOOSE_ACTION=Будь ласка оберіть дію
+ST_NEW=Створити новий документ
+ST_NEW_INFO=Створити нову іконку або курсор
+ST_OPEN=Відкрити існуючий документ
+ST_OPEN_INFO=Відкрити іконку, курсор або інший файл малюнків
+ST_EXTRACT=Extract resources from an executable
+ST_EXTRACT_INFO=Відкрити EXE або DLL файли та зберігти всі знайдені іконки та курсори в папку. Ви можете відкрити їх в Greenfish Icon Editor Pro.
+ST_CONVERT=Групове конвертування
+ST_CONVERT_INFO=Конвертувати кілька малюнків в іконки або інший формат
+ST_RES=Створити файл ресурсів або бібліотеку іконок
+ST_RES_INFO=Зібрати в .RES або .ICL файл із колекції іконок або курсорів
+ST_NONE=Відмінити
+ST_NONE_INFO=Закрити цей екран
+ST_RECENT_INFO=Відкрити файли, що вже редагувалися в Greenfish Icon Editor Pro
+ST_SHOW=Завжди показувати цей екран
+
+; Test dialog box
+LABEL_MOVE_OVER_IMAGE=Move the cursor over the image below
+
+; Insert Text dialog box
+CAPTION_INSERT_TEXT=Вставити текст
+
+; Tool Behavior dialog box
+TB_BRUSH_ITEMS=Кругла<br>Квадратна<br>Коса<br>Обратна коса<br>Горизонтальна<br>Вертикальна<br>Розпилювач
+TB_RETOUCH_ITEMS=Розмиття<br>Різкість<br>Освітлення<br>Затемнення<br>Зміщення кольору<br>Губка
+
+; Transform Selection dialog box
+XF_UNITS_ITEMS=пікселів<br>%
+
+; Hints
+HINT_ABOUT_HOMEPAGE=Домашня сторінка
+HINT_COMPACT=Компактний вид
+
+HINT_CP_FORE_COLOR=Колір переднього плану
+HINT_CP_BACK_COLOR=Колір фону
+HINT_CP_SWAP_COLORS=Змінити кольори
+HINT_CP_DEFAULT=Відновити за замовчанням
+HINT_CP_TRANSPARENT=Прозорий
+HINT_CP_INVERTED=Інвертувати
+HINT_CP_SWATCHES=Ліва кнопка - обрати колір, права кнопка - замінити зразок обраним кольором
+HINT_CP_SWATCH_LOAD=Завантажити зразки
+HINT_CP_SWATCH_SAVE=Зберегти зразки
+HINT_CP_RED=Червоний компонент
+HINT_CP_GREEN=Зелений компонент
+HINT_CP_BLUE=Синій компонент
+HINT_CP_ALPHA=Альфа (прозорість)
+HINT_CP_HTML=HTML код
+HINT_CP_WCP=Палітра Windows
+
+HINT_DOC_LB=Список сторінок (формати/фрейми іконки)
+HINT_DOC_LB_PAGE=Сторінка %d, розмір: %d x %d пікселів
+HINT_DOC_LB_PNG=Примінити PNG-стискання при збереженні .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Масштаб
+
+HINT_STARTUP_HELP=Довідка
+HINT_TEST_BGR_LOAD=Завантажити фон
+HINT_TEST_BGR_DEFAULT=Фон за замовчанням
+
+HINT_TEXT_FACE=Шрифт
+HINT_TEXT_BOLD=Жирний
+HINT_TEXT_ITALIC=Курсив
+HINT_TEXT_UNDERLINE=Підкреслений
+
+HINT_TB_FRAMED=Тільки контур
+HINT_TB_FILLED=Із заливкою
+HINT_TB_LINE_WIDTH=Товщина лінії
+HINT_TB_EYEDROPPER_BACK=Переключати на попередній після вибору кольору
+HINT_TB_BRUSH_SIZE=Розмір кисті
+HINT_TB_BRUSH_SHAPE=Форма кисті
+HINT_TB_TOLERANCE=Wand/Recolor/Bucket tolerance (%)
+HINT_TB_RETOUCH_MODE=Режим ретушування
+HINT_TB_ERASER_STRENGTH=Натискання ластика (%)
+HINT_TB_G_LINEAR=Лінейне відхилення
+HINT_TB_G_RADIAL=Радіальний градієнт
+HINT_TB_G_CONICAL=Конічний градієнт
+HINT_TB_G_SPIRAL=Спіральний градієнт
+HINT_TB_REP_NONE=Не повторювати
+HINT_TB_REP_SYM=Сіметрічне повторення
+HINT_TB_REP_ASYM=Асіметрічне повторення
+HINT_TB_MODE_COLOR=Режим кольору
+HINT_TB_MODE_TRANSPARENCY=Режим прозорості
+
+; eof

@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/journa
+~MSle0~/bin
 
 # Last Substitute Search Pattern:
 ~MSle0&\v([0-9a-z][0-9a-z])([0-9a-z][0-9a-z])
@@ -21,11 +21,13 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1735437146,,"wq"
+|2,0,1740194260,,"wq"
 :q
-|2,0,1735363155,,"q"
+|2,0,1740194223,,"q"
 :w
-|2,0,1735351246,,"w"
+|2,0,1740194221,,"w"
+:WQ
+|2,0,1740194219,,"WQ"
 :qall
 |2,0,1735287432,,"qall"
 :so gen.vim
@@ -64,8 +66,6 @@ $
 |2,0,1735280811,,"q!\\"
 :weq
 |2,0,1735025769,,"weq"
-:WQ
-|2,0,1734931387,,"WQ"
 :ewq
 |2,0,1734771577,,"ewq"
 :"wq
@@ -192,6 +192,10 @@ $
 |2,0,1703219738,,".,.+1wq"
 
 # Search String History (newest to oldest):
+?/bin
+|2,1,1740193637,47,"bin"
+?/bion
+|2,1,1740193635,47,"bion"
 ?/journa
 |2,1,1735437140,47,"journa"
 ?/blog
@@ -306,8 +310,6 @@ $
 |2,1,1733896663,47,"refresh"
 ?/conf
 |2,1,1733896604,47,"conf"
-?/bin
-|2,1,1733894984,47,"bin"
 ?/jianguo-doc
 |2,1,1733894115,47,"jianguo-doc"
 ?/python
@@ -590,8 +592,6 @@ $
 |2,1,1731684300,47,"uu"
 ?/继电器
 |2,1,1731594311,47,"继电器"
-?/subscribe
-|2,1,1731329097,47,"subscribe"
 
 # Expression History (newest to oldest):
 
@@ -601,274 +601,286 @@ $
 
 # Registers:
 "0	LINE	0
-	alias blog="cd '$serv_root/blog'"
-|3,0,0,1,1,0,1735371351,"alias blog=\"cd '$serv_root/blog'\""
+	.emacs.d/straight
+|3,0,0,1,1,0,1740194217,".emacs.d/straight"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1735437143,""
+	.emacs.d/straight
+|3,1,1,1,1,0,1740194259,".emacs.d/straight"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1735437143,""
+	 SET
+|3,0,2,1,1,0,1740193218," SET"
 "3	LINE	0
-	alias journal="cd 'D:/g/area/emacs-notes/life/Journal'"
-|3,0,3,1,1,0,1735437142,"alias journal=\"cd 'D:/g/area/emacs-notes/life/Journal'\""
+	C:\Users\whens\Nutstore\1\docs
+|3,0,3,1,1,0,1740192505,"C:\\Users\\whens\\Nutstore\\1\\docs"
 "4	LINE	0
 	
-|3,0,4,1,1,0,1735348253,""
+|3,0,4,1,1,0,1735437143,""
 "5	LINE	0
-	    main()
-|3,0,5,1,1,0,1735348253,"    main()"
+	
+|3,0,5,1,1,0,1735437143,""
 "6	LINE	0
-	if __name__ == "__main__":
-|3,0,6,1,1,0,1735348253,"if __name__ == \"__main__\":"
+	alias journal="cd 'D:/g/area/emacs-notes/life/Journal'"
+|3,0,6,1,1,0,1735437142,"alias journal=\"cd 'D:/g/area/emacs-notes/life/Journal'\""
 "7	LINE	0
 	
 |3,0,7,1,1,0,1735348253,""
 "8	LINE	0
-	    write_output(output_file, fft_col1, fft_col2)
-|3,0,8,1,1,0,1735348253,"    write_output(output_file, fft_col1, fft_col2)"
+	    main()
+|3,0,8,1,1,0,1735348253,"    main()"
 "9	LINE	0
-	    # 写入输出文件
-|3,0,9,1,1,0,1735348253,"    # 写入输出文件"
+	if __name__ == "__main__":
+|3,0,9,1,1,0,1735348253,"if __name__ == \"__main__\":"
 "w	CHAR	0
 	)
 |3,0,32,0,1,0,1693974476,")"
 "-	CHAR	0
-	题
-|3,0,36,0,1,0,1735363830,"题"
+	\
+|3,0,36,0,1,0,1740193368,"\\"
 
 # File marks:
-'0  262  0  ~/.bashrc_win
-|4,48,262,0,1735437146,"~/.bashrc_win"
-'1  244  9  ~/.bashrc_win
-|4,49,244,9,1735371362,"~/.bashrc_win"
-'2  244  9  ~/.bashrc_win
-|4,50,244,9,1735371362,"~/.bashrc_win"
-'3  1  0  /d/g/area/serve/weekly/index.html
-|4,51,1,0,1735364081,"/d/g/area/serve/weekly/index.html"
-'4  4  14  /d/g/area/serve/weekly/week52.md
-|4,52,4,14,1735363833,"/d/g/area/serve/weekly/week52.md"
-'5  1  4  /d/g/area/serve/weekly/week52.md
-|4,53,1,4,1735363703,"/d/g/area/serve/weekly/week52.md"
-'6  1  4  /d/g/area/serve/weekly/week52.md
-|4,54,1,4,1735363703,"/d/g/area/serve/weekly/week52.md"
-'7  4  16  /d/g/area/serve/weekly/week52.md
-|4,55,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
-'8  4  16  /d/g/area/serve/weekly/week52.md
-|4,56,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
-'9  4  16  /d/g/area/serve/weekly/week52.md
-|4,57,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
+'0  5  0  ~/.gitignore
+|4,48,5,0,1740194260,"~/.gitignore"
+'1  6  0  ~/.gitignore
+|4,49,6,0,1740194223,"~/.gitignore"
+'2  6  0  ~/.gitignore
+|4,50,6,0,1740194223,"~/.gitignore"
+'3  5  16  ~/.gitignore
+|4,51,5,16,1740194147,"~/.gitignore"
+'4  1  0  /home/.gitignore
+|4,52,1,0,1740194139,"/home/.gitignore"
+'5  6  16  ~/.gitignore
+|4,53,6,16,1740194124,"~/.gitignore"
+'6  5  16  ~/.gitignore
+|4,54,5,16,1740194124,"~/.gitignore"
+'7  6  16  ~/.gitignore
+|4,55,6,16,1740194124,"~/.gitignore"
+'8  5  16  ~/.gitignore
+|4,56,5,16,1740194124,"~/.gitignore"
+'9  6  16  ~/.gitignore
+|4,57,6,16,1740193963,"~/.gitignore"
 
 # Jumplist (newest first):
--'  262  0  ~/.bashrc_win
-|4,39,262,0,1735437146,"~/.bashrc_win"
--'  244  9  ~/.bashrc_win
-|4,39,244,9,1735437140,"~/.bashrc_win"
--'  244  9  ~/.bashrc_win
-|4,39,244,9,1735371362,"~/.bashrc_win"
--'  283  36  ~/.bashrc_win
-|4,39,283,36,1735371348,"~/.bashrc_win"
--'  286  36  ~/.bashrc_win
-|4,39,286,36,1735371348,"~/.bashrc_win"
--'  275  45  ~/.bashrc_win
-|4,39,275,45,1735371346,"~/.bashrc_win"
--'  278  45  ~/.bashrc_win
-|4,39,278,45,1735371346,"~/.bashrc_win"
--'  1  0  /d/g/area/serve/weekly/index.html
-|4,39,1,0,1735364081,"/d/g/area/serve/weekly/index.html"
--'  1  0  /d/g/area/serve/weekly/index.html
-|4,39,1,0,1735364081,"/d/g/area/serve/weekly/index.html"
--'  1  0  /d/g/area/serve/weekly/index.html
-|4,39,1,0,1735364081,"/d/g/area/serve/weekly/index.html"
--'  1  0  /d/g/area/serve/weekly/index.html
-|4,39,1,0,1735364081,"/d/g/area/serve/weekly/index.html"
--'  4  14  /d/g/area/serve/weekly/week52.md
-|4,39,4,14,1735363833,"/d/g/area/serve/weekly/week52.md"
--'  4  14  /d/g/area/serve/weekly/week52.md
-|4,39,4,14,1735363833,"/d/g/area/serve/weekly/week52.md"
--'  4  14  /d/g/area/serve/weekly/week52.md
-|4,39,4,14,1735363833,"/d/g/area/serve/weekly/week52.md"
--'  4  14  /d/g/area/serve/weekly/week52.md
-|4,39,4,14,1735363833,"/d/g/area/serve/weekly/week52.md"
--'  4  14  /d/g/area/serve/weekly/week52.md
-|4,39,4,14,1735363833,"/d/g/area/serve/weekly/week52.md"
--'  4  14  /d/g/area/serve/weekly/week52.md
-|4,39,4,14,1735363833,"/d/g/area/serve/weekly/week52.md"
--'  4  14  /d/g/area/serve/weekly/week52.md
-|4,39,4,14,1735363833,"/d/g/area/serve/weekly/week52.md"
--'  4  14  /d/g/area/serve/weekly/week52.md
-|4,39,4,14,1735363833,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363781,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363781,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363781,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363781,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363781,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363781,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363781,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363781,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363703,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363703,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363703,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363703,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363703,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363703,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363703,"/d/g/area/serve/weekly/week52.md"
--'  1  4  /d/g/area/serve/weekly/week52.md
-|4,39,1,4,1735363703,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  4  16  /d/g/area/serve/weekly/week52.md
-|4,39,4,16,1735363392,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363325,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363325,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363325,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363325,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363325,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363325,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363325,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363325,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363169,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363169,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363169,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363169,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363169,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363169,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363169,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/week52.md
-|4,39,1,0,1735363169,"/d/g/area/serve/weekly/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
--'  1  0  /d/g/area/serve/weekly/2024/week52.md
-|4,39,1,0,1735363155,"/d/g/area/serve/weekly/2024/week52.md"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1740194260,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1740194257,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1740194223,"~/.gitignore"
+-'  5  16  ~/.gitignore
+|4,39,5,16,1740194147,"~/.gitignore"
+-'  1  0  /home/.gitignore
+|4,39,1,0,1740194139,"/home/.gitignore"
+-'  1  0  /home/.gitignore
+|4,39,1,0,1740194139,"/home/.gitignore"
+-'  1  0  /home/.gitignore
+|4,39,1,0,1740194139,"/home/.gitignore"
+-'  1  0  /home/.gitignore
+|4,39,1,0,1740194139,"/home/.gitignore"
+-'  1  0  /home/.gitignore
+|4,39,1,0,1740194139,"/home/.gitignore"
+-'  1  0  /home/.gitignore
+|4,39,1,0,1740194139,"/home/.gitignore"
+-'  1  0  /home/.gitignore
+|4,39,1,0,1740194139,"/home/.gitignore"
+-'  1  0  /home/.gitignore
+|4,39,1,0,1740194139,"/home/.gitignore"
+-'  5  16  ~/.gitignore
+|4,39,5,16,1740194124,"~/.gitignore"
+-'  5  16  ~/.gitignore
+|4,39,5,16,1740194124,"~/.gitignore"
+-'  5  16  ~/.gitignore
+|4,39,5,16,1740193963,"~/.gitignore"
+-'  5  16  ~/.gitignore
+|4,39,5,16,1740193963,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1740193934,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1740193934,"~/.gitignore"
+-'  4  3  ~/.gitignore
+|4,39,4,3,1740193929,"~/.gitignore"
+-'  4  3  ~/.gitignore
+|4,39,4,3,1740193929,"~/.gitignore"
+-'  4  3  ~/.gitignore
+|4,39,4,3,1740193929,"~/.gitignore"
+-'  4  3  ~/.gitignore
+|4,39,4,3,1740193929,"~/.gitignore"
+-'  4  3  ~/.gitignore
+|4,39,4,3,1740193929,"~/.gitignore"
+-'  4  3  ~/.gitignore
+|4,39,4,3,1740193929,"~/.gitignore"
+-'  4  3  ~/.gitignore
+|4,39,4,3,1740193929,"~/.gitignore"
+-'  4  3  ~/.gitignore
+|4,39,4,3,1740193929,"~/.gitignore"
+-'  4  3  ~/.gitignore
+|4,39,4,3,1740193929,"~/.gitignore"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
+-'  228  14  ~/.bashrc_win
+|4,39,228,14,1740193648,"~/.bashrc_win"
 
 # History of marks within files (newest to oldest):
 
+> ~/.gitignore
+	*	1740194259	0
+	"	5	0
+	.	6	0
+	+	4	4
+	+	6	16
+	+	5	0
+	+	6	0
+
+> /home/.gitignore
+	*	1740194138	0
+	"	1	0
+
 > ~/.bashrc_win
-	*	1735437144	0
-	"	262	0
-	^	244	10
-	.	262	0
-	+	329	0
+	*	1740193647	0
+	"	228	14
+	^	228	15
+	.	228	15
 	+	345	0
 	+	288	0
 	+	273	0
@@ -968,6 +980,24 @@ $
 	+	275	45
 	+	244	9
 	+	262	0
+	+	228	15
+
+> ~/.emacs.d/lisp/basic.el
+	*	1740193369	0
+	"	1	50
+	^	1	33
+	.	1	50
+	+	1	62
+	+	3	0
+	+	1	53
+	+	3	0
+	+	1	54
+	+	3	4
+	+	1	50
+
+> ~/.emacs.d/init.el
+	*	1740192440	0
+	"	6	7
 
 > /d/g/area/serve/weekly/index.html
 	*	1735364080	0
@@ -2256,46 +2286,3 @@ $
 	+	72	57
 	+	99	2
 	+	98	16
-
-> /d/g/area/emacs-notes/life/Journal/2024-12-12.org
-	*	1733965304	0
-	"	5	31
-	^	5	34
-	.	5	31
-	+	1	36
-	+	2	150
-	+	5	31
-
-> /d/g/area/emacs-notes/Computer_science/demo_python/client.py
-	*	1733964656	0
-	"	6	17
-	^	64	18
-	.	64	17
-	+	1	0
-	+	55	17
-	+	1	0
-	+	11	41
-	+	46	17
-	+	41	0
-	+	42	0
-	+	64	17
-
-> /c/Users/whens/Nutstore/1/docs/doc-jixie.md
-	*	1733963195	0
-	"	24	0
-	^	24	0
-	.	20	42
-	+	3	0
-	+	4	0
-	+	8	0
-	+	19	2
-	+	18	14
-	+	19	12
-	+	20	9
-	+	22	12
-	+	23	0
-	+	20	42
-
-> ~/.bashrc
-	*	1733896749	0
-	"	7	0

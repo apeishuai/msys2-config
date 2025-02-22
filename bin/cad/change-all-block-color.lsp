@@ -1,0 +1,27 @@
+(defun change-all-block-color ()
+  (setq color (list 255 255 255)) ; 设置颜色为白色
+  (setq blk (tblnext "block" nil))
+  (while blk
+    (if (= (cdr (assoc 0 (tblsearch "BLOCK" (cdr blk)) )) "BLOCK")
+      (progn
+        (setq ent (entnext (cdr blk)))
+        (while (not (null ent))
+          (if (= (cdr (assoc 0 (entget ent))) "ATTRIB")
+            (progn
+              (setq attval (cdr (assoc 1 (entget ent))))
+              (if (= attval "COLOR")
+                (setq ent (entnext ent))
+                (entmod (subst (cons 62 (apply 'rgb color)) (assoc 62 (entget ent)) (entget ent)))
+              )
+            )
+            (if (= (cdr (assoc 0 (entget ent))) "SEQEND")
+              (setq ent nil)
+            )
+          )
+          (setq ent (entnext ent))
+        )
+      )
+    )
+    (setq blk (tblnext "block" (cdr blk)))
+  )
+)

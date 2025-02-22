@@ -1,0 +1,55 @@
+<html><head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head><body>
+<span class="n">
+
+<span class="t">
+Working with image formats<p>
+</span>
+
+Icons may be displayed in several sizes or color depths. In many cases, an icon rendered in 256x256 would
+not look nice in 16x16, because, in such small sizes, dropped shadows just disturb the user
+and perspective makes objects unrecognizable. Thus, the icon image must be designed in several
+<b>image formats</b>. An image format has two main properties which distinguish it from other
+image formats:
+
+<ul>
+<li>the size, and<p></li>
+<li>the color depth.<p></li>
+</ul>
+
+There should not be two image formats which have completely the same size and color depth.<p>
+
+An icon should have the following image formats to look nice everywhere:
+
+<ul>
+<li>256x256 @ 32-bit</li>
+<li>256x256 @ 256 colors</li>
+<li>256x256 @ 16 colors</li>
+<li>48x48 @ 32-bit</li>
+<li>48x48 @ 256 colors</li>
+<li>48x48 @ 16 colors</li>
+<li>32x32 @ 32-bit</li>
+<li>32x32 @ 256 colors</li>
+<li>32x32 @ 16 colors</li>
+<li>16x16 @ 32-bit</li>
+<li>16x16 @ 256 colors</li>
+<li>16x16 @ 16 colors</li>
+</ul>
+
+In addition, the 64x64 and 128x128 formats are widely used.<p>
+
+<b>Tip:</b> Using 256 colors instead of 24-bit RGB reduces the icon file size and (in most cases) does not present a
+significant difference to the human eye.<p>
+
+<b>Tip:</b> If you want your icon to be used at the corner of the title bar of XP(tm) windows,
+you can create a 20x20 @ 32-bit icon format. This is the size in which the title bar-icons are rendered.
+If you do not provide a 20x20 icon, and the 16x16 format is picked by the OS for this purpose,
+it may look a bit blurred.<p>
+
+When working on an <b>ICO</b> or <b>CUR</b> file, each <b>page</b> represents an individual image format.
+Pages can be created, deleted or moved using the items in the <b>Icon</b> menu.
+To paste the copied image as a new page, choose <b>Edit | Paste as New Page</b> or press Shift+Ctrl+V.
+
+</span>
+</body></html>

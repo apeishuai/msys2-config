@@ -1,8 +1,5 @@
 (require 'ivy)
 
-"my-git-find-file-in-project 大小写敏感问题怎么解决"
-"windows上汉字无法检索，直接在windows上用linux"
-
 (defun my-find-file-internal(directory &optional grep-p git-grep-p)
   "Find file in DIRECTORY
 If GREP-P is t, grep files

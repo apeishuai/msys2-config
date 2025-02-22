@@ -1,0 +1,44 @@
+a:link, a:visited {
+	color: #a00000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #800000;
+	text-decoration: underline;
+}
+
+/* title */
+.t {
+	font-family: Times New Roman, sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	color: #a00000;
+}
+
+/* heading */
+.h {
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #b06000;
+}
+
+/* normal */
+.n {
+	font-family: Tahoma, sans-serif;
+	font-size: 9pt;
+	line-height: 140%;
+	color: black;
+}
+
+/* image */
+.i {
+	border: 0;
+	vertical-align: middle;
+}
+
+.folder {
+	padding-left: 1em;
+}
+

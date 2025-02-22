@@ -225,7 +225,7 @@ alias trac_knne="start 'https://gitee.com/Kenneth-Lee-2012/MySummary/commits/mas
 # soft
 alias node="C:/Users/whens/AppData/Local/pnpm/node.exe"
 alias npm="C:/Users/whens/AppData/Local/pnpm/npm.cmd"
-alias bin="cd ~/Shell/bin"
+alias bin="cd ~/bin"
 
 
 google_path="'C:/Program Files/Google/Chrome/Application/chrome.exe'"

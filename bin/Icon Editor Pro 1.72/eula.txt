@@ -1,0 +1,21 @@
+End-User License Agreement of Greenfish Icon Editor Pro
+-------------------------------------------------------
+
+The following terms are used during the End-User License Agreement:
+
+SOFTWARE = Greenfish Icon Editor Pro
+AUTHOR = Balázs Szalkai, Hungary
+USER = anyone who downloads, unzips, and/or runs (i.e. USES) the SOFTWARE
+
+This is an agreement between the USER and the AUTHOR.
+The SOFTWARE is protected by international copyright laws and is the intellectual property of the AUTHOR.
+
+All intellectual rights are reserved by the AUTHOR. The software is NOT the property of the USER, but only licensed for use according to the terms of this EULA.
+
+The SOFTWARE is a freeware, which means that it can and should be distributed, copied, uploaded, downloaded and shared by anyone, but only in its entirety, the original distribution, this ZIP file. Any attempts to reverse-engineer, modify or alter the executable binaries of the SOFTWARE in any way are strictly prohibited. Using parts or the entirety of the SOFTWARE in any other software product is strictly prohibited. Selling, hiring, lending, or making money in any way from any storage media (CD, DVD, floppy disk, hard disk, memory card, other) which admittedly contains the SOFTWARE is bound to prior written permission of the AUTHOR.
+
+The SOFTWARE is provided by absolutely no warranty, which means that it should work on most computers, but it is not the AUTHOR's fault if it does not do so.
+
+Disclaimer:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS CONCERNING THE SOFTWARE.

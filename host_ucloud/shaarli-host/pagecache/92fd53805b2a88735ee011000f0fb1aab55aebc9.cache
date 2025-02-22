@@ -1,0 +1,87 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Shared Bookmarks</title>
+  <subtitle>Shaared links</subtitle>
+  
+    <updated>2025-02-13T15:35:50+00:00</updated>
+  
+  <link rel="self" href="http:///feed/atom?&amp;searchterm=qml" />
+  <link rel="search" type="application/opensearchdescription+xml" href="http:///open-search"
+        title="Shaarli search - Shared Bookmarks" />
+  
+  <author>
+    <name>Shared Bookmarks</name>
+    <uri>http:///</uri>
+  </author>
+  <id>http:///</id>
+  <generator>Shaarli</generator>
+  
+    <entry>
+      <title>Qt5 QtQuick系列----QtQuick的Secne Graph剖析(3)-- qml与OpenGl结合 - JadeCicada - 博客园</title>
+      
+        <link href="https://www.cnblogs.com/butterflybay/p/10347852.html" />
+      
+      <id>http:/shaare/zLf1yg</id>
+      
+        <published>2025-02-13T07:36:33+00:00</published>
+        <updated>2025-02-13T15:35:50+00:00</updated>
+      
+      <content type="html" xml:lang="zh"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/zLf1yg" title="永久链接">永久链接</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>188080501/JQImageItem: 基于FBO显示QImage到QML中</title>
+      
+        <link href="https://github.com/188080501/JQImageItem" />
+      
+      <id>http:/shaare/q3h20w</id>
+      
+        <published>2025-02-13T07:35:56+00:00</published>
+        <updated>2025-02-13T15:35:49+00:00</updated>
+      
+      <content type="html" xml:lang="zh"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/q3h20w" title="永久链接">永久链接</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>【qml】 在QML场景图中使用QPainter 的方法_qquickpainteditem-CSDN博客</title>
+      
+        <link href="https://blog.csdn.net/hitzsf/article/details/127325886" />
+      
+      <id>http:/shaare/WKuKrQ</id>
+      
+        <published>2025-02-11T09:01:22+00:00</published>
+        <updated>2025-02-12T00:17:00+00:00</updated>
+      
+      <content type="html" xml:lang="zh"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/WKuKrQ" title="永久链接">永久链接</a>]]></content>
+      
+      
+    </entry>
+  
+    <entry>
+      <title>玩转Qml(7)-自绘组件 | 涛哥的博客</title>
+      
+        <link href="https://jaredtao.github.io/2019/05/19/%E7%8E%A9%E8%BD%ACQml(7)-%E8%87%AA%E7%BB%98%E7%BB%84%E4%BB%B6/#qml-shadereffect" />
+      
+      <id>http:/shaare/u0c05A</id>
+      
+        <published>2025-02-11T07:02:57+00:00</published>
+        <updated>2025-02-11T07:04:16+00:00</updated>
+      
+      <content type="html" xml:lang="zh"><![CDATA[
+
+<br>&#8212; <a href="http:/shaare/u0c05A" title="永久链接">永久链接</a>]]></content>
+      
+      
+    </entry>
+  
+</feed>

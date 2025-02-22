@@ -1,0 +1,32 @@
+<html><head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head><body>
+<span class="n">
+
+<span class="t">
+File formats<p>
+</span>
+
+Greenfish Icon Editor Pro can currently open and save ICO, CUR, ANI, PNG, XPM, BMP, JPEG and GIF formats. Here is a short description about the mentioned formats and when to use them:
+
+<ul>
+<li>The <b>ICO</b> and <b>CUR</b> formats can store multiple <a href="imagefmt.html">images</a> in any color depth, i.e. preserving all the information your document contains. Greenfish Icon Editor Pro can compress huge image formats stored in these files <b>using PNG compression</b> to reduce file size, but it is not recognized by OS's older than Vista(tm) and most of the resource compilers. Thus, PNG compression can be adjusted at <b>Help | Preferences</b>.<p></li>
+
+<li>The <b>ANI</b> format is used for storing animated cursors. Pages are saved as frames of animation in ANI files. To edit the <b>summary information</b> on these files, choose <b>File | Metadata</b>. For more info, see <a href="animation.html">Creating animations</a>.<p></li>
+
+<li>The <b>PNG</b> format is the ideal solution when saving only a single page. It handles all color depths and produces small-sized files which can be distributed over the Web.<br> <b>Tip:</b> use the PNG format instead of ICO when creating so-called <b>favicons</b> for homepages. It can reduce file size and is more portable.<p></li>
+
+<li>The <b>XPM</b> format is mainly used on Linux platforms. It is a file format which can even be edited in text editors. It supports transparency, but
+it cannot store 32-bit images and storing 24-bit images in XPM files can increase the file size very much. Therefore, Greenfish Icon Editor Pro allows keeping only at most 256 colors when saving to XPM. This does not usually present a big image quality loss, though.<p></li>
+
+<li>The <b>BMP</b> format does not support transparency and is always uncompressed. Therefore, the PNG format is recommended instead. However, Greenfish Icon Editor Pro <b>saves BMP files reducing the file size</b> as much as possible. (The BMP color depth is aligned to the number of colors used.)<p></li>
+
+<li>The <b>JPEG</b> format does not support transparency and has a lossy compression method. It is excellent when saving photos but far <b>not</b> suitable for icons. You should <b>not</b> save your drawings in JPEG, otherwise all sharp edges get blurred ("JPEG artifact"). If you decide to save your work in JPEG, you can adjust the compression quality in <b>File | Metadata</b>.<p></li>
+
+<li>The <b>GIF</b> format can store at most 256 colors using a lossless compression method, which is not as powerful and modern as the PNG compression, but it can be used for storing animations: each individual page is saved as a frame of animation when creating a GIF file. You can also specify the <b>loop count</b> for an animated GIF, using the <b>File | Metadata</b> dialog box. Click <a href="animation.html">here</a> to get more info on animations.<p></li>
+</ul><p>
+
+<b>Tip:</b> To open a file easily, just drag and drop the file onto the main window of Greenfish Icon Editor Pro, or use the <b>startup screen</b>.<p>
+
+</span>
+</body></html>

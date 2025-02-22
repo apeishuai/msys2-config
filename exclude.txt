@@ -1,0 +1,16 @@
+.bash_history
+.bash_logout
+.bashrc
+.cache
+.cfg
+.config
+.local
+lsp-bridge
+.pip
+.profile
+.ssh
+.sudo_as_admin_successful
+.vim
+.viminfo
+.Xauthority
+

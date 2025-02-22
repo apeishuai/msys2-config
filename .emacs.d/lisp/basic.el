@@ -1,21 +1,44 @@
-;;screen shot
-(defun screen-capture ()
-  "Take a screenshot into a unique-named file in the current buffer file
-   directory and insert a link to this file."
-  (interactive)
-  (let (
-	(capture-name (concat
-                       (format-time-string "%Y-%m-%d_%H-%M-%S") ".png"))
-        (capture-save-path (concat
-                            (file-name-directory buffer-file-name) "images/")))
-    (setq capture-file (concat capture-save-path capture-name))
-    (shell-command (concat "snipaste snip -o " (replace-regexp-in-string "/" "\\\\\\\\" capture-file)))
-    (insert (concat
-             "[[file:images/" capture-name "][Capture-" capture-name "]]"))
-    (org-display-inline-images)
-    )
-  )
+(setq default-directory "/c/Users/whens/Nutstore/1/docs")
 
+(setq url-proxy-services
+   '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+	     ("http" . "127.0.0.1:7890")
+	     ("https" . "127.0.0.1:7890")
+	     ("socks5" . "127.0.0.1:7890")))
+
+;;env set
+(setq config-directory "~/.emacs.d/lisp/")
+(setenv "notes-home" "d:/g/area/emacs-notes/")
+
+(setenv "PATH"
+	(concat
+	 ;"" ";"
+	 "g:/area/emacs-notes" ";"
+	 "e:/Snipaste-2.7.3-Beta-x64" ";"
+	 (getenv "PATH")
+	 )
+	)
+
+
+(add-hook 'org-mode-hook (lambda () (setq truncate-lines nil))) 
+(add-hook 'window-setup-hook 'toggle-frame-maximized)
+
+
+;;open link using google-chrome
+(setq browse-url-generic-program
+       (executable-find "google-chrome"))
+
+;;winum (windows)
+(setq window-numbering-assign-func
+      (lambda () (when (equal (buffer-name) "*Calculator*") 9)))
+
+
+;;reload init file
+(defun reload-init-file ()
+  (interactive)
+  (load-file user-init-file))
+(global-set-key (kbd "C-c C-r C-i") 'reload-init-file)
+(blink-cursor-mode 0)
 
 ;;autosave
 (defgroup auto-save nil
@@ -63,7 +86,7 @@
   (run-with-idle-timer auto-save-idle t #'auto-save-buffers)
   )
 
-(auto-save-enable)              ;; 开启自动保存功能
-;;(setq auto-save-slient t)       ;; 自动保存的时候静悄悄的， 不要打扰我
+(auto-save-enable)              
+
 
 (provide 'basic)

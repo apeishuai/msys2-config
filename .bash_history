@@ -729,3 +729,495 @@ r
 clear
 git add .
 cd ~
+emacs --daemon --load ~/.emacs.d/init.el
+git reset --hard a77b5a90251d974213a8495fdcd33a6b01c9f050
+clear
+conf
+clear
+ls
+r
+r
+emacs
+clear
+clear
+git log
+clear
+clear
+ls
+pacman -Ss emacs
+clear
+wevtutil ep
+wevtutil vpci
+wevtutil
+wevtutil gp
+clear
+week
+clear
+ls
+cd content/
+ls
+cd post/
+ls
+vim week6.md 
+rm week6.md 
+ls
+vim week7.md 
+hugo new post/week8.md
+cd ../
+cd ../
+hugo new post/week8.md
+vim content/post/week8.md 
+hugo server -D -w
+vim content/post/week8.md 
+hugo server -D -w
+vim content/post/week7\\.md 
+vim content/post/week7.md 
+clear
+hugo server -D -w
+clear
+hugo -D
+clear
+qt
+pro
+clear
+ls
+clear
+ls
+cd rsc
+ls
+cd ..
+clear
+ls
+cd work_reverse/
+clear
+ls
+cd static\ plot/
+clear
+ls
+conda activate
+clear
+ls
+where tshark
+python pcapng.py 5S --tshark "D:\softwares\scoop\shims\tshark.exe"
+pro
+cd work_reverse/
+ls
+cd static\ plot/
+conda activate
+clear
+python pcapng.py 5S --tshark "D:\softwares\scoop\shims\tshark.exe"
+ls
+python pcapng.py 5S.pcapng --tshark "D:\softwares\scoop\shims\tshark.exe"
+vim pcapng.py 
+clear
+python pcapng.py 5S.pcapng --tshark "D:\softwares\scoop\shims\tshark.exe"
+clear
+clear
+clear
+ls
+python pcapng.py '20250221 bad.pcapng' --tshark "D:\softwares\scoop\shims\tshark.exe"
+vim pcapng.py 
+python pcapng.py '20250221 bad.pcapng' --tshark "D:\softwares\scoop\shims\tshark.exe"
+clear
+pro
+cd etddy/
+work
+start .
+clear
+clear
+clear
+r
+r
+emacs
+emacs
+vim ~/.emacs.d/init.el 
+emacs
+vim ~/.emacs.d/
+cd ~/.emacs.d/
+ls
+vim debug.log 
+vim init.el 
+vim init.el 
+emacs
+vim debug.log 
+vim init.el 
+vim init.el 
+emacs
+vim debug.log 
+emacs
+vim init.el 
+emacs
+emacs -nw
+start .
+emacs
+start .
+start .
+vim ~/.emacs.d/init.el 
+emacs
+emacs
+cd .emacs.d/
+ls
+vim init.el n
+c;ear
+clear
+emacs
+vim lisp/basic.el 
+c;ear\
+\clear
+c;ear
+clear
+emacs
+emacs
+ls
+cd ..
+ls
+ls -al
+clear
+emacs --load "~/.emacs.d/init.el"
+emac
+emacs
+clear
+ls
+pacman -Ss emacs
+clear
+clear
+clear
+clear
+clear
+ls
+pacman -Ss emacs
+clear
+wevtutil ep
+wevtutil vpci
+wevtutil
+wevtutil gp
+clear
+week
+clear
+ls
+cd content/
+ls
+cd post/
+ls
+vim week6.md 
+rm week6.md 
+ls
+vim week7.md 
+hugo new post/week8.md
+cd ../
+cd ../
+hugo new post/week8.md
+vim content/post/week8.md 
+hugo server -D -w
+vim content/post/week8.md 
+hugo server -D -w
+vim content/post/week7\\.md 
+vim content/post/week7.md 
+clear
+hugo server -D -w
+clear
+hugo -D
+clear
+qt
+pro
+clear
+ls
+clear
+ls
+cd rsc
+ls
+cd ..
+clear
+ls
+cd work_reverse/
+clear
+ls
+cd static\ plot/
+clear
+ls
+conda activate
+clear
+ls
+where tshark
+python pcapng.py 5S --tshark "D:\softwares\scoop\shims\tshark.exe"
+pro
+cd work_reverse/
+ls
+cd static\ plot/
+conda activate
+clear
+python pcapng.py 5S --tshark "D:\softwares\scoop\shims\tshark.exe"
+ls
+python pcapng.py 5S.pcapng --tshark "D:\softwares\scoop\shims\tshark.exe"
+vim pcapng.py 
+clear
+python pcapng.py 5S.pcapng --tshark "D:\softwares\scoop\shims\tshark.exe"
+clear
+clear
+clear
+ls
+python pcapng.py '20250221 bad.pcapng' --tshark "D:\softwares\scoop\shims\tshark.exe"
+vim pcapng.py 
+python pcapng.py '20250221 bad.pcapng' --tshark "D:\softwares\scoop\shims\tshark.exe"
+clear
+pro
+cd etddy/
+work
+start .
+clear
+clear
+clear
+r
+r
+emacs
+emacs
+vim ~/.emacs.d/init.el 
+emacs
+vim ~/.emacs.d/
+cd ~/.emacs.d/
+ls
+vim debug.log 
+vim init.el 
+vim init.el 
+emacs
+vim debug.log 
+vim init.el 
+vim init.el 
+emacs
+vim debug.log 
+emacs
+vim init.el 
+emacs
+emacs -nw
+start .
+emacs
+start .
+start .
+vim ~/.emacs.d/init.el 
+emacs
+emacs
+cd .emacs.d/
+ls
+vim init.el n
+c;ear
+clear
+emacs
+vim lisp/basic.el 
+c;ear\
+\clear
+c;ear
+clear
+emacs
+emacs
+ls
+cd ..
+ls
+ls -al
+clear
+emacs --load "~/.emacs.d/init.el"
+emac
+emacs
+clear
+ls
+pacman -Ss emacs
+clear
+clear
+clear
+clear
+cd ~/
+cd .emacs.d/
+start .
+emacs
+emacs
+emacs --debug-init
+vim init.el 
+ls lisp/
+vim init.el 
+cat init.el 
+clear
+emacs --debug
+emacs -q
+vim init.el 
+vim lisp/basic.el 
+emacs
+emac
+emacs
+clear
+emacs
+clear
+cd .emacs.d/data/
+cd ..
+ls
+cd lisp/
+ls
+vim basic.el 
+emacs
+clear
+vim basic.el 
+bin
+start .
+vim .gitignore 
+clear
+r
+clear
+conf
+r
+r
+clear
+bin
+start .
+clear
+cd ~
+clear
+git log
+clear
+clear
+r
+clear
+conf
+r
+r
+clear
+bin
+start .
+clear
+cd ~
+clear
+git log
+clear
+cd d:
+git add .
+clear
+r
+clear
+conf
+r
+r
+clear
+bin
+start .
+clear
+cd ~
+clear
+git log
+clear
+cd d:
+git add .
+cd .emacs.d/
+ls
+ls -al
+rm -rf .git
+cd ..
+clear
+ls
+git log
+git add .
+cd ~
+clear
+clear
+git add .
+git log
+git status
+ls
+cd .emacs.d/
+ls
+vim ../.gitignore
+vim ../.gitignore
+clear
+git add .
+clear
+r
+clear
+conf
+r
+r
+clear
+bin
+start .
+clear
+cd ~
+clear
+git log
+clear
+cd d:
+git add .
+cd .emacs.d/
+ls
+ls -al
+rm -rf .git
+cd ..
+clear
+ls
+git log
+git add .
+cd ~
+clear
+git commit -m "stable v1.0"
+r
+clear
+conf
+r
+r
+clear
+bin
+start .
+clear
+cd ~
+clear
+git log
+clear
+cd d:
+git add .
+cd .emacs.d/
+ls
+ls -al
+rm -rf .git
+cd ..
+clear
+ls
+git log
+git add .
+cd ~
+clear
+git commit -m "stable v1.0"
+clear
+git reset HEAD
+git log
+git reset HEAD
+clear
+git log
+clear
+ls
+git reset --soft HEAD~1
+git log
+clear
+ls
+vim ../.gitignore 
+ls
+cd ..
+vim ../.gitignore 
+vim.gitignore 
+vim .gitignore 
+git add .
+git commit -m "stable v1.0"
+git reset HEAD
+git log
+git reset --soft HEAD~1
+git log
+clear
+vim .gitignore 
+cd .emacs.d/
+ls
+cd el
+cd eshell/
+ls
+cd ..
+cd elpa/
+ls
+cd archives/
+ls
+cd ../../
+cd ../
+vim .gitignore 
+cleat
+clear

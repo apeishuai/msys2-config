@@ -1,0 +1,38 @@
+<html><head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head><body>
+<span class="n">
+
+<span class="t">
+Adding transparency<p>
+</span>
+
+Icons generally have transparent and may have semi-transparent pixels.
+If you have a graphic with no transparency, and you want to <b>mask out e.g. the white parts</b>,
+you have to do the following:
+
+<ul>
+<li>Open the image file.<p><img src="../!images/matte_source.png"><p></li>
+<li>Choose <b>Filters | Remove Matte</b> and select <b>White matte</b>.<p></li>
+<li>Choose the <b>OK</b> button.<p><img src="../!images/matte_dest.png"><p></li>
+</ul>
+
+This will make a partially transparent, 32-bit icon, because lighter pixels will have less alpha
+than others. However, you might want to create an icon from a bitmap e.g. by <b>converting all red pixels
+to fully transparent</b> and keeping the other pixels opaque. This can be done as follows:
+
+<ul>
+<li><img src="../!images/mask_source.png"><p>
+Select the <a href="tools.html#wand">Wand (W)</a> tool and set the tolerance to 0% in the
+<a href="toolbhv.html">Tool Behavior</a> dialog box.<p></li>
+<li>Hold down Shift and click on all parts of the image which have the color to be converted
+to transparent.<p><img src="../!images/mask_select.png"><p></li>
+<li>Press Ctrl+Del.<p><img src="../!images/mask_dest.png"><p></li>
+</ul>
+
+Note that you can also use the <a href="tools.html#recolor">Recolor (Q)</a> tool for this purpose,
+by selecting the color you want to remove as the background color
+and the transparent color as foreground color.<p>
+
+</span>
+</body></html>

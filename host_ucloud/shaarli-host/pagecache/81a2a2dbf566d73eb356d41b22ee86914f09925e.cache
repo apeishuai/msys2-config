@@ -1,0 +1,91 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>每周 - Shared Bookmarks</title>
+    <link>http:///</link>
+    <description>一周内的所有链接，汇聚在一个页面上。</description>
+    <language>auto</language>
+    <copyright>http:///</copyright>
+    <generator>Shaarli</generator>
+
+    
+      <item>
+        <title>周 06 (2025年2月3日) - Shared Bookmarks</title>
+        <guid>http:///daily?week=202506</guid>
+        <link>http:///daily?week=202506</link>
+        <pubDate>Sun, 09 Feb 2025 23:59:59 +0000</pubDate>
+        <description><![CDATA[
+          
+            <h3><a href="https://www.bilibili.com/opus/498161531410328699">LINUX学习路线 - 哔哩哔哩</a></h3>
+            <small>
+              2025年2月9日 UTC 13:22:57 &#8212; 
+              <a href="http:///shaare/aR3OTA">永久链接</a>
+              
+              <br>
+              https://www.bilibili.com/opus/498161531410328699
+            </small><br>
+            <br>
+            
+            <br><hr>
+          
+        ]]></description>
+      </item>
+    
+      <item>
+        <title>周 04 (2025年1月20日) - Shared Bookmarks</title>
+        <guid>http:///daily?week=202504</guid>
+        <link>http:///daily?week=202504</link>
+        <pubDate>Sun, 26 Jan 2025 23:59:59 +0000</pubDate>
+        <description><![CDATA[
+          
+            <h3><a href="https://moinmo.in/">MoinMoinWiki - MoinMoin</a></h3>
+            <small>
+              2025年1月20日 UTC 11:54:38 &#8212; 
+              <a href="http:///shaare/c-KRiw">永久链接</a>
+               &#8212; wiki
+              <br>
+              https://moinmo.in/
+            </small><br>
+            <br>
+            
+            <br><hr>
+          
+        ]]></description>
+      </item>
+    
+      <item>
+        <title>周 01 (2024年12月30日) - Shared Bookmarks</title>
+        <guid>http:///daily?week=202501</guid>
+        <link>http:///daily?week=202501</link>
+        <pubDate>Sun, 05 Jan 2025 23:59:59 +0000</pubDate>
+        <description><![CDATA[
+          
+            <h3><a href="https://github.com/mmhunter3515/vpsdamimi?tab=readme-ov-file">mmhunter3515/vpsdamimi: 最好的国外VPS推荐</a></h3>
+            <small>
+              2025年1月4日 UTC 03:32:19 &#8212; 
+              <a href="http:///shaare/5NTdnA">永久链接</a>
+               &#8212; vps
+              <br>
+              https://github.com/mmhunter3515/vpsdamimi?tab=readme-ov-file
+            </small><br>
+            <img src="http:///cache/thumb/99cd2175108d157588c04758296d1cfc/5ee40451f33b07b7405da719034c6df50b908f5b125901.jpg" alt="thumbnail" /><br>
+            
+            <br><hr>
+          
+            <h3><a href="https://m.jb51.net/article/244337.htm">Docker四种网络模式演示及连通性测试_docker_脚本之家</a></h3>
+            <small>
+              2025年1月4日 UTC 03:20:00 &#8212; 
+              <a href="http:///shaare/DqiCNA">永久链接</a>
+               &#8212; Docker网络模式连通性测试 Docker网络模式
+              <br>
+              https://m.jb51.net/article/244337.htm
+            </small><br>
+            <br>
+            <div class="markdown"><p>这篇文章主要为大家介绍了Docker四种网络模式演示及连通性测试，有需要的朋友可以借鉴参考下，希望能够有所帮助，祝大家多多进步早日升职加薪</p></div>
+            <br><hr>
+          
+        ]]></description>
+      </item>
+    
+  </channel>
+</rss><!-- Cached version of http:///daily-rss?week?week -->

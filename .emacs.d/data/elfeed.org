@@ -1,0 +1,5 @@
+* Blogs                                                              :elfeed:
+** blog                                                                :blog:
+*** https://wangqian0306.github.io/atom.xml
+*** https://www.manjusaka.blog/atom.xml
+** vedio                                                     :vedio:bilibili:

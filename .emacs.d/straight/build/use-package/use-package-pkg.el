@@ -1,0 +1,2 @@
+;; Generated package description from use-package.el  -*- no-byte-compile: t -*-
+(define-package "use-package" "2.4.6.0.20250101.73917" "A configuration macro for simplifying your .emacs" '((emacs "24.3") (bind-key "2.4")) :commit "b36b1be491e0b19062fa38ee197aa3daeba96415" :authors '(("John Wiegley" . "johnw@newartisans.com")) :maintainer '("John Wiegley" . "johnw@newartisans.com") :keywords '("dotemacs" "startup" "speed" "config" "package" "extensions") :url "https://github.com/jwiegley/use-package")

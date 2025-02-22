@@ -2,23 +2,18 @@
 (global-set-key (kbd "C-c a") #'org-agenda)
 (global-set-key (kbd "C-c c") #'org-capture)
 
-;;(setq org-directory "g:/area/emacs-notes/GTD")
-(setq org-directory "C:/Users/whens/Nutstore/1/docs/GTD")
-
+(setq org-directory "/c/Users/whens/Nutstore/1/docs/GTD")
 (setq org-capture-templates
       `(("i" "Inbox" entry  (file "inbox.org")
         ,(concat "* TODO %?\n"
                  "/Entered on/ %U\n" "\n"))))
-
 (setq org-todo-keywords
-      '((sequence "TODO(T!)"  "|" "DONE(D!)" "|" "Waste(W!)")))
+      '((sequence "TODO(T!)"  "|" "DONE(D!)")))
 
 
+(setq org-agenda-files '("inbox.org" "area.org"  "rsc.org"))
+(setq org-refile-files (directory-files "/c/Users/whens/Nutstore/1/docs/GTD" t "\\.org$"))
 
-(when (memq window-system '(w32))
-  (setq org-agenda-files '("inbox.org" "area.org"  "rsc.org"))
-  (setq org-refile-files (directory-files "C:/Users/whens/Nutstore/1/docs/GTD" t "\\.org$"))
-  )
 ;; Refile
 (setq org-refile-use-outline-path 'file)
 (setq org-outline-path-complete-in-steps nil)

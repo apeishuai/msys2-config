@@ -1,0 +1,7 @@
+精神分析=易冰莹
+inbox=
+tool=ns_kill
+manual=autohotkey HPPrint HPPrint_Tank510
+search=google baidu bai xuetutu gb
+media=易冰莹 底层技术栈
+工控=smart_200_cpu_gujian soft 威纶通 s7-200 smart_line

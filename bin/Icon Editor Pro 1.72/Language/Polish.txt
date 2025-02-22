@@ -1,0 +1,369 @@
+; Greenfish Icon Editor Pro
+; Language pack: Polish
+; Created by: Adam Godula
+
+; General dictionary
+LABEL_WIDTH=Szerokoœæ
+LABEL_HEIGHT=Wysokoœæ
+LABEL_SIZE=Rozmiar
+LABEL_COLOR=Kolor
+LABEL_KIND=Rodzaj
+LABEL_ANTIALIAS=Wyg³adzanie
+LABEL_POSITION=Pozycja
+UNTITLED=Untitled
+
+; Buttons
+B_OK=OK
+B_CANCEL=Anuluj
+B_RESET=Reset
+B_ADD=Dodaj
+B_REMOVE=Usuñ
+B_CLEAR=Czyœæ
+B_CLOSE=Zamknij
+B_ALL=Wszystko
+B_NONE=Nic
+B_PRINT=Drukuj
+B_PRINTER_SETUP=Ustawienia drukowania
+B_PREVIEW=Podgl¹d
+B_COMPILE=Kompiluj
+
+; Shown messages
+MSG_FILE_NOT_FOUND=Brak pliku
+MSG_UNKNOWN_FILE_TYPE=Rodzaj pliku "%s" nie mo¿e zostaæ automatycznie okreœlony. Ten plik nie mo¿e zostaæ wczytany ani zapisany przez Greenfish Icon Editor Pro (b³êdne rozszerzenie?).
+MSG_INVALID_FILE_FORMAT=Plik "%s" nie pasuje do formatu "%s". Plik mo¿e byæ uszkodzony, mo¿e mieæ nieprawid³owe rozszerzenie lub zosta³ wybrany nieprawid³owy filtr w oknie wyboru plików.
+MSG_SAVE_CHANGES=Czy chcesz zachowaæ zmiany w "%s"?
+MSG_CONFIRM_REVERT=Wszystkie zmiany w "%s" zostan¹ utracone, tej operacji nie mo¿na cofn¹æ. Czy jesteœ pewien , ¿e chcesz kontynuowaæ?
+MSG_DATA_LOSS_INFO=Aby zapobiec utracie danych, zapisz dokument tak¿e w innym formacie.
+MSG_DL_MULTIPAGE=Ten format nie wspiera zapisu wielu obrazów w jednym pliku. Wy³¹cznie pierwsza strona zostanie zachowany.
+MSG_DL_SIZE_256=Ten format nie wspiera zapisywania obrazów wiêkszych ni¿ 256x256. Takie obrazy zostan¹ przyciête.
+MSG_DL_TRANSPARENCY=Ten format danych nie wspiera przezroczystoœci.
+MSG_DL_COLOR_DEPTH=Pewne czêœci informacji o kolorze  nie mog¹ byæ zachowane.
+MSG_ADD_FILES=Proszê dodaæ pliki do listy
+MSG_SELECT_PAGES=Prosze zaznaczyæ jakieœ strony
+MSG_PAGE_SIZE_0=B³¹d: szerokoœæ strony nie mo¿e wynosiæ 0 mm. Proszê wybraæ inny format papieru.
+
+; Open/Save dialog filters
+FF_ALL=Zapisz wszystkie pliki
+FF_ICO=Pliki ikon
+FF_CUR=Pliki wskaŸników
+FF_ANI=Animowane kursory
+FF_PNG=Portable Network Graphics
+FF_XPM=X-Pixmaps
+FF_BMP=Bitmapy systemu Windows
+FF_JPEG=Pliki JPEG
+FF_GIF=Format wymiany grafiki (GIF)
+FF_EXEC=Wszystkie pliki wykonywalne oraz pliki bibliotek ikon
+FF_ICO_CUR=Plik ikony lub wskaŸnika
+FF_ICL=Biblioteka ikon
+FF_RES=Plik z zasobami Win32
+FF_RC=Zasoby skryptów
+
+; Tool names
+TOOL_SEL_RECT=Zaznaczenie prostok¹tne
+TOOL_SEL_ELLIPSE=Zaznaczenie eliptyczne
+TOOL_LASSO=Lasso
+TOOL_WAND=Ró¿d¿ka
+TOOL_SEL_PENCIL=Wybór o³ówkiem
+TOOL_TRANSFORM=Transformacja
+TOOL_CROP=Przyciêcie
+TOOL_HOTSPOT=Ustawienie punktu aktywnego
+TOOL_EYEDROPPER=Próbnik
+TOOL_RETOUCH=Wyg³adzanie
+TOOL_RECT=Prostok¹t
+TOOL_ELLIPSE=Elipsa
+TOOL_LINE=Linia
+TOOL_TEXT=Text
+TOOL_PENCIL=O³ówek
+TOOL_BRUSH=Pêdzel
+TOOL_ERASER=Gumka
+TOOL_RECOLOR=Recolor
+TOOL_BUCKET=Wype³nianie
+TOOL_GRADIENT=Wype³nienie gradientem
+TOOL_NONE=Nic
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+
+; Menu items 
+MI_FILE=Plik
+MI_FILE_NEW=Nowy
+MI_FILE_OPEN=Otwórz
+MI_FILE_RECENT_FILES=Ostatnie pliki
+MI_FILE_RF_CLEAR=Czyœæ listê
+MI_FILE_EXTRACT=Wydobycie
+MI_FILE_BATCH_CONVERT=Wsadowa konwersja plików
+MI_FILE_CREATE_RES=Utwórz plik ICL/RES
+MI_FILE_CLOSE=Zamknij
+MI_FILE_CLOSE_ALL=Zamknij wszystko
+MI_FILE_SAVE=Zapisz
+MI_FILE_SAVE_AS=Zapisz jako
+MI_FILE_SAVE_ALL=Zapisz wszystko
+MI_FILE_REVERT=Odwróæ
+MI_FILE_PRINT=Wydruk
+MI_FILE_EXIT=Wyjœcie
+
+MI_EDIT=Edycja
+MI_EDIT_UNDO=Cofnij
+MI_EDIT_CANT_UNDO=Nie mo¿na cofn¹æ
+MI_EDIT_REDO=Przywróæ
+MI_EDIT_CANT_REDO=Nie mo¿na przywróciæ
+MI_EDIT_CUT=Wytnij
+MI_EDIT_COPY=Kopiuj
+MI_EDIT_PASTE=Wstaw
+MI_EDIT_PASTE_PAGE=Wstaw jako nowa strona
+MI_EDIT_DELETE=Usuñ
+MI_EDIT_SEL_ALL=Zaznacz wszystko
+MI_EDIT_SEL_NONE=Usuñ zaznaczenie
+MI_EDIT_SEL_INVERT=Odwróæ zaznaczenie
+MI_EDIT_SEL_LOAD=Za³aduj maskê wyboru
+MI_EDIT_SEL_SAVE=Zapisz maskê wyboru
+MI_EDIT_CROP_TRANSPARENCY=Przyciêcie czêœci przezroczystych
+MI_EDIT_TRANSFORM=Transformacja
+MI_EDIT_SEL_TRANSFORM=Transformacja wyboru
+MI_EDIT_FLIP_HORIZ=Odwróæ poziomo
+MI_EDIT_FLIP_VERT=Odwróæ pionowo
+MI_EDIT_ROTATE_LEFT=Rotacja o 90 stopni w lewo
+MI_EDIT_ROTATE_RIGHT=Rotacja o 90 stopni w prawo
+MI_EDIT_ROTATE_180=Rotacja o 180 stopni
+
+MI_VIEW=Widok
+MI_VIEW_ZOOM_IN=Przybli¿enie
+MI_VIEW_ZOOM_OUT=Oddalenie
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Wype³nij okno
+MI_VIEW_GRID=Siatka
+MI_VIEW_CENTER_LINES=Centruj linie
+MI_VIEW_TOOLBAR=Pasek narzêdzi
+MI_VIEW_COLOR_PICKER=Próbnik kolorów
+MI_VIEW_TOOL_BEHAVIOR=Zachowanie narzêdzi
+MI_VIEW_STARTUP_SCREEN=Ekran powitalny
+
+MI_FLT=Filtry
+MI_FLT_GRAYSCALE=Skala szaroœci
+MI_FLT_INVERT=Inwersja
+MI_FLT_SOLARIZE=Naœwietlenie
+MI_FLT_RGB=Kana³y RGB
+MI_FLT_HS=Barwa/Saturacja
+MI_FLT_EXPOSURE=Ekspozycja
+MI_FLT_AVERAGE=Œrednia
+MI_FLT_BLUR_SOFT=£agodne wyg³adzenie
+MI_FLT_BLUR_MORE=Mocne wyg³adzenie
+MI_FLT_BLUR_CUSTOM=Podstawowe wyg³adzenie
+MI_FLT_SHARPEN=Wyostrzenie
+MI_FLT_UNSHARP_MASK=Maska wyostrzania
+MI_FLT_REMOVE_MATTE=Usuniêcie matu
+MI_FLT_OPACITY=Przezroczystoœæ
+MI_FLT_PAINT_CONTOUR=Malowanie kontury
+MI_FLT_DROP_SHADOW=Cieñ
+MI_FLT_GLOW=Rozjaœnienie
+MI_FLT_BEVEL=Skos
+
+MI_ICON=Ikona
+MI_ICON_PAGE_NEW=Nowa strona
+MI_ICON_PAGE_DELETE=Kasuj stronê
+MI_ICON_PAGE_PROP=W³aœciwoœci strony
+MI_ICON_PAGE_EXPORT=Strona eksportu
+MI_ICON_UNIFORM_RATE=ZatwierdŸ iloœæ klatek do wszystkich ramek
+MI_ICON_CREATE_FROM_IMAGE=Utworzenie ikony z obrazu
+MI_ICON_TEST=Test
+
+MI_HELP=Pomoc
+MI_HELP_CONTENTS=Zawartoœæ
+MI_HELP_GS=Pierwsze kroki
+MI_HELP_HOMEPAGE=Strona domowa
+MI_HELP_DONATE=Wsparcie
+MI_HELP_PREFERENCES=Ustawienia
+MI_HELP_LANGUAGE=Jêzyk
+MI_HELP_ABOUT=O programie
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 kolorów
+PF_256_COLORS=256 kolorów
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_MOVE_PAGE=Przenieœ stronê
+UNDO_FLIP_ROTATE=Odwróæ/Rotuj
+
+; Page properties dialog box
+PG_CAPTION_NEW_PAGE=Nowa strona
+PG_CAPTION_PAGE_PROP=W³aœciwoœci strony
+
+PG_SIZE_ITEMS=16 x 16 (najmniejszy)<br>20 x 20 (ikona okna XP)<br>24 x 24 (pasek narzêdziowy)<br>32 x 32 (ma³y)<br>48 x 48 (œredni)<br>64 x 64 (du¿y)<br>256 x 256 (olbrzymi, Vista)<br>Podstawowy
+PG_CUSTOM_SIZE=Rozmiar podstawowy
+PG_SQUARE=Kwadrat
+
+PG_CR=Redukcja koloru
+PG_CR_ITEMS=Czerñ i biel<br>16 kolorów (paleta systemowa)<br>256 kolorów (dostosowana)<br>24-bit RGB<br>Bez redukcji (32-bit)
+
+PG_ANIMATION=Gdy zapisujê jako animacjê
+PG_FRAME_RATE=Czêstotliwoœæ klatek (milisekundy)
+PG_CREATE_FROM_SELECTED=Utwórz z wybranej strony
+
+; Color Picker
+TAB_HSB_MAP=Mapa HSB
+TAB_SWATCHES=Paleta
+
+; Filter configuration dialogs
+LABEL_RED=Czerwony
+LABEL_GREEN=Zielony
+LABEL_BLUE=Niebieski
+LABEL_R=Cz
+LABEL_G=Z
+LABEL_B=N
+LABEL_A=A
+LABEL_HUE_SHIFT=Przesuniêcie
+LABEL_SATURATION=Nasycenie
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Jasnoœæ
+LABEL_GAUSSIAN_BLUR=Wyg³adzanie (Gauss)
+LABEL_BOX_BLUR=Wyg³adzanie (Box)
+LABEL_MATTE_COLOR=Mat koloru
+LABEL_WHITE_MATTE=Mat bieli
+LABEL_BLACK_MATTE=Mat czerni
+LABEL_INNER_GLOW=Poœwiata wewnêtrzna
+LABEL_OUTER_GLOW=Poœwiata zewnêtrzna
+
+LABEL_AMOUNT=Iloœæ
+LABEL_ANGLE_DEGREES=K¹t (stopnie)
+LABEL_BLUR=Wyg³adzanie
+LABEL_DISTANCE=Dystans
+LABEL_INTENSITY=Intensywnoœæ
+LABEL_OPACITY=Nieprzezroczystoœæ
+LABEL_RADIUS=Promieñ
+LABEL_THRESHOLD=Próg
+
+; Create icon from image dialog box
+CI_SELECT_FORMATS=Wybierz formaty które chcesz utworzyæ
+
+; Batch conversion dialog
+BC_FILES=Pliki
+BC_SETTINGS=Ustawienia
+BC_FORMAT=Konwersja do
+BC_FOLDER=Folder docelowy
+BC_OPEN=Otwórz konwertowane pliki w Greenfish Icon Editor Pro
+BC_ICON_FORMATS=Tworzone formaty ikon
+
+; Create resource file dialog box
+RES_FILES=Pliki ikon lub kursorów do do³¹czenia
+RES_FILE_NAME=Nazwa pliku
+RES_ID=ID zasobu
+RES_ADD_FILES=Proszê dodaæ pliki do zbioru
+
+; Preferences dialog box
+PREF_MISC=Ró¿ne
+PREF_ENVIRONMENT=Œrodowisko
+PREF_INSTALL=Instalacja
+PREF_IMAGE_MAX=Maksymalny rozmiar obrazu (ryzykowne)
+PREF_PNG_ICONS=U¿ycie kompresji PNG w plikach .ICO/.CUR
+PREF_PNG_LIMIT=Kompresuj obraz którego rozmiary wynosz¹ przynajmniej
+PREF_COLORS=Kolory
+PREF_TRANSPARENT_HATCH=Przezroczyste przejœcie
+PREF_DVM=Trym wyœwietlana okien dialogowych Zapis/Odczyt
+PREF_DVM_ITEMS=Ikony<br>Lista<br>Detale<br>Miniaturki<br>Kafelki
+PREF_MWA=Funkcja rolki myszki
+PREF_MWA_ITEMS=Brak<br>Przewijanie<br>Powiêkszanie
+PREF_SAVE_TOOL_SETTINGS=Zapis ustawienia narzêdzi miêdzy sesjami
+PREF_EXTRACT=Wydobycie zasobów z plików wykonywalnych
+PREF_EXTRACT_FOLDER=Folder docelowy
+PREF_FILE_ASSOC=Skojarzone pliki
+
+; Language dialog box
+LABEL_LANG_PACK=Pakiet jêzykowy
+
+; Print dialog box
+PRINT_COPIES=KopieCopies
+PRINT_ZOOM=Powiêksz (%)
+PRINT_CAPTION=Podpis
+PRINT_PAGES=Wydruk
+PRINT_PAGES_BUTTONS=Wszystkie strony<br>Bie¿¹ca strona
+
+; Startup screen
+ST_CHOOSE_ACTION=Proszê wybraæ akcjê do wykonania
+ST_NEW=Utwórz nowy dokument
+ST_NEW_INFO=Utworzenie nowej ikony lub kursora
+ST_OPEN=Otwarcie istniej¹cego dokumentu
+ST_OPEN_INFO=Otwarcie ikony, kursora lub innego pliku
+ST_EXTRACT=Wydobycie zasobó z pliku wykonywalnego
+ST_EXTRACT_INFO=Otwarcie pliku EXE lub DLL i zapisanie wszystkich odnalezionych w nim ikon i kursorów. Po zapisaniu bêdzie mo¿na je wczytaæ do Greenfish Icon Editor Pro.
+ST_CONVERT=Wsadowe przetwarzanie plików
+ST_CONVERT_INFO=Konwersja wielu plików w ikony lub inny format obrazu
+ST_RES=Utwórz plik zasobów lub bibliotekê ikon
+ST_RES_INFO=Kompiluj plik .RES lub .ICL ze zbioru ikon lub pliku wskaŸników
+ST_NONE=Nie wykonuj ¿adnej akcji
+ST_NONE_INFO=Zamknij okno startowe
+ST_RECENT_INFO=Otwórz ostatnio edytowany plik
+ST_SHOW=Zawsze pokazuj to okno przy starcie programu
+
+; Test dialog box
+LABEL_MOVE_OVER_IMAGE=Przesuñ kursor nad obraz poni¿ej
+
+; Insert Text dialog box
+CAPTION_INSERT_TEXT=Wstaw text
+
+; Tool Behavior dialog box
+TB_BRUSH_ITEMS=Zaokr¹glony<br>Wyostrzony<br>Przyciêty(/)<br>Przyciêty(\)<br>Poziomy<br>Pionowy<br>Spray
+TB_RETOUCH_ITEMS=Wyg³adzanie<br>Wyostrzenie<br>Uchylony<br>Wypalony<br>Barwa<br>G¹bka
+
+; Transform Selection dialog box
+XF_UNITS_ITEMS=piksele<br>%
+
+; Hints
+HINT_ABOUT_HOMEPAGE=Strona domowa
+HINT_COMPACT=Widok kompaktowy
+
+HINT_CP_FORE_COLOR=Kolor g³ówny
+HINT_CP_BACK_COLOR=Kolor t³a
+HINT_CP_SWAP_COLORS=Zamiana kolorów
+HINT_CP_DEFAULT=Przywróæ podstawowe
+HINT_CP_TRANSPARENT=Przezroczysty
+HINT_CP_INVERTED=Odwrócony
+HINT_CP_SWATCHES=LMB - aby pobraæ kolor, RMB - nadpisanie bie¿¹cego zasobnika kolorem bie¿¹cym
+HINT_CP_SWATCH_LOAD=Wczytaj ustawienia zasobnika
+HINT_CP_SWATCH_SAVE=Zapisz ustawienia zasobnika
+HINT_CP_RED=Sk³adowa czerwona
+HINT_CP_GREEN=Sk³adowa zielona
+HINT_CP_BLUE=Sk³adowa niebieska
+HINT_CP_ALPHA=Kana³ alfa (nieprzezroczysty)
+HINT_CP_HTML=Kod HTML
+HINT_CP_WCP=Próbnik kolorów systemu Windows
+
+HINT_DOC_LB=Lista stron (format ikon/ramek)
+HINT_DOC_LB_PAGE=Strona %d, rozmiar: %d x %d pikseli
+HINT_DOC_LB_PNG=kompresja PNG w czasie zapisu dokumentu jako .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Powiêkszenie
+
+HINT_STARTUP_HELP=Pomoc
+HINT_TEST_BGR_LOAD=Za³adowanie t³a
+HINT_TEST_BGR_DEFAULT=T³o podstawowe
+
+HINT_TEXT_FACE=Krój czcionki
+HINT_TEXT_BOLD=Pogrubienie
+HINT_TEXT_ITALIC=Pochylenie
+HINT_TEXT_UNDERLINE=Podkreœlenie
+
+HINT_TB_FRAMED=Obiekty niewype³nione
+HINT_TB_FILLED=Obiekty wype³nione
+HINT_TB_LINE_WIDTH=Szerokoœæ linii
+HINT_TB_EYEDROPPER_BACK=Próbnik powraca do poprzedniego narzêdzia
+HINT_TB_BRUSH_SIZE=Rozmiar pêdzla
+HINT_TB_BRUSH_SHAPE=Kszta³t pêdzla
+HINT_TB_TOLERANCE=Ró¿d¿ka/Przebarwianie/Tolerancja wype³nienia (%)
+HINT_TB_RETOUCH_MODE=Tryb retuszowania
+HINT_TB_ERASER_STRENGTH=Si³a gumki (%)
+HINT_TB_G_LINEAR=Cieniowanie liniowe
+HINT_TB_G_RADIAL=Cieniowanie koliste
+HINT_TB_G_CONICAL=Cieniowanie sto¿kowe
+HINT_TB_G_SPIRAL=Cieniowanie spiralne
+HINT_TB_REP_NONE=Bez powtórek
+HINT_TB_REP_SYM=Powtarzanie symetryczne
+HINT_TB_REP_ASYM=Powtarzanie niesymetryczne
+HINT_TB_MODE_COLOR=Tryb koloru
+HINT_TB_MODE_TRANSPARENCY=Tryb przezroczystoœci
+
+; eof

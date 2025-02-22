@@ -1,0 +1,19 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Shared Bookmarks</title>
+  <subtitle>Shaared links</subtitle>
+  
+    <updated></updated>
+  
+  <link rel="self" href="http:///feed/atom?&amp;searchterm=0x06" />
+  <link rel="search" type="application/opensearchdescription+xml" href="http:///open-search"
+        title="Shaarli search - Shared Bookmarks" />
+  
+  <author>
+    <name>Shared Bookmarks</name>
+    <uri>http:///</uri>
+  </author>
+  <id>http:///</id>
+  <generator>Shaarli</generator>
+  
+</feed>

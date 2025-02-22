@@ -1,0 +1,41 @@
+Dim filePath As Variant            '定义filepath为变量
+Dim obj As Object                  '定义obj为变量对象
+Dim fld, ff, gg                    '定义fld,ff,gg为变量
+Dim arr() As String
+Dim arr2() As String
+
+Sub getpath()
+    Worksheets("Sheet1").Range("A1:G1000").Clear
+    On Error Resume Next
+     Dim shell As Variant
+     Set shell = CreateObject("Shell.Application")
+     Set filePath = shell.BrowseForFolder(&O0, "选择文件夹", &H1 + &H10, "")   '获取文件夹路径地址
+    Set shell = Nothing
+   If filePath Is Nothing Then                 '检测是否获得有效路径，如取消直接跳出程序
+       Exit Sub
+     Else
+        gg = filePath.Items.Item.Path
+   End If
+     Set obj = CreateObject("Scripting.FileSystemObject")   '定义变量
+    Set fld = obj.getfolder(gg)                            '获取路径
+     For Each ff In fld.Files                   '遍历文件夹里文件
+        arr = Split(ff.Name, "-")
+        arr2 = Split(arr(3), ".")
+        m = m + 1
+         Cells(m + 1, 1) = ff.Name
+         Cells(m + 1, 2) = arr(0)
+         Cells(m + 1, 3) = arr(1)
+         Cells(m + 1, 4) = arr(2)
+         Cells(m + 1, 5) = arr2(0)
+         Cells(m + 1, 6) = "jpg"
+       Next
+ End Sub
+
+ Sub renamefile()
+      If [a2] = "" Then MsgBox "请点击第一步": Exit Sub
+       For Each ff In fld.Files                 '遍历文件夹里的所有文件
+        m = m + 1
+        ff.Name = Cells(m + 1, 2) & "-" & Cells(m + 1, 3) & "-" & Cells(m + 1, 4) & "-" & Cells(m + 1, 5) & ".jpg"
+      Next
+       MsgBox "改名已完成，请检查", vbOKOnly
+ End Sub

@@ -1,0 +1,65 @@
+Sub GetMetaData()
+    Rem  更改保存路径  "C:\Users\shuai\Desktop\MetaData.csv"(csv为xls转换做准备)  C:\Users\shuai\Desktop\MetaData.xls
+
+    Application.ScreenUpdating = False
+    
+    Dim losheet As Worksheet
+    Dim locell As Range
+    
+    Rem Meta Element Construct
+    Dim lctext As String
+    Dim lctextvalue As String
+    
+    Dim lcvalue As String
+    Dim lddata, lttime, luvalue As Variant
+    
+    lnserialnumber = 0
+
+    Open ("C:\Users\shuai\Desktop\MetaData.csv") For Output As #1
+    Write #1, "序号", "地址", "数据类型", "文本", "文本长度", "数字", "日期", "时间", "列标", "行号", "字体名称", "字号", "字体颜色", "单元格颜色", "工作表", "工作簿", "文件名称", ""
+    
+    
+    Rem traverse activate worksheet
+    Set losheet = Application.ActiveWorkbook.ActiveSheet
+    If losheet.Type = -4167 Then
+        losheet.Activate
+        For Each locell In losheet.UsedRange.Cells
+            With locell
+                lnserialnumber = lnserialnumber + 1
+                lctextvalue = Trim(.Text)
+                lctext = "'" + lctextvalue
+                luvalue = .Value
+                
+                lcvalue = ""
+                lddata = ""
+                lttime = ""
+                
+                If IsDate(lctextvalue) And Not IsNumeric(lctextvalue) Then
+                    lddata = CStr(DateValue(lctextvalue))
+                    lttime = Replace(Replace(DateValue(lctextvalue) & TimeValue(lctextvalue), "上午", ""), "下午", "")
+                End If
+                
+                If IsNumeric(.Value) And Len(lctextvalue) > 0 Then
+                    lcvalue = Trim(Str(Val(.Value)))
+                End If
+                
+                Write #1, lnserialnumber, .Address, VarType(locell), lctext, Len(lctextvalue), lcvalue, lddata, lttime, .Column, .Row, .Font.Name, .Font.Size, .Font.ColorIndex, .Interior.ColorIndex, losheet.Name, losheet.Parent.Name, losheet.Parent.FullName
+            End With
+        Next
+    End If
+    
+    Close #1
+    
+    If Dir("C:\Users\shuai\Desktop\MetaData.xls") <> "" Then
+        Kill ("C:\Users\shuai\Desktop\MetaData.xls")
+    End If
+    
+    Workbooks.Open ("C:\Users\shuai\Desktop\MetaData.csv")
+    Application.ActiveWorkbook.SaveAs "C:\Users\shuai\Desktop\MetaData.xls", xlExcel8
+    Application.ActiveWorkbook.Close
+    
+    Kill "C:\Users\shuai\Desktop\MetaData.csv"
+    
+    Application.ScreenUpdating = True
+      
+End Sub

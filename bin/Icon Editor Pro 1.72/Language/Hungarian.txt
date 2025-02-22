@@ -1,0 +1,391 @@
+; Greenfish Icon Editor Pro
+; Language pack: Hungarian
+; Created by: Balázs Szalkai
+
+; General dictionary
+LABEL_WIDTH=Szélesség
+LABEL_HEIGHT=Magasság
+LABEL_SIZE=Méret
+LABEL_COLOR=Szín
+LABEL_KIND=Típus
+LABEL_ANTIALIAS=Élsimítás
+LABEL_POSITION=Pozíció
+UNTITLED=Névtelen
+
+; Buttons
+B_OK=OK
+B_CANCEL=Mégse
+B_RESET=Vissza
+B_ADD=Hozzáad
+B_REMOVE=Eltávolít
+B_CLEAR=Törlés
+B_CLOSE=Bezárás
+B_ALL=Mind
+B_NONE=Egyik sem
+B_PRINT=Nyomtatás
+B_PRINTER_SETUP=Nyomtatóbeállítás
+B_PREVIEW=Elõnézet
+B_COMPILE=Lefordít
+
+; Shown messages
+MSG_NOT_EXIST="%s" nem található
+MSG_NOT_FOUND_ICLSTUB=Egy fontos fájl, "Config\iclstub.dll" nem található.<br>Pótold a fájlt egy eredeti GFIE zip csomagból.
+MSG_OVERWRITE=Biztosan felül akarod írni "%s"-t?
+MSG_UNKNOWN_FILE_TYPE="%s" fájlformátuma nem dönthetõ el automatikusan.<br>Ezt a fájlt a Greenfish Icon Editor Pro nem tudja megnyitni vagy elmenteni, vagy hibás a fájl kiterjesztése.
+MSG_INVALID_FILE_FORMAT=A(z) "%s" fájl nem "%s" formátumú.<br>A fájl hibás, helytelen a kiterjesztése, vagy nem megfelelõ fájltípus lett kiválasztva a Megnyitás párbeszédablakban.
+MSG_CROPPED=A kép %dx%d-nél nagyobb volt, így a GFIE méretre vágta.<br>A kép mentése adatvesztést fog okozni.<br>A Súgó|Beállítások menüpont segítségével növelheted a megengedett képméretet.
+MSG_SAVE_CHANGES=Szeretnéd menteni "%s" változtatásait?
+MSG_CONFIRM_REVERT="%s" mindent változtatása elveszik és ez a mûvelet nem vonható vissza.<br>Biztosan folytatni akarod?
+MSG_DATA_LOSS_INFO=Az adatvesztés elkerülése végett, mentsd a dokumentumot más formátumban.
+MSG_DL_MULTIPAGE=Ez a fájlformátum nem támogatja több kép tárolását egy fájlban.<br>Csak az elsõ oldal került mentésre.
+MSG_DL_SIZE_256=Ez a fájlformátum nem támogatja 256x256-nál nagyobb képek mentését.<br>A képek egy része levágásra került.
+MSG_DL_TRANSPARENCY=Ez a fájlformátum nem támogatja az átlátszóságot.
+MSG_DL_COLOR_DEPTH=A színinformáció egy részét nem sikerült menteni.
+MSG_ADD_FILES=Adj hozzá egy vagy több fájlt a listához!
+MSG_SELECT_PAGES=Jelölj ki egy vagy több oldalt!
+MSG_SELECT_ITEMS=Jelölj ki egy vagy több elemet!
+MSG_CONFIRM_REMOVE=Valóban törölni szeretnéd a kijelölt elem(ek)et?
+MSG_RES_EXIST=A megadott típussal, névvel és nyelvvel már létezik egy erõforrás.<br>Válassz más nevet vagy nyelvet.
+MSG_PAGE_SIZE_0=Hiba: az oldal fizikai szélessége nem lehet 0 mm.<br>Válassz másik oldalformátumot.
+
+; Open/Save dialog filters
+FF_ALL=Minden fájl
+FF_ICO=Ikonfájlok
+FF_CUR=Kurzorfájlok
+FF_ANI=Animált kurzorok
+FF_PNG=PNG fájlok
+FF_XPM=X-Pixmap fájlok
+FF_BMP=Windows bitképek
+FF_JPEG=JPEG fájlok
+FF_GIF=GIF fájlok
+FF_EXEC=Minden futtatható fájl és ikonkönyvtár
+FF_ICL=Ikonkönyvtárak
+FF_RES=Win32 resource fájlok
+
+; Tool names
+TOOL_SEL_RECT=Téglalap kijelölése
+TOOL_SEL_ELLIPSE=Ellipszis kijelölése
+TOOL_LASSO=Lasszó
+TOOL_WAND=Varázspálca
+TOOL_SEL_PENCIL=Kijelölõ ceruza
+TOOL_TRANSFORM=Transzformáció
+TOOL_CROP=Levágás
+TOOL_HOTSPOT=Hotspot beállítása
+TOOL_EYEDROPPER=Szemcseppentõ
+TOOL_RETOUCH=Retusáló
+TOOL_RECT=Téglalap
+TOOL_ELLIPSE=Ellipszis
+TOOL_LINE=Vonal
+TOOL_TEXT=Szöveg
+TOOL_PENCIL=Ceruza
+TOOL_BRUSH=Ecset
+TOOL_ERASER=Radír
+TOOL_RECOLOR=Átszínezõ
+TOOL_BUCKET=Festékesvödör
+TOOL_GRADIENT=Színátmenet
+TOOL_NONE=Egyik sem
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_ENTER=Enter
+KEY_DEL=Del
+
+; Menu items
+MI_FILE=File
+MI_FILE_NEW_GRAPHIC=Új grafika
+MI_FILE_NEW_LIBRARY=Új könyvtár
+MI_FILE_OPEN=Megnyitás
+MI_FILE_RECENT_FILES=Legutóbbi fájlok
+MI_FILE_RF_CLEAR=Lista törlése
+MI_FILE_BATCH_CONVERT=Több fájl konverziója
+MI_FILE_CLOSE=Bezárás
+MI_FILE_CLOSE_ALL=Mindet bezárja
+MI_FILE_SAVE=Mentés
+MI_FILE_SAVE_AS=Mentés másként
+MI_FILE_SAVE_ALL=Mindent menti
+MI_FILE_REVERT=Visszaállítás
+MI_FILE_METADATA=Metaadat
+MI_FILE_PRINT=Nyomtatás
+MI_FILE_EXIT=Kilépés
+
+MI_EDIT=Szerkesztés
+MI_EDIT_UNDO=Visszavonás
+MI_EDIT_CANT_UNDO=Nem vonható vissza
+MI_EDIT_REDO=Ismét
+MI_EDIT_CANT_REDO=Nem ismételhetõ
+MI_EDIT_CUT=Kivágás
+MI_EDIT_COPY=Másolás
+MI_EDIT_PASTE=Beillesztés
+MI_EDIT_PASTE_PAGE=Beillesztés új oldalként
+MI_EDIT_DELETE=Törlés
+MI_EDIT_SEL_ALL=Mindet kijelöli
+MI_EDIT_SEL_NONE=Kijelölés megszüntetése
+MI_EDIT_SEL_INVERT=Kijelölés invertálása
+MI_EDIT_SEL_LOAD=Kijelölés betöltése
+MI_EDIT_SEL_SAVE=Kijelölés mentése
+MI_EDIT_CROP_TRANSPARENCY=Átlátszó részek levágása
+MI_EDIT_TRANSFORM=Transzformáció
+MI_EDIT_SEL_TRANSFORM=Kijelölés transzformációja
+MI_EDIT_FLIP_HORIZ=Vízszintes tükrözés
+MI_EDIT_FLIP_VERT=Függõleges tükrözés
+MI_EDIT_ROTATE_LEFT=Forgatás 90 fokkal balra
+MI_EDIT_ROTATE_RIGHT=Forgatás 90 fokkal jobbra
+MI_EDIT_ROTATE_180=Forgatás 180 fokkal
+
+MI_VIEW=Nézet
+MI_VIEW_ZOOM_IN=Nagyítás
+MI_VIEW_ZOOM_OUT=Kicsinyítés
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Ablakhoz igazít
+MI_VIEW_GRID=Rács
+MI_VIEW_CENTER_LINES=Középvonalak
+MI_VIEW_PAGES=Oldalak listája
+MI_VIEW_TOOLBAR=Eszköztár
+MI_VIEW_COLOR_PICKER=Színválasztó
+MI_VIEW_TOOL_BEHAVIOR=Eszközbeállítások
+MI_VIEW_STARTUP_SCREEN=Indítóképernyõ
+
+MI_FLT=Szûrõk
+MI_FLT_GRAYSCALE=Szürkeárnyalatos
+MI_FLT_INVERT=Inverz
+MI_FLT_SOLARIZE=Solarize
+MI_FLT_RGB=RGB komponensek
+MI_FLT_HS=Árnyalat/telítettség
+MI_FLT_EXPOSURE=Fényesség
+MI_FLT_AVERAGE=Átlag
+MI_FLT_BLUR_SOFT=Elmosás
+MI_FLT_BLUR_MORE=Több elmosás
+MI_FLT_BLUR_CUSTOM=Egyéni elmosás
+MI_FLT_SHARPEN=Élesítés
+MI_FLT_UNSHARP_MASK=Életlen maszk
+MI_FLT_REMOVE_MATTE=Remove matte
+MI_FLT_OPACITY=Opacitás
+MI_FLT_PAINT_CONTOUR=Kontúr kihúzása
+MI_FLT_DROP_SHADOW=Árnyékvetés
+MI_FLT_GLOW=Ragyogás
+MI_FLT_BEVEL=Kidomborítás
+
+MI_ICON=Ikon
+MI_ICON_PAGE_NEW=Új oldal
+MI_ICON_PAGE_DELETE=Oldal törlése
+MI_ICON_PAGE_PROP=Oldal tulajdonságai
+MI_ICON_PAGE_EXPORT=Oldal exportálása
+MI_ICON_UNIFORM_RATE=Idõtartam alkalmazása az összes képkockára
+MI_ICON_CREATE_FROM_IMAGE=Ikon készítése a képbõl
+MI_ICON_TEST=Teszt
+
+MI_LIB=Könyvtár
+MI_LIB_ADD=Erõforrások hozzáadása
+MI_LIB_REMOVE=Erõforrások törlése
+MI_LIB_REPLACE=Erõforrások cseréje
+MI_LIB_PROP=Erõforrás tulajdonságai
+MI_LIB_EXTRACT_EDIT=Kibontás és szerkesztés
+MI_LIB_EXTRACT_SAVE=Kibontás és mentés
+
+MI_HELP=Súgó
+MI_HELP_CONTENTS=Tartalom
+MI_HELP_GS=Az elsõ lépések
+MI_HELP_HOMEPAGE=Honlap
+MI_HELP_DONATE=Donáció
+MI_HELP_PREFERENCES=Beállítások
+MI_HELP_LANGUAGE=Nyelv
+MI_HELP_ABOUT=Névjegy
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 szín
+PF_256_COLORS=256 szín
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_MOVE_PAGE=Oldal mozgatása
+UNDO_FLIP_ROTATE=Tükrözés/forgatás
+
+; Page properties dialog box
+PG_CAPTION_NEW_PAGE=Új oldal
+PG_CAPTION_PAGE_PROP=Oldal tulajdonságai
+
+PG_SIZE_ITEMS=16 x 16 (legkisebb)<br>20 x 20 (XP ablak ikon)<br>24 x 24 (eszköztár)<br>32 x 32 (kicsi)<br>48 x 48 (közepes)<br>64 x 64 (nagy)<br>256 x 256 (hatalmas, Vista)<br>Egyéni
+PG_CUSTOM_SIZE=Egyéni méret
+PG_SQUARE=Négyzetes
+
+PG_CR=Színmélységcsökkentés
+PG_CR_ITEMS=Fekete-fehér<br>16 színû (rendszerpaletta)<br>256 színû (adaptív)<br>24 bites RGB<br>Nincs csökkentés (32-bit)
+
+PG_ANIMATION=Mentés animációként
+PG_FRAME_RATE=Képkocka idõtartama (ezredmásodperc)
+PG_CREATE_FROM_SELECTED=Létrehozás a kijelölt oldal alapján
+
+; Color Picker
+TAB_HSB_MAP=HSB vezérlõk
+TAB_SWATCHES=Paletta
+
+; Filter configuration dialogs
+LABEL_RED=Vörös
+LABEL_GREEN=Zöld
+LABEL_BLUE=Kék
+LABEL_R=V
+LABEL_G=Z
+LABEL_B=K
+LABEL_A=A
+LABEL_HUE_SHIFT=Árnyalat
+LABEL_SATURATION=Telítettség
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Fényerõ
+LABEL_GAUSSIAN_BLUR=Gauss-elmosás
+LABEL_BOX_BLUR=Négyzetes elmosás
+LABEL_MATTE_COLOR=Matte színe
+LABEL_WHITE_MATTE=Fehér matte
+LABEL_BLACK_MATTE=Fekete matte
+LABEL_INNER_GLOW=Belsõ ragyogás
+LABEL_OUTER_GLOW=Külsõ ragyogás
+
+LABEL_AMOUNT=Mennyiség
+LABEL_ANGLE_DEGREES=Szög (fokban)
+LABEL_BLUR=Elmosás
+LABEL_DISTANCE=Távolság
+LABEL_INTENSITY=Intenzitás
+LABEL_OPACITY=Opacitás
+LABEL_RADIUS=Sugár
+LABEL_THRESHOLD=Vágás
+
+; Create icon from image dialog box
+CI_SELECT_FORMATS=Válaszd ki a kívánt képformátumokat
+
+; Batch conversion dialog
+BC_FILES=Fájlok
+BC_SETTINGS=Beállítások
+BC_FORMAT=Célformátum
+BC_FOLDER=Célmappa
+BC_OPEN=A konvertált fájlok megnyitása a Greenfish Icon Editor Pro-ban
+BC_ICON_FORMATS=Készítendõ képformátumok
+
+; Preferences dialog box
+PREF_MISC=Vegyes
+PREF_ENVIRONMENT=Kinézet
+PREF_INSTALL=Telepítés
+PREF_IMAGE_MAX=Max. megengedett képméret
+PREF_PNG_ICONS=PNG tömörítés használata .ICO/.CUR fájlokban
+PREF_PNG_LIMIT=Képek tömörítése, melyek mérete min.
+PREF_COLORS=Színek
+PREF_TRANSPARENT_HATCH=Sakktábla
+PREF_DVM=Ablakok "Nézet" beállítása
+PREF_DVM_ITEMS=Ikonok<br>Lista<br>Részletek<br>Miniatûrök<br>Mozaik
+PREF_MWA=Középsõ görgõ által kiváltott mûvelet
+PREF_MWA_ITEMS=Nincs<br>Görgetés<br>Zoom
+PREF_SAVE_TOOL_SETTINGS=Eszközbeállítások mentése a programindítások között
+PREF_FILE_ASSOC=Fájltársítások
+
+; Language dialog box
+LABEL_LANG_PACK=Nyelvi csomag
+
+; Metadata dialog box
+MD_TYPE=%s fájlok
+MD_TITLE=Cím
+MD_AUTHOR=Szerzõ
+MD_COPYRIGHT=Copyright
+MD_COMMENTS=Megjegyzés
+MD_QUALITY=Minõség
+MD_LOOP_COUNT=Ismétlésszám (0 = végtelen)
+
+; Print dialog box
+PRINT_COPIES=Másolatok
+PRINT_ZOOM=Nagyítás
+PRINT_CAPTION=Felirat
+PRINT_PAGES=Oldal
+PRINT_PAGES_BUTTONS=Összes<br>Csak a kijelölt
+
+; Resource properties dialog box
+RP_NAME=Név
+RP_LANGUAGE=Nyelv
+RP_LANG_CUSTOM=Egyéni nyelvazonosító
+RP_LANG_NEUTRAL=Nyelvsemleges
+
+; Startup screen
+ST_CHOOSE_ACTION=Válassz egy menüpontot
+ST_NG=Új grafika
+ST_NG_INFO=Új ikont, kurzort vagy animációt hoz létre
+ST_NL=Új könyvtár
+ST_NL_INFO=Üres ikonkönyvtárat (.ICL) vagy erõforrásfájlt (.RES) hoz létre
+ST_OPEN=Meglévõ dokumentum megnyitása
+ST_OPEN_INFO=Képfájlt, ikonkönyvtárat, futtatható- vagy erõforrásfájlt nyit meg egy adathordozóról
+ST_CONVERT=Több kép együttes konverziója
+ST_CONVERT_INFO=Egyszerre több képet konvertál .ICO-, vagy más megadott képformátumba
+ST_NONE=Semmilyen mûveletet ne hajtson végre
+ST_NONE_INFO=Bezárja ezt a kezdõképernyõt
+ST_RECENT_INFO=Egy, a Greenfish Icon Editor Pro-val nemrég szerkesztett fájlt nyit meg
+ST_SHOW=Indításkor mindig jelenjen meg ez az ablak
+
+; Test dialog box
+LABEL_MOVE_OVER_IMAGE=Vidd a kurzort a kép fölé
+
+; Insert Text dialog box
+CAPTION_INSERT_TEXT=Szöveg beszúrása
+
+; Tool Behavior dialog box
+TB_BRUSH_ITEMS=Kerek<br>Szögletes<br>Per<br>Backslash<br>Vízszintes<br>Függõleges<br>Spray
+TB_RETOUCH_ITEMS=Elmosás<br>Élesítés<br>Dodge<br>Burn<br>Árnyalat<br>Szivacs
+
+; Transform Selection dialog box
+XF_UNITS_ITEMS=képpont<br>%
+
+; Hints
+HINT_COMPACT=Kompakt nézet
+
+HINT_CP_FORE_COLOR=Elõtérszín
+HINT_CP_BACK_COLOR=Háttérszín
+HINT_CP_SWAP_COLORS=Színek felcserélése
+HINT_CP_DEFAULT=Alapértelmezés
+HINT_CP_TRANSPARENT=Átlátszó
+HINT_CP_INVERTED=Inverz
+HINT_CP_SWATCHES=Bal-klikk a szín felszedéséhez, jobb-klikk az aktuális színnel való felülíráshoz
+HINT_CP_SWATCH_LOAD=Paletta betöltése
+HINT_CP_SWATCH_SAVE=Paletta mentése
+HINT_CP_RED=Vörös komponens
+HINT_CP_GREEN=Zöld komponens
+HINT_CP_BLUE=Kék komponens
+HINT_CP_ALPHA=Alpha (átlátszatlanság)
+HINT_CP_HTML=HTML kód
+HINT_CP_WCP=Windows színválasztó
+
+HINT_DOC_LB=Oldalak listája (ikonformátumok/képkockák)
+HINT_DOC_LB_PAGE=%d. oldal, méret: %d x %d pixel
+HINT_DOC_LB_PNG=.ICO/.CUR fájlokban PNG-tömörítve kerül mentésre
+HINT_DOC_ZOOM_MENU=Méretarány
+HINT_DOC_NODES=%d csúcs
+HINT_DOC_TOGGLE_PAGES=Oldalak listájának elrejtése/megjelenítése
+
+HINT_RES_FOLDER=Válassz egy mappát a kibontott fájlok számára
+
+HINT_STARTUP_HELP=Súgó
+HINT_TEST_BGR_LOAD=Háttér betöltése
+HINT_TEST_BGR_DEFAULT=Alapértelmezett háttér
+
+HINT_TEXT_FACE=Betûtípus
+HINT_TEXT_BOLD=Félkövér
+HINT_TEXT_ITALIC=Dõlt
+HINT_TEXT_UNDERLINE=Aláhúzott
+
+HINT_TB_FRAMED=Bekeretezett objektumok
+HINT_TB_FILLED=Kitöltött objektumok
+HINT_TB_LINE_WIDTH=Vonalvastagság
+HINT_TB_EYEDROPPER_BACK=A szemcseppentõ visszavált az elõzõ eszközre
+HINT_TB_BRUSH_SIZE=Ecsetméret
+HINT_TB_BRUSH_SHAPE=Ecset alakja
+HINT_TB_TOLERANCE=Varázspálca/Átszínezõ/Festékesvödör toleranciája (%)
+HINT_TB_RETOUCH_MODE=Retusálási mód
+HINT_TB_ERASER_STRENGTH=Radír erõssége (%)
+HINT_TB_G_LINEAR=Lineáris színátmenet
+HINT_TB_G_RADIAL=Sugaras színátmenet
+HINT_TB_G_CONICAL=Kúpos színátmenet
+HINT_TB_G_SPIRAL=Spirális színátmenet
+HINT_TB_REP_NONE=Nincs ismétlés
+HINT_TB_REP_SYM=Szimmetrikus ismétlés
+HINT_TB_REP_ASYM=Aszimmetrikus ismétlés
+HINT_TB_MODE_COLOR=Szín-mód
+HINT_TB_MODE_TRANSPARENCY=Átlátszóság-mód
+
+; eof
