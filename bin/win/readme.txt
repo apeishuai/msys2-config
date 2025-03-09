@@ -4,5 +4,4 @@
 2 set_ipv4_manual和set_ipv4_auto交替，即执行完manual后执行auto，同时执行两个manual不起效
 3 auto执行完后断开wifi连接重连
 
-
 netsh winsock reset

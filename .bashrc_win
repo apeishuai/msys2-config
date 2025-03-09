@@ -189,23 +189,25 @@
 # 
 # alias cd=cd_func
 
-# custom soft
 
 # custom path
-# export PATH=$PATH:/mingw64/bin/
-export PATH=$PATH:\C\:\/msys64\mingw64/bin/
-export PATH=$PATH:\E\:\/cmd\ tool/proxychains/
-export PATH=$PATH:\D\:\/softwares/msys64/home/whens/node_modules/
+alias path-e="vim '/d/softwares/msys64/home/whens/bin/win/chg-env-var.sh'"
+alias path-r="cd '/d/softwares/msys64/home/whens/bin/win' && ./chg-env-var.sh"
+alias path-show='echo $PATH | tr ":" "\n"'
+alias pac-e="vim '/d/softwares/msys64/home/whens/bin/win/install.sh'"
 
 # help
 alias man_docker="vim "
 alias man_vim="vim "
-alias rsc_ebook="start g:/rsc-ebooks"
 alias rsc_icloud="start D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments"
+alias rsc_pro="cd 'D:/softwares/msys64/home/whens/bin/conf'"
 alias info="cd g:/area/emacs-notes/info/"
 alias lib="cd c:/msys64/mingw64/include"
 alias nixos="cd /softwares/nixos-wsl/"
 alias help_html="vim $serv_root/docs/resource/front.md"
+
+
+
 
 
 ## search
@@ -217,8 +219,37 @@ alias conf-yacy="start 'https://programmablesearchengine.google.com/controlpanel
 alias conf-yacy="cd "
 alias search-grep="start 'https://grep.app/search'"
 
+
+
+# key word
+open_daily() {
+    local today=$(date +%Y-%m-%d)
+    local filename="${today}.org"
+    vim "$filename"  
+}
+alias daily="cd '/c/Users/whens/Nutstore/1/docs/Journal' && open_daily"
+alias todo="cd '/c/Users/whens/Nutstore/1/docs/Journal' && rga '<.< <<<'"
+alias done="cd '/c/Users/whens/Nutstore/1/docs/Journal' && rga '<.< <x<'"
+alias gap="rga \<gap $note"
+alias ut="rga '# <ut' $note"
+
+
+
+
+
+
 ## trace
 alias trac_knne="start 'https://gitee.com/Kenneth-Lee-2012/MySummary/commits/master'"
+alias trac_api_speed_deekseek="start 'https://deepseek.ai-infra.fun/'"
+alias check_feixing="start 'https://www.cnblogs.com/apeishuai/articles/18750841'"
+alias check_data="start 'https://www.cnblogs.com/apeishuai/articles/18747444'"
+alias check_desk="start 'https://www.cnblogs.com/apeishuai/articles/18743031'"
+alias check_py="start 'https://www.cnblogs.com/apeishuai/articles/18741386'"
+
+
+
+## buy
+alias buy_pc="start 'https://www.cnblogs.com/apeishuai/articles/18737574'"
 
 
 
@@ -227,19 +258,25 @@ alias node="C:/Users/whens/AppData/Local/pnpm/node.exe"
 alias npm="C:/Users/whens/AppData/Local/pnpm/npm.cmd"
 alias bin="cd ~/bin"
 
-
 google_path="'C:/Program Files/Google/Chrome/Application/chrome.exe'"
 eplan_path="D:/softwares-work/eplan\ v2.9/EPLAN/Platform/2.9.4/Bin/Eplan.exe"
+alias dll_eplan="cd 'D:/softwares-work/eplan v2.9/EPLAN/Platform/2.9.4/Bin'"
+
 Tzx_path="D:/softwares-work/Chint/Tzx/Tzx.exe"
 alias google="$google_path"
 alias eplan="$eplan_path"
+alias studio="cd 'C:/Program Files/Microsoft Visual Studio/2022/Community'"
 alias aider="conda activate && aider --deepseek --no-git --no-auto-commits"
+
+# work-soft
+# alias solid="cd /softwares/soildworks\ 2018"
+alias qt="cd D:/softwares-work/qt6/Tools/QtDesignStudio/qt6_design_studio_reduced_version/bin"
+
 
 
 
 # serve
-# alias docs="cd $serv_root/docs/" \\封存，里面的内容有需要提取
-
+alias docs="cd $serv_root/docs/"
 alias blog="cd '$serv_root/blog'"
 alias week="cd '$serv_root/weekly'"
 alias serv="cd $serv_root"
@@ -254,44 +291,31 @@ alias site_ls="cd ~/Shell/workflow/site_mang && ./url_mang.sh -L"
 #alias url="cd d:/g/area/Shell/area/workflow/site_mang && ./url_mang.sh -l"
 
 
+
 # data
 alias data="cd 'D:/g/area/wxf-data"
-
 alias mysql="mysql -u root -p"
 export conf_mysql="D:/Softwares/scoop/apps/mysql/current" #scoop prefix mysql
 export host="C:/Windows/System32/drivers/etc"
-
-export note="D:/g/area/emacs-notes D:/g/area/serve/docs C:/Users/whens/Nutstore/1/docs"
+export note="D:/g/area/emacs-notes D:/g/area/serve/docs C:/Users/whens/Nutstore/1/docs D:/g/pro"
 export ref="D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref D:/g/area/wxf-data/chrome web-pages"
 export log=""
-
-
-#alias serve_data="cd /local_data/"
-#alias werss="cd /local_data/werss"
-#alias cousera="cd /documents/courses"
-#alias serv_shaare="cd /main/serve/shaarli"
-
 export doc="C:/Users/whens/Nutstore/1/docs"
 export gtd="C:/Users/whens/Nutstore/1/docs/GTD"
-alias life_travel="cd "
 alias rsc_ref="cd 'D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref' && start ."
 alias doc="cd $doc"
 alias rsc="cd 'D:/g/rsc'"
-
 alias node_modules="cd 'd:/softwares/msys64/home/whens/node_modules'"
 alias img_jianguo="cd 'C:/Users/whens/Nutstore/1/docs/img'"
 alias img_blog="cd '/d/g/area/serve/blog/static/img/'"
-
 alias shell="cd ~/Shell"
 alias msi="cd 'C:/Users/whens/Nutstore/1/win soft'"
 alias data="cd 'd:/g/area/wxf-data'"
 alias data_fuwa="cd 'g:/area/wxf-data/福娃 tele 2023-08-14'"
-
-bin="D:/softwares/msys64/home/whens/Shell/bin"
-
+bin="D:/softwares/msys64/home/whens/bin"
 export uml_file="C:/Users/whens/Nutstore/1/docs/uml"
-alias dot="cd $uml_file && java -jar $bin/plantuml.jar stat.uml"
-alias show="cd $uml_file && start stat.png"
+alias dot="cd $uml_file && java -jar $bin/plantuml.jar qt.uml"
+alias show="cd $uml_file && start qt.png"
 
 
 # sync
@@ -302,6 +326,7 @@ alias sync_conf_rTl="scp -q -r ubuntu@117.50.186.154:~/.bash* ~"
 alias sync_shell_rTl="scp -q -r shuai@117.50.186.154:~/Shell/ $root"
 alias sync_shell_lTr="scp -q -r "$root/Shell" pei@27.tcp.cpolar.top:~/"
 alias sync_shaarli="rsync -avz "$serv_root/shaarli" ubuntu@117.50.186.154:~/serve"
+
 
 
 # demo
@@ -318,7 +343,11 @@ alias demo_ts="cd '$prefix/demo_ts'"
 alias demo_alog="cd '$prefix/demo_alogram'"
 alias demo_aardio="cd '$prefix/demo_aardio'"
 alias demo_php="cd '$prefix/demo_php'"
+alias demo_assm="cd '$prefix/demo_assembly'"
 # alias demo_dot="cd 'g:/area/emacs-notes/Computer_science/dot'"
+alias demo="cd '/d/g/pro/demo'"
+
+
 
 
 # pro
@@ -327,6 +356,8 @@ alias pro-etddy="cd 'D:/g/pro/Etddy-py'"
 alias pro_react="cd G:/area/emacs-notes/Computer_science/demo_nodejs/reactapp"
 alias pro-reverse="cd 'D:/g/pro/work_reverse'"
 #alias pro-xuanxing="cd 'D:/g/pro/xuanxing'"
+
+
 
 
 # work
@@ -338,13 +369,13 @@ alias biaozhun_dianqi="cd 'D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDo
 alias xuanxing="cd D:/icloud/iCloudDrive/3L68KQB4HG~com~readdle~CommonDocuments/ref/products"
 alias xuanxing-shinaide="$google_path https://www.schneider-electric.cn/zh/work/support/product-selector/"
 alias xuanxing-zhentai="$Tzx_path"
-
 alias cax-zhentai="$google_path https://www.chint.net/service/download/eplan"
 
 
-# work-soft
-# alias solid="cd /softwares/soildworks\ 2018"
-alias qt="cd D:/softwares-work/qt6/Tools/QtDesignStudio/qt6_design_studio_reduced_version/bin"
+
+
+
+
 # Disable non-interactive output
 
 if [ -z "$PS1" ]; then

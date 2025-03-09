@@ -7,7 +7,7 @@
 . chg-reg.sh
 
 # install cmd tool 
-. command-install.sh
+. install.sh
 
 
 
